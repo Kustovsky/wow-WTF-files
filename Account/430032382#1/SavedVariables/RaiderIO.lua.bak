@@ -4,13 +4,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Отжигай-howling-fjord"
 RaiderIO_MissingCharacters = {
-	["eu-Джинн-howling-fjord"] = true,
-	["eu-Мёртвыйбэрод-borean-tundra"] = true,
-	["eu-Бехемирон-howling-fjord"] = true,
-	["eu-Белыймай-gordunni"] = true,
-	["eu-Шифутян-howling-fjord"] = true,
-	["eu-Ойшии-howling-fjord"] = true,
-	["eu-Алисатрини-howling-fjord"] = true,
-	["eu-Мириэла-booty-bay"] = true,
-	["eu-Самантафокс-azuregos"] = true,
+	["eu-Золотоеяйцо-ashenvale"] = true,
+	["eu-Камышовыйкот-soulflayer"] = true,
+	["eu-Репентия-ashenvale"] = true,
+	["eu-Хищнаятень-gordunni"] = true,
 }

@@ -1,6 +1,5 @@
 
 MSBTProfiles_SavedVars = {
-	["userDisabled"] = true,
 	["profiles"] = {
 		["RealUI"] = {
 			["creationVersion"] = "5.7.150",
@@ -15,6 +14,10 @@ MSBTProfiles_SavedVars = {
 					["offsetX"] = -330,
 					["animationStyle"] = "Straight",
 				},
+				["Static"] = {
+					["offsetX"] = -21,
+					["offsetY"] = -231,
+				},
 				["Outgoing"] = {
 					["direction"] = "Up",
 					["offsetX"] = 287,
@@ -22,16 +25,13 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -161,
 					["animationStyle"] = "Straight",
 				},
-				["Static"] = {
-					["offsetX"] = -21,
-					["offsetY"] = -231,
-				},
 			},
 			["normalFontName"] = "Bui Prototype",
 			["enableBlizzardHealing"] = false,
 			["creationVersion"] = "5.7.150",
 		},
 	},
+	["userDisabled"] = true,
 }
 MSBT_SavedMedia = {
 	["fonts"] = {
