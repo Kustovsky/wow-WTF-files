@@ -1,0 +1,475 @@
+
+ElvUI_BetterTalentFrameDB = {
+	["talents"] = {
+		["pve"] = {
+			{
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [7]
+			}, -- [1]
+			{
+				{
+					{
+						["talentID"] = 22632,
+						["name"] = "Военная машина",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 262231,
+						["texture"] = 132205,
+					}, -- [1]
+					{
+						["talentID"] = 22633,
+						["name"] = "Бесконечная ярость",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 202296,
+						["texture"] = 132344,
+					}, -- [2]
+					{
+						["talentID"] = 22491,
+						["name"] = "Свежее мясо",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 215568,
+						["texture"] = 538039,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 19676,
+						["name"] = "Удвоенное время",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 103827,
+						["texture"] = 237377,
+					}, -- [1]
+					{
+						["talentID"] = 22625,
+						["name"] = "Верная победа",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 202168,
+						["texture"] = 589768,
+					}, -- [2]
+					{
+						["talentID"] = 23093,
+						["name"] = "Удар громовержца",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 107570,
+						["texture"] = 613535,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22379,
+						["name"] = "Внутренняя ярость",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 215573,
+						["texture"] = 132347,
+					}, -- [1]
+					{
+						["talentID"] = 22381,
+						["name"] = "Внезапная смерть",
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 280721,
+						["texture"] = 132346,
+					}, -- [2]
+					{
+						["talentID"] = 23372,
+						["name"] = "Неистовый удар сплеча",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 100130,
+						["texture"] = 132367,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 23097,
+						["name"] = "Яростный рывок",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 202224,
+						["texture"] = 1380675,
+					}, -- [1]
+					{
+						["talentID"] = 22627,
+						["name"] = "Предельный шаг",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 202163,
+						["texture"] = 236171,
+					}, -- [2]
+					{
+						["talentID"] = 22382,
+						["name"] = "Боевая раскраска",
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 208154,
+						["texture"] = 460693,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 22383,
+						["name"] = "Резня",
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 202922,
+						["texture"] = 132352,
+					}, -- [1]
+					{
+						["talentID"] = 22393,
+						["name"] = "Кровопролитие",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 206315,
+						["texture"] = 135358,
+					}, -- [2]
+					{
+						["talentID"] = 19140,
+						["name"] = "Разъяренный берсерк",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 215571,
+						["texture"] = 458971,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 22396,
+						["name"] = "Рассечение плоти",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 280392,
+						["texture"] = 132369,
+					}, -- [1]
+					{
+						["talentID"] = 22398,
+						["name"] = "Рев дракона",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 118000,
+						["texture"] = 642418,
+					}, -- [2]
+					{
+						["talentID"] = 22400,
+						["name"] = "Вихрь клинков",
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 46924,
+						["texture"] = 236303,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22405,
+						["name"] = "Безудержная энергия",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 202751,
+						["texture"] = 132333,
+					}, -- [1]
+					{
+						["talentID"] = 22402,
+						["name"] = "Управление гневом",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 152278,
+						["texture"] = 971080,
+					}, -- [2]
+					{
+						["talentID"] = 16037,
+						["name"] = "Прорыв блокады",
+						["available"] = true,
+						["column"] = 7,
+						["selected"] = true,
+						["spellid"] = 280772,
+						["texture"] = 294382,
+					}, -- [3]
+				}, -- [7]
+			}, -- [2]
+			{
+				{
+					{
+						["name"] = "В гущу боя",
+						["talentID"] = 15760,
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 202603,
+						["texture"] = 132334,
+					}, -- [1]
+					{
+						["name"] = "Наказание",
+						["talentID"] = 15759,
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 275334,
+						["texture"] = 458719,
+					}, -- [2]
+					{
+						["name"] = "Верная победа",
+						["talentID"] = 15774,
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 202168,
+						["texture"] = 589768,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["name"] = "Трескучий гром",
+						["talentID"] = 22373,
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 203201,
+						["texture"] = 839979,
+					}, -- [1]
+					{
+						["name"] = "Предельный шаг",
+						["talentID"] = 22629,
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 202163,
+						["texture"] = 236171,
+					}, -- [2]
+					{
+						["name"] = "Охрана",
+						["talentID"] = 22409,
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 223657,
+						["texture"] = 236311,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["name"] = "Лютая месть",
+						["talentID"] = 22378,
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 202560,
+						["texture"] = 132353,
+					}, -- [1]
+					{
+						["name"] = "Неудержимая сила",
+						["talentID"] = 22626,
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 275336,
+						["texture"] = 458976,
+					}, -- [2]
+					{
+						["name"] = "Рев дракона",
+						["talentID"] = 23260,
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 118000,
+						["texture"] = 642418,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["name"] = "Неукротимость",
+						["talentID"] = 23096,
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 202095,
+						["texture"] = 236310,
+					}, -- [1]
+					{
+						["name"] = "Никогда не сдаваться",
+						["talentID"] = 23261,
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 202561,
+						["texture"] = 999950,
+					}, -- [2]
+					{
+						["name"] = "Поддержка",
+						["talentID"] = 22488,
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 280001,
+						["texture"] = 951821,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["name"] = "Устрашение",
+						["talentID"] = 22384,
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 275338,
+						["texture"] = 132154,
+					}, -- [1]
+					{
+						["name"] = "Сотрясание земли",
+						["talentID"] = 22631,
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 275339,
+						["texture"] = 451165,
+					}, -- [2]
+					{
+						["name"] = "Удар громовержца",
+						["talentID"] = 22800,
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 107570,
+						["texture"] = 613535,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["name"] = "Луженая глотка",
+						["talentID"] = 22395,
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 202743,
+						["texture"] = 132339,
+					}, -- [1]
+					{
+						["name"] = "Месть",
+						["talentID"] = 22544,
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 202572,
+						["texture"] = 236317,
+					}, -- [2]
+					{
+						["name"] = "Сокрушитель",
+						["talentID"] = 22401,
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 236279,
+						["texture"] = 135291,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["name"] = "Управление гневом",
+						["talentID"] = 21204,
+						["available"] = true,
+						["column"] = 7,
+						["selected"] = true,
+						["spellid"] = 152278,
+						["texture"] = 971080,
+					}, -- [1]
+					{
+						["name"] = "Жесткий отпор",
+						["talentID"] = 22406,
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 203177,
+						["texture"] = 134977,
+					}, -- [2]
+					{
+						["name"] = "Опустошитель",
+						["talentID"] = 23099,
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 228920,
+						["texture"] = 970854,
+					}, -- [3]
+				}, -- [7]
+			}, -- [3]
+		},
+	},
+}

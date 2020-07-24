@@ -1,0 +1,2 @@
+
+RealUI_CombatTextDB = nil

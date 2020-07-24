@@ -1,0 +1,2 @@
+
+RealUI_ChatDB = nil

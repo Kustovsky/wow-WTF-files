@@ -1,0 +1,2 @@
+
+ElvUI_SpellBinderDB = nil

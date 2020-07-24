@@ -1,0 +1,65 @@
+VER 3 0100000000000001 "Bomb" "2065634"
+#showtooltip
+/use [@cursor] Ремень из чешуи ядохвоста с символом лихорадочного света
+END
+VER 3 0100000000000004 "Mend" "236165"
+#showtooltip
+/use [@mouseover,help,nodead][@focus,help,nodead][@player] Духовное Лечение
+END
+VER 3 0100000000000006 "Атака" "2065565"
+#showtooltip
+/cast Согласованная атака
+/use 13
+END
+VER 3 010000000000000C "Верный выстрел" "132213"
+#showtooltip
+/use [nochanneling:Быстрая стрельба] Верный выстрел
+END
+VER 3 0100000000000005 "Дух природы" "136074"
+#showtooltip
+/cast Дух дикой природы
+/use 13
+END
+VER 3 010000000000000B "Залп" "132330"
+#showtooltip
+/use [nochanneling:Быстрая стрельба] Залп
+END
+VER 3 0100000000000008 "Интеррапт" "249170"
+/cast [target=mouseover, exists][target=target, exists] Встречный выстрел
+END
+VER 3 0100000000000002 "Капкан" "236203"
+#showtooltip
+/use [@cursor] Капкан
+END
+VER 3 0100000000000007 "МД" "132180"
+/cast [@focus,help,nodead][@mouseover,help,nodead][@pet,exists,nodead][] Перенаправление
+END
+VER 3 010000000000000A "Марка" "236188"
+#showtooltip Метка охотника
+/cast [target=mouseover, exists][target=target, exists] Метка охотника
+END
+VER 3 0100000000000009 "Меткий выстрел" "132329"
+#showtooltip
+/cast Меткий выстрел
+/use 13
+END
+VER 3 010000000000000D "Прицельный" "135130"
+#showtooltip
+/use [nochanneling:Быстрая стрельба] Прицельный выстрел
+END
+VER 3 0100000000000010 "Стрела" "462650"
+/cast [@focus,help,nodead] Связующий выстрел
+END
+VER 3 010000000000000F "Флара" "135815"
+#showtooltip
+/cast [@cursor] Осветительная ракета
+END
+VER 3 010000000000000E "Чародейский" "132218"
+#showtooltip
+/use [nochanneling:Быстрая стрельба] Чародейский выстрел
+END
+VER 3 0100000000000003 "Черепаха" "132199"
+#showtooltip
+/cast  Дух Черепахи
+/cancelaura Дух Черепахи
+END

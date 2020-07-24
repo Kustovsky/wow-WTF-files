@@ -1,0 +1,5469 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 7,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797[00:17:25]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1639:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072514.791,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797[00:19:32]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1651:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072641.981,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797[00:19:33]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1654:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072643.007,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797[00:19:34]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1655:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072644.005,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797[00:19:35]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1656:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072644.6,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797[00:19:36]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1657:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072645.434,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797[00:19:37]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1658:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072646.644,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797[22:26:01]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:568:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: я тебе сказа основные топ трини. если ты типа ключник топ триня с подгнилья",
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1065831.11,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+				}, -- [8]
+				{
+					["message"] = "|cff979797[22:26:04]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:569:GUILD|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r и я пойду",
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1065833.718,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+				}, -- [9]
+				{
+					["message"] = "|cff979797[22:26:34]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:570:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:159616::::::::120:72::16:4:5008:6513:1627:4786:::|h[Залитый кровью блок мясника]|h|r )",
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1065863.497,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|cff979797[22:26:49]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:571:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): да хорошая триня если нет корала",
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1065879.104,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797[22:26:52]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Стхтахт-Ревущийфьорд:572:GUILD|h|cffd8bc3f120|r:|cffc59a6cСтхтахт|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r |cffa335ee|Hitem:159616::::::::120:72::16:5:6530:41:6513:1632:4786:::|h[Залитый кровью блок мясника]|h|r",
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1065882.215,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "Сообщение дня от гильдии: \"Discord: https://discord.gg/g3ygf52 \"",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065902.207,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797[22:27:27]|r |Hchannel:GUILD|h[Гильдия]|h |Hplayer:Автомат-Ревущийфьорд:577:GUILD:|h[|cffa22fc8Автомат|r]|h: могу помочь заканчиваю осаду",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065916.724,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797[22:27:27]|r |Hchannel:GUILD|h[Гильдия]|h |Hplayer:Воинорды-Ревущийфьорд:578:GUILD:|h[|cffc59a6cВоинорды|r]|h: ну я с этой бегаю |cffa335ee|Hitem:173943::::::::120:72::5:4:4823:6515:1502:4786:::|h[Накопленные муки]|h|r ради масухи)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065916.724,
+					["extraData"] = {
+						5, -- [1]
+						1, -- [2]
+						3, -- [3]
+						["n"] = 3,
+					},
+					["g"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797[22:27:29]|r |cffffffffСообщение дня от гильдии|r: \"Discord: https://discord.gg/g3ygf52 \"",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065919.231,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797[22:27:50]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:579:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): сними от нее понт только на паках и то по логам на рое",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065939.528,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797[22:28:16]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:581:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: да потом на молнию поменяю ее )",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065965.694,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797[22:28:35]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:582:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: когда нибудь))",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065984.761,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797[22:28:40]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:583:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: упадет ",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1065989.491,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797[22:28:52]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:584:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): у тебя будет молния и на крит а не триня на мастери прожимная на силу",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066001.784,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|cff979797[22:29:22]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:588:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:159625::::::::120:72::35:5:6534:42:6513:1642:4786:::|h[Пузырек с оживленной кровью]|h|r ты про эту?)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066032.114,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [22]
+				{
+					["message"] = "|cff979797[22:29:27]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:593:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): да",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066036.675,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [23]
+				{
+					["message"] = "|cff979797[22:29:54]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:597:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): одевай ее и блок",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066064.115,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797[22:30:52]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:614:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: кк ) с муками прсото привык а не в клучах одеаю против соло целей блок )",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066122.047,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797[22:31:12]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:617:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): эти муки беспонотовые мне даже на рое не понравились",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066142.006,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797[22:31:14]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:618:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: надо 460 выбить)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066143.508,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797[22:31:29]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Воинорды-Ревущийфьорд:622:GUILD|h|cffd8bc3f120|r:|cffc59a6cВоинорды|r|h|cffd8d8d8]|r: да дпс маловато дают просто сим крафт убеждал что норм)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066158.727,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797[22:31:42]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:623:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r Данте",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066171.577,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797[22:31:45]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:626:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): а",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066174.7,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797[22:31:53]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:628:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r пошли за коралом",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066182.553,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797[22:31:56]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:630:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r мне выбьем",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066186.382,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797[22:31:59]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:633:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r с 3 босса",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066189.14,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|cff979797[22:32:12]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:635:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): есть место еще?",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066201.563,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|cff979797[22:32:20]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:636:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r мы тут собираем",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066209.431,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|cff979797[22:32:29]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:637:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r Бандит тут?",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066218.706,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797[22:32:42]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:639:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): он ключит вроде)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066231.686,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797[22:32:47]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Троворт-Ревущийфьорд:641:GUILD|h|cffd8bc3f120|r:|cff006fdcТроворт|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r тут) но ч пока в ключе)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066237.12,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797[22:32:53]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:643:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r блин(",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066243.093,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [39]
+				{
+					["message"] = "|cff979797[22:39:19]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Епсоге-Ревущийфьорд:677:GUILD|h|cffd8bc3f120|r:|cffc59a6cЕпсоге|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r есть хилы и хорошие дд в мифик Вечный дворец на 2 босса!?",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066629.209,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797[22:42:31]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:693:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Преследование на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066820.584,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [41]
+				{
+					["message"] = "|cff979797[22:42:32]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:694:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: Преследование на |cffc31d39Каленса|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066821.686,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797[22:42:32]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:695:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: Преследование на |cffa22fc8Автомат|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066821.686,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797[22:42:32]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:696:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Преследование на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066821.686,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [44]
+				{
+					["message"] = "|cff979797[22:45:02]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:707:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): пока что дх и ханты в проигровают по колличеству)",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1066972.213,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797[22:45:26]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:708:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: Преследование на |cffa22fc8Автомат|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066995.932,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797[22:45:26]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:709:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Преследование на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066995.932,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797[22:45:26]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:710:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: Преследование на |cffc31d39Каленса|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1066995.932,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [48]
+				{
+					["message"] = "|cff979797[22:48:05]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:719:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Плевок золотом на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067155.189,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [49]
+				{
+					["message"] = "|cff979797[22:48:11]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:720:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067161.191,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797[22:48:12]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:721:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067162.041,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|cff979797[22:48:13]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:722:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067163.197,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797[22:48:21]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:723:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067170.577,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797[22:48:22]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:724:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067171.572,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797[22:48:23]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:725:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067172.423,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|cff979797[22:48:41]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:727:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Плевок золотом на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067190.855,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797[22:48:47]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:728:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067196.992,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797[22:48:48]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:729:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067197.981,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|cff979797[22:48:49]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:730:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067198.977,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|cff979797[22:48:56]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:732:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067205.761,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|cff979797[22:48:57]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:733:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067206.772,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797[22:48:58]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:734:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067207.752,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [62]
+				{
+					["message"] = "|cff979797[22:49:26]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:736:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Плевок золотом на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067235.816,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797[22:49:32]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:737:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067241.977,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cff979797[22:49:33]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:738:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067242.899,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797[22:49:34]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:739:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067243.98,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|cff979797[22:50:02]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:744:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: Потайной клинок на |cffa22fc8Автомат|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067271.614,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [67]
+				{
+					["message"] = "|cff979797[22:52:33]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:764:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Вихрь клинков на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067422.803,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797[22:52:58]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:767:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Вихрь клинков на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1067447.585,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|cff979797[23:09:36]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:866:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068445.576,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797[23:09:37]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:867:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068446.413,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|cff979797[23:09:38]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:868:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068447.588,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797[23:09:59]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:873:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068468.648,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797[23:10:00]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:874:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068469.507,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [74]
+				{
+					["message"] = "|cff979797[23:10:01]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:875:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068470.632,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797[23:12:12]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:890:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Barrage on ME!",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068602.355,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|cff979797[23:12:13]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:891:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Обстрел ядом на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068602.577,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797[23:12:26]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:892:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Обстрел ядом на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068616.234,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797[23:12:27]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:893:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Barrage on ME!",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068616.534,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797[23:12:27]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:894:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Barrage on ME!",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068616.534,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797[23:15:27]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:916:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: Сотрясающий землю прыжок на |cffc31d39Каленса|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068796.63,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|cff979797[23:16:51]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:944:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: Сотрясающий землю прыжок на |cffc31d39Каленса|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068880.92,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [82]
+				{
+					["message"] = "|cff979797[23:17:15]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:954:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: Сотрясающий землю прыжок на |cff00ff00Идолмастер|r",
+					["r"] = 1,
+					["b"] = 1,
+					["timestamp"] = 1068904.959,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						81, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [83]
+				{
+					["message"] = "0 |4день:дня:дней;, 0 |4час:часа:часов;, 8 |4минута:минуты:минут;, 58 |4секунда:секунды:секунд;.",
+					["timestamp"] = 1069443.185,
+				}, -- [84]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 1069443.185,
+				}, -- [85]
+				{
+					["message"] = "Сообщение дня от гильдии: \"Discord: https://discord.gg/g3ygf52 \"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1069442.796,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [86]
+				{
+					["message"] = "|cff979797[23:26:25]|r |cffffffffСообщение дня от гильдии|r: \"Discord: https://discord.gg/g3ygf52 \"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1069455.243,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [87]
+				{
+					["message"] = "|cff979797[23:29:39]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1125:GUILD|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFFF7D0AСорвада|r): на зависть всем дк |cffa335ee|Hitem:159644:3368:::::::120:252::16:7:6528:6578:6579:6550:6515:1632:4786:::|h[Гети'икку, Несущий смерть]|h|r",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						25, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069648.542,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "|cff979797[23:30:03]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Явиделвсе-Ревущийфьорд:1127:GUILD|h|cffd8bc3f120|r:|cfff38bb9Явиделвсе|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r гц)",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						25, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069672.538,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [89]
+				{
+					["message"] = "|cff979797[23:30:39]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:1132:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): пф",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						25, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069709.374,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [90]
+				{
+					["message"] = "|cff979797[23:31:05]|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Девятьзорь-Ревущийфьорд:1135:GUILD|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFC79C6EДантеураган|r): |cffa335ee|Hitem:159644::::::::120:252::35:8:5010:6578:6579:6482:6470:6515:1637:4786:::|h[Гети'икку, Несущий смерть]|h|r",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						25, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069734.566,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [91]
+				{
+					["message"] = "|cff979797[23:36:25]|r [W From] |cffd8d8d8[|r|Hplayer:Мущщынаы-Ревущийфьорд:1241:WHISPER:МУЩЩЫНАЫ-РЕВУЩИЙФЬОРД|h|cffd8bc3f120|r:|cff006fdcМущщынаы|r|h|cffd8d8d8]|r: :D руку набить пойдет",
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070055.26,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [92]
+				{
+					["message"] = "|cff979797[23:39:45]|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1291:PARTY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFFF7D0AСорвада|r): |cffa335ee|Hkeystone:158923:252:12:10:5:14:120|h[Ключ: Святилище Штормов (12)]|h|r",
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						125, -- [3]
+						126, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070254.413,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [93]
+				{
+					["message"] = "|cff979797[23:39:49]|r |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1292:PARTY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r(|CFFFF7D0AСорвада|r): го?",
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						125, -- [3]
+						126, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070259.305,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [94]
+				{
+					["message"] = "|cff979797[00:11:59]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1578:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072188.894,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [95]
+				{
+					["message"] = "|cff979797[00:12:00]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1579:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072189.965,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [96]
+				{
+					["message"] = "|cff979797[00:12:01]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1580:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072190.87,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [97]
+				{
+					["message"] = "|cff979797[00:12:02]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1581:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072191.563,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [98]
+				{
+					["message"] = "|cff979797[00:12:03]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1582:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072192.475,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [99]
+				{
+					["message"] = "|cff979797[00:12:03]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1583:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072192.691,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [100]
+				{
+					["message"] = "|cff979797[00:12:04]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1584:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072193.455,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [101]
+				{
+					["message"] = "|cff979797[00:12:52]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1590:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072241.739,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "|cff979797[00:12:53]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1591:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072242.563,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "|cff979797[00:12:54]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1592:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072243.737,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|cff979797[00:13:09]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1596:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072258.466,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "|cff979797[00:13:10]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1598:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072259.457,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [106]
+				{
+					["message"] = "|cff979797[00:15:55]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:1609:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072424.548,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [107]
+				{
+					["message"] = "|cff979797[00:15:56]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:1610:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072425.515,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [108]
+				{
+					["message"] = "|cff979797[00:15:57]|r [S] |cffd8d8d8[|r|Hplayer:Автомат-Ревущийфьорд:1611:SAY|h|cffd8bc3f120|r:|cffa22fc8Автомат|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072426.539,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [109]
+				{
+					["message"] = "|cff979797[00:15:58]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1612:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072427.499,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|cff979797[00:15:59]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1613:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072428.497,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|cff979797[00:16:00]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1614:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072429.502,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|cff979797[00:16:01]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1615:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072430.813,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|cff979797[00:16:01]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1616:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072430.813,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [114]
+				{
+					["message"] = "|cff979797[00:16:02]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1618:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072431.82,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [115]
+				{
+					["message"] = "|cff979797[00:16:02]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1619:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072431.82,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [116]
+				{
+					["message"] = "|cff979797[00:16:03]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1620:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072432.706,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [117]
+				{
+					["message"] = "|cff979797[00:16:03]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1621:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072432.706,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [118]
+				{
+					["message"] = "|cff979797[00:17:05]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1624:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072494.449,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "|cff979797[00:17:06]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1625:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072495.474,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [120]
+				{
+					["message"] = "|cff979797[00:17:07]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1626:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072496.471,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [121]
+				{
+					["message"] = "|cff979797[00:17:07]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1627:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072496.91,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|cff979797[00:17:07]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1628:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072497.223,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [123]
+				{
+					["message"] = "|cff979797[00:17:08]|r [S] |cffd8d8d8[|r|Hplayer:Каленса-Ревущийфьорд:1630:SAY|h|cffd8bc3f120|r:|cffc31d39Каленса|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						240, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072497.794,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [124]
+				{
+					["message"] = "|cff979797[00:17:08]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1631:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072498.044,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [125]
+				{
+					["message"] = "|cff979797[00:17:09]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1632:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072499.237,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [126]
+				{
+					["message"] = "|cff979797[00:17:23]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1637:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072512.817,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [127]
+				{
+					["message"] = "|cff979797[00:17:24]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1638:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072513.804,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 53,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797[23:54:31]|r |CFFFFF569|cfffef367Кринжи|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071140.732,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797[23:55:23]|r |CFFC41F3BПростокваш |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071193.074,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797[23:57:13]|r |cffd8d8d8[|r|Hplayer:Грыззун:1449|h|cffd8bc3f120|r:|cffc59a6cГрыззун|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071302.822,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797[23:57:20]|r |CFFFFF569|cfffef367Котафота|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071310.354,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797[23:57:52]|r |CFFA330C9|cffa22fc8Злобныйхам|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071341.549,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797[23:59:02]|r |CFFABD473|cffa9d271Кардуин|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071412.198,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797[23:59:21]|r |CFF00FF96|cff00fe95Реннджи|r |CFFC79C6E|r(|CFFC79C6EЕпсоге|r|CFFC79C6E|r) |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071431.085,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797[00:00:36]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071506.335,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797[00:01:07]|r |cff006fdcДокторша|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071537.109,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797[00:03:19]|r |CFF0070DEШаманец |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071669.189,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797[00:05:14]|r |cffd8d8d8[|r|Hplayer:Никофтайм:1515|h|cffd8bc3f120|r:|cfff38bb9Никофтайм|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071783.432,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797[00:05:47]|r |CFFF58CBAНикофтайм|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071817.32,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797[00:07:33]|r |CFF69CCF0|cff3ec5e9Убитыйдымом|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071922.642,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797[00:08:33]|r |CFF9482C9|cff8686ecЛококос|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071982.841,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797[00:09:42]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072051.391,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797[00:09:53]|r |CFF69CCF0|cff3ec5e9Пауэррейнжер|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072062.632,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797[00:10:07]|r |CFF69CCF0|cff3ec5e9Сексизманы|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072076.697,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797[00:12:26]|r |cffd8d8d8[|r|Hplayer:Сексизманы:1586|h|cffd8bc3f120|r:|cff3ec5e9Сексизманы|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072216.159,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797[00:12:55]|r |cff006fdcДокторша|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072244.538,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797[00:13:05]|r |cfff38bb9Идрисс|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072254.867,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797[00:13:08]|r |cffa22fc8Автомат|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072257.929,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797[00:13:09]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072259.077,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797[00:14:14]|r |CFFFFF569|cfffef367Илали|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072324.101,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797[00:14:20]|r |cffd8d8d8[|r|Hplayer:Злойгремлин:1603|h|cffd8bc3f120|r:|cfffef367Злойгремлин|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072329.663,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797[00:14:25]|r |CFF69CCF0|cff3ec5e9Шеттер|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072334.423,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797[00:15:03]|r |cffd8d8d8[|r|Hplayer:Блоля:1606|h|cffd8bc3f120|r:|cff3ec5e9Блоля|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072372.625,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797[00:16:01]|r |CFFFFF569|cfffef367Ставлюнаперо|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072431.121,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797[00:17:08]|r |CFF69CCF0|cff3ec5e9Сексизманы|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072497.794,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797[00:17:15]|r |cff006fdcДокторша|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072504.984,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797[00:17:17]|r |cfff38bb9Идрисс|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072507.138,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797[00:17:19]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072508.546,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797[00:17:34]|r |cff71d5ff|Hdeath:1|h[Вы умерли.]|h",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072524.29,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797[00:17:36]|r |cffa22fc8Автомат|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072525.639,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797[00:18:36]|r |cffd8d8d8[|r|Hplayer:Карргмош:1650|h|cffd8bc3f120|r:|cffc59a6cКарргмош|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072585.468,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797[00:21:03]|r |CFFFF7D0AСакальтор|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072733.367,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797[00:21:52]|r |CFFC79C6EОтрываюием |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072781.831,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797[00:22:03]|r |CFFF58CBAЭннемики |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072792.945,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797[00:22:15]|r |CFFC79C6EКарргмош|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072805.219,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797[00:22:16]|r |cffd8d8d8[|r|Hplayer:Дарксайдд:1679|h|cffd8bc3f120|r:|cff3ec5e9Дарксайдд|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072806.104,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797[00:22:54]|r |cffd8d8d8[|r|Hplayer:Наркома:1683|h|cffd8bc3f120|r:|cff8686ecНаркома|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072844.009,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797[00:23:02]|r |cffd8d8d8[|r|Hplayer:Омайгош:1685|h|cffd8bc3f120|r:|cff006fdcОмайгош|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072851.44,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797[00:24:04]|r |CFF0070DEОмайгош |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072913.726,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797[00:25:15]|r |cffd8d8d8[|r|Hplayer:Гачимара:1697|h|cffd8bc3f120|r:|cff00fe95Гачимара|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072985.061,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797[00:27:45]|r |CFF69CCF0|cff3ec5e9Дарксайдд|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073135.141,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797[00:28:00]|r |cfff38bb9Идрисс|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073150.231,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797[00:29:46]|r |cffd8d8d8[|r|Hplayer:Котафота:1729|h|cffd8bc3f120|r:|cfffef367Котафота|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073256.128,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797[00:30:52]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073321.427,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797[00:31:29]|r |CFF69CCF0|cff3ec5e9Мэллро|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073358.492,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797[00:31:33]|r Вы получили предмет: |cffa335ee|Hcurrency:1553:520|h[Сияющий осколок азерита]|h|r.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.489,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797[00:31:33]|r Артефакт |cffe6cc80|Hitem:158075::::::::120:254::11:4:4932:4933:6316:1642:::|h[Сердце Азерот]|h|r получает 520 ед. силы артефакта.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.489,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797[00:31:49]|r Вы предложили |3-2(|cff006fdcДокторша|r) обмен.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073379.111,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797[00:31:58]|r |CFFFFF569|cfffef367Картензия|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073388.162,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797[00:33:43]|r |CFFC79C6EСтхтахт |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073493.159,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797[23:03:02]|r |CFF9482C9|cff8686ecЧернобатон|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068052.284,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797[23:03:44]|r |cffd8d8d8[|r|Hplayer:Сокэноник:830|h|cffd8bc3f120|r:|cff006fdcСокэноник|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068093.734,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|cff979797[23:05:27]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068197.298,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797[23:06:00]|r |CFF0070DEАдамыч |CFF69CCF0|r(|CFF69CCF0|cff3ec5e9Пауэррейнжер|r|r|CFF69CCF0|r) |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068229.65,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797[23:06:14]|r |CFFF58CBAМикариса|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068243.506,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|cff979797[23:06:17]|r |cffd8d8d8[|r|Hplayer:Пауэррейнжер:836|h|cffd8bc3f120|r:|cff3ec5e9Пауэррейнжер|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068246.812,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|cff979797[23:07:12]|r |CFFFFFFFFКактьма |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068301.645,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|cff979797[23:07:51]|r |cffd8d8d8[|r|Hplayer:Пьяныйчай:845|h|cffd8bc3f120|r:|cff00fe95Пьяныйчай|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068340.4,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797[23:09:05]|r |CFF00FF96|cff00fe95Пьяныйчай|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068414.455,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [62]
+				{
+					["message"] = "|cff979797[23:09:06]|r |CFFABD473|cffa9d271Лэкстурион|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068415.547,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797[23:09:34]|r |cffd8d8d8[|r|Hplayer:Явиделвсе:865|h|cffd8bc3f120|r:|cfff38bb9Явиделвсе|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068443.926,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cff979797[23:10:05]|r |CFFC79C6EКарргмош|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068475.351,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797[23:11:23]|r |cffd8d8d8[|r|Hplayer:Эннемики:883|h|cffd8bc3f120|r:|cfff38bb9Эннемики|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068552.545,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|cff979797[23:11:32]|r |CFFC41F3BДжинтос|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068562.25,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [67]
+				{
+					["message"] = "|cff979797[23:12:11]|r |cffa22fc8Автомат|r умирает.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068601.291,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797[23:12:40]|r |cff006fdcМущщынаы|r умирает.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068629.943,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|cff979797[23:13:02]|r |cfff38bb9Идрисс|r умирает.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068651.458,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797[23:15:28]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068797.819,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|cff979797[23:17:00]|r |CFF69CCF0|cff3ec5e9Пауэррейнжер|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068890.004,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797[23:17:12]|r |CFFA330C9|cffa22fc8Эфиальта|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068901.936,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797[23:17:14]|r |cffd8d8d8[|r|Hplayer:Адамыч:951|h|cffd8bc3f120|r:|cff006fdcАдамыч|r|h|cffd8d8d8]|r|r |CFFFFFF00(|r|CFF69CCF0|cff3ec5e9Пауэррейнжер|r|r|CFFFFFF00)|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068903.384,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [74]
+				{
+					["message"] = "|cff979797[23:17:29]|r Вы получили предмет: |cff0070dd|Hcurrency:1553:480|h[Мерцающая азеритовая жеода]|h|r.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068919.359,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797[23:17:29]|r Артефакт |cffe6cc80|Hitem:158075::::::::120:254::11:4:4932:4933:6316:1642:::|h[Сердце Азерот]|h|r получает 480 ед. силы артефакта.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1068919.359,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|cff979797[23:19:29]|r |cff006fdcМущщынаы|r покидает группу.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069038.897,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797[23:19:41]|r |CFFFF7D0AКорольдруидд |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069050.814,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797[23:22:05]|r |cffd8d8d8[|r|Hplayer:Кузялакомкин:1028|h|cffd8bc3f120|r:|cff8686ecКузялакомкин|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069194.653,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797[23:22:21]|r |cffd8d8d8[|r|Hplayer:Шаманец:1032|h|cffd8bc3f120|r:|cff006fdcШаманец|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069210.778,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797[23:23:20]|r |cffd8d8d8[|r|Hplayer:Кардуин:1048|h|cffd8bc3f120|r:|cffa9d271Кардуин|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069269.486,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|cff979797[23:23:26]|r Вы включили режим открытого PvP.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069276.301,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [82]
+				{
+					["message"] = "|cff979797[23:23:37]|r |cffd8d8d8[|r|Hplayer:Меганкокс:1054|h|cffd8bc3f120|r:|cff00fe95Меганкокс|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069286.528,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|cff979797[23:23:52]|r |cffd8d8d8[|r|Hplayer:Келлебра:1056|h|cffd8bc3f120|r:|cfffef367Келлебра|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1069302.25,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["g"] = 1,
+				}, -- [84]
+				{
+					["message"] = "0 |4день:дня:дней;, 0 |4час:часа:часов;, 2 |4минута:минуты:минут;, 20 |4секунда:секунды:секунд;.",
+					["timestamp"] = 1069443.185,
+				}, -- [85]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 1069443.185,
+				}, -- [86]
+				{
+					["message"] = "|cff979797[23:26:20]|r Установленный режим сложности подземелья: Эпохальный.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1069443.185,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797[23:26:23]|r Общее время игры: 32 |4день:дня:дней;, 14 |4час:часа:часов;, 52 |4минута:минуты:минут;, 10 |4секунда:секунды:секунд;.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1069452.502,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797[23:26:23]|r Время игры на этом уровне: 28 |4день:дня:дней;, 22 |4час:часа:часов;, 46 |4минута:минуты:минут;, 42 |4секунда:секунды:секунд;.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1069452.502,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797[23:27:38]|r |CFF0070DEСокэноник |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069527.64,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797[23:27:39]|r |cffd8d8d8[|r|Hplayer:Отрываюием:1114|h|cffd8bc3f120|r:|cffc59a6cОтрываюием|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069528.436,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797[23:32:26]|r Ставка принята.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069815.839,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797[23:32:26]|r Вы выиграли торги. Куплен предмет: Морская смородина искусности.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069815.882,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797[23:33:19]|r |CFFC41F3BДевятьзорь |CFFC79C6E|r(|CFFC79C6EДантеураган|r|CFFC79C6E|r) |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069869.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797[23:33:41]|r |CFF0070DEАдамыч |CFF69CCF0|r(|CFF69CCF0|cff3ec5e9Пауэррейнжер|r|r|CFF69CCF0|r) |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069891.07,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797[23:33:53]|r |cffd8d8d8[|r|Hplayer:Пауэррейнжер:1204|h|cffd8bc3f120|r:|cff3ec5e9Пауэррейнжер|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069903.337,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797[23:35:15]|r |cffd8d8d8[|r|Hplayer:Лококос:1220|h|cffd8bc3f120|r:|cff8686ecЛококос|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1069984.478,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797[23:36:06]|r |cffd8d8d8[|r|Hplayer:Кринжи:1229|h|cffd8bc3f120|r:|cfffef367Кринжи|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070035.46,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797[23:36:07]|r |CFF00FF96|cff00fe95Енхерия|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070036.389,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797[23:36:09]|r |cffd8d8d8[|r|Hplayer:Картензия:1232|h|cffd8bc3f120|r:|cfffef367Картензия|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070038.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "|cff979797[23:38:09]|r |CFFC41F3BЛайтгард|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070158.731,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797[23:38:20]|r |CFFC41F3BСанядикей |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070169.575,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797[23:38:21]|r |cffd8d8d8[|r|Hplayer:Чернобатон:1266|h|cffd8bc3f120|r:|cff8686ecЧернобатон|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070170.953,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797[23:38:59]|r |CFF9482C9|cff8686ecЧернобатон|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070208.667,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797[23:39:09]|r |cffd8d8d8[|r|Hplayer:Имба:1280|h|cffd8bc3f120|r:|cfffef367Имба|r|h|cffd8d8d8]|r|r |CFFFFFF00(|r|CFF9482C9|cff8686ecВульпидр|r|r|CFFFFFF00)|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070219.114,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797[23:39:10]|r |CFF9482C9|cff8686ecЛококос|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070219.728,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797[23:39:18]|r |cffd8d8d8[|r|Hplayer:Лококос:1282|h|cffd8bc3f120|r:|cff8686ecЛококос|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070228.159,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797[23:39:41]|r |CFFC79C6EКакбузова |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070250.885,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797[23:40:41]|r |cffd8d8d8[|r|Hplayer:Джиизи:1302|h|cffd8bc3f120|r:|cffc59a6cДжиизи|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070311.225,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797[23:40:42]|r |CFF9482C9|cff8686ecКузялакомкин|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070312.1,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797[23:41:04]|r |cffd8d8d8[|r|Hplayer:Тонисварка:1306|h|cffd8bc3f120|r:|cffc31d39Тонисварка|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070334.351,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797[23:41:45]|r |CFFC79C6EДжиизи|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070374.41,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797[23:42:35]|r |cffd8d8d8[|r|Hplayer:Лайтгард:1330|h|cffd8bc3f120|r:|cffc31d39Лайтгард|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070424.394,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797[23:43:01]|r |CFFFFF569|cfffef367Имба|r |CFF9482C9|r(|CFF9482C9|cff8686ecВульпидр|r|r|CFF9482C9|r) |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070451.102,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797[23:43:16]|r |cffd8d8d8[|r|Hplayer:Докторша:1349|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r|r |CFFFFFF00(|r|CFF9482C9|cff8686ecВульпидр|r|r|CFFFFFF00)|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070465.399,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797[23:44:00]|r |cff006fdcДокторша|r приглашается в вашу группу.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070510.076,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797[23:44:04]|r |cff006fdcДокторша|r присоединяется к группе.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070514.376,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797[23:44:36]|r |cffd8d8d8[|r|Hplayer:Девятьзорь:1362|h|cffd8bc3f120|r:|cffc31d39Девятьзорь|r|h|cffd8d8d8]|r|r |CFFFFFF00(|r|CFFC79C6EДантеураган|r|CFFFFFF00)|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070546.099,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797[23:45:23]|r Вы получили задание \"Орда героев\".",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070593.238,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797[23:46:44]|r |cffa22fc8Автомат|r присоединяется к группе.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070674.363,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|cff979797[23:47:36]|r |CFFC79C6EЕпсоге |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070725.613,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797[23:47:49]|r |cffd8d8d8[|r|Hplayer:Реннджи:1380|h|cffd8bc3f120|r:|cff00fe95Реннджи|r|h|cffd8d8d8]|r|r |CFFFFFF00(|r|CFFC79C6EЕпсоге|r|CFFFFFF00)|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070738.863,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797[23:47:54]|r |CFFABD473|cffa9d271Леттомир|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070743.988,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797[23:49:50]|r |CFFF58CBAЯвиделвсе |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070860.17,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797[23:50:31]|r |CFFFFF569|cfffef367Келлебра|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070901.232,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797[23:51:34]|r |CFF0070DEМущщынаы|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1070963.854,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797[23:52:31]|r |cffc31d39Каленса|r проверяет готовность.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071021.207,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797[23:54:06]|r |CFFC41F3BТонисварка |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1071115.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 59,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797[00:28:35]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t на |3-3(Забытый обитатель глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073185.313,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797[00:28:36]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t на |3-3(Забытый обитатель глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073185.638,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797[00:28:36]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t на |3-3(Забытый обитатель глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073185.868,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797[00:28:50]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Асахейм-Ревущийфьорд:1719:CHANNEL:7|h|cffc31d39Асахейм|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-98555-1615-82557608|h[Гильдия: СтримТим и КО]|h|r Набор статика ил 450+, нек 80+, опыт не важен!",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073200.223,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797[00:28:56]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Анеспротез-Ревущийфьорд:1720:CHANNEL:7|h|cff00fe95Анеспротез|r|h|cffd8d8d8]|r: NS 11/12 M (Локи,Ханты,Хилы,Шам). Примем казуалов и ключников (Рт по выходным).",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						263, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073205.852,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797[00:28:56]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Анеспротез-Ревущийфьорд:1721:CHANNEL:7|h|cff00fe95Анеспротез|r|h|cffd8d8d8]|r: Рт Пн-ЧТ 20.20-00.00 Мск .Сайт |cffffffff|Hurl:https://www.ns-guild.ru/.|h[https://www.ns-guild.ru/.]|h|r За инфо Aneska#21395",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						263, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073205.852,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797[00:28:59]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Внфт-Ревущийфьорд:1722:CHANNEL:7|h|cfffe7b09Внфт|r|h|cffd8d8d8]|r: 160к в тайм, кек",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						221, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073208.466,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797[00:29:25]|r |cffffff00ExRT|r Кто спулил: |cfff38bb9Идрисс",
+					["timestamp"] = 1073234.393,
+				}, -- [8]
+				{
+					["message"] = "|cff979797[00:29:25]|r Вол'зит Шепчущая кричит: Улл вера скиш!",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073234.622,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [9]
+				{
+					["message"] = "|cff979797[00:29:25]|r Вол'зит Шепчущая шепчет: Ты в моей власти!",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073234.622,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [10]
+				{
+					["message"] = "|cff979797[00:29:25]|r |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:77575:0|h[Вспышка болезни]|h|r from Каленса |cFFFFBB00Boss First Target|r: Идрисс    ",
+					["timestamp"] = 1073234.899,
+				}, -- [11]
+				{
+					["message"] = "|cff979797[00:29:45]|r Вол'зит Шепчущая кричит: Ксул красс ки' ун скаш!",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073254.982,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|cff979797[00:29:45]|r Вол'зит Шепчущая шепчет: Кровь льется в пучину.",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073254.982,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [13]
+				{
+					["message"] = "|cff979797[00:29:46]|r |cffd8d8d8[|r|Hplayer:Котафота:1729|h|cffd8bc3f120|r:|cfffef367Котафота|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073256.128,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797[00:30:14]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t на |3-3(Забытый обитатель глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073283.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797[00:30:14]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t на |3-3(Забытый обитатель глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073284.264,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797[00:30:37]|r Вол'зит Шепчущая кричит: Крил лакс кутолил!",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073307.269,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [17]
+				{
+					["message"] = "|cff979797[00:30:37]|r Вол'зит Шепчущая шепчет: Ползучие пробудились!",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073307.269,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [18]
+				{
+					["message"] = "|cff979797[00:30:52]|r |cffc31d39Каленса|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073321.427,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797[00:30:53]|r |cffd8d8d8[|r|Hplayer:Картензия-Ревущийфьорд:1736:GUILD|h|cffd8bc3f120|r:|cfffef367Картензия|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  заслужила достижение |cffffff00|Hachievement:13729:Player-1615-09A25A59:1:5:31:20:4294967295:4294967295:4294967295:4294967295|h[Эпохальный режим: леди Эшвейн]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						25, -- [3]
+						198, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073322.39,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797[00:30:53]|r |cffd8d8d8[|r|Hplayer:Картензия-Ревущийфьорд:1737:GUILD|h|cffd8bc3f120|r:|cfffef367Картензия|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  заслужила достижение |cffffff00|Hachievement:13719:Player-1615-09A25A59:1:5:31:20:4294967295:4294967295:4294967295:4294967295|h[Глубины преданных]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						25, -- [3]
+						198, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073322.39,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "|cff979797[00:31:25]|r Вол'зит Шепчущая кричит: Бвикски амала зал куллл...",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073354.726,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [22]
+				{
+					["message"] = "|cff979797[00:31:25]|r Вол'зит Шепчущая шепчет: Я буду ждать тебя... во тьме...",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073355.059,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [23]
+				{
+					["message"] = "|cff979797[00:31:25]|r Н'Зот шепчет: Да, я не ошибся. Вы достойны моего дара.",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073355.059,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [24]
+				{
+					["message"] = "|cff979797[00:31:26]|r BigWigs: |cffffff00'Вол'зит Шепчущая' терпит поражение спустя 2 мин.|r",
+					["timestamp"] = 1073355.661,
+				}, -- [25]
+				{
+					["message"] = "|cff979797[00:31:29]|r |CFF69CCF0|cff3ec5e9Мэллро|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073358.492,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797[00:31:30]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Забавка-Ревущийфьорд:1742:CHANNEL:7|h|cff3ec5e9Забавка|r|h|cffd8d8d8]|r: Проведу вас с 5 масками за голд. По итогу 470 вещь с кораптом. так же +4 сундука (5 масок) лвл плаща не важен",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						265, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073360.104,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797[00:31:32]|r Каленса получает добычу: |cffa335ee|Hitem:159421::::::::120:254::16:7:6530:6578:6579:6537:6515:1632:4786:::|h[Перчатки абсолютной покорности]|h|r.",
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						64, -- [3]
+						267, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.297,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797[00:31:33]|r Вы получили предмет: |cffa335ee|Hcurrency:1553:520|h[Сияющий осколок азерита]|h|r.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.489,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797[00:31:33]|r Артефакт |cffe6cc80|Hitem:158075::::::::120:254::11:4:4932:4933:6316:1642:::|h[Сердце Азерот]|h|r получает 520 ед. силы артефакта.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.489,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797[00:31:33]|r Автомат получает добычу: |cffa335ee|Hitem:159308::::::::120:254::16:5:6530:6516:6515:1632:4786:::|h[Наручи священного флота]|h|r.",
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						64, -- [3]
+						268, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.683,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797[00:31:33]|r Ваша добыча: |cffa335ee|Hitem:159364::::::::120:254::16:5:6530:6516:6515:1632:4786:::|h[Наручники зовущих глубин]|h|r.",
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.683,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797[00:31:33]|r Ваша добыча: |cff0070dd|Hitem:165948::::::::120:254::::::|h[Естество приливов]|h|r.",
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						64, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073362.683,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797[00:31:34]|r Вы получаете валюту – |cffe6cc80|Hcurrency:1803:0|h[Эхо Ни'алоты]|h|r, 180 шт.",
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						269, -- [3]
+						270, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073363.557,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797[00:31:35]|r Королева Азшара говорит: Кто встал у меня на пути? Как вы осмелились выступить против меня?!",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073365.193,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [35]
+				{
+					["message"] = "|cff979797[00:31:49]|r Вы предложили |3-2(|cff006fdcДокторша|r) обмен.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073379.111,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797[00:31:58]|r |CFFFFF569|cfffef367Картензия|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073388.162,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797[00:32:08]|r Рексар говорит: А я... заберу свой трофей.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073397.589,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [38]
+				{
+					["message"] = "|cff979797[00:32:14]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Твонкл-Ревущийфьорд:1755:CHANNEL:7|h|cfffefefeТвонкл|r|h|cffd8d8d8]|r: В статик гильдии \"Эледрим\" (9/12М) для усиления состава нужен фаер маг. РТ: Пн, Ср, Чт 20-23:00 МСК. Дополнительная информация в ПМ. ",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073403.643,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797[00:32:20]|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq24|k:29:1756:BN_INLINE_TOAST_ALERT:0|h[|Kq24|k]|h выходит из сети.",
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						75, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073409.746,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [40]
+				{
+					["message"] = "|cff979797[00:32:20]|r Вы будете получать добычу для специализации \"Стрельба\".",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1073409.746,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797[00:32:23]|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:1|h[1. Общий: Дазар'алор]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073412.706,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797[00:32:23]|r |Hchannel:channel:2|h[2] |h Смена канала: |Hchannel:2|h[2. Торговля: Город]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						151, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073412.706,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797[00:32:23]|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:3|h[3. Оборона: Дазар'алор]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073412.706,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797[00:32:25]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Онфидия-Ревущийфьорд:1762:CHANNEL:2|h|cffc59a6cОнфидия|r|h|cffd8d8d8]|r: Куплю Морской лен в огромных количествах, по 1.7 за шт. Слать наложкой.",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						271, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073414.439,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797[00:32:37]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Аггроток-Ревущийфьорд:1764:CHANNEL:2|h|cffc31d39Аггроток|r|h|cffd8d8d8]|r: лул",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						273, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073427.202,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797[00:32:46]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Офферман-Ревущийфьорд:1765:CHANNEL:2|h|cffa9d271Офферман|r|h|cffd8d8d8]|r: Помогу приручить ВСЕХ редких питомцев охотника! ( Локе, Арктур, Бан'талос, Бульвинкль, Сколл, Магрия и т.д.) ДЕШЕВО и СРАЗУ  (ДЁШЕВО!)",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073435.705,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797[00:32:51]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Буряшка-Ревущийфьорд:1766:CHANNEL:2|h|cffc59a6cБуряшка|r|h|cffd8d8d8]|r: готовая пати проведет 15 кей за голд инфо в пм ",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073440.925,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797[00:33:39]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Алунаэра-Ревущийфьорд:1768:CHANNEL:2|h|cffa22fc8Алунаэра|r|h|cffd8d8d8]|r: Закроем Вам 16 ключ (160к в тайм). Так же есть возможность помочь вам с |cffffff00|Hachievement:14145:Player-1615-09D46533:1:4:5:20:4294967295:4294967295:4294967295:4294967295|h[Мастер ключей Battle for Azeroth 4-го сезона]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						275, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073489.164,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|cff979797[00:33:41]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Зиратсу-Ревущийфьорд:1770:CHANNEL:2|h|cffc59a6cЗиратсу|r|h|cffd8d8d8]|r: Каждые полчаса продаем Панцирь Нзота и Нзота в героике за ГОЛД! Более 600 убийств на счету. Маунт, великий подвиг и персональный лут. /w",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073491.195,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797[00:33:43]|r |CFFC79C6EСтхтахт |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073493.159,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797[00:33:46]|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Сихан-Ревущийфьорд:1772:CHANNEL:2|h|cffa22fc8Сихан|r|h|cffd8d8d8]|r: Прокачаю быстро и качественно в Вольная гавань. 110-120 недорого цена пм",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						277, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073495.788,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797[00:33:56]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Еллик-Ревущийфьорд:1774:CHANNEL:7|h|cff00fe95Еллик|r|h|cffd8d8d8]|r: Поможем 6-16 ключ, Мехагон за обе фракции (награда 475,+2,1к пыли), оплата (РФ, СД, Гордунни (а)), подробнее ПМ",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						143, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073505.994,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797[00:34:00]|r |Hchannel:channel:1|h[1] |h Вы покинули канал |Hchannel:1|h[1. Общий: Дазар'алор]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073509.48,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797[00:34:00]|r |Hchannel:channel:2|h[2] |h Вы покинули канал |Hchannel:2|h[2. Торговля: Город]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						16, -- [3]
+						151, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073509.48,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797[00:34:00]|r |Hchannel:channel:3|h[3] |h Вы покинули канал |Hchannel:3|h[3. Оборона: Дазар'алор]|h.",
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						57, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073509.48,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797[00:34:00]|r |Hchannel:channel:5|h[5] |hКеисо Кеисо получает права модератора.",
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						4, -- [3]
+						279, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073509.48,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797[00:34:00]|r |Hchannel:channel:5|h[5] |hКеисо-Ревущийфьорд Новый владелец канала – Кеисо-Ревущийфьорд.",
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						4, -- [3]
+						280, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073509.48,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797[00:34:00]|r OnDatabaseShutdown table: 000001D20A8036D0",
+					["timestamp"] = 1073509.668,
+				}, -- [59]
+				{
+					["message"] = "|cff979797[00:17:30]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Нахудойконец-Ревущийфьорд:1641:CHANNEL:7|h|cffc59a6cНахудойконец|r|h|cffd8d8d8]|r: маг",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						248, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072519.748,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797[00:17:34]|r Предметы вашей экипировки утратили 10% прочности.",
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						33, -- [1]
+						false, -- [2]
+						250, -- [3]
+						251, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072524.29,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797[00:17:34]|r |cff71d5ff|Hdeath:1|h[Вы умерли.]|h",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072524.29,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797[00:17:36]|r |cffa22fc8Автомат|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072525.639,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|cff979797[00:17:38]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Нахудойконец-Ревущийфьорд:1645:CHANNEL:7|h|cffc59a6cНахудойконец|r|h|cffd8d8d8]|r: с изи",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						248, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072528,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797[00:18:02]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Ютили-Ревущийфьорд:1646:CHANNEL:7|h|cff006fdcЮтили|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-3181-1615-37552258|h[Гильдия: НЕ ПАНИКУЙ]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						169, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072551.75,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797[00:18:02]|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Кеисо-Ревущийфьорд:1647:CHANNEL:5|h|cfffef367Кеисо|r|h|cffd8d8d8]|r: покидает канал.",
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						4, -- [3]
+						252, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072551.75,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797[00:18:03]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Ютили-Ревущийфьорд:1648:CHANNEL:7|h|cff006fdcЮтили|r|h|cffd8d8d8]|r: В статик гильдии \"Не паникуй\" 10/12мф рт3/7 (ср-чт-пн 20:45-0:10мск) нужны рдд, хилы(дру/прист/пал), пм или письмом Атуша, Ютили",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						169, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072553.183,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797[00:18:13]|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Кеисо-Ревущийфьорд:1649:CHANNEL:5|h|cfffef367Кеисо|r|h|cffd8d8d8]|r: присоединяется к каналу.",
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						4, -- [3]
+						102, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072563.064,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797[00:18:36]|r |cffd8d8d8[|r|Hplayer:Карргмош:1650|h|cffd8bc3f120|r:|cffc59a6cКарргмош|r|h|cffd8d8d8]|r|r |CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072585.468,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "|cff979797[00:19:32]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1651:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072641.981,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797[00:19:32]|r |cffd8d8d8[|r|Hplayer:Картензия-Ревущийфьорд:1652:GUILD|h|cffd8bc3f120|r:|cfffef367Картензия|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  заслужила достижение |cffffff00|Hachievement:13727:Player-1615-09A25A59:1:5:31:20:4294967295:4294967295:4294967295:4294967295|h[Эпохальный режим: Великолепие Азшары]|h|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						25, -- [3]
+						198, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072642.387,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|cff979797[00:19:33]|r |cffd8d8d8[|r|Hplayer:Картензия-Ревущийфьорд:1653:GUILD|h|cffd8bc3f120|r:|cfffef367Картензия|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  заслужила достижение |cffffff00|Hachievement:13718:Player-1615-09A25A59:1:5:31:20:4294967295:4294967295:4294967295:4294967295|h[Почетный прием]|h|r |cffffffff(|rсделано|cffffffff)|r!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						25, -- [3]
+						198, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072642.387,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [72]
+				{
+					["message"] = "|cff979797[00:19:33]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1654:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072643.007,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797[00:19:34]|r [S] |cffd8d8d8[|r|Hplayer:Идолмастер-Ревущийфьорд:1655:SAY|h|cffd8bc3f120|r:|cffa9d271Идолмастер|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						238, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072644.005,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [74]
+				{
+					["message"] = "|cff979797[00:19:35]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1656:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 3",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072644.6,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797[00:19:36]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1657:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 2",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072645.434,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|cff979797[00:19:37]|r [S] |cffd8d8d8[|r|Hplayer:Докторша-Ревущийфьорд:1658:SAY|h|cffd8bc3f120|r:|cff006fdcДокторша|r|h|cffd8d8d8]|r: 1",
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						237, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072646.644,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797[00:20:17]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t на |3-3(Утонувший вестник глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072686.517,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797[00:20:18]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t на |3-3(Утонувший вестник глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072687.812,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797[00:20:43]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Ионбум-Ревущийфьорд:1664:CHANNEL:7|h|cff3ec5e9Ионбум|r|h|cffd8d8d8]|r: Может кто сделать? |cffffffff|Hitem:137250::::::::120:64::13:1:3524:::|h[Символ заклятых врагов Эрнестуэя]|h|r реги мои. За символическую цену :)",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072713.338,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797[00:20:59]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Локфокс-Ревущийфьорд:1665:CHANNEL:7|h|cff8686ecЛокфокс|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t В состав нужны 1 хил (шам) и р/дд (дк,маг) 465+ расмотрим и другие классы. Наше рт Пн-Пт с 21.30-00.30 по мск. Прогресс 5/12м.",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072728.934,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797[00:21:03]|r |CFFFF7D0AСакальтор|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072733.367,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797[00:21:10]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t на |3-3(Глубинная сектантка).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072740.035,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|cff979797[00:21:11]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t на |3-3(Глубинная сектантка).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072740.462,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|cff979797[00:21:11]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Олдмеджик-Ревущийфьорд:1669:CHANNEL:7|h|cff3ec5e9Олдмеджик|r|h|cffd8d8d8]|r: Гильдия \"Фантастические твари\" (РТ 20.00- 23.00 МСК  ВТ,СР,ЧТ) проводит набор игроков(подробности в ПМ)  465+ iLVL.",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072741.029,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797[00:21:11]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Олдмеджик-Ревущийфьорд:1670:CHANNEL:7|h|cff3ec5e9Олдмеджик|r|h|cffd8d8d8]|r: Требования: желание рейдить и учиться, а также быть устойчивами к вайпам(истерички не нужны). Текущий прогресс 12/12ХМ 6/12M",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072741.029,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797[00:21:34]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Тиагмус-Ревущийфьорд:1671:CHANNEL:7|h|cffa22fc8Тиагмус|r|h|cffd8d8d8]|r: • Ведем набор в казуальную гильдию для совместного освоения контента. Новички и неискушенные игроки приветствуются! •",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072764.163,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797[00:21:52]|r |CFFC79C6EОтрываюием |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072781.831,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|cff979797[00:21:57]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t на |3-3(Глубинный сектант).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072787.111,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|cff979797[00:21:59]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t на |3-3(Глубинный сектант).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072788.568,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797[00:21:59]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t на |3-3(Утонувший вестник глубин).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072788.568,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797[00:21:59]|r |Hplayer:Докторша|h[Докторша]|h ставит |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t на |3-3(Глубинный сектант).",
+					["r"] = 1,
+					["extraData"] = {
+						51, -- [1]
+						false, -- [2]
+						172, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072788.568,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797[00:22:03]|r |CFFF58CBAЭннемики |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072792.945,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797[00:22:15]|r |CFFC79C6EКарргмош|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072805.219,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797[00:22:16]|r |cffd8d8d8[|r|Hplayer:Дарксайдд:1679|h|cffd8bc3f120|r:|cff3ec5e9Дарксайдд|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072806.104,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|cff979797[00:22:54]|r Н'Зот шепчет: Войдите в мое царство... покажите, чего стоите.",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072843.617,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [96]
+				{
+					["message"] = "|cff979797[00:22:54]|r |cffd8d8d8[|r|Hplayer:Наркома:1683|h|cffd8bc3f120|r:|cff8686ecНаркома|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072844.009,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797[00:23:00]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Неумеютанчит-Ревущийфьорд:1684:CHANNEL:7|h|cffc59a6cНеумеютанчит|r|h|cffd8d8d8]|r: 479 танк помогу с 15 викли бесплатно",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072850.106,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797[00:23:02]|r |cffd8d8d8[|r|Hplayer:Омайгош:1685|h|cffd8bc3f120|r:|cff006fdcОмайгош|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072851.44,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797[00:23:34]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Еллик-Ревущийфьорд:1686:CHANNEL:7|h|cff00fe95Еллик|r|h|cffd8d8d8]|r: Поможем 6-16 ключ, Мехагон за обе фракции (награда 475,+2,1к пыли), оплата (РФ, СД, Гордунни (а)), подробнее ПМ",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						143, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072883.502,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797[00:23:59]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Ионбум-Ревущийфьорд:1687:CHANNEL:7|h|cff3ec5e9Ионбум|r|h|cffd8d8d8]|r: Гильдия \"Дыхание времени\" ведёт набор игроков. Наш прогресс 4/12М. РТ 4/7 Пон-Чт, 21:00-00:00 Мск.",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072909.068,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797[00:23:59]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Ионбум-Ревущийфьорд:1688:CHANNEL:7|h|cff3ec5e9Ионбум|r|h|cffd8d8d8]|r: Требуются: ХИЛы (монк, пал,  прист). ДД (шп, рога), офф-Танк. Рассмотрим все варианты. Все вопросы в ЛС.",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072909.068,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797[00:24:02]|r Н'Зот шепчет: Можете уходить... Вы все равно послужите мне.",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072912.106,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [103]
+				{
+					["message"] = "|cff979797[00:24:04]|r |CFF0070DEОмайгош |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072913.726,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797[00:24:06]|r Лорд Штормсонг говорит: Кул-тирасский флот почти ваш, королева.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072916.237,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [105]
+				{
+					["message"] = "|cff979797[00:24:12]|r Королева Азшара говорит: Похоже, у тебя гости, лорд Штормсонг.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072921.893,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [106]
+				{
+					["message"] = "|cff979797[00:24:19]|r Лорд Штормсонг кричит: Чужаки?! Я отправлю ваши трупы в черную бездну! Вас ждут вечные страдания!",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072928.426,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [107]
+				{
+					["message"] = "|cff979797[00:24:22]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Самонкат-Ревущийфьорд:1694:CHANNEL:7|h|cffa22fc8Самонкат|r|h|cffd8d8d8]|r: Прокачаю в вольной гавани, пришел 110 а ушел 120! Быстро и качествно",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						231, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072932.375,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797[00:24:29]|r Рексар говорит: Попрощайся со своей королевой. Сейчас ты умрешь!",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072939.321,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [109]
+				{
+					["message"] = "|cff979797[00:24:36]|r Рексар кричит: А я повешу твою голову на стену!",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072945.552,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [110]
+				{
+					["message"] = "|cff979797[00:25:01]|r |cffffff00ExRT|r Кто спулил: |cfff38bb9Идрисс",
+					["timestamp"] = 1072970.475,
+				}, -- [111]
+				{
+					["message"] = "|cff979797[00:25:01]|r |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:188838:0|h[Огненный шок]|h|r from Докторша |cFFFFBB00Boss First Target|r: Докторша    ",
+					["timestamp"] = 1072970.99,
+				}, -- [112]
+				{
+					["message"] = "|cff979797[00:25:15]|r |cffd8d8d8[|r|Hplayer:Гачимара:1697|h|cffd8bc3f120|r:|cff00fe95Гачимара|r|h|cffd8d8d8]|r|r |CFFFF0000(M)|r|CFFFFFF00 входит в игровой мир.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072985.061,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797[00:25:25]|r |TInterface\\Icons\\Spell_shadow_mindflay.blp:20|t|cFFFF0000|Hspell:269131|h[Древний подчинитель разума]|h|r поселяется в теле |cFFFF0000|3-1(Идолмастер)|r!",
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						229, -- [3]
+						230, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072994.941,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797[00:25:26]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Йоске-Ревущийфьорд:1700:CHANNEL:7|h|cfffe7b09Йоске|r|h|cffd8d8d8]|r: LFG boomy 4.6 for push keys, ru/eng, bis corruptions",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1072995.774,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797[00:25:43]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Алунаэра-Ревущийфьорд:1701:CHANNEL:7|h|cffa22fc8Алунаэра|r|h|cffd8d8d8]|r: Закроем Вам 15 ключ (200к в тайм). Так же есть возможность помочь вам с  |cffffff00|Hachievement:14145:Player-1615-09D46533:1:4:5:20:4294967295:4294967295:4294967295:4294967295|h[Мастер ключей Battle for Azeroth 4-го сезона]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073013.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797[00:26:07]|r |TInterface\\Icons\\Spell_shadow_mindflay.blp:20|t|cFFFF0000|Hspell:269131|h[Древний подчинитель разума]|h|r поселяется в теле |cFFFF0000|3-1(Докторша)|r!",
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						229, -- [3]
+						230, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073037.383,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797[00:26:24]|r BigWigs: |cffffff00'Лорд Штормсонг' терпит поражение спустя 1 мин. 22 с.|r",
+					["timestamp"] = 1073054.373,
+				}, -- [118]
+				{
+					["message"] = "|cff979797[00:26:33]|r Рексар говорит: Жемчужины здесь нет. Видимо, прислужник Азшары был умнее, чем казался.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073062.778,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [119]
+				{
+					["message"] = "|cff979797[00:26:39]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Люксик-Ревущийфьорд:1706:CHANNEL:7|h|cfff38bb9Люксик|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-40798-1615-79046604|h[Гильдия: Лотос]|h|r 7/12 миф. 21-24 пн ср чт.",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						261, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073068.741,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797[00:26:40]|r Рексар говорит: Хм... След ведет вглубь этого зловонного прохода.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073070.277,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [121]
+				{
+					["message"] = "|cff979797[00:26:48]|r Рексар говорит: Будьте настороже. Я чувствую невидимую угрозу.",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073078.02,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [122]
+				{
+					["message"] = "|cff979797[00:27:08]|r Вол'зит Шепчущая кричит: Угалазул бврксил' ку ракс.",
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						190, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073097.498,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [123]
+				{
+					["message"] = "|cff979797[00:27:08]|r Вол'зит Шепчущая шепчет: Тьма сочится. Зараза распространяется. Проход открыт.",
+					["r"] = 1,
+					["extraData"] = {
+						16, -- [1]
+						false, -- [2]
+						183, -- [3]
+						184, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073097.498,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
+				}, -- [124]
+				{
+					["message"] = "|cff979797[00:27:22]|r Рексар говорит: Он завел нас в свое логово!",
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073112.221,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [125]
+				{
+					["message"] = "|cff979797[00:27:45]|r |CFF69CCF0|cff3ec5e9Дарксайдд|r |CFFFF0000(M)|r|r выходит из игрового мира.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073135.141,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797[00:27:59]|r |Hchannel:channel:7|h[7] |h|cffd8d8d8[|r|Hplayer:Алунаэра-Ревущийфьорд:1713:CHANNEL:7|h|cffa22fc8Алунаэра|r|h|cffd8d8d8]|r: Закроем Вам 15 ключ (160к в тайм). Так же есть возможность помочь вам с  |cffffff00|Hachievement:14145:Player-1615-09D46533:1:4:5:20:4294967295:4294967295:4294967295:4294967295|h[Мастер ключей Battle for Azeroth 4-го сезона]|h|r",
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						13, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073148.799,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797[00:28:00]|r |cfff38bb9Идрисс|r умирает.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1073150.231,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

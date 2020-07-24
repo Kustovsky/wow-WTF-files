@@ -1,0 +1,27 @@
+
+KuiNameplatesCoreSaved = {
+	["216_HEALTH_TRANSITION"] = true,
+	["2162_PERSONAL_FRAME_SIZE_TRANSITION"] = true,
+	["profiles"] = {
+		["RealUI"] = {
+			["frame_height"] = 18,
+			["fade_neutral_enemy"] = true,
+			["target_arrows_size"] = 30,
+			["fade_avoid_execute_hostile"] = true,
+			["target_arrows"] = true,
+			["name_vertical_offset"] = 3.5,
+			["level_text"] = true,
+			["target_glow"] = false,
+			["frame_width"] = 155,
+			["font_face"] = "Roboto Condensed",
+			["ignore_uiscale"] = true,
+			["bar_animation"] = 2,
+			["bot_vertical_offset"] = 0,
+			["font_size_normal"] = 14,
+			["bar_texture"] = "Smooth v2",
+		},
+		["default"] = {
+			["ignore_uiscale"] = true,
+		},
+	},
+}

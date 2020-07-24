@@ -1,0 +1,50 @@
+
+cB_CustomBags = {
+	{
+		["col"] = 0,
+		["prio"] = 1,
+		["name"] = "Археология",
+		["active"] = true,
+	}, -- [1]
+	{
+		["col"] = 0,
+		["prio"] = 1,
+		["name"] = "Гербовая накидка",
+		["active"] = true,
+	}, -- [2]
+	{
+		["col"] = 0,
+		["prio"] = 1,
+		["name"] = "Мехагон",
+		["active"] = true,
+	}, -- [3]
+	{
+		["col"] = 0,
+		["prio"] = 1,
+		["name"] = "Перелеты",
+		["active"] = true,
+	}, -- [4]
+}
+cBniv_CatInfo = {
+}
+cBnivCfg = {
+	["CompressEmpty"] = true,
+	["scale"] = 1,
+	["Consumables"] = true,
+	["Armor"] = true,
+	["ItemSets"] = true,
+	["Junk"] = true,
+	["BankBlack"] = true,
+	["SortBags"] = true,
+	["BankCustomBags"] = true,
+	["Unlocked"] = true,
+	["SellJunk"] = true,
+	["Quest"] = true,
+	["NewItems"] = true,
+	["hasNewBags"] = true,
+	["SortBank"] = true,
+	["TradeGoods"] = true,
+	["CoolStuff"] = false,
+	["FilterBank"] = false,
+	["Restack"] = true,
+}

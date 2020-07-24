@@ -1,0 +1,680 @@
+
+ElvUI_BetterTalentFrameDB = {
+	["talents"] = {
+		["pve"] = {
+			{
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [7]
+			}, -- [1]
+			{
+				{
+					{
+						["name"] = "Хищник",
+						["talentID"] = 22363,
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 202021,
+						["texture"] = 132167,
+					}, -- [1]
+					{
+						["name"] = "Саблезуб",
+						["talentID"] = 22364,
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 202031,
+						["texture"] = 134298,
+					}, -- [2]
+					{
+						["name"] = "Лунное вдохновение",
+						["talentID"] = 22365,
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 155580,
+						["texture"] = 1033491,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["name"] = "Рывок тигра",
+						["talentID"] = 19283,
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 252216,
+						["texture"] = 1817485,
+					}, -- [1]
+					{
+						["name"] = "Обновление",
+						["talentID"] = 18570,
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 108238,
+						["texture"] = 136059,
+					}, -- [2]
+					{
+						["name"] = "Стремительный рывок",
+						["talentID"] = 18571,
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 102401,
+						["texture"] = 538771,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["name"] = "Родство с балансом",
+						["talentID"] = 22163,
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 197488,
+						["texture"] = 236156,
+					}, -- [1]
+					{
+						["name"] = "Родство со стражем",
+						["talentID"] = 22158,
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 217615,
+						["texture"] = 611424,
+					}, -- [2]
+					{
+						["name"] = "Родство с исцелением",
+						["talentID"] = 22159,
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 197492,
+						["texture"] = 236157,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["name"] = "Мощное оглушение",
+						["talentID"] = 21778,
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 5211,
+						["texture"] = 132114,
+					}, -- [1]
+					{
+						["name"] = "Массовое оплетение",
+						["talentID"] = 18576,
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 102359,
+						["texture"] = 538515,
+					}, -- [2]
+					{
+						["name"] = "Тайфун",
+						["talentID"] = 18577,
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 132469,
+						["texture"] = 236170,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["name"] = "Душа леса",
+						["talentID"] = 21708,
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 158476,
+						["texture"] = 236160,
+					}, -- [1]
+					{
+						["name"] = "Дикий рев",
+						["talentID"] = 18579,
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 52610,
+						["texture"] = 236167,
+					}, -- [2]
+					{
+						["name"] = "Воплощение: Король джунглей",
+						["talentID"] = 21704,
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 102543,
+						["texture"] = 571586,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["name"] = "Запах крови",
+						["talentID"] = 21714,
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 285564,
+						["texture"] = 451161,
+					}, -- [1]
+					{
+						["name"] = "Жестокий удар когтями",
+						["talentID"] = 21711,
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 202028,
+						["texture"] = 132141,
+					}, -- [2]
+					{
+						["name"] = "Первобытный гнев",
+						["talentID"] = 22370,
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 285381,
+						["texture"] = 1392547,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["name"] = "Момент ясности",
+						["talentID"] = 21646,
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 236068,
+						["texture"] = 1033483,
+					}, -- [1]
+					{
+						["name"] = "Кровавые когти",
+						["talentID"] = 21649,
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 155672,
+						["texture"] = 1033474,
+					}, -- [2]
+					{
+						["name"] = "Дикое бешенство",
+						["talentID"] = 21653,
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 274837,
+						["texture"] = 132140,
+					}, -- [3]
+				}, -- [7]
+			}, -- [2]
+			{
+				{
+					{
+						["talentID"] = 22419,
+						["name"] = "Острые колючки",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 203953,
+						["texture"] = 415052,
+					}, -- [1]
+					{
+						["talentID"] = 22418,
+						["name"] = "Кровавое бешенство",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 203962,
+						["texture"] = 132139,
+					}, -- [2]
+					{
+						["talentID"] = 22420,
+						["name"] = "Колючий мех",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 155835,
+						["texture"] = 1033476,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 19283,
+						["name"] = "Рывок тигра",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 252216,
+						["texture"] = 1817485,
+					}, -- [1]
+					{
+						["talentID"] = 22916,
+						["name"] = "Вихрь Урсола",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 102793,
+						["texture"] = 571588,
+					}, -- [2]
+					{
+						["talentID"] = 18571,
+						["name"] = "Стремительный рывок",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 102401,
+						["texture"] = 538771,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22163,
+						["name"] = "Родство с балансом",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 197488,
+						["texture"] = 236156,
+					}, -- [1]
+					{
+						["talentID"] = 22156,
+						["name"] = "Родство с силой зверя",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 202155,
+						["texture"] = 611425,
+					}, -- [2]
+					{
+						["talentID"] = 22159,
+						["name"] = "Родство с исцелением",
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 197492,
+						["texture"] = 236157,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 21778,
+						["name"] = "Мощное оглушение",
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 5211,
+						["texture"] = 132114,
+					}, -- [1]
+					{
+						["talentID"] = 18576,
+						["name"] = "Массовое оплетение",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 102359,
+						["texture"] = 538515,
+					}, -- [2]
+					{
+						["talentID"] = 18577,
+						["name"] = "Тайфун",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 132469,
+						["texture"] = 236170,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 21709,
+						["name"] = "Душа леса",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 158477,
+						["texture"] = 236160,
+					}, -- [1]
+					{
+						["talentID"] = 21707,
+						["name"] = "Галактический страж",
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 203964,
+						["texture"] = 135853,
+					}, -- [2]
+					{
+						["talentID"] = 22388,
+						["name"] = "Воплощение: Страж Урсока",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 102558,
+						["texture"] = 571586,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 22423,
+						["name"] = "Хранитель земли",
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 203974,
+						["texture"] = 237573,
+					}, -- [1]
+					{
+						["talentID"] = 21713,
+						["name"] = "Выживает сильнейший",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 203965,
+						["texture"] = 132126,
+					}, -- [2]
+					{
+						["talentID"] = 22390,
+						["name"] = "Страж Элуны",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 155578,
+						["texture"] = 1033479,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22426,
+						["name"] = "Яростное разрывание",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 204053,
+						["texture"] = 132143,
+					}, -- [1]
+					{
+						["talentID"] = 22427,
+						["name"] = "Лунный луч",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 204066,
+						["texture"] = 136057,
+					}, -- [2]
+					{
+						["talentID"] = 22425,
+						["name"] = "Раздавить",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 80313,
+						["texture"] = 1033490,
+					}, -- [3]
+				}, -- [7]
+			}, -- [3]
+			{
+				{
+					{
+						["talentID"] = 18569,
+						["name"] = "Изобилие",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 207383,
+						["texture"] = 132124,
+					}, -- [1]
+					{
+						["talentID"] = 18574,
+						["name"] = "Обилие",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 200383,
+						["texture"] = 1033482,
+					}, -- [2]
+					{
+						["talentID"] = 18572,
+						["name"] = "Щит Кенария",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 102351,
+						["texture"] = 132137,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 19283,
+						["name"] = "Рывок тигра",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 252216,
+						["texture"] = 1817485,
+					}, -- [1]
+					{
+						["talentID"] = 18570,
+						["name"] = "Обновление",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 108238,
+						["texture"] = 136059,
+					}, -- [2]
+					{
+						["talentID"] = 18571,
+						["name"] = "Стремительный рывок",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 102401,
+						["texture"] = 538771,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22366,
+						["name"] = "Родство с балансом",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 197632,
+						["texture"] = 236156,
+					}, -- [1]
+					{
+						["talentID"] = 22367,
+						["name"] = "Родство с силой зверя",
+						["available"] = true,
+						["column"] = 3,
+						["selected"] = true,
+						["spellid"] = 197490,
+						["texture"] = 611425,
+					}, -- [2]
+					{
+						["talentID"] = 22160,
+						["name"] = "Родство со стражем",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 197491,
+						["texture"] = 611424,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 21778,
+						["name"] = "Мощное оглушение",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 5211,
+						["texture"] = 132114,
+					}, -- [1]
+					{
+						["talentID"] = 18576,
+						["name"] = "Массовое оплетение",
+						["available"] = true,
+						["column"] = 4,
+						["selected"] = true,
+						["spellid"] = 102359,
+						["texture"] = 538515,
+					}, -- [2]
+					{
+						["talentID"] = 18577,
+						["name"] = "Тайфун",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 132469,
+						["texture"] = 236170,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 21710,
+						["name"] = "Душа леса",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 158478,
+						["texture"] = 236160,
+					}, -- [1]
+					{
+						["talentID"] = 21705,
+						["name"] = "Проращивание",
+						["available"] = true,
+						["column"] = 5,
+						["selected"] = true,
+						["spellid"] = 200390,
+						["texture"] = 236162,
+					}, -- [2]
+					{
+						["talentID"] = 22421,
+						["name"] = "Воплощение: древо жизни",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 33891,
+						["texture"] = 236157,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 21716,
+						["name"] = "Внутренняя гармония",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 197073,
+						["texture"] = 132123,
+					}, -- [1]
+					{
+						["talentID"] = 18585,
+						["name"] = "Каменная кора",
+						["available"] = true,
+						["column"] = 6,
+						["selected"] = true,
+						["spellid"] = 197061,
+						["texture"] = 236166,
+					}, -- [2]
+					{
+						["talentID"] = 22422,
+						["name"] = "Весенние цветы",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 207385,
+						["texture"] = 306845,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22403,
+						["name"] = "Фотосинтез",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 274902,
+						["texture"] = 464030,
+					}, -- [1]
+					{
+						["talentID"] = 21651,
+						["name"] = "Зарождение",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 155675,
+						["texture"] = 1033478,
+					}, -- [2]
+					{
+						["talentID"] = 22404,
+						["name"] = "Расцвет",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 197721,
+						["texture"] = 538743,
+					}, -- [3]
+				}, -- [7]
+			}, -- [4]
+		},
+	},
+}

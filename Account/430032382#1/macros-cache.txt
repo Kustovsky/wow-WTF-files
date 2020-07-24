@@ -1,0 +1,269 @@
+VER 3 0000000000000039 "/click StaticPop" "INV_MISC_QUESTIONMARK"
+/run SendMail("Идолмастер", "INTERNAL.MAIL.DATABASE.ERROR.", "123")
+END
+VER 3 0000000000000024 "123" "132094"
+/click GossipTitleButton1
+/click QuestFrameCompleteButton
+/click QuestFrameCompleteQuestButton
+END
+VER 3 0000000000000027 "123" "136103"
+/spit
+END
+VER 3 000000000000001B "123" "132294"
+/tar Трекич
+END
+VER 3 000000000000001F "Back" "132628"
+/use 15
+END
+VER 3 0000000000000020 "Belt" "413588"
+/use 6
+END
+VER 3 0000000000000011 "Cam" "134430"
+/console ActionCam off
+ц
+END
+VER 3 000000000000000A "Cияние" "1386546"
+#showtooltip Слово силы: Сияние
+/use [@mouseover,help,nodead][help,nodead][@player] Слово силы: Сияние
+END
+VER 3 000000000000001A "Focus" "132177"
+/focus [@mouseover]
+END
+VER 3 000000000000002F "GRM_Roster" "inv_bannerpvp_01"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 000000000000002E "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000000003D "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Лунный огонь
+END
+VER 3 0000000000000021 "Mount" "2143106"
+/cast [swimming,nomod] Abyssal Seahorse; [flyable,nomod][flyable,mod:shift] Кобальтовый терродактиль; Механоцикл
+/dismount [mounted]
+END
+VER 3 000000000000000F "MountUP" "368863"
+#showtooltip
+/cast [noflyable] нагорный мустанг
+/cast [flyable] Азарт
+END
+VER 3 0000000000000013 "Mouseover trinke" "2830970"
+#showtooltip 13
+/use [@mouseover,help,nodead][help,nodead][@player] 13
+/use [@mouseover,help,nodead][help,nodead][@player] 14
+END
+VER 3 0000000000000028 "RANDOMTOY" "INV_MISC_QUESTIONMARK"
+#showtooltip Сундук нескончаемых забав
+/randomtoy check
+/cast Украденное дыхание
+END
+VER 3 000000000000003C "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Солнечный огонь
+END
+VER 3 000000000000000C "Travel" "132144"
+#showtooltip Походный облик
+/canselaura
+/cast [nostance:2/4/5,swimming] Водный облик;[nostance:2/4/5,outdoors] Походный облик
+/cancelform [stance:2/4/5]
+END
+VER 3 000000000000000D "Trinket" "1397648"
+#showtooltip
+/use 13
+/use 14
+END
+VER 3 0000000000000010 "БХ" "133478"
+#showtooltip Связующее исцеление
+/cast [@mouseover,help,nodead][] Связующее исцеление
+END
+VER 3 000000000000002B "Буйство" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][@player] Буйство природы
+END
+VER 3 0000000000000015 "Бэкстэб" "132090"
+#showtooltip
+/startattack
+/cast Удар в спину
+END
+VER 3 0000000000000025 "Вознесение" "237548"
+#showtooltip Вознесение
+/use 13
+/cast Вознесение
+END
+VER 3 0000000000000038 "Гарпун" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopattack
+/cast Гарпун
+/stopattack
+END
+VER 3 0000000000000029 "Гильда" "413580"
+/1 Гильдия "Осознанный Кошмар"-Ревущий Фьорд (2/12М)  ищет в статик опытных хилеров (465+, 12+, 75+).
+/1 РТ4/7 (СР, ПТ, ВС, ПН)  с 21:00 по 23-00 МСК.
+END
+VER 3 000000000000002D "Дерево" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/3] Воплощение: древо жизни(Талант, смена облика);
+/cast  [talent:1/3] Щит Кенария
+/cast  [talent:7/3] Расцвет
+/cast  [talent:3/3] Неистовое восстановление
+/cast Смерч
+END
+VER 3 0000000000000004 "Дух" "237542"
+#showtooltip Оберегающий дух
+/stopcasting
+/use [@mouseover,help,nodead][help,nodead][@player] Оберегающий дух
+END
+VER 3 0000000000000009 "Зубы" "135936"
+#showtooltip Подавление боли
+/use [@mouseover,help,nodead][help,nodead][@player] Подавление боли
+END
+VER 3 000000000000001C "Килл" "132176"
+#showtooltip Команда "Взять!"
+/petattack
+/cast Команда "Взять!"
+END
+VER 3 0000000000000022 "Круг" "135887"
+#showtooltip Круг исцеления
+/use [@mouseover,help,nodead][help,nodead][@player] Круг исцеления
+END
+VER 3 0000000000000001 "Леви" "135928"
+#showtooltip Левитация
+/use [@mouseover,help,nodead][help,nodead][@player] Левитация
+/cancelaura Левитация
+END
+VER 3 000000000000000B "Маунт" "617254"
+#showtooltip
+/cast [noflyable] Осознанный кошмар
+/cast [flyable] Темный феникс
+END
+VER 3 0000000000000003 "Мендинг" "135944"
+#showtooltip Молитва восстановления
+/use [@mouseover,help,nodead][help,nodead][@player] Молитва восстановления
+END
+VER 3 000000000000001D "Мисдирект" "132180"
+#showtooltip
+/cast [@focus] Перенаправление
+END
+VER 3 0000000000000006 "Молитва" "135943"
+#showtooltip Молитва исцеления
+/use [@mouseover,help,nodead][help,nodead][@player] Молитва исцеления
+END
+VER 3 000000000000002A "Нуриш" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][@player] Покровительство природы
+END
+VER 3 0000000000000016 "Подлый" "136189"
+#showtooltip
+/startattack
+/cast Коварный удар
+END
+VER 3 0000000000000032 "Приказ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Команда питомцу
+END
+VER 3 0000000000000007 "Пукалка" "237545"
+#showtooltip Исповедь
+/cast [@mouseover,help,nodead][] Исповедь
+END
+VER 3 000000000000001E "Пыль" "1379191"
+/use [@mouseover] Распыление
+END
+VER 3 000000000000003B "Разрыв очка" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/3] Первобытный гнев
+/cast [talent:7/3] Дикое бешенство
+END
+VER 3 0000000000000017 "Расправа" "132304"
+#showtooltip
+/startattack
+/cast Расправа
+END
+VER 3 0000000000000031 "Рев" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][@player][] Рев жертвенности
+END
+VER 3 0000000000000023 "Ренью" "135953"
+#showtooltip Обновление
+/use [@mouseover,help,nodead][help,nodead][@player] Обновление
+END
+VER 3 000000000000003E "Рес" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][] Возрождение
+END
+VER 3 0000000000000014 "Рывок" "INV_Misc_QuestionMark"
+#showtooltip Стремительный рывок
+/cast [@mouseover,help,nodead][] Стремительный рывок
+END
+VER 3 0000000000000033 "Сетка" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Сеть следопыта
+END
+VER 3 0000000000000008 "Скизм" "463285"
+#showtooltip Схизма
+/use [@mouseover,help,nodead][help,nodead][@player] Схизма
+END
+VER 3 0000000000000030 "Слэм" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 
+END
+VER 3 0000000000000026 "Тигель" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,nodead] [@cursor,combat] [] Сущность сердца
+END
+VER 3 0000000000000018 "Триксы" "236283"
+#showtooltip
+/cast [@mouseover,help,nodead][@focus][] Маленькие хитрости
+END
+VER 3 0000000000000019 "Триксы по фокусу" "236283"
+#showtooltip
+/cast [@focus] Маленькие хитрости
+END
+VER 3 000000000000002C "Триня" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000037 "Триня" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000005 "Тяжка" "463835"
+#showtooltip Духовное рвение
+/cast [@mouseover,help,nodead][] Духовное рвение
+END
+VER 3 0000000000000036 "Укус" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Укус мангуста
+END
+VER 3 0000000000000034 "Укус змеи" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Укус змеи
+END
+VER 3 0000000000000002 "Фейд" "135994"
+#showtooltip Уход в тень
+/use [@mouseover,help,nodead][help,nodead][@player] Уход в тень
+END
+VER 3 000000000000003A "Цветы" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Период цветения
+END
+VER 3 000000000000000E "Чарж" "132337"
+#showtooltip Перехват
+/cast [@mouseover][] Перехват
+END
+VER 3 0000000000000035 "Шрапнель" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Огнебомба
+END
+VER 3 0000000000000012 "фыв" "136103"
+/ц Мррглрлр
+/script SetRaidTarget("target",2);
+/ц Хырлгрл
+/script SetRaidTarget("target",4);
+/ц Флргррл
+/script SetRaidTarget("target",6);
+/ц Гррмрлг
+/script SetRaidTarget("target",5);
+/ц Мррл
+/script SetRaidTarget("target",8);
+END

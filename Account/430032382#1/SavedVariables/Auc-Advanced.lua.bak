@@ -1,0 +1,84 @@
+
+AucAdvancedConfig = {
+	["users.Ревущий фьорд.Идолмастер"] = "Default",
+	["profile.Default"] = {
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["configator.left"] = 318.9474182128906,
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["scancommit.targetFPS"] = 5,
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 99.9,
+				["SavedMailButtons"] = {
+				},
+			},
+			["compactui"] = {
+				["priceperitem"] = true,
+			},
+			["ahwindowcontrol"] = {
+				["auctionscale"] = 1.3,
+				["ahframeanchors"] = "TOP:TOP:-46.3:0.0",
+			},
+		},
+		["configator.top"] = 629.2105712890625,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["Stats"] = {
+	},
+	["UtilSearchUiData"] = {
+		["Version"] = 1,
+		["Current"] = {
+			["columnsortcurSort"] = 11,
+			["snatch.itemsList"] = {
+			},
+			["columnsortcurDir"] = -1,
+			["disenchant.profit.min"] = 50001,
+			["disenchant.allow.bid"] = false,
+			["resale.profit.min"] = 10000001,
+		},
+		["Global"] = {
+			["configator.left"] = 268.9473571777344,
+			["configator.top"] = 654.2105102539062,
+		},
+		["SavedSearches"] = {
+		},
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["KnownServerKeys"] = {
+		["Ревущийфьорд"] = 1579033294,
+		["Ясеневыйлес"] = 1578833053,
+		["Гордунни"] = 1576937511,
+	},
+	["KnownRealms"] = {
+		["Ревущийфьорд"] = "Ревущийфьорд",
+		["Ясеневыйлес"] = "Ясеневыйлес",
+		["Гордунни"] = "Гордунни",
+	},
+	["Timestamp"] = 1572690661,
+	["ExpandedNames"] = {
+		["Ясеневыйлес"] = "Ясеневый лес",
+		["Ревущийфьорд"] = "Ревущий фьорд",
+	},
+}

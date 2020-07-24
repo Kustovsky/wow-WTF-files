@@ -1,0 +1,475 @@
+
+ElvUI_BetterTalentFrameDB = {
+	["talents"] = {
+		["pve"] = {
+			{
+				{
+					{
+						["talentID"] = 17565,
+						["name"] = "Мощь рыцаря",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 196926,
+						["texture"] = 236266,
+					}, -- [1]
+					{
+						["talentID"] = 17567,
+						["name"] = "Дарование веры",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 223306,
+						["texture"] = 236249,
+					}, -- [2]
+					{
+						["talentID"] = 17569,
+						["name"] = "Молот Света",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 114158,
+						["texture"] = 613955,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 22176,
+						["name"] = "Несломленный дух",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 114154,
+						["texture"] = 135921,
+					}, -- [1]
+					{
+						["talentID"] = 17575,
+						["name"] = "Кавалерист",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 230332,
+						["texture"] = 1360759,
+					}, -- [2]
+					{
+						["talentID"] = 17577,
+						["name"] = "Верховенство закона",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 214202,
+						["texture"] = 571556,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22179,
+						["name"] = "Кулак правосудия",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 198054,
+						["texture"] = 135906,
+					}, -- [1]
+					{
+						["talentID"] = 22180,
+						["name"] = "Покаяние",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 20066,
+						["texture"] = 135942,
+					}, -- [2]
+					{
+						["talentID"] = 21811,
+						["name"] = "Слепящий свет",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 115750,
+						["texture"] = 571553,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 22181,
+						["name"] = "Аура благочестия",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 183425,
+						["texture"] = 135893,
+					}, -- [1]
+					{
+						["talentID"] = 17591,
+						["name"] = "Аура жертвенности",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 183416,
+						["texture"] = 538040,
+					}, -- [2]
+					{
+						["talentID"] = 17593,
+						["name"] = "Аура сострадания",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 183415,
+						["texture"] = 135876,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 17597,
+						["name"] = "Правосудие Света",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 183778,
+						["texture"] = 237541,
+					}, -- [1]
+					{
+						["talentID"] = 17599,
+						["name"] = "Божественная призма",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 114165,
+						["texture"] = 613408,
+					}, -- [2]
+					{
+						["talentID"] = 22164,
+						["name"] = "Святой каратель",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 105809,
+						["texture"] = 571555,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 23191,
+						["name"] = "Священный гнев",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 53376,
+						["texture"] = 236262,
+					}, -- [1]
+					{
+						["talentID"] = 22190,
+						["name"] = "Рыцарь-мститель",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 216331,
+						["texture"] = 589117,
+					}, -- [2]
+					{
+						["talentID"] = 22484,
+						["name"] = "Пробуждение",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 248033,
+						["texture"] = 898454,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 21668,
+						["name"] = "Божественный замысел",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 197646,
+						["texture"] = 135897,
+					}, -- [1]
+					{
+						["talentID"] = 21671,
+						["name"] = "Частица веры",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 156910,
+						["texture"] = 1030095,
+					}, -- [2]
+					{
+						["talentID"] = 21203,
+						["name"] = "Частица добродетели",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 200025,
+						["texture"] = 1030094,
+					}, -- [3]
+				}, -- [7]
+			}, -- [1]
+			{
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+					}, -- [3]
+				}, -- [7]
+			}, -- [2]
+			{
+				{
+					{
+						["talentID"] = 22590,
+						["name"] = "Фанатизм",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 269569,
+						["texture"] = 135961,
+					}, -- [1]
+					{
+						["talentID"] = 22557,
+						["name"] = "Справедливый приговор",
+						["available"] = true,
+						["column"] = 1,
+						["selected"] = true,
+						["spellid"] = 267610,
+						["texture"] = 461860,
+					}, -- [2]
+					{
+						["talentID"] = 22175,
+						["name"] = "Смертный приговор",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 267798,
+						["texture"] = 613954,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 22319,
+						["name"] = "Пламя справедливости",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 203316,
+						["texture"] = 135891,
+					}, -- [1]
+					{
+						["talentID"] = 22592,
+						["name"] = "Клинок гнева",
+						["available"] = true,
+						["column"] = 2,
+						["selected"] = true,
+						["spellid"] = 231832,
+						["texture"] = 1360757,
+					}, -- [2]
+					{
+						["talentID"] = 22593,
+						["name"] = "Молот гнева",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 24275,
+						["texture"] = 613533,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 22896,
+						["name"] = "Кулак правосудия",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 234299,
+						["texture"] = 135906,
+					}, -- [1]
+					{
+						["talentID"] = 22180,
+						["name"] = "Покаяние",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 20066,
+						["texture"] = 135942,
+					}, -- [2]
+					{
+						["talentID"] = 21811,
+						["name"] = "Слепящий свет",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 115750,
+						["texture"] = 571553,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 22375,
+						["name"] = "Божественное правосудие",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 271580,
+						["texture"] = 236260,
+					}, -- [1]
+					{
+						["talentID"] = 22182,
+						["name"] = "Освящение",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 205228,
+						["texture"] = 135926,
+					}, -- [2]
+					{
+						["talentID"] = 22183,
+						["name"] = "Испепеляющий след",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 255937,
+						["texture"] = 1112939,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 22595,
+						["name"] = "Несломленный дух",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 114154,
+						["texture"] = 135921,
+					}, -- [1]
+					{
+						["talentID"] = 22185,
+						["name"] = "Кавалерист",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 230332,
+						["texture"] = 1360759,
+					}, -- [2]
+					{
+						["talentID"] = 22186,
+						["name"] = "Око за око",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 205191,
+						["texture"] = 135986,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 23167,
+						["name"] = "Самоотверженный целитель",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 85804,
+						["texture"] = 236252,
+					}, -- [1]
+					{
+						["talentID"] = 22483,
+						["name"] = "Отмщение вершителя правосудия",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 215661,
+						["texture"] = 135957,
+					}, -- [2]
+					{
+						["talentID"] = 23086,
+						["name"] = "Торжество",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 210191,
+						["texture"] = 133192,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 22591,
+						["name"] = "Божественный замысел",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 223817,
+						["texture"] = 135897,
+					}, -- [1]
+					{
+						["talentID"] = 22215,
+						["name"] = "Священная война",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 231895,
+						["texture"] = 236262,
+					}, -- [2]
+					{
+						["talentID"] = 22634,
+						["name"] = "Дознание",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 84963,
+						["texture"] = 461858,
+					}, -- [3]
+				}, -- [7]
+			}, -- [3]
+		},
+	},
+}

@@ -1,0 +1,5 @@
+
+ElvUI_SpellBinderGlobalDB = {
+	["GlobalBindings"] = {
+	},
+}

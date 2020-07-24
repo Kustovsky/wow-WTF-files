@@ -1,0 +1,5 @@
+WeakAurasCompanion: enabled
+Clique: enabled
+Auctionator: disabled
+ElvUI_NutsAndBolts: disabled
+OPie_Classic: disabled

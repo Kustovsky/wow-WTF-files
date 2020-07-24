@@ -1,0 +1,7 @@
+VER 3 0100000000000001 "Листок" "136085"
+#showtooltip Восстановление
+/console autounshift 0
+/cast [@mouseover,help,nodead][help,nodead][@player] Восстановление
+/console autounshift 1
+/use 3
+END

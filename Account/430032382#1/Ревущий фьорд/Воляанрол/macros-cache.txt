@@ -1,0 +1,24 @@
+VER 3 0100000000000013 "Детокс" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player]Детоксикация
+END
+VER 3 0100000000000005 "Зажив" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player] Заживляющий туман
+END
+VER 3 0100000000000017 "Кокон" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player] Исцеляющий кокон
+END
+VER 3 0100000000000014 "Оживить" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player] Оживить
+END
+VER 3 0100000000000015 "Окутывающий" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player] Окутывающий туман
+END
+VER 3 0100000000000016 "Успокаивающий" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][@player] Успокаивающий туман
+END

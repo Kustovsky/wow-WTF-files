@@ -1,0 +1,212 @@
+
+ElvUI_BetterTalentFrameDB = {
+	["talents"] = {
+		["pve"] = {
+			{
+				{
+					{
+						["talentID"] = 22337,
+						["name"] = "Мастер ядоварения",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 196864,
+						["texture"] = 132108,
+					}, -- [1]
+					{
+						["talentID"] = 22338,
+						["name"] = "Коварный план",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 193640,
+						["texture"] = 237387,
+					}, -- [2]
+					{
+						["talentID"] = 22339,
+						["name"] = "Слепая зона",
+						["available"] = false,
+						["column"] = 1,
+						["selected"] = false,
+						["spellid"] = 111240,
+						["texture"] = 236274,
+					}, -- [3]
+				}, -- [1]
+				{
+					{
+						["talentID"] = 22331,
+						["name"] = "Ночной ловец",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 14062,
+						["texture"] = 132320,
+					}, -- [1]
+					{
+						["talentID"] = 22332,
+						["name"] = "Увертка",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 108208,
+						["texture"] = 571317,
+					}, -- [2]
+					{
+						["talentID"] = 23022,
+						["name"] = "Мастер-убийца",
+						["available"] = false,
+						["column"] = 2,
+						["selected"] = false,
+						["spellid"] = 255989,
+						["texture"] = 132109,
+					}, -- [3]
+				}, -- [2]
+				{
+					{
+						["talentID"] = 19239,
+						["name"] = "Неутомимость",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 14983,
+						["texture"] = 458737,
+					}, -- [1]
+					{
+						["talentID"] = 19240,
+						["name"] = "Расчетливость",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 193531,
+						["texture"] = 644377,
+					}, -- [2]
+					{
+						["talentID"] = 19241,
+						["name"] = "Метка смерти",
+						["available"] = false,
+						["column"] = 3,
+						["selected"] = false,
+						["spellid"] = 137619,
+						["texture"] = 236364,
+					}, -- [3]
+				}, -- [3]
+				{
+					{
+						["talentID"] = 22340,
+						["name"] = "Похищающий жизнь яд",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 280716,
+						["texture"] = 538440,
+					}, -- [1]
+					{
+						["talentID"] = 22122,
+						["name"] = "Обман смерти",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 31230,
+						["texture"] = 132285,
+					}, -- [2]
+					{
+						["talentID"] = 22123,
+						["name"] = "Неуловимость",
+						["available"] = false,
+						["column"] = 4,
+						["selected"] = false,
+						["spellid"] = 79008,
+						["texture"] = 236284,
+					}, -- [3]
+				}, -- [4]
+				{
+					{
+						["talentID"] = 19245,
+						["name"] = "Внутреннее кровотечение",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 154904,
+						["texture"] = 236268,
+					}, -- [1]
+					{
+						["talentID"] = 23037,
+						["name"] = "Железная проволока",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 196861,
+						["texture"] = 133243,
+					}, -- [2]
+					{
+						["talentID"] = 22115,
+						["name"] = "Выживает сильнейший",
+						["available"] = false,
+						["column"] = 5,
+						["selected"] = false,
+						["spellid"] = 131511,
+						["texture"] = 236278,
+					}, -- [3]
+				}, -- [5]
+				{
+					{
+						["talentID"] = 22343,
+						["name"] = "Сила отравителя",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 152152,
+						["texture"] = 987740,
+					}, -- [1]
+					{
+						["talentID"] = 23015,
+						["name"] = "Ядовитый клинок",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 245388,
+						["texture"] = 135697,
+					}, -- [2]
+					{
+						["talentID"] = 22344,
+						["name"] = "Пускание крови",
+						["available"] = false,
+						["column"] = 6,
+						["selected"] = false,
+						["spellid"] = 200806,
+						["texture"] = 538040,
+					}, -- [3]
+				}, -- [6]
+				{
+					{
+						["talentID"] = 21186,
+						["name"] = "Ядовитая бомба",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 255544,
+						["texture"] = 538441,
+					}, -- [1]
+					{
+						["talentID"] = 22133,
+						["name"] = "Потайные клинки",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 270061,
+						["texture"] = 236273,
+					}, -- [2]
+					{
+						["talentID"] = 23174,
+						["name"] = "Кровавый вихрь",
+						["available"] = false,
+						["column"] = 7,
+						["selected"] = false,
+						["spellid"] = 121411,
+						["texture"] = 464079,
+					}, -- [3]
+				}, -- [7]
+			}, -- [1]
+		},
+	},
+}

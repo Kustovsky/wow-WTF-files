@@ -1,0 +1,74 @@
+VER 3 010000000000000E "Fur/Bite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [form:1]Железный мех;[form:2]Свирепый укус;[form:4]Звездный поток
+END
+VER 3 0100000000000006 "mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][@player]Быстрое восстановление
+END
+VER 3 0100000000000001 "Regrowth" "136085"
+#showtooltip Восстановление
+/console autounshift 0
+/cast [@mouseover,help][@player] Восстановление
+/console autounshift 1
+/use 3
+END
+VER 3 0100000000000003 "ReSelf" "136085"
+#showtooltip Восстановление
+/cast [@mouseover,help][@player] Восстановление
+END
+VER 3 010000000000000D "RIP/Regen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [form:1]Неистовое восстановление;[form:2]Разорвать;[form:4]Лунный удар
+END
+VER 3 010000000000000A "Диспел" "236288"
+#showtooltip
+/cast [@mouseover,help][@player] Природный целитель
+END
+VER 3 010000000000000B "Жизнецвет" "134206"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Жизнецвет
+END
+VER 3 0100000000000010 "Инвиз" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Походный облик
+/use Крадущийся зверь
+END
+VER 3 0100000000000008 "Иннер" "136048"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Озарение
+END
+VER 3 0100000000000009 "Кора" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][@player] Железная кора
+END
+VER 3 0100000000000005 "Молож" "136081"
+#showtooltip
+/cast [@mouseover,help][@player] Омоложение
+END
+VER 3 0100000000000004 "Полетели" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help][]Стремительный рывок
+END
+VER 3 0100000000000002 "Порча" "135952"
+#showtooltip Снятие порчи
+/cast [@mouseover,help][@player] Снятие порчи
+END
+VER 3 0100000000000007 "Рост" "236153"
+#showtooltip
+/use [@player]Буйный рост
+END
+VER 3 0100000000000012 "Спам 2" "254857"
+/1 Идет набор в гильдию <Осознанный Кошмар> (12/12Г.4/12М.) для усиления рейд - статика. РТ - СР, ЧТ, ПН 20:30-23:30.МСК.
+END
+VER 3 0100000000000011 "Спам1" "463283"
+/4 Идет набор в гильдию <Осознанный Кошмар> (12/12Г.4/12М.) для усиления рейд - статика. РТ - СР, ЧТ, ПН 20:30-23:30.
+END
+VER 3 010000000000000F "Шипы" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][@player]Шипы(PvP-талант)
+END
+VER 3 010000000000000C "Щит" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][@player] Щит кенария
+END

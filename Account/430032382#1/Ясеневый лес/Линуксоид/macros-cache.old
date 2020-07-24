@@ -1,0 +1,7 @@
+VER 3 0100000000000001 "Перо" "642580"
+/cast [@player] Божественное перышко
+END
+VER 3 0100000000000002 "Щиток" "135940"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Слово силы: Щит
+END

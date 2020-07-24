@@ -1,0 +1,24 @@
+VER 3 0100000000000005 "Бросок" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] Героический бросок; Героический бросок
+END
+VER 3 0100000000000003 "Интерцепт" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead,exists] Перехват; Перехват
+END
+VER 3 0100000000000006 "Кик" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] Зуботычина; Зуботычина
+END
+VER 3 0100000000000001 "Перехват" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@targettarget,nodead,exists] Перехват; Перехват
+END
+VER 3 0100000000000007 "Слэм" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/2] Вихрь; Мощный удар
+END
+VER 3 0100000000000002 "Таунт" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] Провокация; Провокация
+END

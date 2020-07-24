@@ -1,0 +1,71 @@
+VER 3 0100000000000010 "Боп" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Благословение защиты
+END
+VER 3 0100000000000001 "Возложение" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover, help, nodead][] Возложение рук
+END
+VER 3 010000000000000D "Дарование" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Дарование веры
+END
+VER 3 0100000000000006 "Кленс" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Очищение
+END
+VER 3 010000000000000C "Контроль" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/1] Молот правосудия
+/cast [talent:3/2] Покаяние
+/cast [talent:3/3] Слепящий свет
+END
+VER 3 0100000000000011 "Крусадёр" "INV_Misc_QuestionMark"
+#showtooltip Удар воина Света
+/cast [harm] Удар воина Света
+/stopmacro [harm]
+/targetenemy
+/cast Удар воина Света
+/targetlasttarget
+END
+VER 3 0100000000000007 "Мниисакра" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Свет мученика
+END
+VER 3 010000000000000E "Молоток" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Молот Света
+END
+VER 3 0100000000000009 "Молоток" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Молот правосудия
+END
+VER 3 0100000000000004 "Нефлеха" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Свет небес
+END
+VER 3 010000000000000B "Сакра" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Жертвенное благословение
+END
+VER 3 0100000000000003 "Флеха" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Вспышка Света
+END
+VER 3 010000000000000A "Фридом" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Благословенная свобода
+END
+VER 3 0100000000000005 "Частица" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Частица Света
+END
+VER 3 010000000000000F "Частица 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Частица веры
+END
+VER 3 0100000000000008 "Шок" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][] Шок небес
+END

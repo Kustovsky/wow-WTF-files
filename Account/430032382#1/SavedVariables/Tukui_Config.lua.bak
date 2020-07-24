@@ -1,0 +1,70 @@
+
+TukuiConfigShared = {
+	["Ясеневый лес"] = {
+		["Каскадёр"] = {
+		},
+	},
+	["Ревущий фьорд"] = {
+		["Пакостник"] = {
+		},
+		["Идолмастер"] = {
+		},
+		["Мдмщик"] = {
+			["Party"] = {
+				["Enable"] = false,
+				["ShowHealthText"] = false,
+				["HealBar"] = false,
+				["ShowPlayer"] = false,
+			},
+			["General"] = {
+				["thickness"] = 1,
+				["Scaling"] = {
+					["Options"] = {
+						["Small"] = "Small",
+						["Pixel Perfection"] = "Pixel Perfection",
+						["Large"] = "Large",
+						["Oversize"] = "Oversize",
+						["Smallest"] = "Smallest",
+						["Medium"] = "Medium",
+					},
+					["Value"] = "Pixel Perfection",
+				},
+				["GeneralPanelAlpha"] = 0.6,
+				["Themes"] = {
+					["Options"] = {
+						["Tukui 17"] = "Tukui 17",
+						["Tukui"] = "Tukui",
+					},
+					["Value"] = "Tukui 17",
+				},
+			},
+			["ActionBars"] = {
+				["Enable"] = false,
+			},
+			["Auras"] = {
+				["Animation"] = true,
+			},
+			["Raid"] = {
+				["Enable"] = false,
+			},
+			["Bags"] = {
+				["ButtonSize"] = 27,
+				["Spacing"] = 2,
+			},
+			["UnitFrames"] = {
+				["Threat"] = true,
+			},
+		},
+		["Абдуловера"] = {
+		},
+		["Ывалоывоар"] = {
+		},
+		["Отжигай"] = {
+		},
+		["Воляанрол"] = {
+		},
+	},
+	["Account"] = {
+	},
+}
+TukuiConfigPerAccount = false
