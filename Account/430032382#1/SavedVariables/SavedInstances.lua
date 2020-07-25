@@ -2,71 +2,29 @@
 SavedInstancesDB = {
 	["DBVersion"] = 12,
 	["Toons"] = {
-		["Отжигай - Ревущий фьорд"] = {
-			["lastbossyell"] = "Урд Тяжеловес",
+		["Синийдиплом - Гордунни"] = {
+			["Paragon"] = {
+			},
+			["oRace"] = "Dwarf",
 			["isResting"] = true,
+			["Order"] = 50,
+			["Class"] = "WARRIOR",
+			["IL"] = 433.4375,
 			["Emissary"] = {
-				[6] = {
-					["unlocked"] = true,
-					["days"] = {
-						{
-							["questReward"] = {
-								["itemName"] = "Припасы помраченных",
-								["itemLvl"] = 110,
-								["quality"] = 3,
-							},
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [1]
-						{
-							["questReward"] = {
-								["itemName"] = "Полевой набор стража",
-								["itemLvl"] = 110,
-								["quality"] = 3,
-							},
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [2]
-						{
-							["questReward"] = {
-								["itemName"] = "Золоченый сундук",
-								["itemLvl"] = 110,
-								["quality"] = 3,
-							},
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [3]
-					},
-				},
 				[7] = {
 					["unlocked"] = true,
 					["days"] = {
 						{
-							["questReward"] = {
-								["quantity"] = 3000,
-								["currencyID"] = 1553,
-							},
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [1]
 						{
-							["questReward"] = {
-								["quantity"] = 3000,
-								["currencyID"] = 1553,
-							},
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [2]
 						{
-							["questReward"] = {
-								["quantity"] = 3000,
-								["currencyID"] = 1553,
-							},
 							["questDone"] = 0,
 							["isFinish"] = false,
 							["isComplete"] = false,
@@ -74,188 +32,14 @@ SavedInstancesDB = {
 					},
 				},
 			},
-			["Race"] = "Зандаларка",
-			["LClass"] = "Друид",
-			["Cloak"] = "15-й уровень (|cffffdf00+104|r)",
-			["Artifact"] = "91 (67%)",
-			["lastbosstime"] = 1595619251,
-			["Show"] = "saved",
-			["Faction"] = "Horde",
-			["ILe"] = 475.625,
-			["Quests"] = {
-				[57728] = {
-					["Expires"] = 1596005999,
-					["Link"] = "|cffffff00|Hquest:57728:90|h[Нападение: нескончаемый рой]|h|r",
-					["Title"] = "Нападение: нескончаемый рой",
-					["Zone"] = {
-						["mapType"] = 3,
-						["mapID"] = 1530,
-						["name"] = "Вечноцветущий дол",
-						["parentMapID"] = 424,
-					},
-				},
-				[40173] = {
-					["Expires"] = 1596005999,
-					["Link"] = "|cffffff00|Hquest:40173:90|h[Нестабильная призма]|h|r",
-					["Title"] = "Нестабильная призма",
-					["Zone"] = {
-						["mapType"] = 4,
-						["mapID"] = 125,
-						["name"] = "Даларан",
-						["parentMapID"] = 127,
-					},
-				},
-				[58151] = {
-					["Link"] = "|cffffff00|Hquest:58151:90|h[Прислужники Н'Зота]|h|r",
-					["Zone"] = {
-						["mapType"] = 3,
-						["mapID"] = 1527,
-						["name"] = "Ульдум",
-						["parentMapID"] = 12,
-					},
-					["Title"] = "Прислужники Н'Зота",
-					["isDaily"] = true,
-				},
-				[45563] = {
-					["Expires"] = 1596005999,
-					["Link"] = "|cffffff00|Hquest:45563:90|h[Затуманенная монета]|h|r",
-					["Title"] = "Затуманенная монета",
-					["Zone"] = {
-						["mapType"] = 3,
-						["mapID"] = 554,
-						["name"] = "Вневременный остров",
-						["parentMapID"] = 424,
-					},
-				},
-				[57157] = {
-					["Expires"] = 1596005999,
-					["Link"] = "|cffffff00|Hquest:57157:90|h[Нападение: Темная Империя]|h|r",
-					["Title"] = "Нападение: Темная Империя",
-					["Zone"] = {
-						["mapType"] = 3,
-						["mapID"] = 1527,
-						["name"] = "Ульдум",
-						["parentMapID"] = 12,
-					},
-				},
+			["Skills"] = {
 			},
-			["Paragon"] = {
-			},
+			["Race"] = "Дворф",
 			["WeeklyResetTime"] = 1596005999,
-			["LastSeen"] = 1595622924,
-			["Progress"] = {
-				{
-					["rewardWaiting"] = false,
-					["rewardAchieved"] = false,
-					["isComplete"] = false,
-					["numRequired"] = 500,
-					["numFulfilled"] = 290,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["numRequired"] = 36000,
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					false, -- [1]
-					false, -- [2]
-					false, -- [3]
-					false, -- [4]
-					false, -- [5]
-					false, -- [6]
-					false, -- [7]
-					false, -- [8]
-					["unlocked"] = true,
-				}, -- [3]
-				{
-					[57728] = false,
-					[55350] = false,
-					[56064] = false,
-					[56308] = false,
-					[57157] = false,
-					["unlocked"] = true,
-					[57008] = false,
-				}, -- [4]
-			},
-			["Class"] = "DRUID",
-			["currency"] = {
-				[1755] = {
-					["relatedItemCount"] = 0,
-					["amount"] = 24322,
-				},
-				[1719] = {
-					["amount"] = 12355,
-				},
-				[1716] = {
-					["amount"] = 337,
-				},
-				[697] = {
-					["totalMax"] = 20,
-					["amount"] = 5,
-				},
-				[1580] = {
-					["earnedThisWeek"] = 2,
-					["weeklyMax"] = 2,
-					["totalMax"] = 5,
-					["amount"] = 1,
-				},
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 1110,
-				},
-				[1803] = {
-					["amount"] = 4885,
-				},
-				[515] = {
-					["amount"] = 89,
-				},
-				[1275] = {
-					["amount"] = 3,
-				},
-				[1342] = {
-					["totalMax"] = 1000,
-					["amount"] = 28,
-				},
-				[1560] = {
-					["amount"] = 598,
-				},
-				[1220] = {
-					["amount"] = 29107,
-				},
-				[1718] = {
-					["amount"] = 1163,
-				},
-				[1533] = {
-					["amount"] = 427,
-				},
-				[1721] = {
-					["amount"] = 113,
-				},
-				[1226] = {
-					["amount"] = 7305,
-				},
-				[738] = {
-					["amount"] = 3,
-				},
-				[1166] = {
-					["amount"] = 1005,
-				},
-				[1710] = {
-					["amount"] = 156,
-				},
-			},
 			["Warmode"] = false,
-			["DailyResetTime"] = 1595660399,
-			["Level"] = 120,
 			["Warfront"] = {
 				{
 					["scenario"] = {
-						false, -- [1]
-						false, -- [2]
 					},
 					["boss"] = false,
 				}, -- [1]
@@ -267,93 +51,90 @@ SavedInstancesDB = {
 					["boss"] = false,
 				}, -- [2]
 			},
+			["Level"] = 120,
+			["LClass"] = "Воин",
+			["RBGrating"] = 0,
+			["MythicKey"] = {
+			},
+			["PlayedTotal"] = 671359,
+			["LastSeen"] = 1594332319,
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = true,
+					["numFulfilled"] = 0,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = true,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = false,
+				}, -- [4]
+			},
+			["MaxXP"] = 893550,
+			["Money"] = 14180028,
+			["currency"] = {
+				[1220] = {
+					["amount"] = 3193,
+				},
+				[1299] = {
+					["totalMax"] = 5000,
+					["amount"] = 12,
+				},
+				[1580] = {
+					["weeklyMax"] = 2,
+					["totalMax"] = 5,
+					["amount"] = 0,
+				},
+				[1721] = {
+					["amount"] = 16,
+				},
+				[1533] = {
+					["amount"] = 69,
+				},
+				[1717] = {
+					["amount"] = 68,
+				},
+				[241] = {
+					["amount"] = 4,
+				},
+				[1560] = {
+					["amount"] = 882,
+				},
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 81,
+				},
+				[1718] = {
+					["amount"] = 0,
+				},
+				[1166] = {
+					["amount"] = 235,
+				},
+			},
+			["Artifact"] = "61 (26%)",
+			["Show"] = "saved",
 			["MythicKeyBest"] = {
-				["LastWeekLevel"] = 20,
-				["level"] = 20,
+				["level"] = 0,
 				["ResetTime"] = 1596005999,
 				["WeeklyReward"] = false,
 			},
-			["PlayedTotal"] = 2561467,
-			["Zone"] = "Дазар'алор",
-			["lastbossyelltime"] = 1595621106,
-			["MaxXP"] = 893550,
-			["RBGrating"] = 0,
-			["Order"] = 50,
-			["lastboss"] = "Освобожденное чудовище: Эпохальный ключ",
-			["BonusRoll"] = {
-				{
-					["name"] = "Н'Зот Заразитель: Героический",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1595520653,
-					["currencyID"] = 1553,
-				}, -- [1]
-				{
-					["name"] = "ЗОЛОТАЯ ЖИЛА!!!: Эпохальный ключ",
-					["money"] = 750,
-					["currencyID"] = 1553,
-					["time"] = 1595100176,
-					["costCurrencyID"] = 1580,
-				}, -- [2]
-				{
-					["time"] = 1594917330,
-					["name"] = "Н'Зот Заразитель: Героический",
-					["item"] = "|cffa335ee|Hitem:174277::::::::120:105::5:4:4823:6513:1502:4786:::|h[Остатки ментального панциря]|h|r",
-					["costCurrencyID"] = 1580,
-				}, -- [3]
-				{
-					["name"] = "Пророк Скитра: Эпохальный",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1594234608,
-					["currencyID"] = 1553,
-				}, -- [4]
-				{
-					["name"] = "Маут: Эпохальный",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1594233625,
-					["currencyID"] = 1553,
-				}, -- [5]
-				{
-					["name"] = "Н'Зот Заразитель: Героический",
-					["money"] = 750,
-					["currencyID"] = 1553,
-					["time"] = 1593607379,
-					["costCurrencyID"] = 1580,
-				}, -- [6]
-				{
-					["name"] = "Панцирь Н'Зота: Героический",
-					["money"] = 750,
-					["currencyID"] = 1553,
-					["time"] = 1593606366,
-					["costCurrencyID"] = 1580,
-				}, -- [7]
-				{
-					["time"] = 1591813503,
-					["name"] = "Маут: Эпохальный",
-					["item"] = "|cffa335ee|Hitem:174132::::::::120:105::6:4:4824:1517:4786:6511:::|h[Стигийский капюшон]|h|r",
-					["costCurrencyID"] = 1580,
-				}, -- [8]
+			["PlayedLevel"] = 373448,
+			["Faction"] = "Alliance",
+			["ILe"] = 432.8125,
+			["DailyResetTime"] = 1595746799,
+			["Quests"] = {
 			},
-			["PlayedLevel"] = 2327239,
-			["IL"] = 480,
-			["MythicKey"] = {
-				["mapID"] = 353,
-				["name"] = "Осада Боралуса",
-				["link"] = "|cffa335ee|Hkeystone:158923:353:18:10:8:14:120|h[Ключ: Осада Боралуса (18)]|h|r",
-				["color"] = "ffa335ee",
-				["level"] = 18,
-				["ResetTime"] = 1596005999,
-			},
-			["Skills"] = {
-				["xmute"] = {
-					["Expires"] = 1595660399,
-					["Title"] = "Алхимия: Трансмутация (алхимия)",
-				},
-			},
-			["Money"] = 92406667,
-			["oRace"] = "ZandalariTroll",
+			["Zone"] = "Друствар",
 		},
 		["Гаротыч - Ревущий фьорд"] = {
 			["Paragon"] = {
@@ -362,23 +143,23 @@ SavedInstancesDB = {
 			["Zone"] = "Оргриммар",
 			["Order"] = 50,
 			["Class"] = "ROGUE",
-			["oRace"] = "MagharOrc",
+			["LastSeen"] = 1595545813,
 			["Progress"] = {
 				{
-					["rewardAchieved"] = false,
-					["rewardWaiting"] = false,
-					["isComplete"] = false,
-					["numRequired"] = 500,
-					["numFulfilled"] = 500,
-					["unlocked"] = false,
 					["isFinish"] = false,
+					["isComplete"] = false,
+					["rewardWaiting"] = false,
+					["numFulfilled"] = 500,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["rewardAchieved"] = false,
 				}, -- [1]
 				{
 					["numRequired"] = 36000,
-					["numFulfilled"] = 0,
+					["isFinish"] = false,
 					["isComplete"] = false,
 					["unlocked"] = false,
-					["isFinish"] = false,
+					["numFulfilled"] = 0,
 				}, -- [2]
 				{
 					false, -- [1]
@@ -394,22 +175,21 @@ SavedInstancesDB = {
 				{
 					[57728] = false,
 					[55350] = false,
-					[56064] = false,
+					[56308] = false,
 					[57008] = false,
 					[57157] = false,
 					["unlocked"] = false,
-					[56308] = false,
+					[56064] = false,
 				}, -- [4]
 			},
-			["Skills"] = {
-			},
+			["DailyResetTime"] = 1595746799,
 			["currency"] = {
 			},
 			["IL"] = 21.5,
 			["Warmode"] = false,
-			["XP"] = 634,
-			["Level"] = 20,
 			["LClass"] = "Разбойник",
+			["Level"] = 20,
+			["XP"] = 634,
 			["RBGrating"] = 0,
 			["MythicKey"] = {
 			},
@@ -419,21 +199,22 @@ SavedInstancesDB = {
 				["ResetTime"] = 1596005999,
 				["WeeklyReward"] = false,
 			},
-			["isResting"] = true,
+			["Money"] = 10000,
 			["MaxXP"] = 41260,
 			["Emissary"] = {
 			},
-			["Race"] = "Маг'хар",
 			["PlayedTotal"] = 908,
+			["Race"] = "Маг'хар",
 			["Show"] = "saved",
-			["Money"] = 10000,
+			["isResting"] = true,
 			["PlayedLevel"] = 908,
 			["Faction"] = "Horde",
 			["ILe"] = 21.25,
-			["DailyResetTime"] = 1595660399,
+			["Skills"] = {
+			},
 			["Quests"] = {
 			},
-			["LastSeen"] = 1595545813,
+			["oRace"] = "MagharOrc",
 		},
 		["Идолмастер - Ревущий фьорд"] = {
 			["lastbossyell"] = "Виз'адуум Всевидящий: Эпохальный",
@@ -444,13 +225,13 @@ SavedInstancesDB = {
 					["days"] = {
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [1]
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [2]
 						{
 							["questDone"] = 0,
@@ -464,13 +245,13 @@ SavedInstancesDB = {
 					["days"] = {
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [1]
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [2]
 						{
 							["questDone"] = 0,
@@ -496,19 +277,19 @@ SavedInstancesDB = {
 			["LastSeen"] = 1595273197,
 			["Progress"] = {
 				{
-					["numFulfilled"] = 340,
+					["isFinish"] = false,
 					["rewardWaiting"] = false,
 					["numRequired"] = 500,
 					["isComplete"] = false,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 340,
 				}, -- [1]
 				{
 					["isComplete"] = false,
-					["numFulfilled"] = 0,
+					["isFinish"] = false,
 					["numRequired"] = 36000,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 0,
 				}, -- [2]
 				{
 					["unlocked"] = true,
@@ -564,9 +345,8 @@ SavedInstancesDB = {
 				[1533] = {
 					["amount"] = 624,
 				},
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 1386,
+				[1803] = {
+					["amount"] = 4752,
 				},
 				[1721] = {
 					["amount"] = 58,
@@ -574,8 +354,8 @@ SavedInstancesDB = {
 				[1226] = {
 					["amount"] = 18253,
 				},
-				[1716] = {
-					["amount"] = 341,
+				[1166] = {
+					["amount"] = 2720,
 				},
 				[1755] = {
 					["relatedItemCount"] = 0,
@@ -584,11 +364,12 @@ SavedInstancesDB = {
 				[1719] = {
 					["amount"] = 4839,
 				},
-				[1166] = {
-					["amount"] = 2720,
+				[1716] = {
+					["amount"] = 341,
 				},
-				[1803] = {
-					["amount"] = 4752,
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 1386,
 				},
 			},
 			["Warmode"] = false,
@@ -614,23 +395,23 @@ SavedInstancesDB = {
 			["PlayedTotal"] = 2939211,
 			["lastbossyelltime"] = 1594413662,
 			["Money"] = 281500002,
-			["Zone"] = "Дазар'алор",
-			["IL"] = 477.9375,
-			["Skills"] = {
-			},
+			["WeeklyResetTime"] = 1596005999,
+			["RBGrating"] = 0,
+			["DailyResetTime"] = 1595746799,
 			["lastboss"] = "Виз'адуум Всевидящий: Эпохальный",
-			["MaxXP"] = 893550,
+			["Order"] = 50,
 			["PlayedLevel"] = 2622083,
 			["MythicKeyBest"] = {
-				["LastWeekLevel"] = 4,
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
 				["WeeklyReward"] = false,
+				["level"] = 0,
+				["LastWeekLevel"] = 4,
+				["ResetTime"] = 1596005999,
 			},
-			["Order"] = 50,
-			["DailyResetTime"] = 1595660399,
-			["RBGrating"] = 0,
-			["WeeklyResetTime"] = 1596005999,
+			["MaxXP"] = 893550,
+			["Skills"] = {
+			},
+			["IL"] = 477.9375,
+			["Zone"] = "Дазар'алор",
 		},
 		["Стараясасалк - Ревущий фьорд"] = {
 			["lastbossyell"] = "Зар'джира",
@@ -651,20 +432,20 @@ SavedInstancesDB = {
 			["Zone"] = "Оргриммар",
 			["Progress"] = {
 				{
-					["rewardAchieved"] = false,
-					["rewardWaiting"] = false,
-					["isComplete"] = false,
-					["numRequired"] = 500,
-					["numFulfilled"] = 500,
-					["unlocked"] = false,
 					["isFinish"] = false,
+					["isComplete"] = false,
+					["rewardWaiting"] = false,
+					["numFulfilled"] = 500,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["rewardAchieved"] = false,
 				}, -- [1]
 				{
 					["numRequired"] = 36000,
-					["numFulfilled"] = 0,
+					["isFinish"] = false,
 					["isComplete"] = false,
 					["unlocked"] = false,
-					["isFinish"] = false,
+					["numFulfilled"] = 0,
 				}, -- [2]
 				{
 					false, -- [1]
@@ -680,11 +461,11 @@ SavedInstancesDB = {
 				{
 					[57728] = false,
 					[55350] = false,
+					[56064] = false,
 					[56308] = false,
-					[57008] = false,
 					[57157] = false,
 					["unlocked"] = false,
-					[56064] = false,
+					[57008] = false,
 				}, -- [4]
 			},
 			["Class"] = "SHAMAN",
@@ -701,935 +482,18 @@ SavedInstancesDB = {
 			["PlayedTotal"] = 1992,
 			["lastbossyelltime"] = 1595541306,
 			["MaxXP"] = 41260,
-			["RestXP"] = 182,
-			["LastSeen"] = 1595544849,
-			["DailyResetTime"] = 1595660399,
-			["WeeklyResetTime"] = 1596005999,
+			["Money"] = 10000,
+			["MythicKey"] = {
+			},
+			["Skills"] = {
+			},
+			["IL"] = 21.5,
 			["PlayedLevel"] = 1992,
 			["Order"] = 50,
-			["IL"] = 21.5,
-			["Skills"] = {
-			},
-			["MythicKey"] = {
-			},
-			["Money"] = 10000,
-		},
-		["Мдмщик - Ревущий фьорд"] = {
-			["lastbossyell"] = "Н'Зот Заразитель: Героический",
-			["isResting"] = true,
-			["Emissary"] = {
-				[7] = {
-					["unlocked"] = true,
-					["days"] = {
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [1]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [2]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [3]
-					},
-				},
-			},
-			["Race"] = "Зандалар",
-			["LClass"] = "Паладин",
-			["RBGrating"] = 0,
-			["Artifact"] = "86 (94%)",
-			["lastbosstime"] = 1594495724,
-			["Show"] = "saved",
-			["Faction"] = "Horde",
-			["ILe"] = 471.875,
-			["Quests"] = {
-			},
-			["Paragon"] = {
-			},
 			["WeeklyResetTime"] = 1596005999,
-			["LastSeen"] = 1594841617,
-			["Progress"] = {
-				{
-					["numFulfilled"] = 327,
-					["rewardWaiting"] = false,
-					["numRequired"] = 500,
-					["isComplete"] = false,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = true,
-				}, -- [3]
-				{
-					["unlocked"] = true,
-				}, -- [4]
-			},
-			["Class"] = "PALADIN",
-			["currency"] = {
-				[1220] = {
-					["amount"] = 365,
-				},
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 248,
-				},
-				[1719] = {
-					["amount"] = 1966,
-				},
-				[515] = {
-					["amount"] = 95,
-				},
-				[1580] = {
-					["weeklyMax"] = 2,
-					["totalMax"] = 5,
-					["amount"] = 0,
-				},
-				[1166] = {
-					["amount"] = 830,
-				},
-				[1533] = {
-					["amount"] = 55,
-				},
-				[1755] = {
-					["relatedItemCount"] = 0,
-					["amount"] = 36018,
-				},
-				[1721] = {
-					["amount"] = 4,
-				},
-				[1560] = {
-					["amount"] = 257,
-				},
-				[1803] = {
-					["amount"] = 2448,
-				},
-				[1718] = {
-					["amount"] = 2140,
-				},
-				[1716] = {
-					["amount"] = 65,
-				},
-			},
-			["Warmode"] = false,
-			["Level"] = 120,
-			["Warfront"] = {
-				{
-					["scenario"] = {
-						false, -- [1]
-						false, -- [2]
-					},
-					["boss"] = false,
-				}, -- [1]
-				{
-					["scenario"] = {
-					},
-					["boss"] = false,
-				}, -- [2]
-			},
-			["MythicKeyBest"] = {
-				["LastWeekLevel"] = 14,
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["PlayedTotal"] = 418905,
-			["Money"] = 42552427,
-			["lastbossyelltime"] = 1594495710,
-			["MaxXP"] = 893550,
-			["oRace"] = "ZandalariTroll",
-			["Skills"] = {
-			},
-			["MythicKey"] = {
-			},
-			["lastboss"] = "Н'Зот Заразитель: Героический",
-			["BonusRoll"] = {
-				{
-					["name"] = "Н'Зот Заразитель: Героический",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1594495748,
-					["currencyID"] = 1553,
-				}, -- [1]
-				{
-					["name"] = "Панцирь Н'Зота: Героический",
-					["money"] = 750,
-					["currencyID"] = 1553,
-					["time"] = 1594494523,
-					["costCurrencyID"] = 1580,
-				}, -- [2]
-				{
-					["name"] = "Панцирь Н'Зота: Героический",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1593892206,
-					["currencyID"] = 1553,
-				}, -- [3]
-				{
-					["name"] = "Панцирь Н'Зота: Героический",
-					["money"] = 750,
-					["currencyID"] = 1553,
-					["time"] = 1593868035,
-					["costCurrencyID"] = 1580,
-				}, -- [4]
-				{
-					["name"] = "Н'Зот Заразитель: Героический",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1593289148,
-					["currencyID"] = 1553,
-				}, -- [5]
-				{
-					["name"] = "Панцирь Н'Зота: Героический",
-					["money"] = 750,
-					["costCurrencyID"] = 1580,
-					["time"] = 1593288222,
-					["currencyID"] = 1553,
-				}, -- [6]
-				{
-					["item"] = "|cffa335ee|Hitem:174500::::::::120:65::5:4:4823:6515:1502:4786:::|h[Заряженный жизненной силой осколок титанов]|h|r",
-					["time"] = 1591475528,
-					["name"] = "Ра-ден Отчаявшийся: Героический",
-					["costCurrencyID"] = 1580,
-				}, -- [7]
-				{
-					["item"] = "|cffa335ee|Hitem:174163::::::::120:65::5:4:4823:1502:4786:6508:::|h[Шлем второго зрения]|h|r",
-					["time"] = 1591473694,
-					["name"] = "Ил'гинот: Героический",
-					["costCurrencyID"] = 1580,
-				}, -- [8]
-			},
-			["PlayedLevel"] = 271427,
-			["IL"] = 473.75,
-			["Order"] = 50,
-			["DailyResetTime"] = 1595660399,
-			["Cloak"] = "6-й уровень (|cffffdf00+20|r)",
-			["Zone"] = "Дазар'алор",
-		},
-		["Абдуловера - Ревущий фьорд"] = {
-			["Paragon"] = {
-			},
-			["WeeklyResetTime"] = 1596005999,
-			["Zone"] = "Зулдазар",
-			["Emissary"] = {
-			},
-			["Class"] = "ROGUE",
-			["IL"] = 147.0625,
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = false,
-				}, -- [4]
-			},
-			["DailyResetTime"] = 1595660399,
-			["currency"] = {
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 495,
-				},
-				[1220] = {
-					["amount"] = 1340,
-				},
-				[823] = {
-					["amount"] = 9,
-				},
-				[1533] = {
-					["amount"] = 20,
-				},
-				[1166] = {
-					["amount"] = 235,
-				},
-			},
-			["oRace"] = "ZandalariTroll",
-			["Warmode"] = true,
-			["LClass"] = "Разбойник",
-			["Level"] = 107,
-			["XP"] = 163983,
-			["RBGrating"] = 0,
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["RestXP"] = 786270,
-			["MythicKey"] = {
-			},
-			["LastSeen"] = 1591981503,
-			["Money"] = 14306890,
-			["Order"] = 50,
-			["Race"] = "Зандалар",
-			["PlayedTotal"] = 264278,
-			["Show"] = "saved",
-			["MaxXP"] = 524180,
-			["PlayedLevel"] = 1062,
-			["Faction"] = "Horde",
-			["ILe"] = 146.4375,
-			["Skills"] = {
-			},
-			["Quests"] = {
-			},
-			["isResting"] = false,
-		},
-		["Чайвз - Ревущий фьорд"] = {
-			["lastbossyell"] = "Толбарадский рубака",
-			["isResting"] = true,
-			["Emissary"] = {
-			},
-			["Race"] = "Зандалар",
-			["LClass"] = "Маг",
-			["RBGrating"] = 0,
-			["Show"] = "saved",
-			["Faction"] = "Horde",
-			["ILe"] = 8.5,
-			["Quests"] = {
-			},
-			["Paragon"] = {
-			},
-			["WeeklyResetTime"] = 1596005999,
-			["Zone"] = "Оргриммар",
-			["Order"] = 50,
-			["Class"] = "MAGE",
-			["currency"] = {
-			},
-			["Warmode"] = false,
-			["Level"] = 20,
-			["XP"] = 465,
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["RestXP"] = 86978,
-			["lastbossyelltime"] = 1593967553,
-			["Money"] = 8673744,
-			["oRace"] = "ZandalariTroll",
-			["LastSeen"] = 1593967602,
-			["DailyResetTime"] = 1595660399,
-			["MythicKey"] = {
-			},
-			["PlayedLevel"] = 1150,
-			["IL"] = 13.125,
-			["PlayedTotal"] = 1150,
-			["Skills"] = {
-			},
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = false,
-				}, -- [4]
-			},
-			["MaxXP"] = 41260,
-		},
-		["Элям - Ревущий фьорд"] = {
-			["Paragon"] = {
-			},
-			["IL"] = 419.625,
-			["oRace"] = "ZandalariTroll",
-			["Zone"] = "Зулдазар",
-			["Emissary"] = {
-				[7] = {
-					["unlocked"] = true,
-					["days"] = {
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [1]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [2]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [3]
-					},
-				},
-			},
-			["Class"] = "SHAMAN",
-			["Order"] = 50,
-			["Skills"] = {
-			},
-			["Race"] = "Зандалар",
-			["currency"] = {
-				[1755] = {
-					["relatedItemCount"] = 0,
-					["amount"] = 12602,
-				},
-				[1710] = {
-					["amount"] = 5,
-				},
-				[1560] = {
-					["amount"] = 187,
-				},
-				[1166] = {
-					["amount"] = 1760,
-				},
-				[1803] = {
-					["amount"] = 125,
-				},
-			},
-			["Cloak"] = "1-й уровень (|cffffdf00+15|r)",
-			["Warmode"] = false,
-			["MythicKey"] = {
-			},
-			["Level"] = 120,
-			["LClass"] = "Шаман",
-			["RBGrating"] = 0,
-			["Artifact"] = "58 (99%)",
-			["PlayedTotal"] = 209428,
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 500,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = true,
-				}, -- [4]
-			},
-			["MaxXP"] = 893550,
-			["Money"] = 32120843,
-			["LastSeen"] = 1591362518,
-			["WeeklyResetTime"] = 1596005999,
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["Show"] = "saved",
-			["Warfront"] = {
-				{
-					["scenario"] = {
-					},
-					["boss"] = false,
-				}, -- [1]
-				{
-					["scenario"] = {
-						false, -- [1]
-						false, -- [2]
-					},
-					["boss"] = false,
-				}, -- [2]
-			},
-			["PlayedLevel"] = 27000,
-			["Faction"] = "Horde",
-			["ILe"] = 418.0625,
-			["DailyResetTime"] = 1595660399,
-			["Quests"] = {
-			},
-			["isResting"] = true,
-		},
-		["Холодос - Ревущий фьорд"] = {
-			["Paragon"] = {
-			},
-			["oRace"] = "ZandalariTroll",
-			["isResting"] = true,
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = false,
-				}, -- [4]
-			},
-			["Class"] = "MAGE",
-			["LastSeen"] = 1594152667,
-			["Order"] = 50,
-			["Skills"] = {
-			},
-			["Race"] = "Зандалар",
-			["WeeklyResetTime"] = 1596005999,
-			["Warmode"] = false,
-			["LClass"] = "Маг",
-			["Level"] = 32,
-			["XP"] = 14873,
-			["RBGrating"] = 0,
-			["MythicKey"] = {
-			},
-			["PlayedTotal"] = 6871,
-			["RestXP"] = 143856,
-			["MaxXP"] = 68480,
-			["Money"] = 232768,
-			["Emissary"] = {
-			},
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["currency"] = {
-			},
-			["Show"] = "saved",
-			["Zone"] = "Оргриммар",
-			["PlayedLevel"] = 582,
-			["Faction"] = "Horde",
-			["ILe"] = 33.3125,
-			["DailyResetTime"] = 1595660399,
-			["Quests"] = {
-			},
-			["IL"] = 34.0625,
-		},
-		["Пакостник - Ревущий фьорд"] = {
-			["Paragon"] = {
-			},
-			["Zone"] = "Большой базар",
-			["IL"] = 442.875,
-			["isResting"] = true,
-			["Emissary"] = {
-				[7] = {
-					["unlocked"] = true,
-					["days"] = {
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [1]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [2]
-						{
-							["questDone"] = 0,
-							["isFinish"] = false,
-							["isComplete"] = false,
-						}, -- [3]
-					},
-				},
-			},
-			["Class"] = "WARRIOR",
-			["Order"] = 50,
-			["Skills"] = {
-			},
-			["currency"] = {
-				[1220] = {
-					["amount"] = 1042,
-				},
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 131,
-				},
-				[1719] = {
-					["amount"] = 937,
-				},
-				[1560] = {
-					["amount"] = 271,
-				},
-				[1716] = {
-					["amount"] = 5,
-				},
-				[1533] = {
-					["amount"] = 167,
-				},
-				[1275] = {
-					["amount"] = 1,
-				},
-				[1803] = {
-					["amount"] = 377,
-				},
-				[1721] = {
-					["amount"] = 45,
-				},
-				[1166] = {
-					["amount"] = 155,
-				},
-				[1755] = {
-					["relatedItemCount"] = 0,
-					["amount"] = 25126,
-				},
-				[1710] = {
-					["amount"] = 34,
-				},
-				[1718] = {
-					["amount"] = 82,
-				},
-				[1580] = {
-					["weeklyMax"] = 2,
-					["totalMax"] = 5,
-					["amount"] = 0,
-				},
-			},
-			["Race"] = "Зандалар",
-			["RBGrating"] = 0,
-			["Warmode"] = false,
-			["Artifact"] = "81 (83%)",
-			["Level"] = 120,
-			["LClass"] = "Воин",
-			["Cloak"] = "4-й уровень (|cffffdf00+20|r)",
-			["MythicKey"] = {
-			},
-			["PlayedTotal"] = 191323,
-			["Warfront"] = {
-				{
-					["scenario"] = {
-						false, -- [1]
-						false, -- [2]
-					},
-					["boss"] = false,
-				}, -- [1]
-				{
-					["scenario"] = {
-					},
-					["boss"] = false,
-				}, -- [2]
-			},
-			["Money"] = 1658327,
-			["MaxXP"] = 893550,
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["WeeklyResetTime"] = 1596005999,
-			["LastSeen"] = 1593952898,
-			["Show"] = "saved",
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 375,
-					["numRequired"] = 500,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = true,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = true,
-				}, -- [3]
-				{
-					["unlocked"] = true,
-				}, -- [4]
-			},
-			["PlayedLevel"] = 71423,
-			["Faction"] = "Horde",
-			["ILe"] = 441.3125,
-			["DailyResetTime"] = 1595660399,
-			["Quests"] = {
-			},
-			["oRace"] = "ZandalariTroll",
-		},
-		["Воляанрол - Ревущий фьорд"] = {
-			["lastbossyell"] = "Наралекс: Обычный",
-			["isResting"] = true,
-			["Emissary"] = {
-			},
-			["Race"] = "Зандалар",
-			["LClass"] = "Монах",
-			["RBGrating"] = 0,
-			["lastbosstime"] = 1595547511,
-			["Show"] = "saved",
-			["Faction"] = "Horde",
-			["ILe"] = 107.75,
-			["Quests"] = {
-			},
-			["Paragon"] = {
-			},
-			["IL"] = 111.5625,
-			["Zone"] = "Оргриммар",
-			["Progress"] = {
-				{
-					["isFinish"] = false,
-					["isComplete"] = false,
-					["rewardWaiting"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["rewardAchieved"] = false,
-				}, -- [1]
-				{
-					["numRequired"] = 36000,
-					["isFinish"] = false,
-					["isComplete"] = false,
-					["unlocked"] = false,
-					["numFulfilled"] = 0,
-				}, -- [2]
-				{
-					false, -- [1]
-					false, -- [2]
-					false, -- [3]
-					false, -- [4]
-					false, -- [5]
-					false, -- [6]
-					false, -- [7]
-					false, -- [8]
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					[57728] = false,
-					[55350] = false,
-					[57008] = false,
-					[56308] = false,
-					[57157] = false,
-					["unlocked"] = false,
-					[56064] = false,
-				}, -- [4]
-			},
-			["Class"] = "MONK",
-			["currency"] = {
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 81,
-				},
-				[1166] = {
-					["amount"] = 40,
-				},
-			},
-			["Warmode"] = false,
-			["Level"] = 89,
-			["XP"] = 329266,
-			["MythicKey"] = {
-			},
-			["RestXP"] = 334554,
-			["lastbossyelltime"] = 1595547513,
-			["MaxXP"] = 415510,
-			["PlayedTotal"] = 83274,
-			["LastSeen"] = 1595547638,
-			["Skills"] = {
-			},
-			["lastboss"] = "Мутанус Пожиратель: Обычный",
-			["Money"] = 44814253,
-			["PlayedLevel"] = 6244,
-			["oRace"] = "ZandalariTroll",
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["DailyResetTime"] = 1595660399,
-			["Order"] = 50,
-			["WeeklyResetTime"] = 1596005999,
-		},
-		["Аптечку - Ревущий фьорд"] = {
-			["lastbossyell"] = "Король Имирон: Путешествие во времени",
-			["isResting"] = true,
-			["Emissary"] = {
-			},
-			["Race"] = "Эльфийка крови",
-			["LClass"] = "Охотница на демонов",
-			["RBGrating"] = 0,
-			["lastbosstime"] = 1593969272,
-			["Show"] = "saved",
-			["Faction"] = "Horde",
-			["ILe"] = 140.9375,
-			["Quests"] = {
-			},
-			["Paragon"] = {
-			},
-			["oRace"] = "BloodElf",
-			["LastSeen"] = 1593969750,
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = false,
-				}, -- [4]
-			},
-			["Class"] = "DEMONHUNTER",
-			["currency"] = {
-				[1166] = {
-					["amount"] = 30,
-				},
-			},
-			["Warmode"] = false,
-			["Level"] = 105,
-			["XP"] = 474127,
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["RestXP"] = 100,
-			["lastbossyelltime"] = 1593969272,
-			["MaxXP"] = 515140,
-			["IL"] = 140.9375,
-			["Money"] = 8990252,
-			["Skills"] = {
-			},
-			["lastboss"] = "Король Имирон: Путешествие во времени",
-			["Zone"] = "Даларан",
-			["PlayedLevel"] = 3096,
-			["MythicKey"] = {
-			},
-			["Order"] = 50,
-			["DailyResetTime"] = 1595660399,
-			["WeeklyResetTime"] = 1596005999,
-			["PlayedTotal"] = 9848,
-		},
-		["Каскадёр - Ясеневый лес"] = {
-			["Paragon"] = {
-			},
-			["oRace"] = "Scourge",
-			["isResting"] = true,
-			["Progress"] = {
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 500,
-					["numRequired"] = 500,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [1]
-				{
-					["isComplete"] = false,
-					["numFulfilled"] = 0,
-					["numRequired"] = 36000,
-					["unlocked"] = false,
-					["isFinish"] = false,
-				}, -- [2]
-				{
-					["unlocked"] = false,
-				}, -- [3]
-				{
-					["unlocked"] = false,
-				}, -- [4]
-			},
-			["Class"] = "MAGE",
-			["IL"] = 144.75,
-			["Order"] = 50,
-			["Skills"] = {
-			},
-			["currency"] = {
-				[824] = {
-					["totalMax"] = 10000,
-					["amount"] = 504,
-				},
-				[1220] = {
-					["amount"] = 1392,
-				},
-				[823] = {
-					["amount"] = 6,
-				},
-				[515] = {
-					["amount"] = 17,
-				},
-				[1166] = {
-					["amount"] = 840,
-				},
-				[1299] = {
-					["totalMax"] = 5000,
-					["amount"] = 1,
-				},
-			},
-			["WeeklyResetTime"] = 1596005999,
-			["Warmode"] = true,
-			["XP"] = 32414,
-			["Level"] = 104,
-			["LClass"] = "Маг",
-			["RBGrating"] = 0,
-			["MythicKey"] = {
-			},
-			["RestXP"] = 765930,
-			["PlayedTotal"] = 224818,
-			["Zone"] = "Оргриммар",
-			["MaxXP"] = 510620,
-			["Emissary"] = {
-			},
-			["Race"] = "Нежить",
-			["MythicKeyBest"] = {
-				["level"] = 0,
-				["ResetTime"] = 1596005999,
-				["WeeklyReward"] = false,
-			},
-			["Show"] = "saved",
-			["Money"] = 19814821,
-			["PlayedLevel"] = 701,
-			["Faction"] = "Horde",
-			["ILe"] = 139.1875,
-			["DailyResetTime"] = 1595660399,
-			["Quests"] = {
-			},
-			["LastSeen"] = 1593015785,
+			["DailyResetTime"] = 1595746799,
+			["LastSeen"] = 1595544849,
+			["RestXP"] = 182,
 		},
 		["Натанке - Ревущий фьорд"] = {
 			["lastbossyell"] = "Капитан Круз",
@@ -1640,13 +504,13 @@ SavedInstancesDB = {
 					["days"] = {
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [1]
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [2]
 						{
 							["questDone"] = 0,
@@ -1682,35 +546,35 @@ SavedInstancesDB = {
 				[1716] = {
 					["amount"] = 65,
 				},
-				[1719] = {
-					["amount"] = 931,
-				},
-				[1803] = {
-					["amount"] = 184,
+				[1580] = {
+					["weeklyMax"] = 2,
+					["totalMax"] = 5,
+					["amount"] = 1,
 				},
 				[1533] = {
 					["amount"] = 14,
 				},
-				[1560] = {
-					["amount"] = 222,
+				[1803] = {
+					["amount"] = 184,
+				},
+				[1710] = {
+					["amount"] = 9,
 				},
 				[1721] = {
 					["amount"] = 0,
+				},
+				[1560] = {
+					["amount"] = 222,
 				},
 				[1755] = {
 					["relatedItemCount"] = 3,
 					["amount"] = 9539,
 				},
-				[1710] = {
-					["amount"] = 9,
-				},
 				[1718] = {
 					["amount"] = 255,
 				},
-				[1580] = {
-					["weeklyMax"] = 2,
-					["totalMax"] = 5,
-					["amount"] = 1,
+				[1719] = {
+					["amount"] = 931,
 				},
 			},
 			["Warmode"] = false,
@@ -1734,21 +598,33 @@ SavedInstancesDB = {
 			["PlayedTotal"] = 232289,
 			["lastbossyelltime"] = 1591166901,
 			["MaxXP"] = 893550,
-			["RBGrating"] = 0,
+			["Zone"] = "Дазар'алор",
+			["WeeklyResetTime"] = 1596005999,
+			["DailyResetTime"] = 1595746799,
+			["Money"] = 69941017,
+			["PlayedLevel"] = 125320,
+			["oRace"] = "ZandalariTroll",
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["Skills"] = {
+			},
 			["Progress"] = {
 				{
 					["isComplete"] = false,
-					["numFulfilled"] = 105,
+					["isFinish"] = false,
 					["numRequired"] = 500,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 105,
 				}, -- [1]
 				{
 					["isComplete"] = false,
-					["numFulfilled"] = 9181,
+					["isFinish"] = false,
 					["numRequired"] = 36000,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 9181,
 				}, -- [2]
 				{
 					["unlocked"] = true,
@@ -1757,41 +633,177 @@ SavedInstancesDB = {
 					["unlocked"] = true,
 				}, -- [4]
 			},
-			["Skills"] = {
+			["RBGrating"] = 0,
+		},
+		["Каскадёр - Ясеневый лес"] = {
+			["Paragon"] = {
+			},
+			["oRace"] = "Scourge",
+			["isResting"] = true,
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["numFulfilled"] = 500,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = false,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = false,
+				}, -- [4]
+			},
+			["Class"] = "MAGE",
+			["LastSeen"] = 1593015785,
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["currency"] = {
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 504,
+				},
+				[1220] = {
+					["amount"] = 1392,
+				},
+				[823] = {
+					["amount"] = 6,
+				},
+				[1299] = {
+					["totalMax"] = 5000,
+					["amount"] = 1,
+				},
+				[1166] = {
+					["amount"] = 840,
+				},
+				[515] = {
+					["amount"] = 17,
+				},
+			},
+			["WeeklyResetTime"] = 1596005999,
+			["Warmode"] = true,
+			["LClass"] = "Маг",
+			["Level"] = 104,
+			["XP"] = 32414,
+			["RBGrating"] = 0,
+			["MythicKey"] = {
+			},
+			["RestXP"] = 765930,
+			["PlayedTotal"] = 224818,
+			["Money"] = 19814821,
+			["MaxXP"] = 510620,
+			["Emissary"] = {
 			},
 			["MythicKeyBest"] = {
 				["level"] = 0,
 				["ResetTime"] = 1596005999,
 				["WeeklyReward"] = false,
 			},
-			["PlayedLevel"] = 125320,
-			["oRace"] = "ZandalariTroll",
-			["Money"] = 69941017,
-			["DailyResetTime"] = 1595660399,
-			["WeeklyResetTime"] = 1596005999,
-			["Zone"] = "Дазар'алор",
+			["Race"] = "Нежить",
+			["Show"] = "saved",
+			["Zone"] = "Оргриммар",
+			["PlayedLevel"] = 701,
+			["Faction"] = "Horde",
+			["ILe"] = 139.1875,
+			["Skills"] = {
+			},
+			["Quests"] = {
+			},
+			["IL"] = 144.75,
 		},
-		["Синийдиплом - Гордунни"] = {
+		["Чайвз - Ревущий фьорд"] = {
+			["lastbossyell"] = "Толбарадский рубака",
+			["isResting"] = true,
+			["Emissary"] = {
+			},
+			["Race"] = "Зандалар",
+			["LClass"] = "Маг",
+			["RBGrating"] = 0,
+			["Show"] = "saved",
+			["Faction"] = "Horde",
+			["ILe"] = 8.5,
+			["Quests"] = {
+			},
 			["Paragon"] = {
 			},
-			["oRace"] = "Dwarf",
-			["isResting"] = true,
+			["WeeklyResetTime"] = 1596005999,
+			["Zone"] = "Оргриммар",
 			["Order"] = 50,
-			["Class"] = "WARRIOR",
-			["Zone"] = "Друствар",
+			["Class"] = "MAGE",
+			["currency"] = {
+			},
+			["Warmode"] = false,
+			["Level"] = 20,
+			["XP"] = 465,
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["RestXP"] = 86978,
+			["lastbossyelltime"] = 1593967553,
+			["Money"] = 8673744,
+			["MaxXP"] = 41260,
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["numFulfilled"] = 500,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = false,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = false,
+				}, -- [4]
+			},
+			["Skills"] = {
+			},
+			["PlayedTotal"] = 1150,
+			["PlayedLevel"] = 1150,
+			["IL"] = 13.125,
+			["MythicKey"] = {
+			},
+			["DailyResetTime"] = 1595746799,
+			["LastSeen"] = 1593967602,
+			["oRace"] = "ZandalariTroll",
+		},
+		["Элям - Ревущий фьорд"] = {
+			["Paragon"] = {
+			},
+			["isResting"] = true,
+			["IL"] = 419.625,
+			["Zone"] = "Зулдазар",
 			["Emissary"] = {
 				[7] = {
 					["unlocked"] = true,
 					["days"] = {
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [1]
 						{
 							["questDone"] = 0,
-							["isFinish"] = false,
 							["isComplete"] = false,
+							["isFinish"] = false,
 						}, -- [2]
 						{
 							["questDone"] = 0,
@@ -1801,13 +813,37 @@ SavedInstancesDB = {
 					},
 				},
 			},
-			["DailyResetTime"] = 1595660399,
-			["Race"] = "Дворф",
-			["WeeklyResetTime"] = 1596005999,
-			["Warmode"] = false,
+			["Class"] = "SHAMAN",
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["currency"] = {
+				[1755] = {
+					["relatedItemCount"] = 0,
+					["amount"] = 12602,
+				},
+				[1710] = {
+					["amount"] = 5,
+				},
+				[1560] = {
+					["amount"] = 187,
+				},
+				[1166] = {
+					["amount"] = 1760,
+				},
+				[1803] = {
+					["amount"] = 125,
+				},
+			},
+			["Race"] = "Зандалар",
 			["RBGrating"] = 0,
+			["Warmode"] = false,
+			["Artifact"] = "58 (99%)",
 			["Level"] = 120,
-			["LClass"] = "Воин",
+			["LClass"] = "Шаман",
+			["Cloak"] = "1-й уровень (|cffffdf00+15|r)",
+			["MythicKey"] = {
+			},
+			["PlayedTotal"] = 209428,
 			["Warfront"] = {
 				{
 					["scenario"] = {
@@ -1822,180 +858,1037 @@ SavedInstancesDB = {
 					["boss"] = false,
 				}, -- [2]
 			},
-			["MythicKey"] = {
-			},
-			["PlayedTotal"] = 671359,
-			["LastSeen"] = 1594332319,
+			["Money"] = 32120843,
+			["MaxXP"] = 893550,
 			["MythicKeyBest"] = {
 				["level"] = 0,
 				["ResetTime"] = 1596005999,
 				["WeeklyReward"] = false,
 			},
-			["MaxXP"] = 893550,
-			["Money"] = 14180028,
-			["Artifact"] = "61 (26%)",
+			["WeeklyResetTime"] = 1596005999,
+			["LastSeen"] = 1591362518,
+			["Show"] = "saved",
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = true,
+					["numFulfilled"] = 0,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = true,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = true,
+				}, -- [4]
+			},
+			["PlayedLevel"] = 27000,
+			["Faction"] = "Horde",
+			["ILe"] = 418.0625,
+			["Skills"] = {
+			},
+			["Quests"] = {
+			},
+			["oRace"] = "ZandalariTroll",
+		},
+		["Холодос - Ревущий фьорд"] = {
+			["Paragon"] = {
+			},
+			["oRace"] = "ZandalariTroll",
+			["isResting"] = true,
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["numFulfilled"] = 500,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = false,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = false,
+				}, -- [4]
+			},
+			["Class"] = "MAGE",
+			["IL"] = 34.0625,
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["Race"] = "Зандалар",
+			["WeeklyResetTime"] = 1596005999,
+			["Warmode"] = false,
+			["XP"] = 14873,
+			["Level"] = 32,
+			["LClass"] = "Маг",
+			["RBGrating"] = 0,
+			["MythicKey"] = {
+			},
+			["PlayedTotal"] = 6871,
+			["RestXP"] = 143856,
+			["Zone"] = "Оргриммар",
+			["MaxXP"] = 68480,
+			["Emissary"] = {
+			},
 			["currency"] = {
-				[1220] = {
-					["amount"] = 3193,
-				},
-				[1299] = {
-					["totalMax"] = 5000,
-					["amount"] = 12,
-				},
-				[241] = {
-					["amount"] = 4,
-				},
+			},
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["Show"] = "saved",
+			["Money"] = 232768,
+			["PlayedLevel"] = 582,
+			["Faction"] = "Horde",
+			["ILe"] = 33.3125,
+			["Skills"] = {
+			},
+			["Quests"] = {
+			},
+			["LastSeen"] = 1594152667,
+		},
+		["Аптечку - Ревущий фьорд"] = {
+			["lastbossyell"] = "Король Имирон: Путешествие во времени",
+			["isResting"] = true,
+			["Emissary"] = {
+			},
+			["Race"] = "Эльфийка крови",
+			["LClass"] = "Охотница на демонов",
+			["RBGrating"] = 0,
+			["lastbosstime"] = 1593969272,
+			["Show"] = "saved",
+			["Faction"] = "Horde",
+			["ILe"] = 140.9375,
+			["Quests"] = {
+			},
+			["Paragon"] = {
+			},
+			["oRace"] = "BloodElf",
+			["LastSeen"] = 1593969750,
+			["Progress"] = {
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["numFulfilled"] = 500,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = false,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					["unlocked"] = false,
+				}, -- [4]
+			},
+			["Class"] = "DEMONHUNTER",
+			["currency"] = {
 				[1166] = {
-					["amount"] = 235,
+					["amount"] = 30,
 				},
-				[1533] = {
-					["amount"] = 69,
-				},
-				[1717] = {
-					["amount"] = 68,
-				},
-				[1721] = {
-					["amount"] = 16,
-				},
-				[1560] = {
-					["amount"] = 882,
-				},
+			},
+			["Warmode"] = false,
+			["Level"] = 105,
+			["XP"] = 474127,
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["RestXP"] = 100,
+			["lastbossyelltime"] = 1593969272,
+			["MaxXP"] = 515140,
+			["PlayedTotal"] = 9848,
+			["WeeklyResetTime"] = 1596005999,
+			["DailyResetTime"] = 1595746799,
+			["lastboss"] = "Король Имирон: Путешествие во времени",
+			["Order"] = 50,
+			["PlayedLevel"] = 3096,
+			["MythicKey"] = {
+			},
+			["Zone"] = "Даларан",
+			["Skills"] = {
+			},
+			["Money"] = 8990252,
+			["IL"] = 140.9375,
+		},
+		["Воляанрол - Ревущий фьорд"] = {
+			["lastbossyell"] = "Наралекс: Обычный",
+			["isResting"] = true,
+			["Emissary"] = {
+			},
+			["Race"] = "Зандалар",
+			["LClass"] = "Монах",
+			["RBGrating"] = 0,
+			["lastbosstime"] = 1595547511,
+			["Show"] = "saved",
+			["Faction"] = "Horde",
+			["ILe"] = 107.75,
+			["Quests"] = {
+			},
+			["Paragon"] = {
+			},
+			["IL"] = 111.5625,
+			["Zone"] = "Оргриммар",
+			["Progress"] = {
+				{
+					["rewardAchieved"] = false,
+					["rewardWaiting"] = false,
+					["isComplete"] = false,
+					["numRequired"] = 500,
+					["numFulfilled"] = 500,
+					["unlocked"] = false,
+					["isFinish"] = false,
+				}, -- [1]
+				{
+					["numRequired"] = 36000,
+					["numFulfilled"] = 0,
+					["isComplete"] = false,
+					["unlocked"] = false,
+					["isFinish"] = false,
+				}, -- [2]
+				{
+					false, -- [1]
+					false, -- [2]
+					false, -- [3]
+					false, -- [4]
+					false, -- [5]
+					false, -- [6]
+					false, -- [7]
+					false, -- [8]
+					["unlocked"] = false,
+				}, -- [3]
+				{
+					[57728] = false,
+					[55350] = false,
+					[56064] = false,
+					[57008] = false,
+					[57157] = false,
+					["unlocked"] = false,
+					[56308] = false,
+				}, -- [4]
+			},
+			["Class"] = "MONK",
+			["currency"] = {
 				[824] = {
 					["totalMax"] = 10000,
 					["amount"] = 81,
 				},
-				[1718] = {
-					["amount"] = 0,
+				[1166] = {
+					["amount"] = 40,
+				},
+			},
+			["Warmode"] = false,
+			["Level"] = 89,
+			["XP"] = 329266,
+			["MythicKey"] = {
+			},
+			["RestXP"] = 334554,
+			["lastbossyelltime"] = 1595547513,
+			["MaxXP"] = 415510,
+			["WeeklyResetTime"] = 1596005999,
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["lastboss"] = "Мутанус Пожиратель: Обычный",
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["PlayedLevel"] = 6244,
+			["oRace"] = "ZandalariTroll",
+			["Money"] = 44814253,
+			["Skills"] = {
+			},
+			["LastSeen"] = 1595547638,
+			["PlayedTotal"] = 83274,
+		},
+		["Пакостник - Ревущий фьорд"] = {
+			["Paragon"] = {
+			},
+			["oRace"] = "ZandalariTroll",
+			["IL"] = 442.875,
+			["Zone"] = "Большой базар",
+			["Emissary"] = {
+				[7] = {
+					["unlocked"] = true,
+					["days"] = {
+						{
+							["questDone"] = 0,
+							["isComplete"] = false,
+							["isFinish"] = false,
+						}, -- [1]
+						{
+							["questDone"] = 0,
+							["isComplete"] = false,
+							["isFinish"] = false,
+						}, -- [2]
+						{
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["isComplete"] = false,
+						}, -- [3]
+					},
+				},
+			},
+			["Class"] = "WARRIOR",
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["Race"] = "Зандалар",
+			["currency"] = {
+				[1220] = {
+					["amount"] = 1042,
+				},
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 131,
 				},
 				[1580] = {
 					["weeklyMax"] = 2,
 					["totalMax"] = 5,
 					["amount"] = 0,
 				},
+				[1275] = {
+					["amount"] = 1,
+				},
+				[1716] = {
+					["amount"] = 5,
+				},
+				[1710] = {
+					["amount"] = 34,
+				},
+				[1755] = {
+					["relatedItemCount"] = 0,
+					["amount"] = 25126,
+				},
+				[1533] = {
+					["amount"] = 167,
+				},
+				[1166] = {
+					["amount"] = 155,
+				},
+				[1721] = {
+					["amount"] = 45,
+				},
+				[1560] = {
+					["amount"] = 271,
+				},
+				[1803] = {
+					["amount"] = 377,
+				},
+				[1718] = {
+					["amount"] = 82,
+				},
+				[1719] = {
+					["amount"] = 937,
+				},
 			},
-			["Show"] = "saved",
+			["Cloak"] = "4-й уровень (|cffffdf00+20|r)",
+			["Warmode"] = false,
+			["MythicKey"] = {
+			},
+			["Level"] = 120,
+			["LClass"] = "Воин",
+			["RBGrating"] = 0,
+			["Artifact"] = "81 (83%)",
+			["PlayedTotal"] = 191323,
 			["Progress"] = {
 				{
 					["isComplete"] = false,
-					["numFulfilled"] = 0,
+					["isFinish"] = false,
 					["numRequired"] = 500,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 375,
 				}, -- [1]
 				{
 					["isComplete"] = false,
-					["numFulfilled"] = 0,
+					["isFinish"] = false,
 					["numRequired"] = 36000,
 					["unlocked"] = true,
-					["isFinish"] = false,
+					["numFulfilled"] = 0,
 				}, -- [2]
 				{
-					["unlocked"] = false,
+					["unlocked"] = true,
 				}, -- [3]
 				{
-					["unlocked"] = false,
+					["unlocked"] = true,
 				}, -- [4]
 			},
-			["PlayedLevel"] = 373448,
-			["Faction"] = "Alliance",
-			["ILe"] = 432.8125,
+			["MaxXP"] = 893550,
+			["Money"] = 1658327,
+			["LastSeen"] = 1593952898,
+			["WeeklyResetTime"] = 1596005999,
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["Show"] = "saved",
+			["Warfront"] = {
+				{
+					["scenario"] = {
+						false, -- [1]
+						false, -- [2]
+					},
+					["boss"] = false,
+				}, -- [1]
+				{
+					["scenario"] = {
+					},
+					["boss"] = false,
+				}, -- [2]
+			},
+			["PlayedLevel"] = 71423,
+			["Faction"] = "Horde",
+			["ILe"] = 441.3125,
 			["Skills"] = {
 			},
 			["Quests"] = {
 			},
-			["IL"] = 433.4375,
+			["isResting"] = true,
 		},
-	},
-	["spelltip"] = {
-		[26013] = {
-		},
-		[194958] = {
-		},
-	},
-	["Emissary"] = {
-		["Cache"] = {
-			[43179] = "Маги Кирин-Тора в Даларане",
-			[42234] = "Валарьяры",
-			[48639] = "Армия Света",
-			[50562] = "Защитники Азерот",
-			[48641] = "Армия погибели Легиона",
-			[48642] = "Защитники Аргуса",
-			[56120] = "Освобожденные",
-			[50604] = "Тортолланские искатели",
-			[50598] = "Империя Зандалари",
-			[50599] = "Адмиралтейство Праудмуров",
-			[42422] = "Стражи",
-			[50601] = "Возрождение Шторма",
-			[42170] = "Ткачи Снов",
-			[42233] = "Племена Крутогорья",
-			[42420] = "Двор Фарондиса",
-			[42421] = "Помраченные",
-			[50606] = "Военная кампания Орды",
-			[50603] = "Жители Вол'дуна",
-			[50602] = "Экспедиция Таланджи",
-			[56119] = "Клинки Волн",
-		},
-		["Expansion"] = {
-			[6] = {
-				{
-					["questID"] = {
-						["Horde"] = 42421,
-						["Alliance"] = 42421,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1595660464,
-				}, -- [1]
-				{
-					["questID"] = {
-						["Horde"] = 42422,
-						["Alliance"] = 42422,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1595746864,
-				}, -- [2]
-				{
-					["questID"] = {
-						["Horde"] = 48639,
-						["Alliance"] = 48639,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1595833264,
-				}, -- [3]
+		["Абдуловера - Ревущий фьорд"] = {
+			["Paragon"] = {
 			},
-			[7] = {
+			["WeeklyResetTime"] = 1596005999,
+			["Zone"] = "Зулдазар",
+			["Emissary"] = {
+			},
+			["Class"] = "ROGUE",
+			["isResting"] = false,
+			["Progress"] = {
 				{
-					["questID"] = {
-						["Horde"] = 50606,
-						["Alliance"] = 50605,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1595660464,
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 500,
+					["unlocked"] = false,
+					["numFulfilled"] = 500,
 				}, -- [1]
 				{
-					["questID"] = {
-						["Horde"] = 50604,
-						["Alliance"] = 50604,
-					},
-					["questNeed"] = 3,
-					["expiredTime"] = 1595746864,
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = false,
+					["numFulfilled"] = 0,
 				}, -- [2]
 				{
-					["questID"] = {
-						["Horde"] = 50562,
-						["Alliance"] = 50562,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1595833264,
+					["unlocked"] = false,
 				}, -- [3]
 				{
-					["questID"] = {
-						["Horde"] = 50602,
-						["Alliance"] = 50601,
-					},
-					["questNeed"] = 4,
-					["expiredTime"] = 1591426880,
+					["unlocked"] = false,
 				}, -- [4]
 			},
+			["Skills"] = {
+			},
+			["currency"] = {
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 495,
+				},
+				[1220] = {
+					["amount"] = 1340,
+				},
+				[823] = {
+					["amount"] = 9,
+				},
+				[1533] = {
+					["amount"] = 20,
+				},
+				[1166] = {
+					["amount"] = 235,
+				},
+			},
+			["oRace"] = "ZandalariTroll",
+			["Warmode"] = true,
+			["XP"] = 163983,
+			["Level"] = 107,
+			["LClass"] = "Разбойник",
+			["RBGrating"] = 0,
+			["MythicKeyBest"] = {
+				["level"] = 0,
+				["ResetTime"] = 1596005999,
+				["WeeklyReward"] = false,
+			},
+			["RestXP"] = 786270,
+			["MythicKey"] = {
+			},
+			["MaxXP"] = 524180,
+			["Money"] = 14306890,
+			["Order"] = 50,
+			["PlayedTotal"] = 264278,
+			["Race"] = "Зандалар",
+			["Show"] = "saved",
+			["LastSeen"] = 1591981503,
+			["PlayedLevel"] = 1062,
+			["Faction"] = "Horde",
+			["ILe"] = 146.4375,
+			["DailyResetTime"] = 1595746799,
+			["Quests"] = {
+			},
+			["IL"] = 147.0625,
+		},
+		["Мдмщик - Ревущий фьорд"] = {
+			["lastbossyell"] = "Н'Зот Заразитель: Героический",
+			["isResting"] = true,
+			["Emissary"] = {
+				[7] = {
+					["unlocked"] = true,
+					["days"] = {
+						{
+							["questDone"] = 0,
+							["isComplete"] = false,
+							["isFinish"] = false,
+						}, -- [1]
+						{
+							["questDone"] = 0,
+							["isComplete"] = false,
+							["isFinish"] = false,
+						}, -- [2]
+						{
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["isComplete"] = false,
+						}, -- [3]
+					},
+				},
+			},
+			["Race"] = "Зандалар",
+			["LClass"] = "Паладин",
+			["RBGrating"] = 0,
+			["Artifact"] = "86 (94%)",
+			["lastbosstime"] = 1594495724,
+			["Show"] = "saved",
+			["Faction"] = "Horde",
+			["ILe"] = 471.875,
+			["Quests"] = {
+			},
+			["Paragon"] = {
+			},
+			["WeeklyResetTime"] = 1596005999,
+			["LastSeen"] = 1594841617,
+			["Progress"] = {
+				{
+					["isFinish"] = false,
+					["rewardWaiting"] = false,
+					["numRequired"] = 500,
+					["isComplete"] = false,
+					["unlocked"] = true,
+					["numFulfilled"] = 327,
+				}, -- [1]
+				{
+					["isComplete"] = false,
+					["isFinish"] = false,
+					["numRequired"] = 36000,
+					["unlocked"] = true,
+					["numFulfilled"] = 0,
+				}, -- [2]
+				{
+					["unlocked"] = true,
+				}, -- [3]
+				{
+					["unlocked"] = true,
+				}, -- [4]
+			},
+			["Class"] = "PALADIN",
+			["currency"] = {
+				[1220] = {
+					["amount"] = 365,
+				},
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 248,
+				},
+				[1716] = {
+					["amount"] = 65,
+				},
+				[515] = {
+					["amount"] = 95,
+				},
+				[1580] = {
+					["weeklyMax"] = 2,
+					["totalMax"] = 5,
+					["amount"] = 0,
+				},
+				[1803] = {
+					["amount"] = 2448,
+				},
+				[1533] = {
+					["amount"] = 55,
+				},
+				[1560] = {
+					["amount"] = 257,
+				},
+				[1166] = {
+					["amount"] = 830,
+				},
+				[1755] = {
+					["relatedItemCount"] = 0,
+					["amount"] = 36018,
+				},
+				[1721] = {
+					["amount"] = 4,
+				},
+				[1718] = {
+					["amount"] = 2140,
+				},
+				[1719] = {
+					["amount"] = 1966,
+				},
+			},
+			["Warmode"] = false,
+			["Level"] = 120,
+			["Warfront"] = {
+				{
+					["scenario"] = {
+						false, -- [1]
+						false, -- [2]
+					},
+					["boss"] = false,
+				}, -- [1]
+				{
+					["scenario"] = {
+					},
+					["boss"] = false,
+				}, -- [2]
+			},
+			["MythicKeyBest"] = {
+				["WeeklyReward"] = false,
+				["level"] = 0,
+				["LastWeekLevel"] = 14,
+				["ResetTime"] = 1596005999,
+			},
+			["PlayedTotal"] = 418905,
+			["Zone"] = "Дазар'алор",
+			["lastbossyelltime"] = 1594495710,
+			["Money"] = 42552427,
+			["Cloak"] = "6-й уровень (|cffffdf00+20|r)",
+			["DailyResetTime"] = 1595746799,
+			["Order"] = 50,
+			["lastboss"] = "Н'Зот Заразитель: Героический",
+			["BonusRoll"] = {
+				{
+					["name"] = "Н'Зот Заразитель: Героический",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1594495748,
+					["costCurrencyID"] = 1580,
+				}, -- [1]
+				{
+					["name"] = "Панцирь Н'Зота: Героический",
+					["money"] = 750,
+					["costCurrencyID"] = 1580,
+					["time"] = 1594494523,
+					["currencyID"] = 1553,
+				}, -- [2]
+				{
+					["name"] = "Панцирь Н'Зота: Героический",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1593892206,
+					["costCurrencyID"] = 1580,
+				}, -- [3]
+				{
+					["name"] = "Панцирь Н'Зота: Героический",
+					["money"] = 750,
+					["costCurrencyID"] = 1580,
+					["time"] = 1593868035,
+					["currencyID"] = 1553,
+				}, -- [4]
+				{
+					["name"] = "Н'Зот Заразитель: Героический",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1593289148,
+					["costCurrencyID"] = 1580,
+				}, -- [5]
+				{
+					["name"] = "Панцирь Н'Зота: Героический",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1593288222,
+					["costCurrencyID"] = 1580,
+				}, -- [6]
+				{
+					["time"] = 1591475528,
+					["name"] = "Ра-ден Отчаявшийся: Героический",
+					["item"] = "|cffa335ee|Hitem:174500::::::::120:65::5:4:4823:6515:1502:4786:::|h[Заряженный жизненной силой осколок титанов]|h|r",
+					["costCurrencyID"] = 1580,
+				}, -- [7]
+				{
+					["time"] = 1591473694,
+					["name"] = "Ил'гинот: Героический",
+					["item"] = "|cffa335ee|Hitem:174163::::::::120:65::5:4:4823:1502:4786:6508:::|h[Шлем второго зрения]|h|r",
+					["costCurrencyID"] = 1580,
+				}, -- [8]
+			},
+			["PlayedLevel"] = 271427,
+			["IL"] = 473.75,
+			["MythicKey"] = {
+			},
+			["Skills"] = {
+			},
+			["oRace"] = "ZandalariTroll",
+			["MaxXP"] = 893550,
+		},
+		["Отжигай - Ревущий фьорд"] = {
+			["lastbossyell"] = "Стражница душ Туулани: Путешествие во времени",
+			["isResting"] = true,
+			["Emissary"] = {
+				[6] = {
+					["unlocked"] = true,
+					["days"] = {
+						{
+							["isComplete"] = false,
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["questReward"] = {
+								["itemName"] = "Полевой набор стража",
+								["itemLvl"] = 110,
+								["quality"] = 3,
+							},
+						}, -- [1]
+						{
+							["isComplete"] = false,
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["questReward"] = {
+								["itemName"] = "Золоченый сундук",
+								["itemLvl"] = 110,
+								["quality"] = 3,
+							},
+						}, -- [2]
+						{
+							["questReward"] = {
+								["itemName"] = "Сейф Фарондиса",
+								["itemLvl"] = 110,
+								["quality"] = 3,
+							},
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["isComplete"] = false,
+						}, -- [3]
+					},
+				},
+				[7] = {
+					["unlocked"] = true,
+					["days"] = {
+						{
+							["isComplete"] = false,
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["questReward"] = {
+								["quantity"] = 3000,
+								["currencyID"] = 1553,
+							},
+						}, -- [1]
+						{
+							["isComplete"] = false,
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["questReward"] = {
+								["quantity"] = 3000,
+								["currencyID"] = 1553,
+							},
+						}, -- [2]
+						{
+							["questReward"] = {
+								["quantity"] = 200,
+								["currencyID"] = 1560,
+							},
+							["questDone"] = 0,
+							["isFinish"] = false,
+							["isComplete"] = false,
+						}, -- [3]
+					},
+				},
+			},
+			["Race"] = "Зандаларка",
+			["LClass"] = "Друид",
+			["Cloak"] = "15-й уровень (|cffffdf00+104|r)",
+			["Artifact"] = "91 (68%)",
+			["lastbosstime"] = 1595673545,
+			["Show"] = "saved",
+			["Faction"] = "Horde",
+			["ILe"] = 478.75,
+			["Quests"] = {
+				[57728] = {
+					["Expires"] = 1596005999,
+					["Zone"] = {
+						["mapType"] = 3,
+						["mapID"] = 1530,
+						["name"] = "Вечноцветущий дол",
+						["parentMapID"] = 424,
+					},
+					["Title"] = "Нападение: нескончаемый рой",
+					["Link"] = "|cffffff00|Hquest:57728:90|h[Нападение: нескончаемый рой]|h|r",
+				},
+				[40173] = {
+					["Expires"] = 1596005999,
+					["Zone"] = {
+						["mapType"] = 4,
+						["mapID"] = 125,
+						["name"] = "Даларан",
+						["parentMapID"] = 127,
+					},
+					["Title"] = "Нестабильная призма",
+					["Link"] = "|cffffff00|Hquest:40173:90|h[Нестабильная призма]|h|r",
+				},
+				[57157] = {
+					["Expires"] = 1596005999,
+					["Zone"] = {
+						["mapType"] = 3,
+						["mapID"] = 1527,
+						["name"] = "Ульдум",
+						["parentMapID"] = 12,
+					},
+					["Title"] = "Нападение: Темная Империя",
+					["Link"] = "|cffffff00|Hquest:57157:90|h[Нападение: Темная Империя]|h|r",
+				},
+				[45563] = {
+					["Expires"] = 1596005999,
+					["Zone"] = {
+						["mapType"] = 3,
+						["mapID"] = 554,
+						["name"] = "Вневременный остров",
+						["parentMapID"] = 424,
+					},
+					["Title"] = "Затуманенная монета",
+					["Link"] = "|cffffff00|Hquest:45563:90|h[Затуманенная монета]|h|r",
+				},
+			},
+			["Paragon"] = {
+			},
+			["WeeklyResetTime"] = 1596005999,
+			["LastSeen"] = 1595674376,
+			["Progress"] = {
+				{
+					["rewardWaiting"] = false,
+					["rewardAchieved"] = false,
+					["isComplete"] = false,
+					["numRequired"] = 500,
+					["numFulfilled"] = 290,
+					["unlocked"] = true,
+					["isFinish"] = false,
+				}, -- [1]
+				{
+					["numRequired"] = 36000,
+					["isComplete"] = false,
+					["numFulfilled"] = 0,
+					["unlocked"] = true,
+					["isFinish"] = false,
+				}, -- [2]
+				{
+					false, -- [1]
+					false, -- [2]
+					false, -- [3]
+					false, -- [4]
+					false, -- [5]
+					false, -- [6]
+					false, -- [7]
+					false, -- [8]
+					["unlocked"] = true,
+				}, -- [3]
+				{
+					[57728] = false,
+					[55350] = false,
+					[57008] = false,
+					[56308] = false,
+					[57157] = false,
+					["unlocked"] = true,
+					[56064] = false,
+				}, -- [4]
+			},
+			["Class"] = "DRUID",
+			["currency"] = {
+				[1803] = {
+					["amount"] = 4885,
+				},
+				[1755] = {
+					["relatedItemCount"] = 0,
+					["amount"] = 24322,
+				},
+				[1719] = {
+					["amount"] = 12355,
+				},
+				[697] = {
+					["totalMax"] = 20,
+					["amount"] = 5,
+				},
+				[1580] = {
+					["earnedThisWeek"] = 2,
+					["weeklyMax"] = 2,
+					["totalMax"] = 5,
+					["amount"] = 1,
+				},
+				[1716] = {
+					["amount"] = 337,
+				},
+				[824] = {
+					["totalMax"] = 10000,
+					["amount"] = 1110,
+				},
+				[1710] = {
+					["amount"] = 156,
+				},
+				[515] = {
+					["amount"] = 89,
+				},
+				[1342] = {
+					["totalMax"] = 1000,
+					["amount"] = 28,
+				},
+				[1560] = {
+					["amount"] = 598,
+				},
+				[1220] = {
+					["amount"] = 29107,
+				},
+				[1718] = {
+					["amount"] = 1163,
+				},
+				[1533] = {
+					["amount"] = 427,
+				},
+				[1721] = {
+					["amount"] = 113,
+				},
+				[1226] = {
+					["amount"] = 7305,
+				},
+				[738] = {
+					["amount"] = 3,
+				},
+				[1166] = {
+					["amount"] = 1090,
+				},
+				[1275] = {
+					["amount"] = 3,
+				},
+			},
+			["Warmode"] = false,
+			["Skills"] = {
+			},
+			["Level"] = 120,
+			["Warfront"] = {
+				{
+					["scenario"] = {
+						false, -- [1]
+						false, -- [2]
+					},
+					["boss"] = false,
+				}, -- [1]
+				{
+					["scenario"] = {
+						false, -- [1]
+						false, -- [2]
+					},
+					["boss"] = false,
+				}, -- [2]
+			},
+			["MythicKeyBest"] = {
+				["WeeklyReward"] = false,
+				["level"] = 20,
+				["LastWeekLevel"] = 20,
+				["ResetTime"] = 1596005999,
+			},
+			["PlayedTotal"] = 2566391,
+			["oRace"] = "ZandalariTroll",
+			["lastbossyelltime"] = 1595673547,
+			["MaxXP"] = 893550,
+			["Money"] = 95876201,
+			["MythicKey"] = {
+				["mapID"] = 353,
+				["name"] = "Осада Боралуса",
+				["link"] = "|cffa335ee|Hkeystone:158923:353:18:10:8:14:120|h[Ключ: Осада Боралуса (18)]|h|r",
+				["color"] = "ffa335ee",
+				["level"] = 18,
+				["ResetTime"] = 1596005999,
+			},
+			["lastboss"] = "Терон'кров: Путешествие во времени",
+			["BonusRoll"] = {
+				{
+					["name"] = "Н'Зот Заразитель: Героический",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1595520653,
+					["costCurrencyID"] = 1580,
+				}, -- [1]
+				{
+					["name"] = "ЗОЛОТАЯ ЖИЛА!!!: Эпохальный ключ",
+					["money"] = 750,
+					["costCurrencyID"] = 1580,
+					["time"] = 1595100176,
+					["currencyID"] = 1553,
+				}, -- [2]
+				{
+					["name"] = "Н'Зот Заразитель: Героический",
+					["item"] = "|cffa335ee|Hitem:174277::::::::120:105::5:4:4823:6513:1502:4786:::|h[Остатки ментального панциря]|h|r",
+					["time"] = 1594917330,
+					["costCurrencyID"] = 1580,
+				}, -- [3]
+				{
+					["name"] = "Пророк Скитра: Эпохальный",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1594234608,
+					["costCurrencyID"] = 1580,
+				}, -- [4]
+				{
+					["name"] = "Маут: Эпохальный",
+					["money"] = 750,
+					["currencyID"] = 1553,
+					["time"] = 1594233625,
+					["costCurrencyID"] = 1580,
+				}, -- [5]
+				{
+					["name"] = "Н'Зот Заразитель: Героический",
+					["money"] = 750,
+					["costCurrencyID"] = 1580,
+					["time"] = 1593607379,
+					["currencyID"] = 1553,
+				}, -- [6]
+				{
+					["name"] = "Панцирь Н'Зота: Героический",
+					["money"] = 750,
+					["costCurrencyID"] = 1580,
+					["time"] = 1593606366,
+					["currencyID"] = 1553,
+				}, -- [7]
+				{
+					["name"] = "Маут: Эпохальный",
+					["item"] = "|cffa335ee|Hitem:174132::::::::120:105::6:4:4824:1517:4786:6511:::|h[Стигийский капюшон]|h|r",
+					["time"] = 1591813503,
+					["costCurrencyID"] = 1580,
+				}, -- [8]
+			},
+			["PlayedLevel"] = 2332163,
+			["IL"] = 480,
+			["Order"] = 50,
+			["DailyResetTime"] = 1595746799,
+			["RBGrating"] = 0,
+			["Zone"] = "Даларан",
 		},
 	},
 	["Tooltip"] = {
@@ -2018,7 +1911,7 @@ SavedInstancesDB = {
 		["CurrencyMax"] = false,
 		["ReportResets"] = true,
 		["Currency1560"] = true,
-		["AugmentBonus"] = true,
+		["CombineEmissary"] = false,
 		["CategorySort"] = "EXPANSION",
 		["ShowSoloCategory"] = false,
 		["ShowServer"] = false,
@@ -2026,44 +1919,136 @@ SavedInstancesDB = {
 		["Warfront1"] = true,
 		["ShowExpired"] = false,
 		["RaidsFirst"] = true,
-		["TrackWeeklyQuests"] = true,
-		["SelfAlways"] = false,
+		["CombineLFR"] = true,
+		["EmissaryShowCompleted"] = true,
+		["TrackBonus"] = false,
 		["Currency1710"] = true,
-		["MythicKey"] = true,
 		["Currency1755"] = true,
 		["CurrencyValueColor"] = true,
 		["Currency1803"] = true,
-		["EmissaryFullName"] = true,
+		["TrackWeeklyQuests"] = true,
 		["Progress2"] = true,
 		["ShowHints"] = true,
 		["LimitWarn"] = true,
 		["RowHighlight"] = 0.1,
 		["ShowHoliday"] = true,
-		["NewFirst"] = true,
-		["CategorySpaces"] = false,
+		["MythicKeyBest"] = true,
+		["Currency1717"] = true,
 		["TrackLFG"] = true,
-		["TrackDeserter"] = true,
+		["Progress5"] = true,
 		["Currency1719"] = true,
-		["Warfront2"] = true,
+		["NewFirst"] = true,
 		["Currency1580"] = true,
-		["CurrencyEarned"] = true,
-		["TrackPlayed"] = true,
+		["Progress3"] = true,
+		["Currency1721"] = true,
 		["Emissary7"] = true,
+		["SelfFirst"] = true,
 		["Currency1587"] = true,
-		["TrackBonus"] = false,
 		["AbbreviateKeystone"] = true,
 		["FitToScreen"] = true,
 		["Progress4"] = true,
-		["SelfFirst"] = true,
-		["EmissaryShowCompleted"] = true,
-		["CombineEmissary"] = false,
-		["Currency1721"] = true,
-		["Progress3"] = true,
+		["TrackDeserter"] = true,
+		["CurrencyEarned"] = true,
+		["Warfront2"] = true,
+		["TrackPlayed"] = true,
+		["CategorySpaces"] = false,
 		["TrackSkills"] = true,
-		["Progress5"] = true,
-		["CombineLFR"] = true,
-		["MythicKeyBest"] = true,
-		["Currency1717"] = true,
+		["EmissaryFullName"] = true,
+		["MythicKey"] = true,
+		["SelfAlways"] = false,
+		["AugmentBonus"] = true,
+	},
+	["Emissary"] = {
+		["Expansion"] = {
+			[6] = {
+				{
+					["questID"] = {
+						["Horde"] = 42422,
+						["Alliance"] = 42422,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1595746894,
+				}, -- [1]
+				{
+					["questID"] = {
+						["Horde"] = 48639,
+						["Alliance"] = 48639,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1595833294,
+				}, -- [2]
+				{
+					["questID"] = {
+						["Horde"] = 42420,
+						["Alliance"] = 42420,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1595919694,
+				}, -- [3]
+			},
+			[7] = {
+				{
+					["questID"] = {
+						["Horde"] = 50604,
+						["Alliance"] = 50604,
+					},
+					["questNeed"] = 3,
+					["expiredTime"] = 1595746834,
+				}, -- [1]
+				{
+					["questID"] = {
+						["Horde"] = 50562,
+						["Alliance"] = 50562,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1595833234,
+				}, -- [2]
+				{
+					["questID"] = {
+						["Horde"] = 50602,
+						["Alliance"] = 50601,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1595919634,
+				}, -- [3]
+				{
+					["questID"] = {
+						["Horde"] = 50602,
+						["Alliance"] = 50601,
+					},
+					["questNeed"] = 4,
+					["expiredTime"] = 1591426880,
+				}, -- [4]
+			},
+		},
+		["Cache"] = {
+			[43179] = "Маги Кирин-Тора в Даларане",
+			[56119] = "Клинки Волн",
+			[48639] = "Армия Света",
+			[50562] = "Защитники Азерот",
+			[48641] = "Армия погибели Легиона",
+			[48642] = "Защитники Аргуса",
+			[50602] = "Экспедиция Таланджи",
+			[50603] = "Жители Вол'дуна",
+			[50598] = "Империя Зандалари",
+			[50599] = "Адмиралтейство Праудмуров",
+			[50606] = "Военная кампания Орды",
+			[50601] = "Возрождение Шторма",
+			[56120] = "Освобожденные",
+			[42233] = "Племена Крутогорья",
+			[42234] = "Валарьяры",
+			[42421] = "Помраченные",
+			[42422] = "Стражи",
+			[42420] = "Двор Фарондиса",
+			[42170] = "Ткачи Снов",
+			[50604] = "Тортолланские искатели",
+		},
+	},
+	["spelltip"] = {
+		[26013] = {
+		},
+		[194958] = {
+		},
 	},
 	["MinimapIcon"] = {
 		["minimapPos"] = 172.8211979278242,
@@ -2073,23 +2058,23 @@ SavedInstancesDB = {
 		["Трон Четырех Ветров"] = {
 			["LFDID"] = 318,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Залы Искажения Плоти"] = {
 			["LFDID"] = 837,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Квартал Звезд"] = {
 			["LFDID"] = 1319,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Малификус"] = {
 			["Show"] = "saved",
@@ -2101,23 +2086,23 @@ SavedInstancesDB = {
 		["Огненные Просторы"] = {
 			["LFDID"] = 362,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Депо Мрачных Путей"] = {
 			["LFDID"] = 1006,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Глубины преданных"] = {
 			["LFDID"] = 2010,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Сотанатор"] = {
 			["Show"] = "saved",
@@ -2129,16 +2114,16 @@ SavedInstancesDB = {
 		["Змеиное святилище"] = {
 			["LFDID"] = 194,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Битва за Дазар'алор"] = {
 			["LFDID"] = 1944,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 120,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Т'зейн"] = {
 			["Show"] = "saved",
@@ -2150,7 +2135,7 @@ SavedInstancesDB = {
 		["Операция \"Мехагон\""] = {
 			["Show"] = "saved",
 			["Expansion"] = 7,
-			["RecLevel"] = 120,
+			["LFDID"] = 2006,
 			["Мдмщик - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -2160,29 +2145,29 @@ SavedInstancesDB = {
 					["Locked"] = false,
 				},
 			},
+			["RecLevel"] = 120,
 			["Raid"] = false,
-			["LFDID"] = 2006,
 		},
 		["СПР (LFR): Сила Альянса"] = {
 			["LFDID"] = 1947,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Аркатрац"] = {
 			["LFDID"] = 1011,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Сон наяву"] = {
 			["LFDID"] = 2039,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Инквизитор Мето"] = {
 			["Show"] = "saved",
@@ -2192,17 +2177,17 @@ SavedInstancesDB = {
 			["Raid"] = true,
 		},
 		["Случайное подземелье Mists of Pandaria (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 4,
 			["LFDID"] = 462,
+			["Expansion"] = 4,
+			["Show"] = "saved",
 			["RecLevel"] = 0,
 			["Random"] = true,
 			["Raid"] = false,
 		},
 		["Случайное подземелье Cataclysm (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 3,
 			["LFDID"] = 301,
+			["Expansion"] = 3,
+			["Show"] = "saved",
 			["RecLevel"] = 0,
 			["Random"] = true,
 			["Raid"] = false,
@@ -2210,56 +2195,56 @@ SavedInstancesDB = {
 		["Непроглядная Пучина"] = {
 			["LFDID"] = 10,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Победа или смерть"] = {
 			["LFDID"] = 1950,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Подземная крепость"] = {
 			["LFDID"] = 841,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Нексус"] = {
 			["LFDID"] = 1019,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Падение империи"] = {
 			["LFDID"] = 1946,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Испытание крестоносца"] = {
 			["LFDID"] = 248,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Твердыня Крыла Тьмы"] = {
 			["LFDID"] = 314,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Храм Сетралисс"] = {
 			["Show"] = "saved",
 			["Expansion"] = 7,
-			["LFDID"] = 1775,
+			["RecLevel"] = 110,
 			["Мдмщик - Ревущий фьорд"] = {
 				[2] = {
 					["Expires"] = 0,
@@ -2270,12 +2255,12 @@ SavedInstancesDB = {
 				},
 			},
 			["Raid"] = false,
-			["RecLevel"] = 110,
+			["LFDID"] = 1775,
 		},
 		["Кузня Душ"] = {
 			["LFDID"] = 252,
 			["Expansion"] = 2,
-			["Show"] = "saved",
+			["RecLevel"] = 80,
 			["Мдмщик - Ревущий фьорд"] = {
 				[2] = {
 					["Expires"] = 0,
@@ -2286,7 +2271,7 @@ SavedInstancesDB = {
 				},
 			},
 			["Raid"] = false,
-			["RecLevel"] = 80,
+			["Show"] = "saved",
 		},
 		["Каламир"] = {
 			["Show"] = "saved",
@@ -2298,35 +2283,35 @@ SavedInstancesDB = {
 		["Престол Гроз"] = {
 			["LFDID"] = 634,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Аметистовая крепость"] = {
 			["LFDID"] = 221,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Темный лабиринт"] = {
 			["LFDID"] = 181,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Операция \"Мехагон\" – свалка"] = {
 			["LFDID"] = 2027,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = false,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье Lich King (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 2,
 			["LFDID"] = 262,
+			["Expansion"] = 2,
+			["Show"] = "saved",
 			["RecLevel"] = 80,
 			["Random"] = true,
 			["Raid"] = false,
@@ -2334,9 +2319,9 @@ SavedInstancesDB = {
 		["Анторус, Пылающий Трон"] = {
 			["LFDID"] = 1642,
 			["Expansion"] = 6,
+			["Show"] = "saved",
 			["Raid"] = true,
 			["RecLevel"] = 110,
-			["Show"] = "saved",
 		},
 		["Апокрон"] = {
 			["Show"] = "saved",
@@ -2348,42 +2333,42 @@ SavedInstancesDB = {
 		["Ботаника"] = {
 			["LFDID"] = 191,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Огненная Пропасть"] = {
 			["LFDID"] = 4,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Логово Магтеридона"] = {
 			["LFDID"] = 176,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Подъем Императора"] = {
 			["LFDID"] = 1365,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Вечный дворец"] = {
 			["LFDID"] = 2016,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 120,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье Burning Crusade (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 1,
 			["LFDID"] = 260,
+			["Expansion"] = 1,
+			["Show"] = "saved",
 			["RecLevel"] = 70,
 			["Random"] = true,
 			["Raid"] = false,
@@ -2391,45 +2376,45 @@ SavedInstancesDB = {
 		["Горнило Штормов"] = {
 			["LFDID"] = 1954,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 120,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Забытый город - квартал Криводревов"] = {
 			["LFDID"] = 34,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Последний оплот зандаларов"] = {
 			["LFDID"] = 835,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Черные врата"] = {
 			["LFDID"] = 1370,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Принц Сарсарун"] = {
 			["Show"] = "saved",
 			["Expansion"] = 0,
-			["LFDID"] = 310,
+			["RecLevel"] = 80,
 			["Raid"] = false,
 			["Holiday"] = true,
-			["RecLevel"] = 80,
+			["LFDID"] = 310,
 		},
 		["Стратхольм - Черный ход"] = {
 			["LFDID"] = 274,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Госпожа Аллюрадель"] = {
 			["Show"] = "saved",
@@ -2441,23 +2426,23 @@ SavedInstancesDB = {
 		["Казематы Стражей"] = {
 			["LFDID"] = 1044,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Штурм Аметистовой крепости"] = {
 			["LFDID"] = 1209,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 105,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Око Азшары"] = {
 			["LFDID"] = 1175,
 			["Expansion"] = 6,
-			["Raid"] = false,
-			["Show"] = "saved",
 			["RecLevel"] = 100,
+			["Show"] = "saved",
+			["Raid"] = false,
 			["Отжигай - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -2485,36 +2470,36 @@ SavedInstancesDB = {
 		["СПР (LFR): Надвигающийся ужас"] = {
 			["LFDID"] = 832,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Королевская библиотека"] = {
 			["LFDID"] = 1924,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Крепость Темного Клыка"] = {
 			["LFDID"] = 327,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Залы Крови"] = {
 			["LFDID"] = 1367,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Островные экспедиции"] = {
-			["Show"] = "saved",
+			["LFDID"] = 1762,
 			["Expansion"] = 7,
 			["Scenario"] = true,
-			["LFDID"] = 1762,
+			["Show"] = "saved",
 			["Raid"] = false,
 			["Random"] = true,
 			["RecLevel"] = 120,
@@ -2522,68 +2507,68 @@ SavedInstancesDB = {
 		["Хмелеварня Буйных Портеров"] = {
 			["LFDID"] = 1466,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Кузня Крови"] = {
 			["LFDID"] = 187,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Око Вечности"] = {
 			["LFDID"] = 237,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Гробницы Маны"] = {
 			["LFDID"] = 1013,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Случайный сценарий Mists of Pandaria (героич.)"] = {
 			["LFDID"] = 641,
 			["Expansion"] = 4,
 			["Scenario"] = true,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["Random"] = true,
 			["RecLevel"] = 0,
+			["Random"] = true,
+			["Raid"] = false,
 		},
 		["СПР (LFR): Оплот Тьмы"] = {
 			["LFDID"] = 1368,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Корен Худовар"] = {
 			["Show"] = "saved",
 			["Expansion"] = 0,
-			["LFDID"] = 287,
+			["RecLevel"] = 110,
 			["Raid"] = false,
 			["Holiday"] = true,
-			["RecLevel"] = 110,
+			["LFDID"] = 287,
 		},
 		["Гномреган"] = {
 			["LFDID"] = 14,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Логово Нелтариона"] = {
 			["LFDID"] = 1207,
 			["Expansion"] = 6,
-			["Raid"] = false,
-			["Show"] = "saved",
 			["RecLevel"] = 100,
+			["Show"] = "saved",
+			["Raid"] = false,
 			["Отжигай - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -2597,21 +2582,21 @@ SavedInstancesDB = {
 		["Собор Вечной Ночи"] = {
 			["LFDID"] = 1488,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
 			["Raid"] = false,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Чертоги Преданности"] = {
 			["LFDID"] = 2037,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Усадьба Уэйкрестов"] = {
 			["LFDID"] = 1779,
 			["Expansion"] = 7,
-			["Raid"] = false,
+			["Show"] = "saved",
 			["Мдмщик - Ревущий фьорд"] = {
 				[2] = {
 					["Expires"] = 0,
@@ -2621,55 +2606,55 @@ SavedInstancesDB = {
 					["Locked"] = false,
 				},
 			},
+			["Raid"] = false,
 			["RecLevel"] = 110,
-			["Show"] = "saved",
 		},
 		["Храм Нефритовой Змеи"] = {
 			["LFDID"] = 1469,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Ашран"] = {
 			["LFDID"] = 1127,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
 			["Raid"] = true,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
 		},
 		["Логово Ониксии"] = {
 			["LFDID"] = 257,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Цитадель Адского Пламени"] = {
 			["LFDID"] = 989,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Забытые глубины"] = {
 			["LFDID"] = 836,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Черный храм"] = {
 			["LFDID"] = 196,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье классической игры"] = {
-			["Show"] = "saved",
-			["Expansion"] = 0,
 			["LFDID"] = 258,
+			["Expansion"] = 0,
+			["Show"] = "saved",
 			["RecLevel"] = 55,
 			["Random"] = true,
 			["Raid"] = false,
@@ -2677,32 +2662,39 @@ SavedInstancesDB = {
 		["Аукенайские гробницы"] = {
 			["LFDID"] = 178,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье, путеш. во времени (Warlords of Draenor)"] = {
 			["LFDID"] = 1971,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Holiday"] = true,
 			["RecLevel"] = 0,
+			["Show"] = "saved",
 			["Random"] = true,
 			["Raid"] = false,
+			["Holiday"] = true,
+			["Отжигай - Ревущий фьорд"] = {
+				{
+					["Locked"] = false,
+					["Expires"] = 1595746799,
+					["ID"] = -1,
+				}, -- [1]
+			},
 		},
 		["Нижняя часть пика Черной горы"] = {
 			["LFDID"] = 32,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Трон Пантеона"] = {
 			["LFDID"] = 1913,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Окулярус"] = {
 			["Show"] = "saved",
@@ -2714,23 +2706,23 @@ SavedInstancesDB = {
 		["Терраса Вечной Весны"] = {
 			["LFDID"] = 536,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Каражан"] = {
 			["LFDID"] = 175,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Аукиндон"] = {
 			["LFDID"] = 1975,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Иссохший Дж'им"] = {
 			["Show"] = "saved",
@@ -2742,65 +2734,65 @@ SavedInstancesDB = {
 		["Крепость Бурь"] = {
 			["LFDID"] = 193,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Храм Ан'Киража"] = {
 			["LFDID"] = 161,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 60,
 			["Raid"] = true,
+			["RecLevel"] = 60,
+			["Show"] = "saved",
 		},
 		["Ульдир"] = {
 			["LFDID"] = 1889,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 120,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Терраса Магистров"] = {
 			["LFDID"] = 1154,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Прошлое Хиджала"] = {
 			["LFDID"] = 195,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Подземелья Могу'шан"] = {
 			["LFDID"] = 532,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Врата ада"] = {
 			["LFDID"] = 1920,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Некроситет"] = {
 			["LFDID"] = 472,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Забытый город - палаты Гордока"] = {
 			["LFDID"] = 38,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Тол Дагор"] = {
 			["Натанке - Ревущий фьорд"] = {
@@ -2813,15 +2805,15 @@ SavedInstancesDB = {
 				},
 			},
 			["Expansion"] = 7,
-			["RecLevel"] = 115,
-			["LFDID"] = 1778,
 			["Raid"] = false,
 			["Show"] = "saved",
+			["RecLevel"] = 115,
+			["LFDID"] = 1778,
 		},
 		["Случайное подземелье Легиона"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
 			["LFDID"] = 1045,
+			["Expansion"] = 6,
+			["Show"] = "saved",
 			["RecLevel"] = 0,
 			["Random"] = true,
 			["Raid"] = false,
@@ -2829,9 +2821,9 @@ SavedInstancesDB = {
 		["СПР (LFR): Ночной Шпиль"] = {
 			["LFDID"] = 1923,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Си'ваш"] = {
 			["Show"] = "saved",
@@ -2843,39 +2835,39 @@ SavedInstancesDB = {
 		["Кронпринцесса Терадрас"] = {
 			["Show"] = "saved",
 			["Expansion"] = 0,
-			["LFDID"] = 309,
+			["RecLevel"] = 80,
 			["Raid"] = false,
 			["Holiday"] = true,
-			["RecLevel"] = 80,
+			["LFDID"] = 309,
 		},
 		["Ульдаман"] = {
 			["LFDID"] = 22,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Операция \"Мехагон\" – мастерская"] = {
 			["LFDID"] = 2028,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = false,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Зул'Аман"] = {
 			["LFDID"] = 340,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["RecLevel"] = 85,
 			["Raid"] = false,
+			["RecLevel"] = 85,
+			["Show"] = "saved",
 		},
 		["Путешествие во времени, рейд: Ульдуар"] = {
 			["Show"] = "saved",
 			["Expansion"] = 2,
-			["LFDID"] = 1677,
+			["RecLevel"] = 110,
 			["Raid"] = true,
 			["Holiday"] = true,
-			["RecLevel"] = 110,
+			["LFDID"] = 1677,
 		},
 		["Охотники за душами"] = {
 			["Show"] = "saved",
@@ -2887,87 +2879,87 @@ SavedInstancesDB = {
 		["СПР (LFR): Прорыв Света"] = {
 			["LFDID"] = 1916,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Лабиринты Иглошкурых"] = {
 			["LFDID"] = 16,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Источник Вечности"] = {
 			["LFDID"] = 437,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["RecLevel"] = 85,
 			["Raid"] = false,
+			["RecLevel"] = 85,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Испытание доблести"] = {
 			["LFDID"] = 1921,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Подгнилье"] = {
 			["LFDID"] = 1777,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Утроба Душ"] = {
 			["LFDID"] = 1192,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Открытие Темного портала"] = {
 			["LFDID"] = 1012,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Чертоги Камня"] = {
 			["LFDID"] = 213,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Случайный сценарий Mists of Pandaria"] = {
 			["LFDID"] = 493,
 			["Expansion"] = 4,
 			["Scenario"] = true,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["Random"] = true,
 			["RecLevel"] = 0,
+			["Random"] = true,
+			["Raid"] = false,
 		},
 		["Нижетопь"] = {
 			["LFDID"] = 186,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Престол Триумвирата"] = {
 			["LFDID"] = 1535,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
 			["Raid"] = false,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
 		},
 		["Атал'Дазар"] = {
-			["Show"] = "saved",
+			["LFDID"] = 1772,
 			["Expansion"] = 7,
 			["Raid"] = false,
-			["LFDID"] = 1772,
+			["Show"] = "saved",
 			["Мдмщик - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -2991,16 +2983,44 @@ SavedInstancesDB = {
 		["Очищение Стратхольма"] = {
 			["LFDID"] = 210,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Глубины Черной горы - Тюремный блок"] = {
 			["LFDID"] = 30,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
+		},
+		["Ундаста"] = {
+			["Show"] = "saved",
+			["Expansion"] = 4,
+			["WorldBoss"] = 826,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+		},
+		["СПР (LFR): Воспоминания Азерот: Wrath of the Lich King"] = {
+			["LFDID"] = 2017,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Джи'арак"] = {
+			["Show"] = "saved",
+			["Expansion"] = 7,
+			["WorldBoss"] = 2141,
+			["RecLevel"] = 120,
+			["Raid"] = true,
+		},
+		["Левантия"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 1769,
+			["RecLevel"] = 110,
+			["Raid"] = true,
 		},
 		["Налак"] = {
 			["Show"] = "saved",
@@ -3009,40 +3029,12 @@ SavedInstancesDB = {
 			["RecLevel"] = 90,
 			["Raid"] = true,
 		},
-		["СПР (LFR): Воспоминания Азерот: Wrath of the Lich King"] = {
-			["LFDID"] = 2017,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Крепость Драк'Тарон"] = {
-			["LFDID"] = 215,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["СПР (LFR): Дар Плоти"] = {
-			["LFDID"] = 2038,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Паровое подземелье"] = {
-			["LFDID"] = 185,
-			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 70,
-		},
 		["СПР (LFR): Осада Храма Драконьего Покоя"] = {
 			["LFDID"] = 843,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Градовый голем"] = {
 			["Show"] = "saved",
@@ -3054,90 +3046,90 @@ SavedInstancesDB = {
 		["Верховный Молот"] = {
 			["LFDID"] = 897,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Курганы Иглошкурых"] = {
 			["LFDID"] = 20,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье, путеш. во времени (The Burning Crusade)"] = {
-			["LFDID"] = 744,
-			["Expansion"] = 1,
 			["Show"] = "saved",
-			["Holiday"] = true,
-			["RecLevel"] = 0,
+			["Expansion"] = 1,
+			["LFDID"] = 744,
 			["Random"] = true,
+			["RecLevel"] = 0,
+			["Holiday"] = true,
 			["Raid"] = false,
 		},
-		["Госпожа Фолнуна"] = {
+		["Окулус"] = {
+			["LFDID"] = 211,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
 			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 2010,
-			["RecLevel"] = 110,
-			["Raid"] = true,
 		},
 		["Затонувший храм"] = {
 			["LFDID"] = 28,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Осада Оргриммара"] = {
 			["LFDID"] = 766,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Забытый город - центральный сад"] = {
 			["LFDID"] = 36,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Подъем Предателя"] = {
 			["LFDID"] = 1922,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье Легиона (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
 			["LFDID"] = 1046,
+			["Expansion"] = 6,
+			["Show"] = "saved",
 			["RecLevel"] = 110,
 			["Random"] = true,
 			["Raid"] = false,
 		},
-		["Монастырь Алого ордена"] = {
-			["LFDID"] = 474,
+		["СПР (LFR): Расплата у врат"] = {
+			["LFDID"] = 840,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Железный цех"] = {
 			["LFDID"] = 1362,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Путешествие во времени, рейд: Черный храм"] = {
 			["Show"] = "saved",
 			["Expansion"] = 1,
-			["LFDID"] = 1533,
+			["RecLevel"] = 110,
 			["Raid"] = true,
 			["Holiday"] = true,
-			["RecLevel"] = 110,
+			["LFDID"] = 1533,
 		},
 		["Гарнизон босс"] = {
 			["Show"] = "saved",
@@ -3149,16 +3141,16 @@ SavedInstancesDB = {
 		["СПР (LFR): Воспоминания Азерот: Burning Crusade"] = {
 			["LFDID"] = 2004,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Пещеры Стенаний"] = {
 			["LFDID"] = 1,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["Улмат"] = {
 			["Show"] = "saved",
@@ -3170,56 +3162,56 @@ SavedInstancesDB = {
 		["Пещеры Времени: годовщина"] = {
 			["LFDID"] = 1911,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
-		["СПР (LFR): Алый спуск"] = {
-			["LFDID"] = 1732,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
+		["СПР (LFR): Искрящий акведук"] = {
+			["LFDID"] = 1925,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
 			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Катакомбы Сурамара"] = {
 			["LFDID"] = 1190,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Мародон - Зловонная пещера"] = {
 			["LFDID"] = 26,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Залы Стенаний"] = {
 			["LFDID"] = 1919,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Крепость Утгард"] = {
 			["LFDID"] = 242,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Хранилище Аркавона"] = {
 			["LFDID"] = 240,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Возвращение в Каражан"] = {
 			["LFDID"] = 1347,
 			["Expansion"] = 6,
-			["Show"] = "saved",
+			["Raid"] = false,
 			["Идолмастер - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -3230,28 +3222,28 @@ SavedInstancesDB = {
 				},
 			},
 			["RecLevel"] = 110,
-			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Верхняя часть пика Черной горы"] = {
 			["LFDID"] = 1004,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Испытание доблести"] = {
 			["LFDID"] = 1439,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 109,
-		},
-		["Цитадель Ночи"] = {
-			["LFDID"] = 1353,
-			["Expansion"] = 6,
-			["Show"] = "saved",
 			["Raid"] = true,
-			["RecLevel"] = 110,
+			["Show"] = "saved",
+		},
+		["Галеон"] = {
+			["Show"] = "saved",
+			["Expansion"] = 4,
+			["WorldBoss"] = 725,
+			["RecLevel"] = 90,
+			["Raid"] = true,
 		},
 		["Ни'алота, Пробуждающийся Город"] = {
 			["Expansion"] = 7,
@@ -3271,6 +3263,9 @@ SavedInstancesDB = {
 					["Locked"] = false,
 				},
 			},
+			["LFDID"] = 2035,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 			["Натанке - Ревущий фьорд"] = {
 				[15] = {
 					["Expires"] = 0,
@@ -3281,9 +3276,6 @@ SavedInstancesDB = {
 				},
 			},
 			["Raid"] = true,
-			["Show"] = "saved",
-			["LFDID"] = 2035,
-			["RecLevel"] = 120,
 			["Отжигай - Ревущий фьорд"] = {
 				[16] = {
 					["Expires"] = 0,
@@ -3304,30 +3296,30 @@ SavedInstancesDB = {
 		["Затерянный город Тол'вир"] = {
 			["LFDID"] = 1151,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Стражи Могу'шан"] = {
 			["LFDID"] = 830,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Испытание великого крестоносца"] = {
 			["LFDID"] = 250,
 			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Бастионы Адского Пламени"] = {
 			["LFDID"] = 188,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Хумонгрис"] = {
 			["Show"] = "saved",
@@ -3336,71 +3328,113 @@ SavedInstancesDB = {
 			["RecLevel"] = 110,
 			["Raid"] = true,
 		},
-		["Случайное подземелье, путеш. во времени (Wrath of the Lich King)"] = {
-			["LFDID"] = 995,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Holiday"] = true,
-			["RecLevel"] = 0,
-			["Random"] = true,
+		["Зул'Гуруб"] = {
+			["LFDID"] = 334,
+			["Expansion"] = 3,
 			["Raid"] = false,
+			["RecLevel"] = 85,
+			["Show"] = "saved",
 		},
 		["Логово Груула"] = {
 			["LFDID"] = 177,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Солнечный Колодец"] = {
 			["LFDID"] = 199,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["RecLevel"] = 70,
 			["Raid"] = true,
+			["RecLevel"] = 70,
+			["Show"] = "saved",
 		},
 		["Конец Времен"] = {
 			["LFDID"] = 1152,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
-		},
-		["СПР (LFR): Хранилище тайн"] = {
-			["LFDID"] = 831,
-			["Expansion"] = 4,
+			["Raid"] = false,
 			["Show"] = "saved",
+		},
+		["Лазуретос"] = {
+			["Show"] = "saved",
+			["Expansion"] = 7,
+			["WorldBoss"] = 2199,
+			["RecLevel"] = 120,
 			["Raid"] = true,
-			["RecLevel"] = 90,
 		},
 		["СПР (LFR): Кошмар Шек'зир"] = {
 			["LFDID"] = 833,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Крепость Барадин"] = {
 			["LFDID"] = 329,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
-		},
-		["Случайное подземелье Battle For Azeroth (героич.)"] = {
+			["Raid"] = true,
 			["Show"] = "saved",
-			["Expansion"] = 7,
-			["LFDID"] = 1671,
-			["RecLevel"] = 120,
-			["Random"] = true,
+		},
+		["Повелитель Холода Ахун"] = {
+			["Show"] = "saved",
+			["Expansion"] = 0,
+			["LFDID"] = 286,
+			["RecLevel"] = 110,
+			["Holiday"] = true,
 			["Raid"] = false,
+		},
+		["Паровое подземелье"] = {
+			["LFDID"] = 185,
+			["Expansion"] = 1,
+			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Случайное подземелье, путеш. во времени (Wrath of the Lich King)"] = {
+			["Show"] = "saved",
+			["Expansion"] = 2,
+			["LFDID"] = 995,
+			["Random"] = true,
+			["RecLevel"] = 0,
+			["Holiday"] = true,
+			["Raid"] = false,
+		},
+		["Тюрьма Штормграда"] = {
+			["LFDID"] = 12,
+			["Expansion"] = 0,
+			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
+		},
+		["Цитадель Ночи"] = {
+			["LFDID"] = 1353,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Верховный владыка Каззак"] = {
+			["Show"] = "saved",
+			["Expansion"] = 5,
+			["WorldBoss"] = 1452,
+			["RecLevel"] = 100,
+			["Raid"] = true,
 		},
 		["СПР (LFR): Терраса Вечной Весны"] = {
 			["LFDID"] = 834,
 			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Круг Звезд"] = {
+			["LFDID"] = 2011,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Дюнный пожиратель Краулок"] = {
 			["Show"] = "saved",
@@ -3409,46 +3443,98 @@ SavedInstancesDB = {
 			["RecLevel"] = 120,
 			["Raid"] = true,
 		},
-		["Тюрьма Штормграда"] = {
-			["LFDID"] = 12,
-			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
-			["Raid"] = false,
-		},
-		["Сердце Страха"] = {
-			["LFDID"] = 534,
-			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 90,
-		},
-		["Гундрак"] = {
-			["LFDID"] = 1017,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["Глубины Черной горы - Верхний город"] = {
-			["LFDID"] = 276,
-			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
-			["Raid"] = false,
-		},
-		["СПР (LFR): Круг Звезд"] = {
-			["LFDID"] = 2011,
+		["СПР (LFR): Горнило Штормов"] = {
+			["LFDID"] = 1951,
 			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Побег из Дарнхольда"] = {
+			["LFDID"] = 183,
+			["Expansion"] = 1,
+			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Сердце Порчи"] = {
+			["LFDID"] = 1733,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Мародон - Поющие водопады"] = {
+			["LFDID"] = 273,
+			["Expansion"] = 0,
+			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
+		},
+		["Душа Дракона"] = {
+			["LFDID"] = 448,
+			["Expansion"] = 3,
+			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Случайные островные экспедиции – эпохальный режим"] = {
+			["LFDID"] = 1891,
+			["Expansion"] = 7,
+			["Scenario"] = true,
 			["Show"] = "saved",
 			["RecLevel"] = 120,
+			["Random"] = true,
+			["Raid"] = false,
+		},
+		["Ша Злости"] = {
+			["Show"] = "saved",
+			["Expansion"] = 4,
+			["WorldBoss"] = 691,
+			["RecLevel"] = 90,
 			["Raid"] = true,
 		},
-		["ЗОЛОТАЯ ЖИЛА!!!"] = {
+		["СПР (LFR): Адский пролом"] = {
+			["LFDID"] = 1366,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
 			["Show"] = "saved",
+		},
+		["СПР (LFR): Вечноскорбящий дол"] = {
+			["LFDID"] = 839,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Падение Смертокрыла"] = {
+			["LFDID"] = 844,
+			["Expansion"] = 3,
+			["RecLevel"] = 85,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Врата Заходящего Солнца"] = {
+			["LFDID"] = 1464,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Случайное подземелье Battle For Azeroth"] = {
+			["LFDID"] = 1670,
+			["Expansion"] = 7,
+			["Show"] = "saved",
+			["RecLevel"] = 0,
+			["Random"] = true,
+			["Raid"] = false,
+		},
+		["ЗОЛОТАЯ ЖИЛА!!!"] = {
+			["LFDID"] = 1776,
 			["Expansion"] = 7,
 			["Raid"] = false,
-			["LFDID"] = 1776,
+			["Show"] = "saved",
 			["Мдмщик - Ревущий фьорд"] = {
 				[2] = {
 					["Expires"] = 0,
@@ -3476,191 +3562,106 @@ SavedInstancesDB = {
 				},
 			},
 		},
-		["СПР (LFR): Горнило Штормов"] = {
-			["LFDID"] = 1951,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Побег из Дарнхольда"] = {
-			["LFDID"] = 183,
-			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 70,
-		},
-		["Галеон"] = {
-			["Show"] = "saved",
-			["Expansion"] = 4,
-			["WorldBoss"] = 725,
-			["RecLevel"] = 90,
-			["Raid"] = true,
-		},
-		["Мародон - Поющие водопады"] = {
-			["LFDID"] = 273,
-			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
-			["Raid"] = false,
-		},
-		["Душа Дракона"] = {
-			["LFDID"] = 448,
+		["Сумеречный бастион"] = {
+			["LFDID"] = 316,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
-		},
-		["СПР (LFR): Штурм Дазар'алора"] = {
-			["LFDID"] = 1945,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
-		},
-		["Ша Злости"] = {
 			["Show"] = "saved",
-			["Expansion"] = 4,
-			["WorldBoss"] = 691,
-			["RecLevel"] = 90,
-			["Raid"] = true,
 		},
-		["СПР (LFR): Адский пролом"] = {
-			["LFDID"] = 1366,
+		["СПР (LFR): Тигель Чернорука"] = {
+			["LFDID"] = 1359,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
-		},
-		["Зул'Гуруб"] = {
-			["LFDID"] = 334,
-			["Expansion"] = 3,
-			["Show"] = "saved",
-			["RecLevel"] = 85,
-			["Raid"] = false,
-		},
-		["СПР (LFR): Падение Смертокрыла"] = {
-			["LFDID"] = 844,
-			["Expansion"] = 3,
-			["Show"] = "saved",
 			["Raid"] = true,
-			["RecLevel"] = 85,
-		},
-		["Врата Заходящего Солнца"] = {
-			["LFDID"] = 1464,
-			["Expansion"] = 4,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 90,
-		},
-		["Случайное подземелье Battle For Azeroth"] = {
-			["Show"] = "saved",
-			["Expansion"] = 7,
-			["LFDID"] = 1670,
-			["RecLevel"] = 0,
-			["Random"] = true,
-			["Raid"] = false,
-		},
-		["Грим Батол"] = {
-			["LFDID"] = 1149,
-			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 85,
-		},
-		["Азжол-Неруб"] = {
-			["LFDID"] = 241,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["Мародон - Оскверненный грот"] = {
-			["LFDID"] = 272,
-			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
-			["Raid"] = false,
 		},
 		["Случайное подземелье Warlords of Draenor (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 5,
 			["LFDID"] = 789,
+			["Expansion"] = 5,
+			["Show"] = "saved",
 			["RecLevel"] = 0,
 			["Random"] = true,
 			["Raid"] = false,
 		},
-		["Ан'кахет: Старое Королевство"] = {
-			["LFDID"] = 1016,
-			["Expansion"] = 2,
+		["СПР (LFR): Погибель надежды"] = {
+			["LFDID"] = 1914,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
+			["Raid"] = true,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
 		},
 		["Чертоги Созидания"] = {
 			["LFDID"] = 321,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Одержимые хранители"] = {
 			["LFDID"] = 1927,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
-		},
-		["Монастырь Шадо-Пан"] = {
-			["LFDID"] = 1468,
-			["Expansion"] = 4,
+			["Raid"] = true,
 			["Show"] = "saved",
+		},
+		["Узилище"] = {
+			["LFDID"] = 1015,
+			["Expansion"] = 1,
+			["RecLevel"] = 70,
 			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Монастырь Алого ордена"] = {
+			["LFDID"] = 474,
+			["Expansion"] = 4,
 			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье, путеш. во времени (Cataclysm)"] = {
-			["LFDID"] = 1146,
-			["Expansion"] = 3,
 			["Show"] = "saved",
-			["Holiday"] = true,
-			["RecLevel"] = 0,
+			["Expansion"] = 3,
+			["LFDID"] = 1146,
 			["Random"] = true,
+			["RecLevel"] = 0,
+			["Holiday"] = true,
 			["Raid"] = false,
 		},
 		["СПР (LFR): Зал аватары"] = {
 			["LFDID"] = 1918,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Крепость Черной Ладьи"] = {
 			["LFDID"] = 1205,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 110,
-		},
-		["Векемара"] = {
+			["Raid"] = false,
 			["Show"] = "saved",
-			["Expansion"] = 7,
-			["WorldBoss"] = 2363,
-			["RecLevel"] = 120,
-			["Raid"] = true,
 		},
 		["Каменные Недра"] = {
 			["LFDID"] = 1148,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
-		["Время Сумерек"] = {
-			["LFDID"] = 439,
-			["Expansion"] = 3,
+		["Ордос"] = {
 			["Show"] = "saved",
-			["RecLevel"] = 85,
-			["Raid"] = false,
+			["Expansion"] = 4,
+			["WorldBoss"] = 861,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+		},
+		["Обсидиановое святилище"] = {
+			["LFDID"] = 238,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Великая императрица Шек'зара"] = {
 			["Show"] = "saved",
@@ -3669,75 +3670,87 @@ SavedInstancesDB = {
 			["RecLevel"] = 120,
 			["Raid"] = true,
 		},
-		["Изумрудный Кошмар"] = {
-			["LFDID"] = 1350,
+		["Залы Алого ордена"] = {
+			["LFDID"] = 473,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Железные доки"] = {
+			["LFDID"] = 1974,
+			["Expansion"] = 5,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Обломок"] = {
+			["Show"] = "saved",
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
+			["WorldBoss"] = 1795,
 			["RecLevel"] = 110,
-		},
-		["Святилище Штормов"] = {
-			["LFDID"] = 1774,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
-			["Raid"] = false,
-		},
-		["Яма Сарона"] = {
-			["LFDID"] = 1153,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["СПР (LFR): Воспоминания Азерот: Cataclysm"] = {
-			["LFDID"] = 2018,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
 		},
-		["Небесный Путь"] = {
-			["LFDID"] = 1977,
+		["Случайное подземелье Warlords of Draenor"] = {
+			["LFDID"] = 788,
 			["Expansion"] = 5,
 			["Show"] = "saved",
+			["RecLevel"] = 0,
+			["Random"] = true,
 			["Raid"] = false,
-			["RecLevel"] = 90,
 		},
 		["Тихая Сень"] = {
 			["LFDID"] = 2025,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Чертоги сдерживания"] = {
 			["LFDID"] = 1731,
 			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Пещеры Черной горы"] = {
 			["LFDID"] = 323,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 85,
-		},
-		["Некрополь Призрачной Луны"] = {
-			["LFDID"] = 1976,
-			["Expansion"] = 5,
-			["Show"] = "saved",
 			["Raid"] = false,
-			["RecLevel"] = 90,
+			["Show"] = "saved",
+		},
+		["Гробница королей"] = {
+			["LFDID"] = 1785,
+			["Expansion"] = 7,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+			["Мдмщик - Ревущий фьорд"] = {
+				[23] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-096C6C41:1762:23:15|h[Гробница королей]|h|r",
+					["ID"] = 398802984,
+					["Locked"] = false,
+				},
+			},
+			["Raid"] = false,
+			["Отжигай - Ревущий фьорд"] = {
+				[2] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:1762:2:15|h[Гробница королей]|h|r",
+					["ID"] = 1335726466,
+					["Locked"] = false,
+				},
+			},
 		},
 		["Чертоги Доблести"] = {
 			["LFDID"] = 1194,
 			["Expansion"] = 6,
-			["Raid"] = false,
-			["Show"] = "saved",
 			["RecLevel"] = 100,
+			["Show"] = "saved",
+			["Raid"] = false,
 			["Отжигай - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -3748,6 +3761,13 @@ SavedInstancesDB = {
 				},
 			},
 		},
+		["Крепость Драк'Тарон"] = {
+			["LFDID"] = 215,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
 		["Рухмар"] = {
 			["Show"] = "saved",
 			["Expansion"] = 5,
@@ -3755,19 +3775,438 @@ SavedInstancesDB = {
 			["RecLevel"] = 100,
 			["Raid"] = true,
 		},
-		["Джи'арак"] = {
-			["Show"] = "saved",
-			["Expansion"] = 7,
-			["WorldBoss"] = 2141,
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
 		["Логово Крыла Тьмы"] = {
 			["LFDID"] = 50,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 60,
 			["Raid"] = true,
+			["RecLevel"] = 60,
+			["Show"] = "saved",
+		},
+		["Залы Отражений"] = {
+			["LFDID"] = 256,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Путешествие во времени, рейд: Огненные Просторы"] = {
+			["Show"] = "saved",
+			["Expansion"] = 3,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Holiday"] = true,
+			["LFDID"] = 2026,
+		},
+		["Чертоги Молний"] = {
+			["LFDID"] = 1018,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Хранилище тайн"] = {
+			["LFDID"] = 831,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Драгон Зиморожденный"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 1789,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+		},
+		["СПР (LFR): Запретный спуск"] = {
+			["LFDID"] = 1915,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Случайное подземелье Cataclysm"] = {
+			["LFDID"] = 300,
+			["Expansion"] = 3,
+			["Show"] = "saved",
+			["RecLevel"] = 0,
+			["Random"] = true,
+			["Raid"] = false,
+		},
+		["СПР (LFR): Темная Ветвь"] = {
+			["LFDID"] = 1912,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Оборона Дазар'алора"] = {
+			["LFDID"] = 1948,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Падение Искусителя"] = {
+			["LFDID"] = 1917,
+			["Expansion"] = 6,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Шлаковый цех"] = {
+			["LFDID"] = 1361,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Сделка со Смертью"] = {
+			["LFDID"] = 1949,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Сетеккские залы"] = {
+			["LFDID"] = 180,
+			["Expansion"] = 1,
+			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Осада Боралуса"] = {
+			["LFDID"] = 1700,
+			["Expansion"] = 7,
+			["Raid"] = false,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Видение судьбы"] = {
+			["LFDID"] = 2036,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Руины Ан'Киража"] = {
+			["LFDID"] = 160,
+			["Expansion"] = 0,
+			["Raid"] = true,
+			["RecLevel"] = 60,
+			["Show"] = "saved",
+		},
+		["Шлаковые шахты Кровавого Молота"] = {
+			["LFDID"] = 1973,
+			["Expansion"] = 5,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Случайное подземелье, путеш. во времени (Mists of Pandaria)"] = {
+			["LFDID"] = 1453,
+			["Expansion"] = 4,
+			["Show"] = "saved",
+			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Holiday"] = true,
+			["Random"] = true,
+		},
+		["Разрушенные залы"] = {
+			["LFDID"] = 1014,
+			["Expansion"] = 1,
+			["RecLevel"] = 70,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Трон Приливов"] = {
+			["LFDID"] = 1150,
+			["Expansion"] = 3,
+			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Шар'тос"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 1763,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+		},
+		["Испытание чемпиона"] = {
+			["LFDID"] = 249,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Королевская химическая компания"] = {
+			["Show"] = "saved",
+			["Expansion"] = 0,
+			["RecLevel"] = 0,
+			["Raid"] = false,
+			["Holiday"] = true,
+			["LFDID"] = 288,
+		},
+		["Дворец Могу'шан"] = {
+			["LFDID"] = 1467,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Йорундалль"] = {
+			["LFDID"] = 2041,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Вершина Утгард"] = {
+			["LFDID"] = 1020,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Волшебное святилище"] = {
+			["LFDID"] = 1364,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Чаща Темного Сердца"] = {
+			["LFDID"] = 1202,
+			["Expansion"] = 6,
+			["RecLevel"] = 100,
+			["Show"] = "saved",
+			["Raid"] = false,
+			["Отжигай - Ревущий фьорд"] = {
+				[23] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:1466:23:11|h[Чаща Темного Сердца]|h|r",
+					["ID"] = 403150470,
+					["Locked"] = false,
+				},
+			},
+		},
+		["Случайное подземелье \"Времени Сумерек\" (героич.)"] = {
+			["LFDID"] = 434,
+			["Expansion"] = 3,
+			["Show"] = "saved",
+			["RecLevel"] = 0,
+			["Random"] = true,
+			["Raid"] = false,
+		},
+		["Рубиновое святилище"] = {
+			["LFDID"] = 294,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Всадник без головы"] = {
+			["Show"] = "saved",
+			["Expansion"] = 0,
+			["RecLevel"] = 110,
+			["Raid"] = false,
+			["Holiday"] = true,
+			["LFDID"] = 285,
+		},
+		["СПР (LFR): Алый спуск"] = {
+			["LFDID"] = 1732,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Черная Кузня"] = {
+			["LFDID"] = 1360,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Литейная клана Черной горы"] = {
+			["LFDID"] = 900,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Экспедиции на остров Кишащий"] = {
+			["Show"] = "saved",
+			["Expansion"] = 7,
+			["Scenario"] = true,
+			["LFDID"] = 2054,
+			["RecLevel"] = 120,
+			["Random"] = true,
+			["Raid"] = true,
+		},
+		["Случайное подземелье Burning Crusade"] = {
+			["LFDID"] = 259,
+			["Expansion"] = 1,
+			["Show"] = "saved",
+			["RecLevel"] = 65,
+			["Random"] = true,
+			["Raid"] = false,
+		},
+		["Гробница Саргераса"] = {
+			["LFDID"] = 1527,
+			["Expansion"] = 6,
+			["Show"] = "saved",
+			["Raid"] = true,
+			["RecLevel"] = 110,
+		},
+		["СПР (LFR): Вершина Бурь"] = {
+			["LFDID"] = 838,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Вершина Смерча"] = {
+			["LFDID"] = 1147,
+			["Expansion"] = 3,
+			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Ана-Муз"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 1790,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+		},
+		["Кай'жу Газ'рилла"] = {
+			["LFDID"] = 306,
+			["Expansion"] = 0,
+			["Show"] = "saved",
+			["Raid"] = false,
+			["Holiday"] = true,
+			["RecLevel"] = 80,
+		},
+		["Возвращение в Каражан (нижняя часть)"] = {
+			["LFDID"] = 1475,
+			["Expansion"] = 6,
+			["Raid"] = false,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
+		},
+		["Вечное Цветение"] = {
+			["LFDID"] = 1972,
+			["Expansion"] = 5,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Мертвые копи"] = {
+			["LFDID"] = 326,
+			["Expansion"] = 3,
+			["RecLevel"] = 85,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Почетный прием"] = {
+			["LFDID"] = 2009,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Нитхегг"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 1749,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+		},
+		["Возвращение в Каражан (верхняя часть)"] = {
+			["LFDID"] = 1474,
+			["Expansion"] = 6,
+			["Raid"] = false,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
+		},
+		["СПР (LFR): Низвержение"] = {
+			["LFDID"] = 842,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Вук'лаз Землелом"] = {
+			["Show"] = "saved",
+			["Expansion"] = 7,
+			["WorldBoss"] = 2381,
+			["RecLevel"] = 120,
+			["Raid"] = true,
+		},
+		["СПР (LFR): Терраса Разрушителя"] = {
+			["LFDID"] = 1369,
+			["Expansion"] = 5,
+			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
+		},
+		["Четыре небожителя"] = {
+			["Show"] = "saved",
+			["Expansion"] = 4,
+			["WorldBoss"] = 857,
+			["RecLevel"] = 90,
+			["Raid"] = true,
+		},
+		["Великий посол Огнехлыст"] = {
+			["LFDID"] = 308,
+			["Expansion"] = 0,
+			["Show"] = "saved",
+			["Raid"] = false,
+			["Holiday"] = true,
+			["RecLevel"] = 80,
+		},
+		["Властитель преисподней Веролом"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 2015,
+			["RecLevel"] = 110,
+			["Raid"] = true,
+		},
+		["Цитадель Ледяной Короны"] = {
+			["Expansion"] = 2,
+			["Идолмастер - Ревущий фьорд"] = {
+				[3] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-095ABF84:631:3:4095|h[Цитадель Ледяной Короны]|h|r",
+					["ID"] = 401259618,
+					["Locked"] = false,
+				},
+			},
+			["LFDID"] = 280,
+			["Raid"] = true,
+			["Show"] = "saved",
+			["Воляанрол - Ревущий фьорд"] = {
+				[6] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09D75179:631:6:4095|h[Цитадель Ледяной Короны]|h|r",
+					["ID"] = 400880850,
+					["Locked"] = false,
+				},
+			},
+			["RecLevel"] = 80,
+			["Отжигай - Ревущий фьорд"] = {
+				[6] = {
+					["Expires"] = 0,
+					["Extended"] = false,
+					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:631:6:4095|h[Цитадель Ледяной Короны]|h|r",
+					["ID"] = 402953548,
+					["Locked"] = false,
+				},
+			},
 		},
 		["Вольная Гавань"] = {
 			["Expansion"] = 7,
@@ -3790,8 +4229,6 @@ SavedInstancesDB = {
 				},
 			},
 			["LFDID"] = 1773,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
 			["Натанке - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -3802,6 +4239,8 @@ SavedInstancesDB = {
 				},
 			},
 			["Raid"] = false,
+			["Show"] = "saved",
+			["RecLevel"] = 110,
 			["Отжигай - Ревущий фьорд"] = {
 				[23] = {
 					["Expires"] = 0,
@@ -3811,432 +4250,6 @@ SavedInstancesDB = {
 					["Locked"] = false,
 				},
 			},
-		},
-		["Путешествие во времени, рейд: Огненные Просторы"] = {
-			["Show"] = "saved",
-			["Expansion"] = 3,
-			["LFDID"] = 2026,
-			["Raid"] = true,
-			["Holiday"] = true,
-			["RecLevel"] = 110,
-		},
-		["Цитадель Ледяной Короны"] = {
-			["Expansion"] = 2,
-			["Идолмастер - Ревущий фьорд"] = {
-				[3] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-095ABF84:631:3:4095|h[Цитадель Ледяной Короны]|h|r",
-					["ID"] = 401259618,
-					["Locked"] = false,
-				},
-			},
-			["Show"] = "saved",
-			["RecLevel"] = 80,
-			["LFDID"] = 280,
-			["Воляанрол - Ревущий фьорд"] = {
-				[6] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09D75179:631:6:4095|h[Цитадель Ледяной Короны]|h|r",
-					["ID"] = 400880850,
-					["Locked"] = false,
-				},
-			},
-			["Raid"] = true,
-			["Отжигай - Ревущий фьорд"] = {
-				[6] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:631:6:4095|h[Цитадель Ледяной Короны]|h|r",
-					["ID"] = 402953548,
-					["Locked"] = false,
-				},
-			},
-		},
-		["Случайное подземелье Cataclysm"] = {
-			["Show"] = "saved",
-			["Expansion"] = 3,
-			["LFDID"] = 300,
-			["RecLevel"] = 0,
-			["Random"] = true,
-			["Raid"] = false,
-		},
-		["Драгон Зиморожденный"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 1789,
-			["RecLevel"] = 110,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Запретный спуск"] = {
-			["LFDID"] = 1915,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 110,
-		},
-		["Лазуретос"] = {
-			["Show"] = "saved",
-			["Expansion"] = 7,
-			["WorldBoss"] = 2199,
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Великий посол Огнехлыст"] = {
-			["LFDID"] = 308,
-			["Expansion"] = 0,
-			["Raid"] = false,
-			["RecLevel"] = 80,
-			["Holiday"] = true,
-			["Show"] = "saved",
-		},
-		["СПР (LFR): Оборона Дазар'алора"] = {
-			["LFDID"] = 1948,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Падение Искусителя"] = {
-			["LFDID"] = 1917,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 110,
-		},
-		["СПР (LFR): Шлаковый цех"] = {
-			["LFDID"] = 1361,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
-		},
-		["Руины Ан'Киража"] = {
-			["LFDID"] = 160,
-			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 60,
-			["Raid"] = true,
-		},
-		["Сетеккские залы"] = {
-			["LFDID"] = 180,
-			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 70,
-		},
-		["Осада Боралуса"] = {
-			["LFDID"] = 1700,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = false,
-		},
-		["СПР (LFR): Видение судьбы"] = {
-			["LFDID"] = 2036,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Вук'лаз Землелом"] = {
-			["Show"] = "saved",
-			["Expansion"] = 7,
-			["WorldBoss"] = 2381,
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Шлаковые шахты Кровавого Молота"] = {
-			["LFDID"] = 1973,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 90,
-		},
-		["СПР (LFR): Низвержение"] = {
-			["LFDID"] = 842,
-			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 90,
-		},
-		["Разрушенные залы"] = {
-			["LFDID"] = 1014,
-			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 70,
-		},
-		["Возвращение в Каражан (верхняя часть)"] = {
-			["LFDID"] = 1474,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
-			["Raid"] = false,
-		},
-		["Испытание чемпиона"] = {
-			["LFDID"] = 249,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["Шар'тос"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 1763,
-			["RecLevel"] = 110,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Почетный прием"] = {
-			["LFDID"] = 2009,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Дворец Могу'шан"] = {
-			["LFDID"] = 1467,
-			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 90,
-		},
-		["Мертвые копи"] = {
-			["LFDID"] = 326,
-			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 85,
-		},
-		["Вершина Утгард"] = {
-			["LFDID"] = 1020,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["Вечное Цветение"] = {
-			["LFDID"] = 1972,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 90,
-		},
-		["Чаща Темного Сердца"] = {
-			["LFDID"] = 1202,
-			["Expansion"] = 6,
-			["Raid"] = false,
-			["Show"] = "saved",
-			["RecLevel"] = 100,
-			["Отжигай - Ревущий фьорд"] = {
-				[23] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:1466:23:11|h[Чаща Темного Сердца]|h|r",
-					["ID"] = 403150470,
-					["Locked"] = false,
-				},
-			},
-		},
-		["Случайное подземелье \"Времени Сумерек\" (героич.)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 3,
-			["LFDID"] = 434,
-			["RecLevel"] = 0,
-			["Random"] = true,
-			["Raid"] = false,
-		},
-		["Рубиновое святилище"] = {
-			["LFDID"] = 294,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 80,
-		},
-		["Всадник без головы"] = {
-			["Show"] = "saved",
-			["Expansion"] = 0,
-			["LFDID"] = 285,
-			["Raid"] = false,
-			["Holiday"] = true,
-			["RecLevel"] = 110,
-		},
-		["СПР (LFR): Искрящий акведук"] = {
-			["LFDID"] = 1925,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 110,
-		},
-		["Кай'жу Газ'рилла"] = {
-			["LFDID"] = 306,
-			["Expansion"] = 0,
-			["Raid"] = false,
-			["RecLevel"] = 80,
-			["Holiday"] = true,
-			["Show"] = "saved",
-		},
-		["Литейная клана Черной горы"] = {
-			["LFDID"] = 900,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
-		},
-		["Гробница Саргераса"] = {
-			["LFDID"] = 1527,
-			["Expansion"] = 6,
-			["Raid"] = true,
-			["RecLevel"] = 110,
-			["Show"] = "saved",
-		},
-		["Случайное подземелье Burning Crusade"] = {
-			["Show"] = "saved",
-			["Expansion"] = 1,
-			["LFDID"] = 259,
-			["RecLevel"] = 65,
-			["Random"] = true,
-			["Raid"] = false,
-		},
-		["Экспедиции на остров Кишащий"] = {
-			["LFDID"] = 2054,
-			["Expansion"] = 7,
-			["Scenario"] = true,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Random"] = true,
-			["Raid"] = true,
-		},
-		["Вершина Смерча"] = {
-			["LFDID"] = 1147,
-			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 85,
-		},
-		["СПР (LFR): Вершина Бурь"] = {
-			["LFDID"] = 838,
-			["Expansion"] = 4,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 90,
-		},
-		["Ана-Муз"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 1790,
-			["RecLevel"] = 110,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Черная Кузня"] = {
-			["LFDID"] = 1360,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
-		},
-		["Возвращение в Каражан (нижняя часть)"] = {
-			["LFDID"] = 1475,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["RecLevel"] = 110,
-			["Raid"] = false,
-		},
-		["СПР (LFR): Волшебное святилище"] = {
-			["LFDID"] = 1364,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
-		},
-		["Йорундалль"] = {
-			["LFDID"] = 2041,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["Королевская химическая компания"] = {
-			["Show"] = "saved",
-			["Expansion"] = 0,
-			["LFDID"] = 288,
-			["Raid"] = false,
-			["Holiday"] = true,
-			["RecLevel"] = 0,
-		},
-		["Нитхегг"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 1749,
-			["RecLevel"] = 110,
-			["Raid"] = true,
-		},
-		["Трон Приливов"] = {
-			["LFDID"] = 1150,
-			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 85,
-		},
-		["Случайное подземелье, путеш. во времени (Mists of Pandaria)"] = {
-			["Show"] = "saved",
-			["Expansion"] = 4,
-			["LFDID"] = 1453,
-			["RecLevel"] = 0,
-			["Raid"] = false,
-			["Holiday"] = true,
-			["Random"] = true,
-		},
-		["СПР (LFR): Сделка со Смертью"] = {
-			["LFDID"] = 1949,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Терраса Разрушителя"] = {
-			["LFDID"] = 1369,
-			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
-		},
-		["Четыре небожителя"] = {
-			["Show"] = "saved",
-			["Expansion"] = 4,
-			["WorldBoss"] = 857,
-			["RecLevel"] = 90,
-			["Raid"] = true,
-		},
-		["СПР (LFR): Темная Ветвь"] = {
-			["LFDID"] = 1912,
-			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 110,
-		},
-		["Властитель преисподней Веролом"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 2015,
-			["RecLevel"] = 110,
-			["Raid"] = true,
-		},
-		["Чертоги Молний"] = {
-			["LFDID"] = 1018,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
-		},
-		["Залы Отражений"] = {
-			["LFDID"] = 256,
-			["Expansion"] = 2,
-			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
 		},
 		["Бруталл"] = {
 			["Show"] = "saved",
@@ -4248,106 +4261,87 @@ SavedInstancesDB = {
 		["Механар"] = {
 			["LFDID"] = 192,
 			["Expansion"] = 1,
-			["Show"] = "saved",
-			["Raid"] = false,
 			["RecLevel"] = 70,
-		},
-		["Гробница королей"] = {
-			["Show"] = "saved",
-			["Expansion"] = 7,
 			["Raid"] = false,
-			["LFDID"] = 1785,
-			["Мдмщик - Ревущий фьорд"] = {
-				[23] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-096C6C41:1762:23:15|h[Гробница королей]|h|r",
-					["ID"] = 398802984,
-					["Locked"] = false,
-				},
-			},
-			["RecLevel"] = 120,
-			["Отжигай - Ревущий фьорд"] = {
-				[2] = {
-					["Expires"] = 0,
-					["Extended"] = false,
-					["Link"] = "|cffff8000|Hinstancelock:Player-1615-09838284:1762:2:15|h[Гробница королей]|h|r",
-					["ID"] = 1335726466,
-					["Locked"] = false,
-				},
-			},
+			["Show"] = "saved",
+		},
+		["Некрополь Призрачной Луны"] = {
+			["LFDID"] = 1976,
+			["Expansion"] = 5,
+			["RecLevel"] = 90,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["СПР (LFR): Провал Альн"] = {
 			["LFDID"] = 1926,
 			["Expansion"] = 6,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 110,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье Mists of Pandaria"] = {
-			["Show"] = "saved",
-			["Expansion"] = 4,
 			["LFDID"] = 463,
-			["RecLevel"] = 0,
-			["Random"] = true,
-			["Raid"] = false,
-		},
-		["СПР (LFR): Расплата у врат"] = {
-			["LFDID"] = 840,
 			["Expansion"] = 4,
 			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 90,
-		},
-		["Случайное подземелье Warlords of Draenor"] = {
-			["Show"] = "saved",
-			["Expansion"] = 5,
-			["LFDID"] = 788,
 			["RecLevel"] = 0,
 			["Random"] = true,
 			["Raid"] = false,
 		},
-		["Обломок"] = {
+		["Небесный Путь"] = {
+			["LFDID"] = 1977,
+			["Expansion"] = 5,
+			["RecLevel"] = 90,
+			["Raid"] = false,
 			["Show"] = "saved",
+		},
+		["СПР (LFR): Воспоминания Азерот: Cataclysm"] = {
+			["LFDID"] = 2018,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
+		},
+		["Изумрудный Кошмар"] = {
+			["LFDID"] = 1350,
 			["Expansion"] = 6,
-			["WorldBoss"] = 1795,
 			["RecLevel"] = 110,
 			["Raid"] = true,
-		},
-		["Железные доки"] = {
-			["LFDID"] = 1974,
-			["Expansion"] = 5,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 90,
 		},
-		["Залы Алого ордена"] = {
-			["LFDID"] = 473,
-			["Expansion"] = 4,
-			["Show"] = "saved",
+		["Яма Сарона"] = {
+			["LFDID"] = 1153,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
 			["Raid"] = false,
-			["RecLevel"] = 90,
+			["Show"] = "saved",
+		},
+		["Святилище Штормов"] = {
+			["LFDID"] = 1774,
+			["Expansion"] = 7,
+			["Raid"] = false,
+			["RecLevel"] = 110,
+			["Show"] = "saved",
 		},
 		["Стратхольм - Главные врата"] = {
 			["LFDID"] = 40,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 0,
 			["Raid"] = false,
-		},
-		["Обсидиановое святилище"] = {
-			["LFDID"] = 238,
-			["Expansion"] = 2,
+			["RecLevel"] = 0,
 			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 80,
 		},
-		["Ордос"] = {
+		["Векемара"] = {
 			["Show"] = "saved",
-			["Expansion"] = 4,
-			["WorldBoss"] = 861,
-			["RecLevel"] = 90,
+			["Expansion"] = 7,
+			["WorldBoss"] = 2363,
+			["RecLevel"] = 120,
 			["Raid"] = true,
+		},
+		["Время Сумерек"] = {
+			["LFDID"] = 439,
+			["Expansion"] = 3,
+			["Raid"] = false,
+			["RecLevel"] = 85,
+			["Show"] = "saved",
 		},
 		["Вестник войны Йенаж"] = {
 			["Show"] = "saved",
@@ -4359,103 +4353,102 @@ SavedInstancesDB = {
 		["СПР (LFR): Город за стеной"] = {
 			["LFDID"] = 1363,
 			["Expansion"] = 5,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 100,
+			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Зул'Фаррак"] = {
 			["LFDID"] = 24,
 			["Expansion"] = 0,
-			["Show"] = "saved",
+			["Raid"] = false,
 			["RecLevel"] = 0,
-			["Raid"] = false,
-		},
-		["Узилище"] = {
-			["LFDID"] = 1015,
-			["Expansion"] = 1,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 70,
 		},
-		["СПР (LFR): Погибель надежды"] = {
-			["LFDID"] = 1914,
-			["Expansion"] = 6,
+		["Монастырь Шадо-Пан"] = {
+			["LFDID"] = 1468,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
+			["Raid"] = false,
 			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 110,
+		},
+		["Ан'кахет: Старое Королевство"] = {
+			["LFDID"] = 1016,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
 		},
 		["Случайное подземелье Lich King"] = {
-			["LFDID"] = 261,
-			["Expansion"] = 2,
 			["Show"] = "saved",
+			["Expansion"] = 2,
+			["LFDID"] = 261,
 			["Raid"] = false,
 			["Random"] = true,
 			["RecLevel"] = 80,
 		},
-		["СПР (LFR): Тигель Чернорука"] = {
-			["LFDID"] = 1359,
-			["Expansion"] = 5,
+		["Мародон - Оскверненный грот"] = {
+			["LFDID"] = 272,
+			["Expansion"] = 0,
+			["Raid"] = false,
+			["RecLevel"] = 0,
 			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 100,
 		},
-		["Сумеречный бастион"] = {
-			["LFDID"] = 316,
+		["Азжол-Неруб"] = {
+			["LFDID"] = 241,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
+			["Show"] = "saved",
+		},
+		["Грим Батол"] = {
+			["LFDID"] = 1149,
 			["Expansion"] = 3,
-			["Show"] = "saved",
-			["Raid"] = true,
 			["RecLevel"] = 85,
-		},
-		["Ундаста"] = {
+			["Raid"] = false,
 			["Show"] = "saved",
-			["Expansion"] = 4,
-			["WorldBoss"] = 826,
-			["RecLevel"] = 90,
-			["Raid"] = true,
 		},
-		["Левантия"] = {
-			["Show"] = "saved",
-			["Expansion"] = 6,
-			["WorldBoss"] = 1769,
-			["RecLevel"] = 110,
+		["СПР (LFR): Штурм Дазар'алора"] = {
+			["LFDID"] = 1945,
+			["Expansion"] = 7,
 			["Raid"] = true,
+			["RecLevel"] = 120,
+			["Show"] = "saved",
 		},
 		["Осада храма Нюцзао"] = {
 			["LFDID"] = 1465,
 			["Expansion"] = 4,
-			["Show"] = "saved",
+			["RecLevel"] = 90,
 			["Raid"] = false,
-			["RecLevel"] = 90,
-		},
-		["СПР (LFR): Вечноскорбящий дол"] = {
-			["LFDID"] = 839,
-			["Expansion"] = 4,
 			["Show"] = "saved",
-			["Raid"] = true,
-			["RecLevel"] = 90,
 		},
-		["Случайные островные экспедиции – эпохальный режим"] = {
-			["LFDID"] = 1891,
+		["Глубины Черной горы - Верхний город"] = {
+			["LFDID"] = 276,
+			["Expansion"] = 0,
+			["Raid"] = false,
+			["RecLevel"] = 0,
+			["Show"] = "saved",
+		},
+		["Случайное подземелье Battle For Azeroth (героич.)"] = {
+			["LFDID"] = 1671,
 			["Expansion"] = 7,
-			["Scenario"] = true,
 			["Show"] = "saved",
-			["Raid"] = false,
+			["RecLevel"] = 120,
 			["Random"] = true,
-			["RecLevel"] = 120,
+			["Raid"] = false,
 		},
-		["СПР (LFR): Сердце Порчи"] = {
-			["LFDID"] = 1733,
-			["Expansion"] = 7,
-			["Show"] = "saved",
-			["RecLevel"] = 120,
+		["Сердце Страха"] = {
+			["LFDID"] = 534,
+			["Expansion"] = 4,
+			["RecLevel"] = 90,
 			["Raid"] = true,
+			["Show"] = "saved",
 		},
 		["Огненные Недра"] = {
 			["LFDID"] = 48,
 			["Expansion"] = 0,
-			["Show"] = "saved",
-			["RecLevel"] = 60,
 			["Raid"] = true,
+			["RecLevel"] = 60,
+			["Show"] = "saved",
 		},
 		["Дров / Тарлна"] = {
 			["Show"] = "saved",
@@ -4464,147 +4457,44 @@ SavedInstancesDB = {
 			["RecLevel"] = 100,
 			["Raid"] = true,
 		},
-		["Верховный владыка Каззак"] = {
+		["Гундрак"] = {
+			["LFDID"] = 1017,
+			["Expansion"] = 2,
+			["RecLevel"] = 80,
+			["Raid"] = false,
 			["Show"] = "saved",
-			["Expansion"] = 5,
-			["WorldBoss"] = 1452,
-			["RecLevel"] = 100,
-			["Raid"] = true,
 		},
 		["Ульдуар"] = {
 			["LFDID"] = 244,
 			["Expansion"] = 2,
-			["Show"] = "saved",
+			["RecLevel"] = 80,
 			["Raid"] = true,
-			["RecLevel"] = 80,
-		},
-		["Окулус"] = {
-			["LFDID"] = 211,
-			["Expansion"] = 2,
 			["Show"] = "saved",
-			["Raid"] = false,
-			["RecLevel"] = 80,
+		},
+		["Госпожа Фолнуна"] = {
+			["Show"] = "saved",
+			["Expansion"] = 6,
+			["WorldBoss"] = 2010,
+			["RecLevel"] = 110,
+			["Raid"] = true,
 		},
 		["Наксрамас"] = {
 			["LFDID"] = 227,
 			["Expansion"] = 2,
+			["Show"] = "saved",
 			["RecLevel"] = 80,
 			["Raid"] = true,
-			["Show"] = "saved",
 		},
-		["Повелитель Холода Ахун"] = {
+		["СПР (LFR): Дар Плоти"] = {
+			["LFDID"] = 2038,
+			["Expansion"] = 7,
+			["Raid"] = true,
+			["RecLevel"] = 120,
 			["Show"] = "saved",
-			["Expansion"] = 0,
-			["RecLevel"] = 110,
-			["Raid"] = false,
-			["Holiday"] = true,
-			["LFDID"] = 286,
 		},
 	},
-	["DailyResetTime"] = 1595660399,
+	["histGeneration"] = 821,
 	["RealmMap"] = {
-	},
-	["History"] = {
-	},
-	["QuestDB"] = {
-		["Daily"] = {
-			[54329] = 1165,
-			[58151] = 1527,
-			[58155] = 1530,
-			[58156] = 1530,
-			[56328] = 1462,
-			[54346] = 1165,
-			[58284] = 1527,
-			[58286] = 1527,
-			[58287] = 1527,
-			[58288] = 1527,
-			[58289] = 1527,
-			[58321] = 1527,
-			[58167] = 1527,
-			[58168] = 1530,
-			[52930] = 1165,
-			[53335] = 1165,
-			[58283] = 1527,
-		},
-		["Darkmoon"] = {
-			["expires"] = 1594591140,
-			[29443] = 407,
-			[29444] = 407,
-			[29445] = 407,
-			[29446] = 407,
-		},
-		["AccountDaily"] = {
-			[31752] = -1,
-			[34774] = 85,
-			[56042] = 1165,
-			[40753] = 627,
-		},
-		["Weekly"] = {
-			[57728] = 1530,
-			[48910] = -1,
-			[52944] = -1,
-			[40787] = -1,
-			[52948] = -1,
-			[52950] = -1,
-			[52952] = 862,
-			[52954] = -1,
-			[55350] = 1527,
-			[52958] = -1,
-			[40173] = 125,
-			[59016] = -1,
-			[59018] = -1,
-			[53035] = -1,
-			[53037] = 1165,
-			[53039] = -1,
-			[55498] = -1,
-			[33334] = -1,
-			[33338] = -1,
-			[56650] = 862,
-			[56148] = -1,
-			[56969] = -1,
-			[48912] = -1,
-			[52956] = -1,
-			[48911] = -1,
-			[40786] = -1,
-			[52957] = -1,
-			[52949] = -1,
-			[52951] = -1,
-			[52953] = -1,
-			[53033] = -1,
-			[40168] = -1,
-			[57008] = 1530,
-			[53435] = 1165,
-			[56050] = -1,
-			[55121] = -1,
-			[53030] = -1,
-			[59017] = 862,
-			[52782] = -1,
-			[53036] = -1,
-			[56648] = -1,
-			[56064] = 1530,
-			[54995] = -1,
-			["expires"] = 1596005999,
-			[55499] = -1,
-			[56308] = 1527,
-			[32640] = -1,
-			[32641] = -1,
-			[53032] = -1,
-			[59019] = -1,
-			[56649] = -1,
-			[45563] = 554,
-			[57157] = 1527,
-			[53436] = -1,
-			[53034] = -1,
-		},
-		["AccountWeekly"] = {
-			[53038] = -1,
-			[46292] = -1,
-			["expires"] = 1596005999,
-			[58458] = -1,
-			[56492] = -1,
-			[45539] = -1,
-			[54186] = -1,
-		},
 	},
 	["Indicators"] = {
 		["R2ClassColor"] = true,
@@ -4637,50 +4527,46 @@ SavedInstancesDB = {
 			0, -- [3]
 		},
 		["D1Text"] = "KILLED/TOTAL",
-		["R0ClassColor"] = true,
+		["R5Text"] = "KILLED/TOTAL",
+		["R7Text"] = "KILLED/TOTALH",
 		["R1ClassColor"] = true,
-		["D1Indicator"] = "BLANK",
-		["R2Indicator"] = "BLANK",
+		["D3Indicator"] = "BLANK",
 		["R8Color"] = {
 			1, -- [1]
 			0, -- [2]
 			0, -- [3]
 		},
 		["D3ClassColor"] = true,
-		["D2Text"] = "KILLED/TOTALH",
+		["R6Indicator"] = "BLANK",
 		["R6Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 		},
-		["D3Text"] = "KILLED/TOTALM",
+		["D1Color"] = {
+			0, -- [1]
+			0.6, -- [2]
+			0, -- [3]
+		},
 		["R4Color"] = {
 			1, -- [1]
 			0, -- [2]
 			0, -- [3]
 		},
+		["R8Text"] = "KILLED/TOTALM",
 		["R7Indicator"] = "BLANK",
-		["R2Text"] = "KILLED/TOTAL",
-		["D3Color"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
+		["R8Indicator"] = "BLANK",
 		["R0Text"] = "KILLED/TOTAL",
 		["R0Color"] = {
 			0.6, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 		},
+		["R6Text"] = "KILLED/TOTAL",
 		["R1Indicator"] = "BLANK",
-		["R2Color"] = {
-			0.6, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
 		["R3Indicator"] = "BLANK",
 		["R7ClassColor"] = true,
-		["R3Text"] = "KILLED/TOTALH",
+		["R5Indicator"] = "BLANK",
 		["D1ClassColor"] = true,
 		["R4Text"] = "KILLED/TOTALH",
 		["R3Color"] = {
@@ -4689,22 +4575,128 @@ SavedInstancesDB = {
 			0, -- [3]
 		},
 		["R3ClassColor"] = true,
-		["R5Indicator"] = "BLANK",
+		["R3Text"] = "KILLED/TOTALH",
 		["R5ClassColor"] = true,
-		["R6Text"] = "KILLED/TOTAL",
-		["R8Indicator"] = "BLANK",
-		["R8Text"] = "KILLED/TOTALM",
-		["D1Color"] = {
-			0, -- [1]
-			0.6, -- [2]
+		["R2Color"] = {
+			0.6, -- [1]
+			0, -- [2]
 			0, -- [3]
 		},
-		["R6Indicator"] = "BLANK",
-		["D3Indicator"] = "BLANK",
-		["R7Text"] = "KILLED/TOTALH",
-		["R5Text"] = "KILLED/TOTAL",
+		["D3Color"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
+		["R2Text"] = "KILLED/TOTAL",
+		["D2Text"] = "KILLED/TOTALH",
+		["D3Text"] = "KILLED/TOTALM",
+		["R2Indicator"] = "BLANK",
+		["D1Indicator"] = "BLANK",
+		["R0ClassColor"] = true,
 	},
-	["histGeneration"] = 820,
+	["QuestDB"] = {
+		["Daily"] = {
+			[54329] = 1165,
+			[58151] = 1527,
+			[58155] = 1530,
+			[58156] = 1530,
+			[56328] = 1462,
+			[58283] = 1527,
+			[58284] = 1527,
+			[58286] = 1527,
+			[58287] = 1527,
+			[58288] = 1527,
+			[58289] = 1527,
+			[58321] = 1527,
+			[58167] = 1527,
+			[58168] = 1530,
+			[52930] = 1165,
+			[53335] = 1165,
+			[54346] = 1165,
+		},
+		["Darkmoon"] = {
+			["expires"] = 1100469540,
+			[29443] = 407,
+			[29444] = 407,
+			[29445] = 407,
+			[29446] = 407,
+		},
+		["AccountDaily"] = {
+			[40753] = 627,
+			[34774] = 85,
+			[56042] = 1165,
+			[31752] = -1,
+		},
+		["Weekly"] = {
+			[57728] = 1530,
+			[48910] = -1,
+			[48912] = -1,
+			[40787] = -1,
+			[52948] = -1,
+			[52950] = -1,
+			[52952] = 862,
+			[52954] = -1,
+			[52956] = -1,
+			[52958] = -1,
+			[40173] = 125,
+			[59016] = -1,
+			[53033] = -1,
+			[53035] = -1,
+			[53037] = 1165,
+			[57008] = 1530,
+			[55498] = -1,
+			[33334] = -1,
+			[53435] = 1165,
+			[56650] = 862,
+			[56148] = -1,
+			[56969] = -1,
+			[52944] = -1,
+			[55350] = 1527,
+			[48911] = -1,
+			[40786] = -1,
+			["expires"] = 1596005999,
+			[52949] = -1,
+			[52951] = -1,
+			[52953] = -1,
+			[59018] = -1,
+			[40168] = -1,
+			[53039] = -1,
+			[56648] = -1,
+			[56050] = -1,
+			[59019] = -1,
+			[53030] = -1,
+			[59017] = 862,
+			[53034] = -1,
+			[53036] = -1,
+			[33338] = -1,
+			[56064] = 1530,
+			[55121] = -1,
+			[52957] = -1,
+			[56308] = 1527,
+			[55499] = -1,
+			[32640] = -1,
+			[32641] = -1,
+			[53032] = -1,
+			[52782] = -1,
+			[56649] = -1,
+			[45563] = 554,
+			[57157] = 1527,
+			[54995] = -1,
+			[53436] = -1,
+		},
+		["AccountWeekly"] = {
+			[54186] = -1,
+			[58458] = -1,
+			["expires"] = 1596005999,
+			[46292] = -1,
+			[56492] = -1,
+			[45539] = -1,
+			[53038] = -1,
+		},
+	},
+	["History"] = {
+	},
+	["DailyResetTime"] = 1595746799,
 	["Quests"] = {
 	},
 	["Warfront"] = {

@@ -1,9 +1,9 @@
 
 OneRing_Config = {
 	["CenterActions"] = {
-		["Mounts"] = "ABuejy7HP=r",
-		["MountsDru"] = "ABuejuetR3f",
 		["Mounts1"] = "ABuejsjWD6s",
+		["MountsDru"] = "ABuejuetR3f",
+		["Mounts"] = "ABuejy7HP=r",
 		["OPieTracking"] = "OPieBundleTracker1",
 	},
 	["CharProfiles"] = {
@@ -20,18 +20,18 @@ OneRing_Config = {
 			["Bindings"] = {
 				["WarlockLTS"] = "ALT-X",
 				["DruidUtility"] = false,
-				["HunterPets"] = "ALT-NUMPAD4",
-				["DruidShift"] = false,
-				["onsumables"] = "ALT-NUMPAD4",
-				["HunterTraps"] = false,
-				["Mounts"] = "NUMPADMINUS",
-				["HunterAspects"] = false,
-				["WarlockCombat"] = "ALT-Z",
-				["WorldMarkers"] = "ALT-NUMPAD5",
-				["DruidFeral"] = false,
-				["RaidSymbols"] = "ALT-NUMPAD2",
-				["MountsDru"] = "NUMPADMINUS",
 				["Mounts1"] = "NUMPADMINUS",
+				["DruidShift"] = false,
+				["MountsDru"] = "NUMPADMINUS",
+				["HunterTraps"] = false,
+				["HunterPets"] = "ALT-NUMPAD4",
+				["RaidSymbols"] = "ALT-NUMPAD2",
+				["DruidFeral"] = false,
+				["onsumables"] = "ALT-NUMPAD4",
+				["WorldMarkers"] = "ALT-NUMPAD5",
+				["WarlockCombat"] = "ALT-Z",
+				["HunterAspects"] = false,
+				["Mounts"] = "NUMPADMINUS",
 			},
 			["XTScaleSpeed"] = 3.200000286102295,
 			["MISpinOnHide"] = false,
@@ -135,8 +135,8 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "HUNTER",
 				["name"] = "Pets",
+				["limit"] = "HUNTER",
 			},
 			["DruidShift"] = {
 				{
@@ -211,9 +211,9 @@ OneRing_Config = {
 					284, -- [2]
 					["sliceToken"] = "ABuejuetR3e",
 				}, -- [8]
-				["name"] = "Mounts Dru",
-				["save"] = true,
 				["limit"] = "Отжигай-Ревущийфьорд",
+				["save"] = true,
+				["name"] = "Mounts Dru",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

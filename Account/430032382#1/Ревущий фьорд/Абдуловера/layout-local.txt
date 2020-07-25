@@ -13,3 +13,17 @@ X: 0
 Y: 80
 W: 260
 H: 150
+Frame: MinimapBackdrop
+FrameLevel: 2
+Anchor: BOTTOMRIGHT
+X: -29
+Y: -1
+W: 192
+H: 192
+Frame: MinimapCluster
+FrameLevel: 2
+Anchor: BOTTOMRIGHT
+X: -41
+Y: 42
+W: 151
+H: 151

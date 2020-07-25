@@ -1,9 +1,9 @@
 
 OneRing_Config = {
 	["CenterActions"] = {
-		["Mounts1"] = "ABuejsjWD6s",
-		["MountsDru"] = "ABuejuetR3f",
 		["Mounts"] = "ABuejy7HP=r",
+		["MountsDru"] = "ABuejuetR3f",
+		["Mounts1"] = "ABuejsjWD6s",
 		["OPieTracking"] = "OPieBundleTracker1",
 	},
 	["CharProfiles"] = {
@@ -20,18 +20,18 @@ OneRing_Config = {
 			["Bindings"] = {
 				["WarlockLTS"] = "ALT-X",
 				["DruidUtility"] = false,
-				["Mounts1"] = "NUMPADMINUS",
+				["Mounts"] = "NUMPADMINUS",
 				["DruidShift"] = false,
-				["MountsDru"] = "NUMPADMINUS",
+				["HunterAspects"] = false,
 				["HunterTraps"] = false,
 				["HunterPets"] = "ALT-NUMPAD4",
-				["RaidSymbols"] = "ALT-NUMPAD2",
-				["DruidFeral"] = false,
-				["onsumables"] = "ALT-NUMPAD4",
-				["WorldMarkers"] = "ALT-NUMPAD5",
 				["WarlockCombat"] = "ALT-Z",
-				["HunterAspects"] = false,
-				["Mounts"] = "NUMPADMINUS",
+				["WorldMarkers"] = "ALT-NUMPAD5",
+				["onsumables"] = "ALT-NUMPAD4",
+				["DruidFeral"] = false,
+				["RaidSymbols"] = "ALT-NUMPAD2",
+				["MountsDru"] = "NUMPADMINUS",
+				["Mounts1"] = "NUMPADMINUS",
 			},
 			["XTScaleSpeed"] = 3.200000286102295,
 			["MISpinOnHide"] = false,
@@ -104,9 +104,9 @@ OneRing_Config = {
 					"Иннер", -- [2]
 					["sliceToken"] = "ABue4GmqWHs",
 				}, -- [4]
-				["limit"] = "Отжигай-Ревущийфьорд",
-				["save"] = true,
 				["name"] = "Consumables",
+				["save"] = true,
+				["limit"] = "Отжигай-Ревущийфьорд",
 			},
 			["HunterPets"] = {
 				{
@@ -135,8 +135,8 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
 				["save"] = true,
-				["name"] = "Pets",
 				["limit"] = "HUNTER",
+				["name"] = "Pets",
 			},
 			["DruidShift"] = {
 				{
@@ -211,9 +211,9 @@ OneRing_Config = {
 					284, -- [2]
 					["sliceToken"] = "ABuejuetR3e",
 				}, -- [8]
-				["limit"] = "Отжигай-Ревущийфьорд",
-				["save"] = true,
 				["name"] = "Mounts Dru",
+				["save"] = true,
+				["limit"] = "Отжигай-Ревущийфьорд",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

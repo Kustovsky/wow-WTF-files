@@ -2,8 +2,8 @@
 AzeriteUI_DB = {
 	["ExplorerMode"] = {
 		["profiles"] = {
-			["realm"] = {
-				["Ревущий фьорд"] = {
+			["faction"] = {
+				["Horde"] = {
 					["useFadingInInstance"] = true,
 					["enableTrackerFading"] = false,
 					["enableExplorer"] = true,
@@ -29,7 +29,19 @@ AzeriteUI_DB = {
 					["enableExplorer"] = true,
 					["useFadingInvehicles"] = false,
 				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["useFadingInInstance"] = true,
+					["enableTrackerFading"] = false,
+					["enableExplorer"] = true,
+					["useFadingInvehicles"] = false,
+				},
 				["Чайвз-Ревущий фьорд"] = {
+					["useFadingInInstance"] = true,
+					["enableTrackerFading"] = false,
+					["enableExplorer"] = true,
+					["useFadingInvehicles"] = false,
+				},
+				["Натанке-Ревущий фьорд"] = {
 					["useFadingInInstance"] = true,
 					["enableTrackerFading"] = false,
 					["enableExplorer"] = true,
@@ -41,19 +53,13 @@ AzeriteUI_DB = {
 					["enableExplorer"] = true,
 					["useFadingInvehicles"] = false,
 				},
-				["Мдмщик-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
 					["useFadingInInstance"] = true,
 					["enableTrackerFading"] = false,
 					["enableExplorer"] = true,
 					["useFadingInvehicles"] = false,
 				},
 				["Воляанрол-Ревущий фьорд"] = {
-					["useFadingInInstance"] = true,
-					["enableTrackerFading"] = false,
-					["enableExplorer"] = true,
-					["useFadingInvehicles"] = false,
-				},
-				["Натанке-Ревущий фьорд"] = {
 					["useFadingInInstance"] = true,
 					["enableTrackerFading"] = false,
 					["enableExplorer"] = true,
@@ -68,12 +74,12 @@ AzeriteUI_DB = {
 			},
 			["global"] = {
 				["useFadingInvehicles"] = false,
+				["useFadingInInstance"] = true,
 				["enableTrackerFading"] = false,
 				["enableExplorer"] = false,
-				["useFadingInInstance"] = true,
 			},
-			["faction"] = {
-				["Horde"] = {
+			["realm"] = {
+				["Ревущий фьорд"] = {
 					["useFadingInInstance"] = true,
 					["enableTrackerFading"] = false,
 					["enableExplorer"] = true,
@@ -84,8 +90,8 @@ AzeriteUI_DB = {
 	},
 	["NamePlates"] = {
 		["profiles"] = {
-			["faction"] = {
-				["Horde"] = {
+			["realm"] = {
+				["Ревущий фьорд"] = {
 					["clickThroughSelf"] = false,
 					["enableAuras"] = true,
 					["clickThroughFriends"] = false,
@@ -106,8 +112,8 @@ AzeriteUI_DB = {
 				["clickThroughFriends"] = false,
 				["clickThroughEnemies"] = false,
 			},
-			["realm"] = {
-				["Ревущий фьорд"] = {
+			["faction"] = {
+				["Horde"] = {
 					["clickThroughSelf"] = false,
 					["enableAuras"] = true,
 					["clickThroughFriends"] = false,
@@ -131,7 +137,7 @@ AzeriteUI_DB = {
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
 				},
-				["Стараясасалк-Ревущий фьорд"] = {
+				["Отжигай-Ревущий фьорд"] = {
 					["useServerTime"] = false,
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
@@ -146,17 +152,7 @@ AzeriteUI_DB = {
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
 				},
-				["Чайвз-Ревущий фьорд"] = {
-					["useServerTime"] = false,
-					["useStandardTime"] = true,
-					["stickyBars"] = false,
-				},
 				["Натанке-Ревущий фьорд"] = {
-					["useServerTime"] = false,
-					["useStandardTime"] = true,
-					["stickyBars"] = false,
-				},
-				["Мдмщик-Ревущий фьорд"] = {
 					["useServerTime"] = false,
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
@@ -166,17 +162,32 @@ AzeriteUI_DB = {
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
 				},
+				["Чайвз-Ревущий фьорд"] = {
+					["useServerTime"] = false,
+					["useStandardTime"] = true,
+					["stickyBars"] = false,
+				},
 				["Воляанрол-Ревущий фьорд"] = {
 					["useServerTime"] = false,
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Идолмастер-Ревущий фьорд"] = {
 					["useServerTime"] = false,
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
 				},
-				["Идолмастер-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
+					["useServerTime"] = false,
+					["useStandardTime"] = true,
+					["stickyBars"] = false,
+				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["useServerTime"] = false,
+					["useStandardTime"] = true,
+					["stickyBars"] = false,
+				},
+				["Стараясасалк-Ревущий фьорд"] = {
 					["useServerTime"] = false,
 					["useStandardTime"] = true,
 					["stickyBars"] = false,
@@ -216,6 +227,11 @@ AzeriteUI_DB = {
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
 				},
+				["Отжигай-Ревущий фьорд"] = {
+					["enableHealerMode"] = false,
+					["loadDebugConsole"] = true,
+					["enableDebugConsole"] = false,
+				},
 				["Стараясасалк-Ревущий фьорд"] = {
 					["enableHealerMode"] = false,
 					["loadDebugConsole"] = true,
@@ -236,7 +252,7 @@ AzeriteUI_DB = {
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Воляанрол-Ревущий фьорд"] = {
 					["enableHealerMode"] = false,
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
@@ -251,17 +267,17 @@ AzeriteUI_DB = {
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
 				},
-				["Пакостник-Ревущий фьорд"] = {
-					["enableHealerMode"] = false,
-					["loadDebugConsole"] = true,
-					["enableDebugConsole"] = false,
-				},
 				["Мдмщик-Ревущий фьорд"] = {
 					["enableHealerMode"] = false,
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
 				},
-				["Воляанрол-Ревущий фьорд"] = {
+				["Пакостник-Ревущий фьорд"] = {
+					["enableHealerMode"] = false,
+					["loadDebugConsole"] = true,
+					["enableDebugConsole"] = false,
+				},
+				["Абдуловера-Ревущий фьорд"] = {
 					["enableHealerMode"] = false,
 					["loadDebugConsole"] = true,
 					["enableDebugConsole"] = false,
@@ -314,9 +330,9 @@ AzeriteUI_DB = {
 					["enableAlerts"] = true,
 					["enableTalkingHead"] = true,
 				},
-				["Стараясасалк-Ревущий фьорд"] = {
-					["enableTalkingHead"] = true,
+				["Отжигай-Ревущий фьорд"] = {
 					["enableAlerts"] = true,
+					["enableTalkingHead"] = true,
 				},
 				["Холодос-Ревущий фьорд"] = {
 					["enableAlerts"] = true,
@@ -326,19 +342,15 @@ AzeriteUI_DB = {
 					["enableTalkingHead"] = true,
 					["enableAlerts"] = true,
 				},
-				["Чайвз-Ревущий фьорд"] = {
-					["enableAlerts"] = true,
-					["enableTalkingHead"] = true,
-				},
 				["Натанке-Ревущий фьорд"] = {
 					["enableAlerts"] = true,
 					["enableTalkingHead"] = true,
 				},
-				["Мдмщик-Ревущий фьорд"] = {
-					["enableTalkingHead"] = true,
-					["enableAlerts"] = true,
-				},
 				["Пакостник-Ревущий фьорд"] = {
+					["enableAlerts"] = true,
+					["enableTalkingHead"] = true,
+				},
+				["Чайвз-Ревущий фьорд"] = {
 					["enableAlerts"] = true,
 					["enableTalkingHead"] = true,
 				},
@@ -346,11 +358,19 @@ AzeriteUI_DB = {
 					["enableTalkingHead"] = true,
 					["enableAlerts"] = true,
 				},
-				["Отжигай-Ревущий фьорд"] = {
-					["enableAlerts"] = true,
-					["enableTalkingHead"] = true,
-				},
 				["Идолмастер-Ревущий фьорд"] = {
+					["enableTalkingHead"] = true,
+					["enableAlerts"] = true,
+				},
+				["Абдуловера-Ревущий фьорд"] = {
+					["enableTalkingHead"] = true,
+					["enableAlerts"] = true,
+				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["enableTalkingHead"] = true,
+					["enableAlerts"] = true,
+				},
+				["Стараясасалк-Ревущий фьорд"] = {
 					["enableTalkingHead"] = true,
 					["enableAlerts"] = true,
 				},
@@ -378,7 +398,7 @@ AzeriteUI_DB = {
 				["Аптечку-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
-				["Стараясасалк-Ревущий фьорд"] = {
+				["Отжигай-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
 				["Холодос-Ревущий фьорд"] = {
@@ -387,25 +407,28 @@ AzeriteUI_DB = {
 				["Гаротыч-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
-				["Чайвз-Ревущий фьорд"] = {
-					["enablePartyFrames"] = true,
-				},
 				["Натанке-Ревущий фьорд"] = {
-					["enablePartyFrames"] = true,
-				},
-				["Мдмщик-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
 				["Пакостник-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
+				["Чайвз-Ревущий фьорд"] = {
+					["enablePartyFrames"] = true,
+				},
 				["Воляанрол-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Идолмастер-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
-				["Идолмастер-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
+					["enablePartyFrames"] = true,
+				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["enablePartyFrames"] = true,
+				},
+				["Стараясасалк-Ревущий фьорд"] = {
 					["enablePartyFrames"] = true,
 				},
 			},
@@ -421,8 +444,8 @@ AzeriteUI_DB = {
 	},
 	["UnitFrameArena"] = {
 		["profiles"] = {
-			["realm"] = {
-				["Ревущий фьорд"] = {
+			["faction"] = {
+				["Horde"] = {
 					["enableArenaFrames"] = true,
 				},
 			},
@@ -430,18 +453,21 @@ AzeriteUI_DB = {
 				["Идолмастер-Ревущий фьорд"] = {
 					["enableArenaFrames"] = true,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
 					["enableArenaFrames"] = true,
 				},
 				["Чайвз-Ревущий фьорд"] = {
+					["enableArenaFrames"] = true,
+				},
+				["Отжигай-Ревущий фьорд"] = {
 					["enableArenaFrames"] = true,
 				},
 			},
 			["global"] = {
 				["enableArenaFrames"] = false,
 			},
-			["faction"] = {
-				["Horde"] = {
+			["realm"] = {
+				["Ревущий фьорд"] = {
 					["enableArenaFrames"] = true,
 				},
 			},
@@ -458,7 +484,7 @@ AzeriteUI_DB = {
 				["Аптечку-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
-				["Стараясасалк-Ревущий фьорд"] = {
+				["Отжигай-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
 				["Холодос-Ревущий фьорд"] = {
@@ -467,25 +493,28 @@ AzeriteUI_DB = {
 				["Гаротыч-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
-				["Чайвз-Ревущий фьорд"] = {
-					["enableRaidFrames"] = true,
-				},
 				["Натанке-Ревущий фьорд"] = {
-					["enableRaidFrames"] = true,
-				},
-				["Мдмщик-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
 				["Пакостник-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
+				["Чайвз-Ревущий фьорд"] = {
+					["enableRaidFrames"] = true,
+				},
 				["Воляанрол-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Идолмастер-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
-				["Идолмастер-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
+					["enableRaidFrames"] = true,
+				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["enableRaidFrames"] = true,
+				},
+				["Стараясасалк-Ревущий фьорд"] = {
 					["enableRaidFrames"] = true,
 				},
 			},
@@ -530,16 +559,16 @@ AzeriteUI_DB = {
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Стараясасалк-Ревущий фьорд"] = {
+				["Отжигай-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
 					["castOnDown"] = true,
 					["extraButtonsCount"] = 5,
 					["extraButtonsVisibility"] = "combat",
 					["stanceBarVisibility"] = "hover",
-					["dragRequireShift"] = true,
-					["petBarEnabled"] = true,
 					["stanceBarEnabled"] = true,
+					["petBarEnabled"] = true,
+					["dragRequireShift"] = true,
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
@@ -569,19 +598,6 @@ AzeriteUI_DB = {
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Чайвз-Ревущий фьорд"] = {
-					["dragRequireAlt"] = true,
-					["dragRequireCtrl"] = true,
-					["castOnDown"] = true,
-					["extraButtonsCount"] = 5,
-					["extraButtonsVisibility"] = "combat",
-					["stanceBarVisibility"] = "hover",
-					["stanceBarEnabled"] = true,
-					["petBarEnabled"] = true,
-					["dragRequireShift"] = true,
-					["petBarVisibility"] = "hover",
-					["buttonLock"] = true,
-				},
 				["Натанке-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
@@ -595,20 +611,20 @@ AzeriteUI_DB = {
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Мдмщик-Ревущий фьорд"] = {
+				["Пакостник-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
 					["castOnDown"] = true,
 					["extraButtonsCount"] = 5,
 					["extraButtonsVisibility"] = "combat",
 					["stanceBarVisibility"] = "hover",
-					["dragRequireShift"] = true,
-					["petBarEnabled"] = true,
 					["stanceBarEnabled"] = true,
+					["petBarEnabled"] = true,
+					["dragRequireShift"] = true,
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Пакостник-Ревущий фьорд"] = {
+				["Чайвз-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
 					["castOnDown"] = true,
@@ -634,20 +650,46 @@ AzeriteUI_DB = {
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Отжигай-Ревущий фьорд"] = {
+				["Идолмастер-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
 					["castOnDown"] = true,
 					["extraButtonsCount"] = 5,
 					["extraButtonsVisibility"] = "combat",
 					["stanceBarVisibility"] = "hover",
-					["stanceBarEnabled"] = true,
-					["petBarEnabled"] = true,
 					["dragRequireShift"] = true,
+					["petBarEnabled"] = true,
+					["stanceBarEnabled"] = true,
 					["petBarVisibility"] = "hover",
 					["buttonLock"] = true,
 				},
-				["Идолмастер-Ревущий фьорд"] = {
+				["Абдуловера-Ревущий фьорд"] = {
+					["dragRequireAlt"] = true,
+					["dragRequireCtrl"] = true,
+					["castOnDown"] = true,
+					["extraButtonsCount"] = 5,
+					["extraButtonsVisibility"] = "combat",
+					["stanceBarVisibility"] = "hover",
+					["dragRequireShift"] = true,
+					["petBarEnabled"] = true,
+					["stanceBarEnabled"] = true,
+					["petBarVisibility"] = "hover",
+					["buttonLock"] = true,
+				},
+				["Мдмщик-Ревущий фьорд"] = {
+					["dragRequireAlt"] = true,
+					["dragRequireCtrl"] = true,
+					["castOnDown"] = true,
+					["extraButtonsCount"] = 5,
+					["extraButtonsVisibility"] = "combat",
+					["stanceBarVisibility"] = "hover",
+					["dragRequireShift"] = true,
+					["petBarEnabled"] = true,
+					["stanceBarEnabled"] = true,
+					["petBarVisibility"] = "hover",
+					["buttonLock"] = true,
+				},
+				["Стараясасалк-Ревущий фьорд"] = {
 					["dragRequireAlt"] = true,
 					["dragRequireCtrl"] = true,
 					["castOnDown"] = true,
