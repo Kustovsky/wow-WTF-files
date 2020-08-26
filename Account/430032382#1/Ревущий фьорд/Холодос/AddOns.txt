@@ -203,5 +203,5 @@ Blizzard_CompactRaidFrames: enabled
 Blizzard_ObjectiveTracker: enabled
 TipTacTalents: enabled
 OzCooldowns: disabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled

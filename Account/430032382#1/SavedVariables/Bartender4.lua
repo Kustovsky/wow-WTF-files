@@ -33,6 +33,16 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1.264999985694885,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["y"] = 62,
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -163,35 +173,14 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
-				["PALADIN"] = {
+				["DRUID"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 62,
+						["scale"] = 1.264999985694885,
 						["x"] = -515,
 						["point"] = "BOTTOM",
-						["scale"] = 1.264999985694885,
-					},
-				},
-				["Абдуловера - Ревущий фьорд"] = {
-					["enabled"] = true,
-					["position"] = {
 						["y"] = 62,
-						["x"] = -515,
-						["point"] = "BOTTOM",
-						["scale"] = 1.264999985694885,
-					},
-					["version"] = 3,
-				},
-				["Хант"] = {
-					["version"] = 3,
-					["fadeoutalpha"] = 0.5,
-					["fadeout"] = true,
-					["position"] = {
-						["y"] = 52,
-						["x"] = -256,
-						["point"] = "BOTTOM",
-						["scale"] = 0.6299999952316284,
 					},
 				},
 				["Аптечку - Ревущий фьорд"] = {
@@ -205,14 +194,35 @@ Bartender4DB = {
 						["scale"] = 0.6299999952316284,
 					},
 				},
-				["DRUID"] = {
+				["Хант"] = {
+					["fadeoutalpha"] = 0.5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 52,
+						["x"] = -256,
+						["point"] = "BOTTOM",
+						["scale"] = 0.6299999952316284,
+					},
+					["fadeout"] = true,
+				},
+				["Абдуловера - Ревущий фьорд"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1.264999985694885,
+						["y"] = 62,
 						["x"] = -515,
 						["point"] = "BOTTOM",
+						["scale"] = 1.264999985694885,
+					},
+				},
+				["PALADIN"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
 						["y"] = 62,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["scale"] = 1.264999985694885,
 					},
 				},
 				["Отжигай - Ревущий фьорд"] = {
@@ -250,8 +260,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -260,8 +270,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -316,8 +326,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -326,8 +336,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -383,8 +393,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -393,8 +403,74 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Нарковед - Ревущий фьорд"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 178.4999542236328,
+								["x"] = -231.4999542236328,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -449,8 +525,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -459,8 +535,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -515,8 +591,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -525,8 +601,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -582,8 +658,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -592,8 +668,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -632,22 +708,26 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
-							["alpha"] = 0,
-							["fadeoutalpha"] = 0,
 							["fadeout"] = true,
+							["clickthrough"] = true,
+							["alpha"] = 0,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 43.99999618530273,
 								["x"] = -253.5000305175781,
 								["point"] = "BOTTOM",
 							},
-							["clickthrough"] = true,
+							["fadeoutalpha"] = 0,
 							["padding"] = 6,
 							["visibility"] = {
 								["always"] = false,
 							},
-							["version"] = 3,
 						}, -- [1]
 						{
+							["showgrid"] = true,
+							["rows"] = 4,
+							["fadeout"] = true,
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = -111.0595355069418,
@@ -655,70 +735,66 @@ Bartender4DB = {
 								["point"] = "TOPRIGHT",
 								["scale"] = 0.800000011920929,
 							},
-							["fadeout"] = true,
-							["showgrid"] = true,
-							["rows"] = 4,
 							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
 							},
-							["version"] = 3,
 						}, -- [2]
 						{
+							["showgrid"] = true,
+							["rows"] = 2,
 							["fadeout"] = true,
 							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = -47.75961001167889,
 								["x"] = -333.9764399831911,
 								["point"] = "TOPRIGHT",
 								["scale"] = 0.8500000238418579,
 							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 2,
 							["padding"] = 0,
-							["showgrid"] = true,
 						}, -- [3]
 						{
+							["showgrid"] = true,
+							["rows"] = 6,
 							["fadeout"] = true,
 							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 3.199938851907064,
 								["x"] = -61.59983300723252,
 								["point"] = "TOPRIGHT",
 								["scale"] = 0.800000011920929,
 							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 6,
 							["padding"] = 0,
-							["showgrid"] = true,
 						}, -- [4]
 						{
+							["showgrid"] = true,
+							["fadeout"] = true,
+							["clickthrough"] = true,
+							["alpha"] = 0,
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 90.13548278808594,
 								["x"] = -226.0000915527344,
 								["point"] = "BOTTOM",
 							},
-							["fadeout"] = true,
-							["showgrid"] = true,
-							["clickthrough"] = true,
 							["padding"] = 1,
-							["alpha"] = 0,
-							["version"] = 3,
 						}, -- [5]
 						{
+							["showgrid"] = true,
+							["rows"] = 4,
 							["fadeout"] = true,
 							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 3.199938851907064,
 								["x"] = -148.726299149268,
 								["point"] = "TOPRIGHT",
 								["scale"] = 0.800000011920929,
 							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 4,
 							["padding"] = 0,
-							["showgrid"] = true,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -750,8 +826,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -760,8 +836,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -800,82 +876,82 @@ Bartender4DB = {
 						{
 							["fadeout"] = true,
 							["showgrid"] = true,
-							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["padding"] = 6,
 							["position"] = {
 								["y"] = 43.99999618530273,
 								["x"] = -253.5000305175781,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [1]
 						{
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
 							["showgrid"] = true,
-							["version"] = 3,
-							["padding"] = 0,
-							["rows"] = 4,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = -160.4000088751318,
 								["x"] = -324.5998868256793,
 								["point"] = "RIGHT",
 								["scale"] = 0.800000011920929,
 							},
+							["padding"] = 0,
+							["rows"] = 4,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [2]
 						{
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
 							["showgrid"] = true,
-							["version"] = 3,
-							["padding"] = 0,
-							["rows"] = 2,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = 106.74996942492,
 								["x"] = 260.3251912544802,
 								["point"] = "BOTTOM",
 								["scale"] = 0.8500000238418579,
 							},
+							["padding"] = 0,
+							["rows"] = 2,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [3]
 						{
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
 							["showgrid"] = true,
-							["version"] = 3,
-							["padding"] = 0,
-							["rows"] = 6,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = -102.8000324308878,
 								["x"] = 298.8000634580858,
 								["point"] = "CENTER",
 								["scale"] = 0.800000011920929,
 							},
+							["padding"] = 0,
+							["rows"] = 6,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [4]
 						{
 							["fadeout"] = true,
 							["showgrid"] = true,
-							["fadeoutalpha"] = 0,
-							["padding"] = 1,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 90.13548278808594,
 								["x"] = -226.0000915527344,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = 1,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [5]
 						{
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
 							["showgrid"] = true,
-							["version"] = 3,
-							["padding"] = 0,
-							["rows"] = 4,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = -43.59999492764473,
 								["x"] = -324.5998868256793,
 								["point"] = "RIGHT",
 								["scale"] = 0.800000011920929,
 							},
+							["padding"] = 0,
+							["rows"] = 4,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -887,182 +963,6 @@ Bartender4DB = {
 					},
 				},
 				["Синийдиплом - Гордунни"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 178.4999542236328,
-								["x"] = -231.4999542236328,
-								["point"] = "BOTTOM",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["actionbars"] = {
-						{
-							["version"] = 3,
-							["padding"] = 6,
-							["visibility"] = {
-								["always"] = false,
-							},
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -256,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 156.0000305175781,
-								["x"] = -370.01123046875,
-								["point"] = "BOTTOMRIGHT",
-							},
-							["rows"] = 4,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["hidemacrotext"] = true,
-						}, -- [2]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -104.1666412353516,
-								["x"] = -376.01123046875,
-								["point"] = "RIGHT",
-							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 4,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["padding"] = 5,
-						}, -- [3]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-							["rows"] = 6,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["padding"] = 5,
-						}, -- [4]
-						{
-							["fadeout"] = true,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -232,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["visibility"] = {
-								["always"] = false,
-							},
-							["fadeoutalpha"] = 0.55,
-						}, -- [5]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 132,
-								["x"] = -232,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -65.16667175292969,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [7]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 60.30546569824219,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 22.5,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -206.6945114135742,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [10]
-					},
-				},
-				["Ывалоывоар - Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1149,8 +1049,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1159,8 +1059,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1194,7 +1094,73 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Ывалоывоар - Ревущий фьорд"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 178.4999542236328,
+								["x"] = -231.4999542236328,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Мдмщик - Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
 							["visibility"] = {
@@ -1228,8 +1194,8 @@ Bartender4DB = {
 								["x"] = -376.01123046875,
 								["point"] = "RIGHT",
 							},
-							["padding"] = 5,
 							["rows"] = 4,
+							["padding"] = 5,
 							["visibility"] = {
 								["always"] = true,
 							},
@@ -1304,6 +1270,72 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Каскадёр - Ясеневый лес"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 178.4999542236328,
+								["x"] = -231.4999542236328,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
@@ -1325,8 +1357,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1335,8 +1367,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1400,10 +1432,10 @@ Bartender4DB = {
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["rows"] = 12,
-							["clickthrough"] = true,
-							["alpha"] = 0,
 							["padding"] = -9,
+							["rows"] = 12,
+							["alpha"] = 0,
+							["clickthrough"] = true,
 						}, -- [3]
 						{
 							["version"] = 3,
@@ -1468,8 +1500,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1478,8 +1510,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1514,63 +1546,87 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
+							["fadeout"] = true,
+							["showgrid"] = true,
 							["version"] = 3,
+							["padding"] = 6,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
+								["y"] = 43.99999618530273,
+								["x"] = -253.5000305175781,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
+							["fadeoutalpha"] = 0,
 						}, -- [1]
 						{
-							["enabled"] = false,
-							["version"] = 3,
 							["position"] = {
-								["y"] = 178.4999542236328,
-								["x"] = -231.4999542236328,
-								["point"] = "BOTTOM",
+								["y"] = -111.0595355069418,
+								["x"] = -147.9894827320386,
+								["point"] = "TOPRIGHT",
+								["scale"] = 0.800000011920929,
 							},
+							["fadeoutalpha"] = 0,
+							["showgrid"] = true,
+							["rows"] = 4,
+							["padding"] = 0,
+							["version"] = 3,
+							["fadeout"] = true,
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = -47.75961001167889,
+								["x"] = -333.9764399831911,
+								["point"] = "TOPRIGHT",
+								["scale"] = 0.8500000238418579,
 							},
-							["padding"] = 5,
+							["fadeoutalpha"] = 0,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = 0,
+							["version"] = 3,
+							["fadeout"] = true,
 						}, -- [3]
 						{
-							["rows"] = 12,
-							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 3.199938851907064,
+								["x"] = -61.59983300723252,
+								["point"] = "TOPRIGHT",
+								["scale"] = 0.800000011920929,
 							},
-							["padding"] = 5,
+							["fadeoutalpha"] = 0,
+							["showgrid"] = true,
+							["rows"] = 6,
+							["padding"] = 0,
+							["version"] = 3,
+							["fadeout"] = true,
 						}, -- [4]
 						{
-							["version"] = 3,
+							["fadeout"] = true,
+							["showgrid"] = true,
 							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
+								["y"] = 90.13548278808594,
+								["x"] = -226.0000915527344,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
+							["padding"] = 1,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [5]
 						{
-							["version"] = 3,
 							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = 3.199938851907064,
+								["x"] = -148.726299149268,
+								["point"] = "TOPRIGHT",
+								["scale"] = 0.800000011920929,
 							},
-							["padding"] = 6,
+							["fadeoutalpha"] = 0,
+							["showgrid"] = true,
+							["rows"] = 4,
+							["padding"] = 0,
+							["version"] = 3,
+							["fadeout"] = true,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -1622,20 +1678,20 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["alpha"] = 0,
-							["padding"] = -9,
 							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 53,
 								["x"] = -171.5,
 								["point"] = "BOTTOM",
 							},
-							["hidemacrotext"] = true,
 							["clickthrough"] = true,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["custom"] = false,
 								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui][cursor]show;hide",
 							},
-							["version"] = 3,
+							["padding"] = -9,
 						}, -- [3]
 						{
 							["flyoutDirection"] = "LEFT",
@@ -1648,7 +1704,7 @@ Bartender4DB = {
 								["x"] = -36,
 								["point"] = "RIGHT",
 							},
-							["padding"] = -9,
+							["version"] = 3,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][cursor]show;fade",
@@ -1656,42 +1712,42 @@ Bartender4DB = {
 								["custom"] = false,
 								["vehicleui"] = false,
 							},
-							["version"] = 3,
+							["padding"] = -9,
 						}, -- [4]
 						{
 							["flyoutDirection"] = "LEFT",
 							["showgrid"] = true,
 							["alpha"] = 0,
-							["hidemacrotext"] = true,
 							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 10.5,
 								["x"] = -36,
 								["point"] = "RIGHT",
 							},
-							["padding"] = -9,
 							["clickthrough"] = true,
+							["padding"] = -9,
 							["visibility"] = {
 								["custom"] = false,
 								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][cursor]show;fade",
 							},
-							["fadeoutalpha"] = 0,
+							["hidemacrotext"] = true,
 						}, -- [5]
 						{
-							["showgrid"] = true,
-							["visibility"] = {
-								["custom"] = true,
-							},
+							["rows"] = 4,
+							["alpha"] = 0,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 142,
 								["x"] = -330,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["padding"] = -9,
-							["rows"] = 4,
-							["alpha"] = 0,
 							["clickthrough"] = true,
+							["padding"] = -9,
+							["visibility"] = {
+								["custom"] = true,
+							},
+							["showgrid"] = true,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -1723,8 +1779,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1733,8 +1789,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1772,51 +1828,51 @@ Bartender4DB = {
 				["RealUI"] = {
 					["actionbars"] = {
 						{
+							["flyoutDirection"] = "DOWN",
+							["version"] = 3,
+							["showgrid"] = true,
+							["padding"] = -9,
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["custom"] = false,
+								["customdata"] = "[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui]][overridebar][cursor]show;hide",
+							},
 							["position"] = {
 								["y"] = -166.5,
 								["x"] = -171.5,
 								["point"] = "CENTER",
 							},
-							["flyoutDirection"] = "DOWN",
+						}, -- [1]
+						{
+							["rows"] = 4,
+							["version"] = 3,
 							["showgrid"] = true,
 							["hidemacrotext"] = true,
 							["padding"] = -9,
 							["visibility"] = {
 								["custom"] = false,
-								["customdata"] = "[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui]][overridebar][cursor]show;hide",
+								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui][cursor]show;hide",
 							},
-							["version"] = 3,
-						}, -- [1]
-						{
 							["position"] = {
 								["y"] = 80,
 								["x"] = -171.5,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["padding"] = -9,
-							["rows"] = 4,
-							["visibility"] = {
-								["custom"] = false,
-								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui][cursor]show;hide",
-							},
-							["hidemacrotext"] = true,
 						}, -- [2]
 						{
 							["version"] = 3,
 							["showgrid"] = true,
-							["padding"] = -9,
-							["hidemacrotext"] = true,
-							["visibility"] = {
-								["custom"] = false,
-								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui][cursor]show;hide",
-							},
 							["position"] = {
 								["y"] = 53,
 								["x"] = -171.5,
 								["point"] = "BOTTOM",
 							},
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["custom"] = false,
+								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][@focus,exists][harm,nodead][combat][group:party][group:raid][vehicleui][cursor]show;hide",
+							},
+							["padding"] = -9,
 						}, -- [3]
 						{
 							["flyoutDirection"] = "LEFT",
@@ -1828,25 +1884,25 @@ Bartender4DB = {
 								["x"] = -36,
 								["point"] = "RIGHT",
 							},
-							["hidemacrotext"] = true,
+							["fadeoutalpha"] = 0,
 							["padding"] = -9,
 							["visibility"] = {
 								["custom"] = false,
 								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][cursor]show;fade",
 							},
-							["fadeoutalpha"] = 0,
+							["hidemacrotext"] = true,
 						}, -- [4]
 						{
 							["version"] = 3,
-							["showgrid"] = true,
-							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 10.5,
 								["x"] = -36,
 								["point"] = "RIGHT",
 							},
-							["padding"] = -9,
+							["fadeoutalpha"] = 0,
+							["showgrid"] = true,
 							["hidemacrotext"] = true,
+							["padding"] = -9,
 							["visibility"] = {
 								["custom"] = false,
 								["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl][cursor]show;fade",
@@ -1901,98 +1957,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Аптечку - Ревущий фьорд"] = {
-					["actionbars"] = {
-						{
-							["fadeout"] = true,
-							["showgrid"] = true,
-							["fadeoutalpha"] = 0,
-							["padding"] = 6,
-							["position"] = {
-								["y"] = 43.99999618530273,
-								["x"] = -253.5000305175781,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-						}, -- [1]
-						{
-							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["y"] = -111.0595355069418,
-								["x"] = -147.9894827320386,
-								["point"] = "TOPRIGHT",
-								["scale"] = 0.800000011920929,
-							},
-							["version"] = 3,
-							["rows"] = 4,
-							["padding"] = 0,
-							["showgrid"] = true,
-						}, -- [2]
-						{
-							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["y"] = -47.75961001167889,
-								["x"] = -333.9764399831911,
-								["point"] = "TOPRIGHT",
-								["scale"] = 0.8500000238418579,
-							},
-							["version"] = 3,
-							["rows"] = 2,
-							["padding"] = 0,
-							["showgrid"] = true,
-						}, -- [3]
-						{
-							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["y"] = 3.199938851907064,
-								["x"] = -61.59983300723252,
-								["point"] = "TOPRIGHT",
-								["scale"] = 0.800000011920929,
-							},
-							["version"] = 3,
-							["rows"] = 6,
-							["padding"] = 0,
-							["showgrid"] = true,
-						}, -- [4]
-						{
-							["fadeout"] = true,
-							["showgrid"] = true,
-							["fadeoutalpha"] = 0,
-							["padding"] = 1,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 90.13548278808594,
-								["x"] = -226.0000915527344,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["y"] = 3.199938851907064,
-								["x"] = -148.726299149268,
-								["point"] = "TOPRIGHT",
-								["scale"] = 0.800000011920929,
-							},
-							["version"] = 3,
-							["rows"] = 4,
-							["padding"] = 0,
-							["showgrid"] = true,
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Каскадёр - Ясеневый лес"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -2013,8 +1978,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2023,8 +1988,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2054,11 +2019,12 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
-				["Отжигай - Ревущий фьорд"] = {
+				["Идолмастер - Ревущий фьорд"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
@@ -2086,18 +2052,18 @@ Bartender4DB = {
 							["hidemacrotext"] = true,
 						}, -- [2]
 						{
-							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -104.1666412353516,
 								["x"] = -376.01123046875,
 								["point"] = "RIGHT",
 							},
-							["version"] = 3,
-							["padding"] = 5,
+							["fadeoutalpha"] = 0,
+							["rows"] = 4,
 							["visibility"] = {
 								["always"] = true,
 							},
-							["rows"] = 4,
+							["padding"] = 5,
 						}, -- [3]
 						{
 							["version"] = 3,
@@ -2119,11 +2085,121 @@ Bartender4DB = {
 								["x"] = -232,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 0.55,
+							["version"] = 3,
 							["visibility"] = {
 								["always"] = false,
 							},
+							["fadeoutalpha"] = 0.55,
+						}, -- [5]
+						{
+							["enabled"] = false,
 							["version"] = 3,
+							["position"] = {
+								["y"] = 132,
+								["x"] = -232,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -65.16667175292969,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 60.30546569824219,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 22.5,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -206.6945114135742,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Отжигай - Ревущий фьорд"] = {
+					["actionbars"] = {
+						{
+							["visibility"] = {
+								["always"] = false,
+							},
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -256,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 156.0000305175781,
+								["x"] = -370.01123046875,
+								["point"] = "BOTTOMRIGHT",
+							},
+							["rows"] = 4,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["hidemacrotext"] = true,
+						}, -- [2]
+						{
+							["fadeoutalpha"] = 0,
+							["position"] = {
+								["y"] = -104.1666412353516,
+								["x"] = -376.01123046875,
+								["point"] = "RIGHT",
+							},
+							["padding"] = 5,
+							["rows"] = 4,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["version"] = 3,
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+							["rows"] = 6,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["fadeout"] = true,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -232,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["visibility"] = {
+								["always"] = false,
+							},
+							["fadeoutalpha"] = 0.55,
 						}, -- [5]
 						{
 							["enabled"] = false,
@@ -2237,6 +2313,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2262,12 +2346,12 @@ Bartender4DB = {
 					},
 				},
 				["Хант"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = -160.5,
 						["x"] = 300.50006,
 						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 				["DRUID"] = {
 					["version"] = 3,
@@ -2293,11 +2377,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Мдмщик - Ревущий фьорд"] = {
+				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -203.1666793823242,
-						["x"] = -31.49990844726563,
+						["y"] = -160.5,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
@@ -2309,19 +2393,19 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Стараясасалк - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -160.5,
-						["x"] = -31.50006103515625,
-						["point"] = "CENTER",
-					},
-				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Мдмщик - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -203.1666793823242,
 						["x"] = -31.49990844726563,
+						["point"] = "CENTER",
+					},
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
@@ -2349,13 +2433,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = -160.5,
-						["x"] = -31.50006103515625,
+						["x"] = 300.50006,
 						["point"] = "CENTER",
 					},
-					["version"] = 3,
 				},
 				["RealUI-Healing"] = {
 					["version"] = 3,
@@ -2383,19 +2467,19 @@ Bartender4DB = {
 						["scale"] = 0.985,
 					},
 				},
-				["Аптечку - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -160.5,
-						["x"] = 300.50006,
-						["point"] = "CENTER",
-					},
-				},
-				["Каскадёр - Ясеневый лес"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -160.5,
 						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Идолмастер - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -203.1666793823242,
+						["x"] = -31.49990844726563,
 						["point"] = "CENTER",
 					},
 				},
@@ -2441,6 +2525,16 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -2473,13 +2567,13 @@ Bartender4DB = {
 				},
 				["Хант"] = {
 					["enabled"] = false,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 42.00000634789467,
 						["x"] = -198.7999195426692,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
 					},
+					["version"] = 3,
 				},
 				["DRUID"] = {
 					["padding"] = -2,
@@ -2511,14 +2605,14 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["enabled"] = false,
+				["Стараясасалк - Ревущий фьорд"] = {
+					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 41.99997036258355,
-						["x"] = -198.7999184118362,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
 					},
 				},
 				["Ывалоывоар - Ревущий фьорд"] = {
@@ -2531,17 +2625,7 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Стараясасалк - Ревущий фьорд"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
-					},
-				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Мдмщик - Ревущий фьорд"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -2549,6 +2633,16 @@ Bartender4DB = {
 						["x"] = -198.7999184118362,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
+					},
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
 					},
 				},
 				["Ревущий фьорд"] = {
@@ -2581,15 +2675,15 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
+				["Аптечку - Ревущий фьорд"] = {
+					["enabled"] = false,
 					["version"] = 3,
-					["padding"] = -2,
+					["position"] = {
+						["y"] = 42.00000634789467,
+						["x"] = -198.7999195426692,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
 				},
 				["RealUI-Healing"] = {
 					["enabled"] = false,
@@ -2607,24 +2701,24 @@ Bartender4DB = {
 				["RealUI"] = {
 					["enabled"] = false,
 				},
-				["Аптечку - Ревущий фьорд"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.00000634789467,
-						["x"] = -198.7999195426692,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
-					},
-				},
-				["Каскадёр - Ясеневый лес"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
+					},
+				},
+				["Идолмастер - Ревущий фьорд"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.99997036258355,
+						["x"] = -198.7999184118362,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
 					},
 				},
 				["Отжигай - Ревущий фьорд"] = {
@@ -2665,6 +2759,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2723,13 +2825,12 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["enabled"] = false,
+				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 1.499969482421875,
-						["x"] = 58.49996948242188,
-						["point"] = "CENTER",
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Ывалоывоар - Ревущий фьорд"] = {
@@ -2740,21 +2841,21 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Стараясасалк - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Мдмщик - Ревущий фьорд"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 1.499969482421875,
 						["x"] = 58.49996948242188,
 						["point"] = "CENTER",
+					},
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Ревущий фьорд"] = {
@@ -2782,12 +2883,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
+						["y"] = 2.99993896484375,
+						["x"] = -164,
+						["point"] = "TOPRIGHT",
 					},
 				},
 				["RealUI-Healing"] = {
@@ -2804,21 +2906,21 @@ Bartender4DB = {
 				["RealUI"] = {
 					["enabled"] = false,
 				},
-				["Аптечку - Ревущий фьорд"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 2.99993896484375,
-						["x"] = -164,
-						["point"] = "TOPRIGHT",
-					},
-				},
-				["Каскадёр - Ясеневый лес"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
 						["x"] = 345,
 						["point"] = "BOTTOM",
+					},
+				},
+				["Идолмастер - Ревущий фьорд"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499969482421875,
+						["x"] = 58.49996948242188,
+						["point"] = "CENTER",
 					},
 				},
 				["Отжигай - Ревущий фьорд"] = {
@@ -2864,6 +2966,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -2919,10 +3030,10 @@ Bartender4DB = {
 						["x"] = -256,
 						["point"] = "BOTTOM",
 					},
-					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["artSkin"] = "HUMAN",
-					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 				},
 				["Синийдиплом - Гордунни"] = {
 					["enabled"] = true,
@@ -2990,7 +3101,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["PALADIN"] = {
+				["DRUID"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -2998,29 +3109,6 @@ Bartender4DB = {
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-				},
-				["Абдуловера - Ревущий фьорд"] = {
-					["enabled"] = true,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Хант"] = {
-					["version"] = 3,
-					["leftCap"] = "HUMAN",
-					["fadeout"] = true,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -256,
-						["point"] = "BOTTOM",
-					},
-					["fadeoutalpha"] = 0,
-					["rightCap"] = "HUMAN",
-					["artSkin"] = "HUMAN",
-					["artLayout"] = "ONEBAR",
 				},
 				["Аптечку - Ревущий фьорд"] = {
 					["enabled"] = true,
@@ -3032,12 +3120,35 @@ Bartender4DB = {
 						["x"] = -256,
 						["point"] = "BOTTOM",
 					},
-					["fadeoutalpha"] = 0,
+					["rightCap"] = "HUMAN",
 					["version"] = 3,
 					["artSkin"] = "HUMAN",
-					["rightCap"] = "HUMAN",
+					["fadeoutalpha"] = 0,
 				},
-				["DRUID"] = {
+				["Хант"] = {
+					["fadeoutalpha"] = 0,
+					["artLayout"] = "ONEBAR",
+					["leftCap"] = "HUMAN",
+					["fadeout"] = true,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -256,
+						["point"] = "BOTTOM",
+					},
+					["rightCap"] = "HUMAN",
+					["artSkin"] = "HUMAN",
+					["version"] = 3,
+				},
+				["Абдуловера - Ревущий фьорд"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["PALADIN"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3060,240 +3171,209 @@ Bartender4DB = {
 				},
 			},
 		},
-		["StanceBar"] = {
+		["ZoneAbilityBar"] = {
 			["profiles"] = {
 				["Гаротыч - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 143,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
 					},
 				},
 				["PALADIN"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
 				["Пакостник - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.99996948242188,
-						["x"] = -82.50001525878906,
+						["y"] = -180.7105026245117,
+						["x"] = -31.5,
 						["point"] = "CENTER",
 					},
 				},
 				["Элям - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.99996948242188,
-						["x"] = -82.50001525878906,
+						["y"] = -180.7105026245117,
+						["x"] = -31.5,
 						["point"] = "CENTER",
 					},
 				},
 				["Холодос - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
 				["Хант"] = {
-					["enabled"] = false,
-					["version"] = 3,
 					["position"] = {
-						["y"] = 14.25004577636719,
-						["x"] = -207.7499847412109,
-						["point"] = "CENTER",
+						["y"] = -18.53160095214844,
+						["x"] = 277.8946838378906,
+						["point"] = "LEFT",
 					},
+					["version"] = 3,
 				},
 				["DRUID"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 143,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
 					},
 				},
 				["MONK"] = {
-					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 14.25004577636719,
-						["x"] = -207.7499847412109,
-						["point"] = "CENTER",
+						["y"] = -18.53160095214844,
+						["x"] = 277.8946838378906,
+						["point"] = "LEFT",
 					},
 				},
 				["Синийдиплом - Гордунни"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 129.9999847412109,
-						["x"] = -209.6565856933594,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["padding"] = 4,
-					["visibility"] = {
-						["always"] = true,
-					},
-					["hidehotkey"] = false,
-				},
-				["Ывалоывоар - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
 				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
-				["Идолмастер - Ревущий фьорд"] = {
-					["hidehotkey"] = false,
-					["position"] = {
-						["y"] = 129.9999847412109,
-						["x"] = -209.6565856933594,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["padding"] = 4,
-					["visibility"] = {
-						["always"] = true,
-					},
-					["version"] = 3,
-				},
-				["Ревущий фьорд"] = {
+				["Ывалоывоар - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
 						["point"] = "CENTER",
 					},
 				},
-				["PRIEST"] = {
-					["enabled"] = false,
+				["Мдмщик - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Натанке - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Абдуловера - Ревущий фьорд"] = {
-					["position"] = {
-						["y"] = 143,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["version"] = 3,
-				},
-				["RealUI-Healing"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 49,
-						["x"] = -157.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-						["growHorizontal"] = "LEFT",
-					},
-					["padding"] = -7,
-					["visibility"] = {
-						["custom"] = true,
-						["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
-					},
-					["fadeoutalpha"] = 0,
-				},
-				["Воляанрол - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["RealUI"] = {
-					["fadeoutalpha"] = 0,
-					["position"] = {
-						["y"] = 49,
-						["x"] = -157.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-						["growHorizontal"] = "LEFT",
-					},
-					["padding"] = -7,
-					["visibility"] = {
-						["custom"] = true,
-						["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
-					},
-					["version"] = 3,
-				},
-				["Аптечку - Ревущий фьорд"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25004577636719,
-						["x"] = -207.7499847412109,
+						["y"] = -203.1667022705078,
+						["x"] = -31.49993896484375,
 						["point"] = "CENTER",
 					},
 				},
 				["Каскадёр - Ясеневый лес"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -15,
-						["x"] = -82.49998474121094,
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["PRIEST"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Натанке - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Аптечку - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -18.53160095214844,
+						["x"] = 277.8946838378906,
+						["point"] = "LEFT",
+					},
+				},
+				["RealUI-Healing"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 77,
+						["x"] = -221.5,
+						["point"] = "BOTTOM",
+						["scale"] = 0.985,
+					},
+				},
+				["Воляанрол - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["RealUI"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 77,
+						["x"] = -221.5,
+						["point"] = "BOTTOM",
+						["scale"] = 0.985,
+					},
+				},
+				["Абдуловера - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -160.5000152587891,
+						["x"] = -31.50006103515625,
+						["point"] = "CENTER",
+					},
+				},
+				["Идолмастер - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -203.1667022705078,
+						["x"] = -31.49993896484375,
 						["point"] = "CENTER",
 					},
 				},
 				["Отжигай - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 129.9999847412109,
-						["x"] = -209.6565856933594,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = -203.1667022705078,
+						["x"] = -31.49993896484375,
+						["point"] = "CENTER",
 					},
-					["padding"] = 4,
-					["visibility"] = {
-						["always"] = true,
-					},
-					["hidehotkey"] = false,
 				},
 			},
 		},
@@ -3323,6 +3403,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.5,
+						["x"] = 104.5000915527344,
+						["point"] = "CENTER",
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3348,12 +3436,12 @@ Bartender4DB = {
 					},
 				},
 				["Хант"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 42.5,
 						["x"] = 104.5000915527344,
 						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 				["DRUID"] = {
 					["version"] = 3,
@@ -3379,11 +3467,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Мдмщик - Ревущий фьорд"] = {
+				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.49992370605469,
-						["x"] = 104.4999084472656,
+						["y"] = 42.5,
+						["x"] = 104.5000915527344,
 						["point"] = "CENTER",
 					},
 				},
@@ -3395,19 +3483,19 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Стараясасалк - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.5,
-						["x"] = 104.5000915527344,
-						["point"] = "CENTER",
-					},
-				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Мдмщик - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 42.49992370605469,
 						["x"] = 104.4999084472656,
+						["point"] = "CENTER",
+					},
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.5,
+						["x"] = 104.5000915527344,
 						["point"] = "CENTER",
 					},
 				},
@@ -3435,13 +3523,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 42.5,
 						["x"] = 104.5000915527344,
 						["point"] = "CENTER",
 					},
-					["version"] = 3,
 				},
 				["RealUI-Healing"] = {
 					["version"] = 3,
@@ -3469,7 +3557,7 @@ Bartender4DB = {
 						["scale"] = 0.84,
 					},
 				},
-				["Аптечку - Ревущий фьорд"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 42.5,
@@ -3477,11 +3565,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Каскадёр - Ясеневый лес"] = {
+				["Идолмастер - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.5,
-						["x"] = 104.5000915527344,
+						["y"] = 42.49992370605469,
+						["x"] = 104.4999084472656,
 						["point"] = "CENTER",
 					},
 				},
@@ -3521,6 +3609,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3548,10 +3644,12 @@ Bartender4DB = {
 				["Хант"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 164,
-						["x"] = -164,
-						["point"] = "BOTTOM",
+						["y"] = 27.62499898672104,
+						["x"] = 75.7562743056269,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.6499999761581421,
 					},
+					["padding"] = 15,
 				},
 				["DRUID"] = {
 					["version"] = 3,
@@ -3577,12 +3675,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["enabled"] = false,
+				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 164,
-						["x"] = -164,
+						["y"] = 143,
+						["x"] = -460,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3594,20 +3691,20 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Стараясасалк - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 143,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Мдмщик - Ревущий фьорд"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 164,
 						["x"] = -164,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3635,11 +3732,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 143,
-						["x"] = -120,
+						["y"] = 164,
+						["x"] = -164,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3650,13 +3747,13 @@ Bartender4DB = {
 						["x"] = -8,
 						["point"] = "LEFT",
 					},
-					["fadeoutalpha"] = 0,
 					["rows"] = 10,
+					["padding"] = -7,
 					["visibility"] = {
 						["custom"] = true,
 						["customdata"] = "[nopet][petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
 					},
-					["padding"] = -7,
+					["fadeoutalpha"] = 0,
 				},
 				["Воляанрол - Ревущий фьорд"] = {
 					["version"] = 3,
@@ -3673,27 +3770,28 @@ Bartender4DB = {
 						["x"] = -8,
 						["point"] = "LEFT",
 					},
-					["version"] = 3,
 					["rows"] = 2,
+					["padding"] = -7,
 					["visibility"] = {
 						["custom"] = true,
 						["customdata"] = "[nopet][petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
 					},
-					["padding"] = -7,
+					["version"] = 3,
 				},
-				["Аптечку - Ревущий фьорд"] = {
+				["Абдуловера - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Идолмастер - Ревущий фьорд"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 164,
 						["x"] = -164,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Каскадёр - Ясеневый лес"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 143,
-						["x"] = -460,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3708,220 +3806,268 @@ Bartender4DB = {
 				},
 			},
 		},
-		["ZoneAbilityBar"] = {
+		["StanceBar"] = {
 			["profiles"] = {
 				["Гаротыч - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
-						["point"] = "CENTER",
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 143,
 					},
 				},
 				["PALADIN"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Пакостник - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Нарковед - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Чайвз - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -180.7105026245117,
-						["x"] = -31.5,
+						["y"] = -14.99996948242188,
+						["x"] = -82.50001525878906,
 						["point"] = "CENTER",
 					},
 				},
 				["Элям - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -180.7105026245117,
-						["x"] = -31.5,
+						["y"] = -14.99996948242188,
+						["x"] = -82.50001525878906,
 						["point"] = "CENTER",
 					},
 				},
 				["Холодос - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Хант"] = {
-					["version"] = 3,
+					["enabled"] = false,
 					["position"] = {
-						["y"] = -18.53160095214844,
-						["x"] = 277.8946838378906,
-						["point"] = "LEFT",
+						["y"] = 14.25004577636719,
+						["x"] = -207.7499847412109,
+						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 				["DRUID"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
-						["point"] = "CENTER",
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 143,
 					},
 				},
 				["MONK"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = -18.53160095214844,
-						["x"] = 277.8946838378906,
-						["point"] = "LEFT",
+						["y"] = 14.25004577636719,
+						["x"] = -207.7499847412109,
+						["point"] = "CENTER",
 					},
 				},
 				["Синийдиплом - Гордунни"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
-						["point"] = "CENTER",
-					},
-				},
-				["Мдмщик - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -203.1667022705078,
-						["x"] = -31.49993896484375,
-						["point"] = "CENTER",
-					},
-				},
-				["Ывалоывоар - Ревущий фьорд"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Стараясасалк - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
-				["Идолмастер - Ревущий фьорд"] = {
+				["Ывалоывоар - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -203.1667022705078,
-						["x"] = -31.49993896484375,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Мдмщик - Ревущий фьорд"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 129.9999847412109,
+						["x"] = -209.6565856933594,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+					["padding"] = 4,
+					["visibility"] = {
+						["always"] = true,
+					},
+					["hidehotkey"] = false,
+				},
+				["Каскадёр - Ясеневый лес"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["PRIEST"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["Натанке - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
-				["Абдуловера - Ревущий фьорд"] = {
+				["Аптечку - Ревущий фьорд"] = {
+					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = 14.25004577636719,
+						["x"] = -207.7499847412109,
 						["point"] = "CENTER",
 					},
-					["version"] = 3,
 				},
 				["RealUI-Healing"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 77,
-						["x"] = -221.5,
+						["y"] = 49,
+						["x"] = -157.5,
 						["point"] = "BOTTOM",
-						["scale"] = 0.985,
+						["scale"] = 1,
+						["growHorizontal"] = "LEFT",
 					},
+					["padding"] = -7,
+					["visibility"] = {
+						["custom"] = true,
+						["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
+					},
+					["fadeoutalpha"] = 0,
 				},
 				["Воляанрол - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
+						["y"] = -15,
+						["x"] = -82.49998474121094,
 						["point"] = "CENTER",
 					},
 				},
 				["RealUI"] = {
-					["version"] = 3,
+					["fadeoutalpha"] = 0,
 					["position"] = {
-						["y"] = 77,
-						["x"] = -221.5,
+						["y"] = 49,
+						["x"] = -157.5,
 						["point"] = "BOTTOM",
-						["scale"] = 0.985,
+						["scale"] = 1,
+						["growHorizontal"] = "LEFT",
 					},
+					["padding"] = -7,
+					["visibility"] = {
+						["custom"] = true,
+						["customdata"] = "[petbattle][overridebar][vehicleui][possessbar,@vehicle,exists]hide;[mod:ctrl]show;fade",
+					},
+					["version"] = 3,
 				},
-				["Аптечку - Ревущий фьорд"] = {
+				["Абдуловера - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -18.53160095214844,
-						["x"] = 277.8946838378906,
-						["point"] = "LEFT",
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
-				["Каскадёр - Ясеневый лес"] = {
-					["version"] = 3,
+				["Идолмастер - Ревущий фьорд"] = {
+					["hidehotkey"] = false,
 					["position"] = {
-						["y"] = -160.5000152587891,
-						["x"] = -31.50006103515625,
-						["point"] = "CENTER",
+						["y"] = 129.9999847412109,
+						["x"] = -209.6565856933594,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
+					["padding"] = 4,
+					["visibility"] = {
+						["always"] = true,
+					},
+					["version"] = 3,
 				},
 				["Отжигай - Ревущий фьорд"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -203.1667022705078,
-						["x"] = -31.49993896484375,
-						["point"] = "CENTER",
+						["y"] = 129.9999847412109,
+						["x"] = -209.6565856933594,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
+					["padding"] = 4,
+					["visibility"] = {
+						["always"] = true,
+					},
+					["hidehotkey"] = false,
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Синийдиплом - Гордунни"] = "Синийдиплом - Гордунни",
-		["Идолмастер - Ревущий фьорд"] = "Хант",
 		["Гаротыч - Ревущий фьорд"] = "Гаротыч - Ревущий фьорд",
-		["Ывалоывоар - Ревущий фьорд"] = "Ывалоывоар - Ревущий фьорд",
+		["Идолмастер - Ревущий фьорд"] = "Хант",
 		["Пакостник - Ревущий фьорд"] = "RealUI",
-		["Каскадёр - Ясеневый лес"] = "RealUI",
-		["Мдмщик - Ревущий фьорд"] = "Хант",
+		["Нарковед - Ревущий фьорд"] = "Нарковед - Ревущий фьорд",
 		["Чайвз - Ревущий фьорд"] = "Хант",
-		["Натанке - Ревущий фьорд"] = "PRIEST",
-		["Холодос - Ревущий фьорд"] = "Холодос - Ревущий фьорд",
-		["Абдуловера - Ревущий фьорд"] = "Абдуловера - Ревущий фьорд",
-		["Воляанрол - Ревущий фьорд"] = "MONK",
 		["Элям - Ревущий фьорд"] = "Элям - Ревущий фьорд",
+		["Холодос - Ревущий фьорд"] = "Холодос - Ревущий фьорд",
+		["Воляанрол - Ревущий фьорд"] = "MONK",
+		["Каскадёр - Ясеневый лес"] = "RealUI",
+		["Синийдиплом - Гордунни"] = "Синийдиплом - Гордунни",
+		["Ывалоывоар - Ревущий фьорд"] = "Ывалоывоар - Ревущий фьорд",
+		["Мдмщик - Ревущий фьорд"] = "Хант",
+		["Натанке - Ревущий фьорд"] = "PRIEST",
 		["Аптечку - Ревущий фьорд"] = "Аптечку - Ревущий фьорд",
+		["Абдуловера - Ревущий фьорд"] = "Абдуловера - Ревущий фьорд",
 		["Стараясасалк - Ревущий фьорд"] = "Стараясасалк - Ревущий фьорд",
 		["Отжигай - Ревущий фьорд"] = "Хант",
 	},
@@ -3937,6 +4083,11 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Пакостник - Ревущий фьорд"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Нарковед - Ревущий фьорд"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -3958,11 +4109,11 @@ Bartender4DB = {
 		},
 		["Хант"] = {
 			["focuscastmodifier"] = false,
+			["onkeydown"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 90,
 				["hide"] = true,
 			},
-			["onkeydown"] = true,
 			["outofrange"] = "hotkey",
 		},
 		["DRUID"] = {
@@ -3984,11 +4135,9 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Мдмщик - Ревущий фьорд"] = {
+		["Стараясасалк - Ревущий фьорд"] = {
 			["focuscastmodifier"] = false,
-			["minimapIcon"] = {
-				["minimapPos"] = 342.8758439028194,
-			},
+			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 		["Ывалоывоар - Ревущий фьорд"] = {
@@ -3996,16 +4145,16 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Стараясасалк - Ревущий фьорд"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Идолмастер - Ревущий фьорд"] = {
+		["Мдмщик - Ревущий фьорд"] = {
 			["focuscastmodifier"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 342.8758439028194,
 			},
+			["outofrange"] = "hotkey",
+		},
+		["Каскадёр - Ясеневый лес"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 		["Ревущий фьорд"] = {
@@ -4022,9 +4171,13 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Абдуловера - Ревущий фьорд"] = {
+		["Аптечку - Ревущий фьорд"] = {
 			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
+			["minimapIcon"] = {
+				["minimapPos"] = 90,
+				["hide"] = true,
+			},
+			["onkeydown"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["RealUI-Healing"] = {
@@ -4045,18 +4198,16 @@ Bartender4DB = {
 			},
 			["blizzardVehicle"] = true,
 		},
-		["Аптечку - Ревущий фьорд"] = {
-			["focuscastmodifier"] = false,
-			["minimapIcon"] = {
-				["minimapPos"] = 90,
-				["hide"] = true,
-			},
-			["onkeydown"] = false,
-			["outofrange"] = "hotkey",
-		},
-		["Каскадёр - Ясеневый лес"] = {
+		["Абдуловера - Ревущий фьорд"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Идолмастер - Ревущий фьорд"] = {
+			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["minimapPos"] = 342.8758439028194,
+			},
 			["outofrange"] = "hotkey",
 		},
 		["Отжигай - Ревущий фьорд"] = {

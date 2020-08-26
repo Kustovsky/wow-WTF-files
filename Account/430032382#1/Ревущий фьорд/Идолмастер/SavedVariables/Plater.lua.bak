@@ -12,5 +12,5 @@ PlaterDBChr = {
 	},
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = true,
+	["resources_on_target"] = false,
 }

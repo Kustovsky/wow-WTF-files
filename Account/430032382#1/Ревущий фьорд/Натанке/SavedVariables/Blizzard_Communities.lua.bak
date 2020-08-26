@@ -1,3 +1,11 @@
 
 g_clubIdToSeenApplicants = {
+	[134177052] = {
+		["Player-1615-09CC783F"] = true,
+		["Player-1615-09CCBF4A"] = true,
+	},
+	[148909802] = {
+		["Player-1615-096C6C41"] = true,
+		["Player-1615-095ABF84"] = true,
+	},
 }

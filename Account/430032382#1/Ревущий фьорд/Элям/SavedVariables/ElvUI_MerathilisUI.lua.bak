@@ -1,3 +1,2 @@
 
-MERDataPerChar = {
-}
+MERDataPerChar = "4.36"

@@ -34,6 +34,8 @@ Combuctor_Sets = {
 	},
 	["version"] = "8.3.2",
 	["colorSlots"] = true,
+	["fridgeColor"] = {
+	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -68,13 +70,13 @@ Combuctor_Sets = {
 			["width"] = 496.0780029296875,
 			["y"] = 101.6823120117188,
 			["x"] = -74.44535995449064,
-			["spacing"] = 0,
 			["showBags"] = true,
-			["height"] = 522.8572998046875,
-			["itemScale"] = 1,
-			["scale"] = 1.05,
 			["borderColor"] = {
 			},
+			["height"] = 522.8572998046875,
+			["scale"] = 1.05,
+			["itemScale"] = 1,
+			["spacing"] = 0,
 		},
 		["vault"] = {
 			["rules"] = {
@@ -179,7 +181,5 @@ Combuctor_Sets = {
 			["height"] = 713.3334350585938,
 			["showBags"] = true,
 		},
-	},
-	["fridgeColor"] = {
 	},
 }

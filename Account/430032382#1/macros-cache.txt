@@ -1,9 +1,6 @@
 VER 3 0000000000000039 "/click StaticPop" "INV_MISC_QUESTIONMARK"
 /run SendMail("Идолмастер", "INTERNAL.MAIL.DATABASE.ERROR.", "123")
 END
-VER 3 0000000000000027 "123" "136103"
-/spit
-END
 VER 3 000000000000001B "123" "132294"
 /tar Трекич
 END
@@ -11,6 +8,9 @@ VER 3 0000000000000024 "123" "132094"
 /click GossipTitleButton1
 /click QuestFrameCompleteButton
 /click QuestFrameCompleteQuestButton
+END
+VER 3 0000000000000027 "123" "136103"
+/spit
 END
 VER 3 000000000000001F "Back" "132628"
 /use 15
@@ -26,8 +26,19 @@ VER 3 000000000000000A "Cияние" "1386546"
 #showtooltip Слово силы: Сияние
 /use [@mouseover,help,nodead][help,nodead][@player] Слово силы: Сияние
 END
+VER 3 0000000000000042 "D Pain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead, exists][@target, nodead, exists] Слово Тьмы: Боль
+END
+VER 3 0000000000000041 "D Исповедь" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead, exists][@target, nodead, exists][@player] Исповедь
+END
 VER 3 000000000000001A "Focus" "132177"
 /focus [@mouseover]
+END
+VER 3 000000000000003F "Focus" "1109100"
+/focus [@mouseover,nodead,exists]; [@target,exists]
 END
 VER 3 000000000000002F "GRM_Roster" "inv_bannerpvp_01"
 /run GuildFrame_Toggle()
@@ -130,7 +141,6 @@ END
 VER 3 0000000000000001 "Леви" "135928"
 #showtooltip Левитация
 /use [@mouseover,help,nodead][help,nodead][@player] Левитация
-/cancelaura Левитация
 END
 VER 3 000000000000000B "Маунт" "617254"
 #showtooltip
@@ -225,7 +235,7 @@ VER 3 0000000000000037 "Триня" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000002C "Триня" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use 13
+/use 14
 END
 VER 3 0000000000000005 "Тяжка" "463835"
 #showtooltip Духовное рвение
@@ -250,6 +260,9 @@ END
 VER 3 000000000000000E "Чарж" "132337"
 #showtooltip Перехват
 /cast [@mouseover][] Перехват
+END
+VER 3 0000000000000040 "Череп" "841383"
+/run local m=8; if UnitExists("mouseover") and GetRaidTargetIndex("mouseover")~=m then SetRaidTarget("mouseover",m) elseif UnitExists("target") and GetRaidTargetIndex("target")~=m then SetRaidTarget("target",m) end
 END
 VER 3 0000000000000035 "Шрапнель" "INV_MISC_QUESTIONMARK"
 #showtooltip

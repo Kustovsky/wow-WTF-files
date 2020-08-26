@@ -1119,9 +1119,9 @@ DeathGraphsDBDeaths = {
 				["name"] = "Сакальтор",
 				["class"] = "DRUID",
 			},
-			["Евасолнышко"] = {
-				["name"] = "Евасолнышко",
-				["class"] = "HUNTER",
+			["Мущщынаы"] = {
+				["name"] = "Мущщынаы",
+				["class"] = "SHAMAN",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -1135,13 +1135,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Кактьма",
 				["class"] = "PRIEST",
 			},
-			["Меделинн"] = {
+			["Евасолнышко"] = {
+				["name"] = "Евасолнышко",
+				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Меделинн",
-				["class"] = "HUNTER",
 			},
 			["Симплеон"] = {
 				["overall"] = {
@@ -1175,13 +1175,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Нолики",
 				["class"] = "MONK",
 			},
-			["Мущщынаы"] = {
-				["name"] = "Мущщынаы",
-				["class"] = "SHAMAN",
+			["Меделинн"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Меделинн",
+				["class"] = "HUNTER",
 			},
 			["Скаренр"] = {
 				["overall"] = {
@@ -3877,9 +3877,9 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Stankhunt-Draenor"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Идолмастер"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
@@ -3891,10 +3891,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Hästur-Medivh"] = {
+			["Stankhunt-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -3919,10 +3919,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Идолмастер"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Hästur-Medivh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -12674,11 +12674,11 @@ DeathGraphsDBGraph = {
 			[271] = {
 				1589925371, -- [1]
 			},
+			[549] = {
+				1589926138, -- [1]
+			},
 			[215] = {
 				1589923162, -- [1]
-			},
-			[267] = {
-				1589924631, -- [1]
 			},
 			[275] = {
 				1589923554, -- [1]
@@ -12692,8 +12692,8 @@ DeathGraphsDBGraph = {
 			[26] = {
 				1589923554, -- [1]
 			},
-			[549] = {
-				1589926138, -- [1]
+			[267] = {
+				1589924631, -- [1]
 			},
 			[27] = {
 				1589923162, -- [1]

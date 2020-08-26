@@ -18,6 +18,10 @@ VER 3 0100000000000015 "Окутывающий" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help][@player] Окутывающий туман
 END
+VER 3 0100000000000018 "Тайгерласт" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][@focus,exists,nodead][@player] Тигриное рвение
+END
 VER 3 0100000000000016 "Успокаивающий" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help][@player] Успокаивающий туман

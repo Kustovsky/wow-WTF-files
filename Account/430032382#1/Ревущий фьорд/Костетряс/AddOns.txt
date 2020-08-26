@@ -224,5 +224,5 @@ HealerStatWeights: disabled
 Masque_Azerite: enabled
 TipTacTalents: enabled
 OzCooldowns: disabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled

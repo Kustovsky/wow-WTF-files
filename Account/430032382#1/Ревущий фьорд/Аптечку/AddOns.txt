@@ -235,7 +235,7 @@ Chinchilla: disabled
 KeystoneLoot: enabled
 LibDFramework-1.0: enabled
 LootAppraiser: enabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled
 MoveAnything: disabled
 OmniCC: disabled

@@ -171,7 +171,7 @@ Kui_Nameplates_Core_Config: disabled
 BadBoy: enabled
 BadBoy_CCleaner: enabled
 BadBoy_Guilded: enabled
-Bartender4: disabled
+Bartender4: enabled
 BigWigs_Achievements: enabled
 BigWigs_Ra-denAssist: enabled
 BigWigs: enabled
@@ -202,8 +202,8 @@ Skada: disabled
 FreebTip: disabled
 NoTalkingHeads: enabled
 ExRT: enabled
-VuhDo: enabled
-VuhDoOptions: enabled
+VuhDo: disabled
+VuhDoOptions: disabled
 Tukui_Config: disabled
 Tukui: disabled
 AdiBags_Archaeology: disabled
@@ -239,7 +239,7 @@ OzCooldowns: disabled
 MoveAnything: enabled
 TradeSkillMaster_AppHelper: enabled
 LootAppraiser: enabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled
 PremadeGroupsFilter: enabled
 ElvUI_BenikUI: enabled

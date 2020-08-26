@@ -1,2 +1,2 @@
 
-MERDataPerChar = "4.46"
+MERDataPerChar = "4.36"

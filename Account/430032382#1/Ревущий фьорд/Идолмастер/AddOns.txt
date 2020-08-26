@@ -20,11 +20,11 @@ DBM-Core: disabled
 Simulationcraft: enabled
 Clique: disabled
 MikScrollingBattleText: enabled
-Kui_Media: enabled
-Kui_Nameplates: enabled
-Kui_Nameplates_Core_Config: enabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core_Config: disabled
 Leatrix_Plus: enabled
-Kui_Nameplates_Core: enabled
+Kui_Nameplates_Core: disabled
 DynamicCam: enabled
 Details_TinyThreat: enabled
 Details_Streamer: enabled
@@ -235,7 +235,7 @@ Chinchilla: disabled
 KeystoneLoot: enabled
 LibDFramework-1.0: enabled
 LootAppraiser: enabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled
 MoveAnything: disabled
 OmniCC: disabled

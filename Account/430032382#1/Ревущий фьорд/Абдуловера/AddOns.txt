@@ -202,8 +202,8 @@ Skada: disabled
 FreebTip: disabled
 NoTalkingHeads: enabled
 ExRT: enabled
-VuhDo: enabled
-VuhDoOptions: enabled
+VuhDo: disabled
+VuhDoOptions: disabled
 Tukui_Config: disabled
 Tukui: disabled
 AdiBags_Archaeology: disabled
@@ -239,7 +239,7 @@ OzCooldowns: disabled
 MoveAnything: enabled
 TradeSkillMaster_AppHelper: enabled
 LootAppraiser: enabled
-MacroToolkit: enabled
+MacroToolkit: disabled
 MacroToolkitIcons: enabled
 PremadeGroupsFilter: enabled
 ElvUI_BenikUI: enabled

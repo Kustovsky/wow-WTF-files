@@ -7,135 +7,135 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Найтколл - Гордунни",
+			["alerthidden"] = true,
 			["spec3_profileKey"] = "Найтколл - Гордунни",
-			["alerthidden"] = true,
+			["spec2_profileKey"] = "Найтколл - Гордунни",
 		},
-		["Отжигай - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Отжигай - Ревущий фьорд",
-			["specswap"] = false,
+		["Синийдиплом - Гордунни"] = {
+			["spec1_profileKey"] = "Синийдиплом - Гордунни",
+			["spec3_profileKey"] = "Синийдиплом - Гордунни",
 			["downclick"] = false,
-			["spec4_profileKey"] = "Отжигай - Ревущий фьорд",
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Отжигай - Ревущий фьорд",
-			["alerthidden"] = true,
-			["spec2_profileKey"] = "Отжигай - Ревущий фьорд",
+			["spec2_profileKey"] = "Синийдиплом - Гордунни",
+			["specswap"] = false,
 		},
-		["Анимешер - Ясеневый лес"] = {
-			["spec1_profileKey"] = "Анимешер - Ясеневый лес",
-			["spec2_profileKey"] = "Анимешер - Ясеневый лес",
-			["downclick"] = false,
-			["spec3_profileKey"] = "Анимешер - Ясеневый лес",
-			["fastooc"] = false,
+		["Оптимизатор - Ясеневый лес"] = {
 			["alerthidden"] = true,
-			["specswap"] = false,
-			["spec4_profileKey"] = "Анимешер - Ясеневый лес",
 		},
 		["Идолмастер - Ревущий фьорд"] = {
 			["spec1_profileKey"] = "Идолмастер - Ревущий фьорд",
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Идолмастер - Ревущий фьорд",
 			["spec2_profileKey"] = "Идолмастер - Ревущий фьорд",
+			["spec3_profileKey"] = "Идолмастер - Ревущий фьорд",
 		},
 		["Пакостник - Ревущий фьорд"] = {
 			["spec1_profileKey"] = "Пакостник - Ревущий фьорд",
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Пакостник - Ревущий фьорд",
 			["spec3_profileKey"] = "Пакостник - Ревущий фьорд",
+			["spec2_profileKey"] = "Пакостник - Ревущий фьорд",
 		},
-		["Абдуловера - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Абдуловера - Ревущий фьорд",
-			["spec3_profileKey"] = "Абдуловера - Ревущий фьорд",
-			["downclick"] = false,
+		["Линуксоид - Ясеневый лес"] = {
+			["spec1_profileKey"] = "Линуксоид - Ясеневый лес",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Абдуловера - Ревущий фьорд",
-			["specswap"] = false,
-		},
-		["Каскадёр - Ясеневый лес"] = {
-			["spec1_profileKey"] = "Каскадёр - Ясеневый лес",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Линуксоид - Ясеневый лес",
 			["downclick"] = false,
-			["fastooc"] = false,
+			["specswap"] = false,
 			["alerthidden"] = true,
-			["spec3_profileKey"] = "Каскадёр - Ясеневый лес",
-			["spec2_profileKey"] = "Каскадёр - Ясеневый лес",
-		},
-		["Стэндюзер - Ясеневый лес"] = {
-			["spec1_profileKey"] = "Стэндюзер - Ясеневый лес",
-			["specswap"] = false,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Стэндюзер - Ясеневый лес",
-			["spec3_profileKey"] = "Стэндюзер - Ясеневый лес",
-			["alerthidden"] = true,
-		},
-		["Элям - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Элям - Ревущий фьорд",
-			["spec3_profileKey"] = "Элям - Ревущий фьорд",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["alerthidden"] = true,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Элям - Ревущий фьорд",
-		},
-		["Натанке - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Натанке - Ревущий фьорд",
-			["spec2_profileKey"] = "Натанке - Ревущий фьорд",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec3_profileKey"] = "Натанке - Ревущий фьорд",
-			["specswap"] = false,
-		},
-		["Клипса - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Клипса - Ревущий фьорд",
-			["specswap"] = false,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Клипса - Ревущий фьорд",
-			["spec3_profileKey"] = "Клипса - Ревущий фьорд",
-		},
-		["Воляанрол - Ревущий фьорд"] = {
-			["spec1_profileKey"] = "Воляанрол - Ревущий фьорд",
-			["stopcastingfix"] = true,
-			["downclick"] = false,
-			["spec2_profileKey"] = "Воляанрол - Ревущий фьорд",
-			["fastooc"] = false,
-			["spec3_profileKey"] = "Воляанрол - Ревущий фьорд",
-			["alerthidden"] = true,
-			["specswap"] = false,
+			["spec3_profileKey"] = "Линуксоид - Ясеневый лес",
 		},
 		["Мдмщик - Ревущий фьорд"] = {
 			["spec1_profileKey"] = "Мдмщик - Ревущий фьорд",
 			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Мдмщик - Ревущий фьорд",
+			["specswap"] = false,
 			["spec2_profileKey"] = "Мдмщик - Ревущий фьорд",
-			["specswap"] = false,
+			["spec3_profileKey"] = "Мдмщик - Ревущий фьорд",
 		},
-		["Линуксоид - Ясеневый лес"] = {
-			["spec1_profileKey"] = "Линуксоид - Ясеневый лес",
+		["Элям - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Элям - Ревущий фьорд",
+			["spec3_profileKey"] = "Элям - Ревущий фьорд",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Элям - Ревущий фьорд",
+			["specswap"] = false,
+			["alerthidden"] = true,
+		},
+		["Стэндюзер - Ясеневый лес"] = {
+			["spec1_profileKey"] = "Стэндюзер - Ясеневый лес",
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Линуксоид - Ясеневый лес",
-			["spec3_profileKey"] = "Линуксоид - Ясеневый лес",
 			["alerthidden"] = true,
+			["spec3_profileKey"] = "Стэндюзер - Ясеневый лес",
+			["spec2_profileKey"] = "Стэндюзер - Ясеневый лес",
 		},
-		["Оптимизатор - Ясеневый лес"] = {
-			["alerthidden"] = true,
-		},
-		["Синийдиплом - Гордунни"] = {
-			["spec1_profileKey"] = "Синийдиплом - Гордунни",
+		["Натанке - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Натанке - Ревущий фьорд",
+			["spec2_profileKey"] = "Натанке - Ревущий фьорд",
+			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Синийдиплом - Гордунни",
+			["specswap"] = false,
+			["spec3_profileKey"] = "Натанке - Ревущий фьорд",
+		},
+		["Клипса - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Клипса - Ревущий фьорд",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Клипса - Ревущий фьорд",
+			["spec2_profileKey"] = "Клипса - Ревущий фьорд",
+		},
+		["Воляанрол - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Воляанрол - Ревущий фьорд",
+			["stopcastingfix"] = true,
 			["downclick"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Синийдиплом - Гордунни",
+			["fastooc"] = false,
+			["alerthidden"] = true,
+			["spec3_profileKey"] = "Воляанрол - Ревущий фьорд",
+			["spec2_profileKey"] = "Воляанрол - Ревущий фьорд",
+		},
+		["Каскадёр - Ясеневый лес"] = {
+			["spec1_profileKey"] = "Каскадёр - Ясеневый лес",
+			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Каскадёр - Ясеневый лес",
+			["spec3_profileKey"] = "Каскадёр - Ясеневый лес",
+			["alerthidden"] = true,
+		},
+		["Абдуловера - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Абдуловера - Ревущий фьорд",
+			["spec3_profileKey"] = "Абдуловера - Ревущий фьорд",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Абдуловера - Ревущий фьорд",
+		},
+		["Анимешер - Ясеневый лес"] = {
+			["spec1_profileKey"] = "Анимешер - Ясеневый лес",
+			["spec2_profileKey"] = "Анимешер - Ясеневый лес",
+			["downclick"] = false,
+			["spec4_profileKey"] = "Анимешер - Ясеневый лес",
+			["fastooc"] = false,
+			["specswap"] = false,
+			["alerthidden"] = true,
+			["spec3_profileKey"] = "Анимешер - Ясеневый лес",
+		},
+		["Отжигай - Ревущий фьорд"] = {
+			["spec1_profileKey"] = "Отжигай - Ревущий фьорд",
+			["specswap"] = false,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Отжигай - Ревущий фьорд",
+			["spec4_profileKey"] = "Отжигай - Ревущий фьорд",
+			["alerthidden"] = true,
+			["spec3_profileKey"] = "Отжигай - Ревущий фьорд",
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -167,26 +167,26 @@ CliqueDB3 = {
 		["Пакостник - Ревущий фьорд"] = "Пакостник - Ревущий фьорд",
 		["Мрачныйокунь - Ревущий фьорд"] = "Мрачныйокунь - Ревущий фьорд",
 		["Мдмщик - Ревущий фьорд"] = "Мдмщик - Ревущий фьорд",
-		["Элям - Ревущий фьорд"] = "Элям - Ревущий фьорд",
+		["Biglilpump - Argent Dawn"] = "Biglilpump - Argent Dawn",
 		["Фывфывфыгашы - Ясеневый лес"] = "Фывфывфыгашы - Ясеневый лес",
-		["Япомойка - Ясеневый лес"] = "Япомойка - Ясеневый лес",
+		["Абдуловера - Ревущий фьорд"] = "Абдуловера - Ревущий фьорд",
 		["Гаротыч - Гордунни"] = "Гаротыч - Гордунни",
 		["Куколдье - Ревущий фьорд"] = "Куколдье - Ревущий фьорд",
-		["Натанке - Ревущий фьорд"] = "Натанке - Ревущий фьорд",
 		["Подпалковнек - Гордунни"] = "Подпалковнек - Гордунни",
-		["Абдуловера - Ревущий фьорд"] = "Абдуловера - Ревущий фьорд",
+		["Натанке - Ревущий фьорд"] = "Натанке - Ревущий фьорд",
+		["Япомойка - Ясеневый лес"] = "Япомойка - Ясеневый лес",
 		["Двахант - Гордунни"] = "Двахант - Гордунни",
-		["Biglilpump - Argent Dawn"] = "Biglilpump - Argent Dawn",
+		["Элям - Ревущий фьорд"] = "Элям - Ревущий фьорд",
 		["Отжигай - Ревущий фьорд"] = "Отжигай - Ревущий фьорд",
 	},
 	["profiles"] = {
 		["Анимешер - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "SHIFT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -292,10 +292,10 @@ CliqueDB3 = {
 		["Запивом - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -311,10 +311,10 @@ CliqueDB3 = {
 		["Степанович - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -330,10 +330,10 @@ CliqueDB3 = {
 		["Стэндюзер - Ясеневый лес"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "SHIFT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -403,10 +403,10 @@ CliqueDB3 = {
 		["Холодос - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -422,10 +422,10 @@ CliqueDB3 = {
 		["Гидраонион - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -441,10 +441,10 @@ CliqueDB3 = {
 		["Свинота - Гордунни"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -460,10 +460,10 @@ CliqueDB3 = {
 		["Сисяныч - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -479,10 +479,10 @@ CliqueDB3 = {
 		["Моднаяприча - Ясеневый лес"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -498,10 +498,10 @@ CliqueDB3 = {
 		["Старчилл - Ясеневый лес"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -517,10 +517,10 @@ CliqueDB3 = {
 		["Дрисня - Ясеневый лес"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -536,10 +536,10 @@ CliqueDB3 = {
 		["Анусвконус - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -555,10 +555,10 @@ CliqueDB3 = {
 		["Линуксоид - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "SHIFT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -633,10 +633,10 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["type"] = "menu",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "menu",
 				}, -- [10]
 				{
 					["type"] = "spell",
@@ -652,10 +652,10 @@ CliqueDB3 = {
 		["Тестгеймпада - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -671,10 +671,10 @@ CliqueDB3 = {
 		["Оптимизатор - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -690,10 +690,10 @@ CliqueDB3 = {
 		["Япедофил - Гордунни"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -709,10 +709,10 @@ CliqueDB3 = {
 		["Идолмастер - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -728,10 +728,10 @@ CliqueDB3 = {
 		["Спинтувина - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -747,10 +747,10 @@ CliqueDB3 = {
 		["Костетряс - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -766,10 +766,10 @@ CliqueDB3 = {
 		["Клипса - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -785,10 +785,10 @@ CliqueDB3 = {
 		["Воляанрол - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -804,10 +804,10 @@ CliqueDB3 = {
 		["Каскадёр - Ясеневый лес"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -841,10 +841,10 @@ CliqueDB3 = {
 		["Синийдиплом - Гордунни"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -860,10 +860,10 @@ CliqueDB3 = {
 		["Найтколл - Гордунни"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "SHIFT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -935,10 +935,10 @@ CliqueDB3 = {
 		["Турбоморж - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -954,10 +954,10 @@ CliqueDB3 = {
 		["Пакостник - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -973,10 +973,10 @@ CliqueDB3 = {
 		["Мрачныйокунь - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -992,10 +992,10 @@ CliqueDB3 = {
 		["Мдмщик - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "SHIFT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1125,13 +1125,13 @@ CliqueDB3 = {
 				}, -- [15]
 			},
 		},
-		["Элям - Ревущий фьорд"] = {
+		["Biglilpump - Argent Dawn"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1147,10 +1147,10 @@ CliqueDB3 = {
 		["Фывфывфыгашы - Ясеневый лес"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1163,13 +1163,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Япомойка - Ясеневый лес"] = {
+		["Абдуловера - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1185,10 +1185,10 @@ CliqueDB3 = {
 		["Гаротыч - Гордунни"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1204,29 +1204,10 @@ CliqueDB3 = {
 		["Куколдье - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["sets"] = {
+						["default"] = true,
+					},
 					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Натанке - Ревущий фьорд"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1242,10 +1223,10 @@ CliqueDB3 = {
 		["Подпалковнек - Гордунни"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1267,13 +1248,32 @@ CliqueDB3 = {
 				}, -- [3]
 			},
 		},
-		["Абдуловера - Ревущий фьорд"] = {
+		["Натанке - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Япомойка - Ясеневый лес"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1289,10 +1289,10 @@ CliqueDB3 = {
 		["Двахант - Гордунни"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1305,13 +1305,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Biglilpump - Argent Dawn"] = {
+		["Элям - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -1327,10 +1327,10 @@ CliqueDB3 = {
 		["Отжигай - Ревущий фьорд"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
