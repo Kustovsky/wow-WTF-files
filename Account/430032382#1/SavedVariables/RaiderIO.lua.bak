@@ -1,8 +1,41 @@
 
 RaiderIO_Config = {
+	["useEnglishAbbreviations"] = false,
+	["enableKeystoneTooltips"] = true,
+	["disableScoreColors"] = false,
+	["showMainBestScore"] = true,
+	["enableWhoTooltips"] = true,
+	["hidePersonalRaiderIOProfile"] = false,
+	["showScoreInCombat"] = true,
+	["lockProfile"] = false,
+	["showRaiderIOProfile"] = true,
+	["enableClientEnhancements"] = true,
+	["inverseProfileModifier"] = false,
+	["enableLFGDropdown"] = true,
+	["enableGuildTooltips"] = true,
+	["enableProfileModifier"] = true,
+	["mplusHeadlineMode"] = 1,
+	["showMainsScore"] = true,
+	["positionProfileAuto"] = true,
+	["enableUnitTooltips"] = true,
+	["enableFriendsTooltips"] = true,
+	["showRaidEncountersInProfile"] = true,
+	["showDropDownCopyURL"] = true,
+	["showAverageScore"] = true,
+	["enableLFGTooltips"] = true,
+	["showScoreModifier"] = false,
+	["showRoleIcons"] = true,
+	["enableWhoMessages"] = true,
+	["showSimpleScoreColors"] = false,
 	["displayWeeklyGuildBest"] = true,
+	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Идолмастер-howling-fjord"
+RaiderIO_LastCharacter = "eu-Отжигай-howling-fjord"
 RaiderIO_MissingCharacters = {
-	["eu-Акилатум-soulflayer"] = true,
+	["eu-Еашка-gordunni"] = true,
+	["eu-Ашрах-howling-fjord"] = true,
+	["eu-Лордэр-howling-fjord"] = true,
+	["eu-party5-howling-fjord"] = true,
+	["eu-Дейланэль-galakrond"] = true,
 }
+RaiderIO_CachedRuns = nil

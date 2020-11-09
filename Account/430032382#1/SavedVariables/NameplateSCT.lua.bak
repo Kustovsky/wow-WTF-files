@@ -1,15 +1,31 @@
 
 NameplateSCTDB = {
 	["profileKeys"] = {
-		["Натанке - Ревущий фьорд"] = "Default",
 		["Идолмастер - Ревущий фьорд"] = "Default",
-		["Воляанрол - Ревущий фьорд"] = "Default",
+		["Пакостник - Ревущий фьорд"] = "Default",
 		["Нарковед - Ревущий фьорд"] = "Default",
 		["Элям - Ревущий фьорд"] = "Default",
+		["Холодос - Ревущий фьорд"] = "Default",
+		["Воляанрол - Ревущий фьорд"] = "Default",
+		["Синийдиплом - Гордунни"] = "Default",
+		["Ворбелья - Ревущий фьорд"] = "Default",
+		["Мдмщик - Ревущий фьорд"] = "Default",
+		["Натанке - Ревущий фьорд"] = "Default",
+		["Абдуловера - Ревущий фьорд"] = "Default",
+		["Дэниэль - Ревущий фьорд"] = "Default",
+		["Аптечку - Ревущий фьорд"] = "Default",
+		["Анусвконус - Ревущий фьорд"] = "Default",
+		["Линуксоид - Ясеневый лес"] = "Default",
+		["Гномокосилка - Ревущий фьорд"] = "Default",
 		["Отжигай - Ревущий фьорд"] = "Default",
 	},
 	["global"] = {
-		["xOffset"] = 90,
+		["animations"] = {
+			["autoattack"] = "verticalUp",
+			["miss"] = "verticalDown",
+			["ability"] = "verticalUp",
+			["crit"] = "verticalDown",
+		},
 		["formatting"] = {
 			["size"] = 16,
 		},
@@ -18,13 +34,8 @@ NameplateSCTDB = {
 		},
 		["fontFlag"] = "OUTLINE , MONOCHROME",
 		["font"] = "Homespun",
-		["animations"] = {
-			["autoattack"] = "verticalUp",
-			["miss"] = "verticalDown",
-			["ability"] = "verticalUp",
-			["crit"] = "verticalDown",
-		},
 		["personal"] = true,
 		["textShadow"] = true,
+		["xOffset"] = 90,
 	},
 }

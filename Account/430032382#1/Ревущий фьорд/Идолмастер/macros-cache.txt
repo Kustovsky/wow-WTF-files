@@ -1,6 +1,6 @@
 VER 3 0100000000000001 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover, exists][target=target, exists][] Намордник
+/cast  Намордник
 END
 VER 3 0100000000000004 "Mend" "236165"
 #showtooltip
@@ -13,6 +13,7 @@ VER 3 0100000000000006 "Атака" "2065565"
 END
 VER 3 010000000000000C "Верный выстрел" "132213"
 #showtooltip
+/targetenemy [noexists]
 /use [nochanneling:Быстрая стрельба] Верный выстрел
 END
 VER 3 0100000000000012 "Взять" "INV_MISC_QUESTIONMARK"
@@ -41,12 +42,15 @@ VER 3 0100000000000007 "МД" "132180"
 END
 VER 3 010000000000000A "Марка" "236188"
 #showtooltip Метка охотника
+/targetenemy
 /cast [target=mouseover, exists][target=target, exists] Метка охотника
 END
 VER 3 0100000000000009 "Меткий выстрел" "132329"
 #showtooltip
 /cast Меткий выстрел
+/cast Призыв предков(Расовая);
 /use 13
+/cast Прицельный выстрел;
 END
 VER 3 0100000000000011 "Приказ" "INV_MISC_QUESTIONMARK"
 #showtooltip Метка охотника
@@ -54,6 +58,7 @@ VER 3 0100000000000011 "Приказ" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000000D "Прицельный" "135130"
 #showtooltip
+/targetenemy [noexists]
 /use [nochanneling:Быстрая стрельба] Прицельный выстрел
 END
 VER 3 0100000000000010 "Стрела" "462650"

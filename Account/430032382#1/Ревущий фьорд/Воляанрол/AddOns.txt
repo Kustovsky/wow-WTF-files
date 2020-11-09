@@ -18,7 +18,7 @@ Simulationcraft: enabled
 RaiderIO: enabled
 RaiderIO_DB_EU_H: enabled
 RaiderIO_DB_EU_H_R: enabled
-AddOnSkins: disabled
+AddOnSkins: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
 ElvUI_CastBarOverlay: disabled
@@ -41,7 +41,7 @@ AdvancedInterfaceOptions: enabled
 AzeritePowerWeights: disabled
 BeanCounter: disabled
 Details_RaidCheck: enabled
-Plater: enabled
+Plater: disabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
 MikScrollingBattleText: enabled
@@ -127,7 +127,7 @@ MethodDungeonTools: enabled
 Ludwig_Window: disabled
 MythicPlusTimer: enabled
 NameplateCooldowns: enabled
-AddonUsage: disabled
+AddonUsage: enabled
 Auctionator: disabled
 BeQuiet: enabled
 CooldownToGo: disabled
@@ -223,7 +223,7 @@ TipTac: disabled
 TipTacItemRef: disabled
 TipTacOptions: disabled
 MaxUI: disabled
-TradeSkillMaster: enabled
+TradeSkillMaster: disabled
 AzeriteUI_KuiNameplates: disabled
 AzeriteUI: disabled
 Bagnon: disabled
@@ -237,9 +237,12 @@ Masque_Azerite: disabled
 TipTacTalents: disabled
 OzCooldowns: disabled
 MoveAnything: enabled
-TradeSkillMaster_AppHelper: enabled
-LootAppraiser: enabled
+TradeSkillMaster_AppHelper: disabled
+LootAppraiser: disabled
 MacroToolkit: disabled
 MacroToolkitIcons: enabled
-PremadeGroupsFilter: enabled
+PremadeGroupsFilter: disabled
 ElvUI_BenikUI: enabled
+AdiBags_Mechagon_Tinkering: disabled
+ElvUI_AdditionalFonts: disabled
+ElvUI_QuestXP: disabled

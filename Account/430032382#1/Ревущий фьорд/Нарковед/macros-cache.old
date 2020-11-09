@@ -16,6 +16,10 @@ VER 3 010000000000000C "Восст" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Молитва восстановления
 END
+VER 3 010000000000000D "Грейтер" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Исцеление
+END
 VER 3 010000000000000F "Грейтер" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /console Sound_EnableErrorSpeech 0
@@ -23,14 +27,6 @@ VER 3 010000000000000F "Грейтер" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,help,nodead][help,nodead][@player] Исцеление
 /run UIErrorsFrame:Clear()
 /console Sound_EnableErrorSpeech 1
-END
-VER 3 010000000000000D "Грейтер" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Исцеление
-END
-VER 3 0100000000000008 "Диспел" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Очищение
 END
 VER 3 0100000000000005 "Диспел" "INV_MISC_QUESTIONMARK"
 #showtooltip

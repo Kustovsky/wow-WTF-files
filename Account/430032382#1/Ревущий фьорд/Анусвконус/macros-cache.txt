@@ -1,3 +1,22 @@
+VER 3 0100000000000012 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000013 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ану[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000016 "Грип" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][] Хватка смерти;
+END
+VER 3 0100000000000014 "Кик" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][] Заморозка разума;
+END
+VER 3 0100000000000015 "Лужа" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt, @cursor] Смерть и разложение;
+/cast [nomod, @player] Смерть и разложение;
+END
 VER 3 0100000000000011 "Сюдабля" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,exists][] Хватка Смерти
 END

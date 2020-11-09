@@ -1,0 +1,17 @@
+
+ACP_Data = {
+	["sorter"] = "Группир. по имени",
+	["NoRecurse"] = false,
+	["NoChildren"] = true,
+	["collapsed"] = {
+		["Grail-NPCs-"] = true,
+		["Grail-Reputations-"] = true,
+		["AdiBags"] = true,
+		["BigWigs"] = true,
+		["Grail-Quests-"] = true,
+		["RaiderIO"] = true,
+	},
+	["ProtectedAddons"] = {
+		["ACP"] = true,
+	},
+}

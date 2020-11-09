@@ -1,14 +1,35 @@
 
 MSBTProfiles_SavedVars = {
-	["userDisabled"] = true,
 	["profiles"] = {
 		["RealUI"] = {
-			["enableBlizzardHealing"] = true,
+			["enableBlizzardDamage"] = false,
+			["scrollAreas"] = {
+				["Outgoing"] = {
+					["offsetY"] = -180,
+					["disabled"] = true,
+					["offsetX"] = 151,
+				},
+				["Incoming"] = {
+					["offsetY"] = -171,
+					["disabled"] = true,
+					["offsetX"] = -318,
+				},
+				["Static"] = {
+					["scrollHeight"] = 75,
+					["offsetX"] = -16,
+					["offsetY"] = -491,
+				},
+				["Notification"] = {
+					["offsetY"] = 270,
+				},
+			},
 			["normalFontName"] = "Expressway",
-			["enableBlizzardDamage"] = true,
+			["enableBlizzardHealing"] = true,
 			["creationVersion"] = "5.7.150",
 		},
 		["|cff00c0faBenikUI |rНарковед - Ревущий фьорд"] = {
+			["critFontName"] = "Bui Prototype",
+			["enableBlizzardDamage"] = false,
 			["scrollAreas"] = {
 				["Incoming"] = {
 					["behavior"] = "MSBT_NORMAL",
@@ -29,7 +50,7 @@ MSBTProfiles_SavedVars = {
 				},
 			},
 			["normalFontName"] = "Bui Prototype",
-			["critFontName"] = "Bui Prototype",
+			["enableBlizzardHealing"] = true,
 			["creationVersion"] = "5.7.150",
 		},
 		["|cff00c0faBenikUI |rОтжигай - Ревущий фьорд"] = {
@@ -59,6 +80,7 @@ MSBTProfiles_SavedVars = {
 			["creationVersion"] = "5.7.150",
 		},
 	},
+	["userDisabled"] = true,
 }
 MSBT_SavedMedia = {
 	["fonts"] = {

@@ -1,3 +1,8 @@
+VER 3 010000000000001A "Выброс" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Волна ци;
+/cast [talent:1/3] Выброс ци;
+END
 VER 3 0100000000000013 "Детокс" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help][@player]Детоксикация
@@ -17,6 +22,17 @@ END
 VER 3 0100000000000015 "Окутывающий" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help][@player] Окутывающий туман
+END
+VER 3 010000000000001B "Стат" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1, @cursor] Призыв статуи Нефритовой Змеи;
+/cast [talent:6/2, @cursor] Освежающий нефритовый ветер;
+/cast [talent:6/3, @cursor] Призыв Чи-Цзи, Красного Журавля;
+END
+VER 3 0100000000000019 "Статуя" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/2, @cursor] Призыв статуи Черного Быка;
+/cast [talent:4/3, @cursor] Круг мира;
 END
 VER 3 0100000000000018 "Тайгерласт" "INV_MISC_QUESTIONMARK"
 #showtooltip

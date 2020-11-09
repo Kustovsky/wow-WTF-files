@@ -11,8 +11,13 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0329,
+	["LastVersion"] = 2.0405,
 	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
 			["IconTexturePath"] = 461113,
@@ -66,6 +71,9 @@ PawnCommon = {
 			["IconTexturePath"] = 135940,
 			["PerCharacterOptions"] = {
 				["Мрачныйокунь-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Нарковед-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
 				["Линуксоид-Ясеневый лес"] = {
@@ -216,10 +224,10 @@ PawnCommon = {
 				["Моднаяприча-Ясеневый лес"] = {
 					["Visible"] = true,
 				},
-				["Аптечку-Ревущий фьорд"] = {
+				["Тестгеймпада-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
-				["Тестгеймпада-Ревущий фьорд"] = {
+				["Аптечку-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
 			},
@@ -276,6 +284,9 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
+				["Ворбелья-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 				["Абдуловера-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
@@ -305,8 +316,8 @@ PawnCommon = {
 				["HasteRating"] = 1.22,
 				["MasteryRating"] = 1.78,
 				["CritRating"] = 2.06,
-				["Versatility"] = 1.84,
 				["Leech"] = 1.49,
+				["Versatility"] = 1.84,
 			},
 			["UpgradesFollowSpecialization"] = true,
 		},
@@ -351,6 +362,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Клипса-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Пакостник-Ревущий фьорд"] = {
 					["Visible"] = true,
 				},
 			},
@@ -418,13 +432,13 @@ PawnCommon = {
 				["Versatility"] = 4.52,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
-				["IsPlate"] = -1000000,
+				["IsSword"] = -1000000,
 				["IsLeather"] = -1000000,
 				["IsOffHand"] = -1000000,
-				["IsSword"] = -1000000,
+				["IsPlate"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsAxe"] = -1000000,
 				["IsShield"] = -1000000,
+				["IsAxe"] = -1000000,
 			},
 			["Color"] = "fefefe",
 			["ClassID"] = 5,
@@ -434,65 +448,38 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
-				["Холодос-Ревущий фьорд"] = {
+				["Стэндюзер-Ясеневый лес"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "3ec5e9",
-			["ClassID"] = 8,
-			["LocalizedName"] = "Маг: Тайная магия",
+			["Color"] = "006fdc",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Шаман: Исцеление",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "2e93ae",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0053a5",
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
+		["\"MrRobot\":PALADIN3"] = {
+			["IconTexturePath"] = 135873,
 			["PerCharacterOptions"] = {
-				["Спинтувина-Ясеневый лес"] = {
-					["Visible"] = true,
-				},
-				["Япомойка-Ясеневый лес"] = {
-					["Visible"] = true,
-				},
-				["Степанович-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Дрисня-Ясеневый лес"] = {
-					["Visible"] = true,
-				},
-				["Турбоморж-Ясеневый лес"] = {
-					["Visible"] = true,
-				},
-				["Пакостник-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Ывалоывоар-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Куколдье-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-				["Синийдиплом-Гордунни"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "c59a6c",
-			["ClassID"] = 1,
-			["LocalizedName"] = "Воин: Оружие",
+			["Color"] = "f38bb9",
+			["ClassID"] = 2,
+			["LocalizedName"] = "Паладин: Воздаяние",
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "937351",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "b6688a",
 		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
@@ -508,58 +495,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6464b1",
-		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
-			["PerCharacterOptions"] = {
-				["Запивом-Ревущий фьорд"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "fe7b09",
-			["ClassID"] = 11,
-			["LocalizedName"] = "Друид: Сила зверя",
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "be5c06",
-		},
-		["Идолмастер - Marksmanship - Patchwerk (Raidbots)"] = {
-			["IconTexturePath"] = 236179,
-			["Values"] = {
-				["IsWand"] = -1000000,
-				["IsFist"] = -1000000,
-				["Is2HMace"] = -1000000,
-				["IsWarglaive"] = -1000000,
-				["CritRating"] = 3.92,
-				["IsStaff"] = -1000000,
-				["Agility"] = 2.3,
-				["HasteRating"] = 3.48,
-				["MasteryRating"] = 4.29,
-				["Versatility"] = 3.74,
-				["IsPolearm"] = -1000000,
-				["IsFrill"] = -1000000,
-				["Is2HAxe"] = -1000000,
-				["IsOffHand"] = -1000000,
-				["Dps"] = 12.74,
-				["IsDagger"] = -1000000,
-				["IsPlate"] = -1000000,
-				["IsMace"] = -1000000,
-				["IsAxe"] = -1000000,
-				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
-				["IsSword"] = -1000000,
-			},
-			["Color"] = "a9d271",
-			["ClassID"] = 3,
-			["Role"] = "DAMAGER",
-			["UpgradesFollowSpecialization"] = true,
-			["SpecID"] = 2,
-			["PerCharacterOptions"] = {
-			},
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -579,6 +514,42 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "b6688a",
 		},
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
+			["PerCharacterOptions"] = {
+				["Холодос-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "3ec5e9",
+			["ClassID"] = 8,
+			["LocalizedName"] = "Маг: Тайная магия",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "2e93ae",
+		},
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
+			["PerCharacterOptions"] = {
+				["Запивом-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "fe7b09",
+			["ClassID"] = 11,
+			["LocalizedName"] = "Друид: Сила зверя",
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "be5c06",
+		},
 		["\"MrRobot\":DEATHKNIGHT1"] = {
 			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
@@ -597,6 +568,9 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
+				["Гномокосилка-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
 				["Biglilpump-Argent Dawn"] = {
 					["Visible"] = true,
 				},
@@ -696,29 +670,11 @@ PawnCommon = {
 			["LocalizedName"] = "Рыцарь смерти: Лед",
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = true,
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "bf3950",
-		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
-			["PerCharacterOptions"] = {
-				["Стэндюзер-Ясеневый лес"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "006fdc",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Шаман: Исцеление",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0053a5",
 		},
 		["\"MrRobot\":DEMONHUNTER2"] = {
 			["IconTexturePath"] = 1247265,
@@ -735,20 +691,78 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "792396",
 		},
-		["\"MrRobot\":PALADIN3"] = {
-			["IconTexturePath"] = 135873,
+		["Идолмастер - Marksmanship - Patchwerk (Raidbots)"] = {
+			["IconTexturePath"] = 236179,
+			["Values"] = {
+				["IsWand"] = -1000000,
+				["IsFist"] = -1000000,
+				["Is2HMace"] = -1000000,
+				["IsWarglaive"] = -1000000,
+				["CritRating"] = 3.92,
+				["IsStaff"] = -1000000,
+				["Agility"] = 2.3,
+				["HasteRating"] = 3.48,
+				["MasteryRating"] = 4.29,
+				["Versatility"] = 3.74,
+				["IsPolearm"] = -1000000,
+				["IsFrill"] = -1000000,
+				["Is2HAxe"] = -1000000,
+				["IsOffHand"] = -1000000,
+				["Dps"] = 12.74,
+				["IsDagger"] = -1000000,
+				["IsPlate"] = -1000000,
+				["IsMace"] = -1000000,
+				["IsAxe"] = -1000000,
+				["Is2HSword"] = -1000000,
+				["IsShield"] = -1000000,
+				["IsSword"] = -1000000,
+			},
+			["Color"] = "a9d271",
+			["ClassID"] = 3,
+			["Role"] = "DAMAGER",
+			["UpgradesFollowSpecialization"] = true,
+			["SpecID"] = 2,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "f38bb9",
-			["ClassID"] = 2,
-			["LocalizedName"] = "Паладин: Воздаяние",
+		},
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
+			["PerCharacterOptions"] = {
+				["Спинтувина-Ясеневый лес"] = {
+					["Visible"] = true,
+				},
+				["Япомойка-Ясеневый лес"] = {
+					["Visible"] = true,
+				},
+				["Степанович-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Дрисня-Ясеневый лес"] = {
+					["Visible"] = true,
+				},
+				["Турбоморж-Ясеневый лес"] = {
+					["Visible"] = true,
+				},
+				["Ывалоывоар-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Куколдье-Ревущий фьорд"] = {
+					["Visible"] = true,
+				},
+				["Синийдиплом-Гордунни"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "c59a6c",
+			["ClassID"] = 1,
+			["LocalizedName"] = "Воин: Оружие",
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "b6688a",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "937351",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -820,10 +834,5 @@ PawnCommon = {
 			["UnenchantedColor"] = "00be6f",
 		},
 	},
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }

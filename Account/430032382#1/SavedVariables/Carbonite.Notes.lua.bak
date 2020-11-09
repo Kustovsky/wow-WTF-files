@@ -1,7 +1,9 @@
 
 NXNotes = {
 	["profileKeys"] = {
+		["Холодос - Ревущий фьорд"] = "Default",
 		["Идолмастер - Ревущий фьорд"] = "Default",
+		["Синийдиплом - Гордунни"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

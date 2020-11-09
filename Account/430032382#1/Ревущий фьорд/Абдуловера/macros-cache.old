@@ -6,9 +6,7 @@ N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][
 END
 VER 3 0100000000000004 "Блайнд" "136175"
 #showtooltip Ослепление 
-/cast [target=focus,harm,exists,modifier:s]Ослепление; 
-/cast [target=mouseover, exists]Ослепление; 
-/cast Ослепление
+/cast [target=mouseover,nodead][]Ослепление; 
 END
 VER 3 0100000000000007 "Гаррота без атак" "132297"
 #showtooltip
@@ -17,9 +15,7 @@ VER 3 0100000000000007 "Гаррота без атак" "132297"
 END
 VER 3 0100000000000006 "Кидни" "132298"
 #showtooltip
-/cast [target=focus,harm,exists,modifier:shift] Шаг сквозь тень;
-/cast [target=focus,harm,exists,modifier:shift] Удар по почкам;
-/cast [nomod] Удар по почкам;
+/cast [@target] Удар по почкам
 END
 VER 3 0100000000000005 "Кик" "132219"
 #showtooltip Пинок 
@@ -27,25 +23,51 @@ VER 3 0100000000000005 "Кик" "132219"
 /cast [target=mouseover, harm, exists]Пинок; 
 /cast Пинок
 END
-VER 3 0100000000000002 "Прыжок" "132299"
-#showtooltip Шаг сквозь тень
-/cast [target=focus,harm,exists,modifier:shift]Шаг сквозь тень;
+VER 3 0100000000000002 "Прыжок" "INV_Misc_QuestionMark"
+#showtooltip
 /cast [target=mouseover, exists] []Шаг сквозь тень ;
 END
 VER 3 0100000000000001 "Расправа" "132304"
-#showtooltip Расправа
+#showtooltip
 /startattack
 /cast Расправа
 END
-VER 3 0100000000000003 "Сап" "132310"
-#showtooltip Ошеломление
+VER 3 010000000000000C "Сап" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
 /targetenemyplayer
 /cast Ошеломление
+END
+VER 3 0100000000000011 "Сап 2" "Priest_spell_leapoffaith_b."
+#showtooltip
+/cast [@mouseover, harm] [] Ошеломление
 END
 VER 3 0100000000000008 "Стэб/Тьма" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [stance:0] Удар в спину
 /cast [stance:2] Удар Тьмы;
 END
+VER 3 0100000000000010 "Стэлс" "INV_Misc_QuestionMark"
+#showtooltip Незаметность
+/stopattack
+/cast Незаметность
+END
 VER 3 0100000000000009 "Стэп" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000012 "Триксы" "INV_MISC_QUESTIONMARK"
+#showtooltip
+END
+VER 3 010000000000000F "Удар в спину" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast  Удар в спину
+END
+VER 3 010000000000000D "Фокус блайнд" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus] Ослепление
+END
+VER 3 010000000000000E "Фокус кидни" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus,harm,exists] Шаг сквозь тень;
+/cast [target=focus,harm,exists] Удар по почкам;
 END

@@ -1,6 +1,10 @@
 
 AdiBagsDB = {
 	["namespaces"] = {
+		["Herbalism"] = {
+		},
+		["Shadowlands"] = {
+		},
 		["FilterOverride"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -12,35 +16,23 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["ZoneItems"] = {
+		},
 		["Lowlevel"] = {
 		},
 		["Azerite Essence Items"] = {
 		},
+		["Corrupted"] = {
+		},
 		["TSM"] = {
 		},
-		["Mechagon Tinkering"] = {
+		["WoW"] = {
 		},
 		["DataSource"] = {
 		},
-		["Junk"] = {
+		["WoD"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["ItemCategory"] = {
-			["profiles"] = {
-				["Default"] = {
-					["splitBySubclass"] = {
-						["Расходуемые"] = true,
-						["Рецепт"] = true,
-						["Ремесло"] = true,
-						["Символ"] = true,
-						["Разное"] = true,
-						["Самоцвет"] = true,
-					},
-				},
-			},
-		},
-		["NewItem"] = {
+		["TBC"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -60,17 +52,49 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["AdiBags_TooltipInfo"] = {
-		},
-		["ItemSets"] = {
+		["Junk"] = {
 		},
 		["Archaeology"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
+		},
+		["BfA"] = {
 		},
 		["ItemLevel"] = {
 		},
-		["Corrupted"] = {
+		["Equipment"] = {
+		},
+		["ItemCategory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["splitBySubclass"] = {
+						["Расходуемые"] = true,
+						["Рецепт"] = true,
+						["Ремесло"] = true,
+						["Символ"] = true,
+						["Разное"] = true,
+						["Самоцвет"] = true,
+					},
+				},
+			},
+		},
+		["Cata"] = {
+		},
+		["NewItem"] = {
+		},
+		["MoP"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Legion"] = {
+		},
+		["Wrath"] = {
+		},
+		["ItemSets"] = {
+		},
+		["Mechagon Tinkering"] = {
+		},
+		["Fishing Items"] = {
 		},
 		["TSMPrice"] = {
 		},
@@ -90,11 +114,14 @@ AdiBagsDB = {
 		["Сисяныч - Ревущий фьорд"] = "Default",
 		["Мрачныйокунь - Ревущий фьорд"] = "Default",
 		["Мдмщик - Ревущий фьорд"] = "Default",
-		["Натанке - Ревущий фьорд"] = "Default",
+		["Ворбелья - Ревущий фьорд"] = "Default",
 		["Ывалоывоар - Ревущий фьорд"] = "Default",
 		["Костетряс - Ревущий фьорд"] = "Default",
-		["Абдуловера - Ревущий фьорд"] = "Default",
+		["Натанке - Ревущий фьорд"] = "Default",
+		["Гномокосилка - Ревущий фьорд"] = "Default",
 		["Анусвконус - Ревущий фьорд"] = "Default",
+		["Абдуловера - Ревущий фьорд"] = "Default",
+		["Дэниэль - Ревущий фьорд"] = "Default",
 		["Линуксоид - Ясеневый лес"] = "Default",
 		["Синийдиплом - Гордунни"] = "Default",
 		["Отжигай - Ревущий фьорд"] = "Default",

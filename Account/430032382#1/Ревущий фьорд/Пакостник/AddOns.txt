@@ -10,8 +10,8 @@ BigWigs_Core: enabled
 OPie_Classic: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
-ElvUI_OptionsUI: disabled
-Plater: enabled
+ElvUI_OptionsUI: enabled
+Plater: disabled
 BigWigs_Voice: enabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
@@ -26,7 +26,7 @@ Clique: disabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 DynamicCam: enabled
-ElvUI: disabled
+ElvUI: enabled
 ElvUI_Enhanced: disabled
 ElvUI_MerathilisUI: enabled
 ElvUI_DTBars2: disabled
@@ -43,7 +43,7 @@ ElitismHelper: disabled
 BigWigs_Nyalotha: enabled
 Leatrix_Plus: enabled
 Carbonite: disabled
-AddOnSkins: disabled
+AddOnSkins: enabled
 Carbonite.Warehouse: disabled
 PetTracker_Carbonite: disabled
 Carbonite.Social: disabled
@@ -79,7 +79,7 @@ Simulationcraft: enabled
 Spy: enabled
 AdiBags: disabled
 AdiBags_Config: enabled
-AddonUsage: disabled
+AddonUsage: enabled
 AzeritePowerWeights: disabled
 Auctionator: disabled
 BeQuiet: enabled
@@ -191,7 +191,7 @@ TipTac: enabled
 TipTacItemRef: enabled
 TipTacOptions: enabled
 MaxUI: disabled
-TradeSkillMaster: enabled
+TradeSkillMaster: disabled
 AzeriteUI_KuiNameplates: disabled
 AzeriteUI: enabled
 Bagnon: disabled
@@ -207,3 +207,10 @@ TipTacTalents: enabled
 OzCooldowns: disabled
 MacroToolkit: disabled
 MacroToolkitIcons: enabled
+TradeSkillMaster_AppHelper: disabled
+AdiBags_Mechagon_Tinkering: disabled
+ElvUI_AdditionalFonts: disabled
+ElvUI_BenikUI: enabled
+LootAppraiser: disabled
+ElvUI_QuestXP: disabled
+LibDFramework-1.0: disabled

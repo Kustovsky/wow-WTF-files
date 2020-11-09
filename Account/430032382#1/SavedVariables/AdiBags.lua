@@ -1,6 +1,10 @@
 
 AdiBagsDB = {
 	["namespaces"] = {
+		["ZoneItems"] = {
+		},
+		["TBC"] = {
+		},
 		["FilterOverride"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -12,19 +16,37 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["Herbalism"] = {
+		},
 		["Lowlevel"] = {
 		},
 		["Azerite Essence Items"] = {
 		},
+		["Fishing Items"] = {
+		},
 		["TSM"] = {
 		},
+		["WoW"] = {
+		},
 		["Mechagon Tinkering"] = {
+		},
+		["ItemSets"] = {
+		},
+		["Shadowlands"] = {
 		},
 		["DataSource"] = {
 		},
 		["Junk"] = {
 		},
+		["Wrath"] = {
+		},
+		["ItemLevel"] = {
+		},
+		["WoD"] = {
+		},
 		["MoneyFrame"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
 		},
 		["ItemCategory"] = {
 			["profiles"] = {
@@ -40,7 +62,19 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["Cata"] = {
+		},
 		["NewItem"] = {
+		},
+		["MoP"] = {
+		},
+		["Equipment"] = {
+		},
+		["Legion"] = {
+		},
+		["Archaeology"] = {
+		},
+		["BfA"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -59,16 +93,6 @@ AdiBagsDB = {
 					},
 				},
 			},
-		},
-		["AdiBags_TooltipInfo"] = {
-		},
-		["ItemSets"] = {
-		},
-		["Archaeology"] = {
-		},
-		["Equipment"] = {
-		},
-		["ItemLevel"] = {
 		},
 		["Corrupted"] = {
 		},
@@ -90,13 +114,16 @@ AdiBagsDB = {
 		["Сисяныч - Ревущий фьорд"] = "Default",
 		["Мрачныйокунь - Ревущий фьорд"] = "Default",
 		["Мдмщик - Ревущий фьорд"] = "Default",
-		["Натанке - Ревущий фьорд"] = "Default",
-		["Ывалоывоар - Ревущий фьорд"] = "Default",
+		["Ворбелья - Ревущий фьорд"] = "Default",
 		["Синийдиплом - Гордунни"] = "Default",
 		["Линуксоид - Ясеневый лес"] = "Default",
-		["Анусвконус - Ревущий фьорд"] = "Default",
+		["Натанке - Ревущий фьорд"] = "Default",
+		["Дэниэль - Ревущий фьорд"] = "Default",
 		["Абдуловера - Ревущий фьорд"] = "Default",
 		["Костетряс - Ревущий фьорд"] = "Default",
+		["Анусвконус - Ревущий фьорд"] = "Default",
+		["Гномокосилка - Ревущий фьорд"] = "Default",
+		["Ывалоывоар - Ревущий фьорд"] = "Default",
 		["Отжигай - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {

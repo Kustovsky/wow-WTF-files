@@ -1,53 +1,10 @@
 
 SpyPerCharDB = {
-	["PlayerData"] = {
-		["Drakwaku-ArgentDawn"] = {
-			["mapID"] = 37,
-			["zone"] = "Элвиннский лес",
-			["mapY"] = 0.65,
-			["class"] = "DEATHKNIGHT",
-			["isEnemy"] = true,
-			["race"] = "Зандалар",
-			["name"] = "Drakwaku-ArgentDawn",
-			["time"] = 1586047641,
-			["isGuess"] = false,
-			["level"] = 120,
-			["mapX"] = 0.44,
-			["subZone"] = "Таверна \"Гордость льва\"",
-		},
-		["Мумукаа-Дракономор"] = {
-			["mapID"] = 81,
-			["guild"] = "Мечи Орды",
-			["zone"] = "Силитус: Рана",
-			["mapY"] = 0.45,
-			["class"] = "DRUID",
-			["isEnemy"] = true,
-			["race"] = "Таурен",
-			["isGuess"] = false,
-			["subZone"] = "Лагерь Магни",
-			["mapX"] = 0.41,
-			["level"] = 120,
-			["time"] = 1586089318,
-			["name"] = "Мумукаа-Дракономор",
-		},
-		["Acidberry-TwistingNether"] = {
-			["mapID"] = 37,
-			["zone"] = "Элвиннский лес",
-			["mapY"] = 0.65,
-			["class"] = "PRIEST",
-			["isEnemy"] = true,
-			["race"] = "Эльфийка крови",
-			["name"] = "Acidberry-TwistingNether",
-			["time"] = 1586047446,
-			["isGuess"] = false,
-			["level"] = 120,
-			["mapX"] = 0.44,
-			["subZone"] = "Таверна \"Гордость льва\"",
-		},
-	},
+	["version"] = "1.1",
 	["IgnoreData"] = {
 	},
-	["version"] = "1.1",
 	["KOSData"] = {
+	},
+	["PlayerData"] = {
 	},
 }

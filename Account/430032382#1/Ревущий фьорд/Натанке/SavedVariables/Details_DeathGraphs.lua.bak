@@ -1849,9 +1849,9 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Cowhunter-Twilight'sHammer",
 			},
-			["Каленса"] = {
-				["name"] = "Каленса",
-				["class"] = "DEATHKNIGHT",
+			["Нарель"] = {
+				["name"] = "Нарель",
+				["class"] = "DRUID",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -1929,13 +1929,13 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Keepalive-Hyjal"] = {
+			["Мущщынаы"] = {
+				["name"] = "Мущщынаы",
+				["class"] = "SHAMAN",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Keepalive-Hyjal",
-				["class"] = "WARRIOR",
 			},
 			["Covidvictim-Stormscale"] = {
 				["overall"] = {
@@ -1969,13 +1969,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "ßrad-Sporeggar",
 			},
-			["Skambo-TarrenMill"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
+			["Каленса"] = {
+				["name"] = "Каленса",
+				["class"] = "DEATHKNIGHT",
 				["overall"] = {
 				},
-				["name"] = "Skambo-TarrenMill",
+				["deaths"] = {
+				},
 			},
 			["Modelgirl-Blackmoore"] = {
 				["class"] = "DEMONHUNTER",
@@ -1993,13 +1993,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Voltoria-Draenor",
 			},
-			["Мущщынаы"] = {
-				["name"] = "Мущщынаы",
-				["class"] = "SHAMAN",
+			["Клавадавай"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Клавадавай",
+				["class"] = "HUNTER",
 			},
 			["Flamemage-TarrenMill"] = {
 				["class"] = "MAGE",
@@ -2041,21 +2041,21 @@ DeathGraphsDBDeaths = {
 				["name"] = "Snakefaster-Kazzak",
 				["class"] = "WARRIOR",
 			},
-			["Нарель"] = {
-				["name"] = "Нарель",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
+			["Skambo-TarrenMill"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Skambo-TarrenMill",
 			},
-			["Клавадавай"] = {
+			["Keepalive-Hyjal"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Клавадавай",
-				["class"] = "HUNTER",
+				["name"] = "Keepalive-Hyjal",
+				["class"] = "WARRIOR",
 			},
 			["Neeri-Perenolde"] = {
 				["class"] = "HUNTER",
@@ -3890,6 +3890,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
+			["Каленса"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Нарель"] = {
 				["encounters"] = 3,
 				["points"] = 300,
@@ -3903,13 +3910,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 				["class"] = "WARRIOR",
-			},
-			["Каленса"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Розовинка"] = {
 				["encounters"] = 4,
@@ -6157,24 +6157,24 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Киддвмтарт-Галакронд"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						161.6550000000279, -- [2]
-						"Ритуал Бездны |cFFFF33331,010,840|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
 			["Каленса"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
+			},
+			["Нарель"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["deaths"] = {
+					{
+						3, -- [1]
+						29.30699999979697, -- [2]
+						"Свежевание души |cFFFF3333486,924|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
 			},
 			["Эрдэлия"] = {
 				["encounters"] = 3,
@@ -6257,17 +6257,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Нарель"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+			["Киддвмтарт-Галакронд"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["deaths"] = {
 					{
-						3, -- [1]
-						29.30699999979697, -- [2]
-						"Свежевание души |cFFFF3333486,924|r", -- [3]
+						2, -- [1]
+						161.6550000000279, -- [2]
+						"Ритуал Бездны |cFFFF33331,010,840|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
+				["class"] = "HUNTER",
 			},
 			["Отжигай"] = {
 				["encounters"] = 10,
@@ -10216,10 +10216,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Dkhoi-Archimonde"] = {
+			["Infanticide-Blackrock"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
@@ -10249,12 +10249,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Infanticide-Blackrock"] = {
+			["Funkelmond-Durotan"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Ichachia-Lightbringer"] = {
 				["encounters"] = 3,
@@ -10410,10 +10410,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Iteza-Draenor"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
+			["Spoonehh-TarrenMill"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -10431,10 +10431,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Enj-Kazzak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
+			["Iteza-Draenor"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -10480,10 +10480,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Spoonehh-TarrenMill"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
+			["Enj-Kazzak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -10619,12 +10619,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Funkelmond-Durotan"] = {
+			["Dkhoi-Archimonde"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Каленса"] = {
 				["encounters"] = 3,
@@ -13578,10 +13578,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Iteza-Draenor"] = {
+			["Spoonehh-TarrenMill"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -13597,10 +13597,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Spoonehh-TarrenMill"] = {
+			["Enj-Kazzak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -13763,10 +13763,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Enj-Kazzak"] = {
+			["Iteza-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -25941,9 +25941,8 @@ DeathGraphsDBGraph = {
 				1594231536, -- [1]
 				1594231536, -- [2]
 			},
-			[52] = {
+			[278] = {
 				1596047010, -- [1]
-				1596047010, -- [2]
 			},
 			[276] = {
 				1594231536, -- [1]
@@ -25951,8 +25950,8 @@ DeathGraphsDBGraph = {
 			[340] = {
 				1590603091, -- [1]
 			},
-			[278] = {
-				1596047010, -- [1]
+			[141] = {
+				1589999636, -- [1]
 			},
 			[119] = {
 				1589393859, -- [1]
@@ -25972,8 +25971,9 @@ DeathGraphsDBGraph = {
 			[144] = {
 				1589999636, -- [1]
 			},
-			[141] = {
-				1589999636, -- [1]
+			[52] = {
+				1596047010, -- [1]
+				1596047010, -- [2]
 			},
 			[145] = {
 				1589999636, -- [1]

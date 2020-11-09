@@ -20,7 +20,7 @@ GridStatusRaidDebuff: disabled
 GridStatusRD_BfA: enabled
 GridStatusDungeonDebuff: disabled
 GridTooltip2: disabled
-Plater: enabled
+Plater: disabled
 DynamicCam: enabled
 WeakAurasTemplates: enabled
 WeakAurasOptions: enabled
@@ -43,7 +43,7 @@ Details_Elitism: enabled
 ElitismHelper: disabled
 Leatrix_Plus: enabled
 Carbonite: disabled
-AddOnSkins: disabled
+AddOnSkins: enabled
 Carbonite.Warehouse: disabled
 PetTracker_Carbonite: disabled
 Carbonite.Social: disabled

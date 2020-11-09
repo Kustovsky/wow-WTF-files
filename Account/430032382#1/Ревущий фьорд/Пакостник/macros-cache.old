@@ -10,13 +10,20 @@ VER 3 0100000000000006 "Кик" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,harm,nodead] Зуботычина; Зуботычина
 END
+VER 3 0100000000000008 "Клив" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/3] Кровопускание
+/cast [talent:5/3] Рассекающий удар
+END
 VER 3 0100000000000001 "Перехват" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@targettarget,nodead,exists] Перехват; Перехват
 END
 VER 3 0100000000000007 "Слэм" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [talent:3/2] Вихрь; Мощный удар
+/cast [talent:3/2] Вихрь
+/cast [talent:3/3] Мощный удар
+/cast [talent:3/1] Мощный удар
 END
 VER 3 0100000000000002 "Таунт" "INV_MISC_QUESTIONMARK"
 #showtooltip

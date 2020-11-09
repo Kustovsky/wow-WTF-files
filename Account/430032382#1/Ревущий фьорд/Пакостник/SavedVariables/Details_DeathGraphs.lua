@@ -6,6 +6,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Коллективный разум",
 		["id"] = 2372,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 5,
@@ -19,8 +21,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["237314"] = {
 		["hash"] = "237314",
@@ -28,6 +28,56 @@ DeathGraphsDBDeaths = {
 		["name"] = "Дест'агат",
 		["id"] = 2373,
 		["diff"] = 14,
+		["player_db"] = {
+			["Céothis-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Céothis-Draenor",
+				["class"] = "WARRIOR",
+			},
+			["Каталочка"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Каталочка",
+				["class"] = "PALADIN",
+			},
+			["Vaìo-Eredar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vaìo-Eredar",
+				["class"] = "SHAMAN",
+			},
+			["Gojíra-TarrenMill"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gojíra-TarrenMill",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Teos-Kazzak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Teos-Kazzak",
+				["class"] = "MAGE",
+			},
+			["Råken-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Råken-Draenor",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 7,
@@ -40,56 +90,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Céothis-Draenor"] = {
-				["name"] = "Céothis-Draenor",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Каталочка"] = {
-				["name"] = "Каталочка",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Vaìo-Eredar"] = {
-				["name"] = "Vaìo-Eredar",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gojíra-TarrenMill"] = {
-				["name"] = "Gojíra-TarrenMill",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Teos-Kazzak"] = {
-				["name"] = "Teos-Kazzak",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Råken-Draenor"] = {
-				["name"] = "Råken-Draenor",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236814"] = {
 		["hash"] = "236814",
@@ -97,6 +97,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Гневион",
 		["id"] = 2368,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 1,
@@ -110,8 +112,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["236514"] = {
 		["hash"] = "236514",
@@ -119,6 +119,48 @@ DeathGraphsDBDeaths = {
 		["name"] = "Маут",
 		["id"] = 2365,
 		["diff"] = 14,
+		["player_db"] = {
+			["Céothis-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Céothis-Draenor",
+				["class"] = "WARRIOR",
+			},
+			["Demonicone-Ragnaros"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Demonicone-Ragnaros",
+				["class"] = "DEMONHUNTER",
+			},
+			["Matzehatèr-Eredar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Matzehatèr-Eredar",
+				["class"] = "DEMONHUNTER",
+			},
+			["Takarias-Archimonde"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Takarias-Archimonde",
+				["class"] = "MONK",
+			},
+			["Gojíra-TarrenMill"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gojíra-TarrenMill",
+				["class"] = "DEATHKNIGHT",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 2,
@@ -131,48 +173,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Céothis-Draenor"] = {
-				["name"] = "Céothis-Draenor",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Demonicone-Ragnaros"] = {
-				["name"] = "Demonicone-Ragnaros",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Matzehatèr-Eredar"] = {
-				["name"] = "Matzehatèr-Eredar",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Takarias-Archimonde"] = {
-				["name"] = "Takarias-Archimonde",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gojíra-TarrenMill"] = {
-				["name"] = "Gojíra-TarrenMill",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["237714"] = {
 		["hash"] = "237714",
@@ -180,6 +180,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Темный инквизитор Занеш",
 		["id"] = 2377,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 4,
@@ -192,8 +194,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-		},
 	},
 	["236414"] = {
 		["hash"] = "236414",
@@ -201,6 +201,80 @@ DeathGraphsDBDeaths = {
 		["name"] = "Ра-ден Отчаявшийся",
 		["id"] = 2364,
 		["diff"] = 14,
+		["player_db"] = {
+			["Emma-TwistingNether"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Emma-TwistingNether",
+				["class"] = "SHAMAN",
+			},
+			["Gojíra-TarrenMill"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gojíra-TarrenMill",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Пакостник"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Пакостник",
+				["class"] = "WARRIOR",
+			},
+			["Néxx-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Néxx-Draenor",
+				["class"] = "ROGUE",
+			},
+			["Matzehatèr-Eredar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Matzehatèr-Eredar",
+				["class"] = "DEMONHUNTER",
+			},
+			["Takarias-Archimonde"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Takarias-Archimonde",
+				["class"] = "MONK",
+			},
+			["Céothis-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Céothis-Draenor",
+				["class"] = "WARRIOR",
+			},
+			["Zincz-Kazzak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zincz-Kazzak",
+				["class"] = "WARRIOR",
+			},
+			["Råken-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Råken-Draenor",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 10,
@@ -214,80 +288,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Emma-TwistingNether"] = {
-				["name"] = "Emma-TwistingNether",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gojíra-TarrenMill"] = {
-				["name"] = "Gojíra-TarrenMill",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Пакостник"] = {
-				["name"] = "Пакостник",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Néxx-Draenor"] = {
-				["name"] = "Néxx-Draenor",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Matzehatèr-Eredar"] = {
-				["name"] = "Matzehatèr-Eredar",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Takarias-Archimonde"] = {
-				["name"] = "Takarias-Archimonde",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Céothis-Draenor"] = {
-				["name"] = "Céothis-Draenor",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zincz-Kazzak"] = {
-				["name"] = "Zincz-Kazzak",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Råken-Draenor"] = {
-				["name"] = "Råken-Draenor",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["237014"] = {
 		["hash"] = "237014",
@@ -295,6 +295,16 @@ DeathGraphsDBDeaths = {
 		["name"] = "Вексиона",
 		["id"] = 2370,
 		["diff"] = 14,
+		["player_db"] = {
+			["Zincz-Kazzak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zincz-Kazzak",
+				["class"] = "WARRIOR",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 9,
@@ -308,16 +318,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Zincz-Kazzak"] = {
-				["name"] = "Zincz-Kazzak",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236914"] = {
 		["hash"] = "236914",
@@ -325,6 +325,24 @@ DeathGraphsDBDeaths = {
 		["name"] = "Пророк Скитра",
 		["id"] = 2369,
 		["diff"] = 14,
+		["player_db"] = {
+			["Gojíra-TarrenMill"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gojíra-TarrenMill",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Råken-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Råken-Draenor",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Обычный",
 			["index"] = 3,
@@ -338,24 +356,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Gojíra-TarrenMill"] = {
-				["name"] = "Gojíra-TarrenMill",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Råken-Draenor"] = {
-				["name"] = "Råken-Draenor",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -365,19 +365,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Коллективный разум",
 		["id"] = 2372,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 5,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["encounter"] = "Коллективный разум",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Коллективный разум",
-			["diff"] = 14,
-			["id"] = 2333,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Каталочка"] = {
 				["encounters"] = 1,
@@ -478,6 +465,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 5,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["encounter"] = "Коллективный разум",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Коллективный разум",
+			["diff"] = 14,
+			["id"] = 2333,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["237314"] = {
 		["hash"] = "237314",
@@ -485,18 +485,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Дест'агат",
 		["id"] = 2373,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 7,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["id"] = 2343,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Дест'агат",
-			["encounter"] = "Дест'агат",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Каталочка"] = {
 				["encounters"] = 2,
@@ -599,6 +587,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 7,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["id"] = 2343,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Дест'агат",
+			["encounter"] = "Дест'агат",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 	},
 	["236814"] = {
 		["hash"] = "236814",
@@ -606,19 +606,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Гневион",
 		["id"] = 2368,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 1,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["encounter"] = "Гневион",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Гневион",
-			["diff"] = 14,
-			["id"] = 2329,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Shaurasho-Ragnaros"] = {
 				["encounters"] = 1,
@@ -775,6 +762,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 1,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["encounter"] = "Гневион",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Гневион",
+			["diff"] = 14,
+			["id"] = 2329,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236514"] = {
 		["hash"] = "236514",
@@ -782,18 +782,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Маут",
 		["id"] = 2365,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 2,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Маут",
-			["encounter"] = "Маут",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Shaurasho-Ragnaros"] = {
 				["encounters"] = 1,
@@ -875,12 +863,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Néxx-Draenor"] = {
+			["Demonicone-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "DEMONHUNTER",
 			},
 			["Matzehatèr-Eredar"] = {
 				["encounters"] = 1,
@@ -901,12 +889,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Demonicone-Ragnaros"] = {
+			["Néxx-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "ROGUE",
 			},
 			["Sarop-Kazzak"] = {
 				["encounters"] = 1,
@@ -923,6 +911,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 2,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Маут",
+			["encounter"] = "Маут",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 	},
 	["237714"] = {
 		["hash"] = "237714",
@@ -930,18 +930,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Темный инквизитор Занеш",
 		["id"] = 2377,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 4,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["id"] = 2328,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Темный инквизитор Занеш",
-			["encounter"] = "Темный инквизитор Занеш",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Каталочка"] = {
 				["encounters"] = 1,
@@ -992,7 +980,7 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Пакостник"] = {
+			["Céothis-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -1006,12 +994,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Néxx-Draenor"] = {
+			["Demonicone-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "DEMONHUNTER",
 			},
 			["Matzehatèr-Eredar"] = {
 				["encounters"] = 1,
@@ -1027,14 +1015,14 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Demonicone-Ragnaros"] = {
+			["Néxx-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "ROGUE",
 			},
-			["Céothis-Draenor"] = {
+			["Пакостник"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -1049,6 +1037,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 4,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["id"] = 2328,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Темный инквизитор Занеш",
+			["encounter"] = "Темный инквизитор Занеш",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 	},
 	["236414"] = {
 		["hash"] = "236414",
@@ -1056,19 +1056,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Ра-ден Отчаявшийся",
 		["id"] = 2364,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 10,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["encounter"] = "Ра-ден Отчаявшийся",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ра-ден Отчаявшийся",
-			["diff"] = 14,
-			["id"] = 2331,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Каталочка"] = {
 				["encounters"] = 1,
@@ -1184,6 +1171,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 10,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["encounter"] = "Ра-ден Отчаявшийся",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ра-ден Отчаявшийся",
+			["diff"] = 14,
+			["id"] = 2331,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["237014"] = {
 		["hash"] = "237014",
@@ -1191,19 +1191,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Вексиона",
 		["id"] = 2370,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 9,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["encounter"] = "Вексиона",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Вексиона",
-			["diff"] = 14,
-			["id"] = 2336,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Каталочка"] = {
 				["encounters"] = 1,
@@ -1309,6 +1296,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 9,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["encounter"] = "Вексиона",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Вексиона",
+			["diff"] = 14,
+			["id"] = 2336,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236914"] = {
 		["hash"] = "236914",
@@ -1316,19 +1316,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Пророк Скитра",
 		["id"] = 2369,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Обычный",
-			["index"] = 3,
-			["zone"] = "Ни'алота, Пробуждающийся Город",
-			["encounter"] = "Пророк Скитра",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Пророк Скитра",
-			["diff"] = 14,
-			["id"] = 2334,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Shaurasho-Ragnaros"] = {
 				["encounters"] = 1,
@@ -1417,7 +1404,7 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Céothis-Draenor"] = {
+			["Zincz-Kazzak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -1431,12 +1418,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Néxx-Draenor"] = {
+			["Demonicone-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "DEMONHUNTER",
 			},
 			["Matzehatèr-Eredar"] = {
 				["encounters"] = 1,
@@ -1445,14 +1432,14 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Demonicone-Ragnaros"] = {
+			["Néxx-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "ROGUE",
 			},
-			["Zincz-Kazzak"] = {
+			["Céothis-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -1473,6 +1460,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Обычный",
+			["index"] = 3,
+			["zone"] = "Ни'алота, Пробуждающийся Город",
+			["encounter"] = "Пророк Скитра",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Пророк Скитра",
+			["diff"] = 14,
+			["id"] = 2334,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
 		},
 	},
 }
@@ -5666,17 +5666,17 @@ DeathGraphsDBGraph = {
 	},
 	["236414"] = {
 		["deaths"] = {
+			[193] = {
+				1589124123, -- [1]
+			},
+			[194] = {
+				1589124123, -- [1]
+			},
 			[184] = {
 				1589124123, -- [1]
 				1589124123, -- [2]
 			},
 			[218] = {
-				1589124123, -- [1]
-			},
-			[193] = {
-				1589124123, -- [1]
-			},
-			[194] = {
 				1589124123, -- [1]
 			},
 		},

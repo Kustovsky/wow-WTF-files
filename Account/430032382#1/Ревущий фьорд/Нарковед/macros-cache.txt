@@ -32,10 +32,6 @@ VER 3 0100000000000005 "Диспел" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Очищение
 END
-VER 3 0100000000000008 "Диспел" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Очищение
-END
 VER 3 010000000000000E "Дух" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Оберегающий дух

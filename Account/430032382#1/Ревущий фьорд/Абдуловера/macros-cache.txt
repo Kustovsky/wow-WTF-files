@@ -54,6 +54,10 @@ VER 3 0100000000000010 "Стэлс" "INV_Misc_QuestionMark"
 END
 VER 3 0100000000000009 "Стэп" "INV_MISC_QUESTIONMARK"
 END
+VER 3 0100000000000012 "Триксы" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help] [target=focus, help] [target=targettarget, help] Маленькие хитрости
+END
 VER 3 010000000000000F "Удар в спину" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack

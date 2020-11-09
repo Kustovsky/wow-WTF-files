@@ -4,7 +4,15 @@ END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Апт[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
+VER 3 0100000000000005 "Жарка" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Печать огня
+END
 VER 3 0100000000000003 "Кик" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help, nodead][] Прерывание
+END
+VER 3 0100000000000004 "Прыжок" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Инфернальный удар
 END

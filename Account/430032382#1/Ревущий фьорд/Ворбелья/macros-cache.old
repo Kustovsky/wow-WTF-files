@@ -1,0 +1,26 @@
+VER 3 0100000000000006 "Аренасап" "INV_MISC_QUESTIONMARK"
+#showtooltip Ошеломление
+/cleartarget
+/targetenemyplayer
+/cast Ошеломление
+END
+VER 3 0100000000000005 "Смок" "INV_MISC_QUESTIONMARK"
+#showtooltip Дымовая шашка
+/cast [@player] Дымовая шашка
+END
+VER 3 0100000000000003 "Степ" "INV_MISC_QUESTIONMARK"
+#showtooltip Шаг сквозь тень
+/cast [@mouseover, harm, nodead][] Шаг сквозь тень;
+END
+VER 3 0100000000000004 "Фокус кидни" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Удар по почкам;
+END
+VER 3 0100000000000001 "Фокус кик" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Пинок;
+END
+VER 3 0100000000000002 "Фокус степ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Шаг сквозь тень;
+END

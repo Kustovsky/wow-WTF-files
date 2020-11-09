@@ -1,0 +1,50 @@
+VER 3 0100000000000006 "Аренасап" "INV_MISC_QUESTIONMARK"
+#showtooltip Ошеломление
+/cleartarget
+/targetenemyplayer
+/cast Ошеломление
+END
+VER 3 010000000000000C "Маусовер пинок" "INV_MISC_QUESTIONMARK"
+#showtooltip Пинок
+/cast [target=mouseover, harm, exists] Пинок; 
+/cast Пинок; 
+END
+VER 3 010000000000000A "Маусовер сап" "INV_MISC_QUESTIONMARK"
+END
+VER 3 010000000000000B "Маусовер шаг" "INV_MISC_QUESTIONMARK"
+#showtooltip Шаг сквозь тень
+/cast [target=mouseover, exists] Шаг сквозь тень;
+/cast Шаг сквозь тень 
+END
+VER 3 0100000000000005 "Смок" "INV_MISC_QUESTIONMARK"
+#showtooltip Дымовая шашка
+/cast [@player] Дымовая шашка
+END
+VER 3 0100000000000003 "Степ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1/2/3] Удар Тьмы; [noform] Удар в спину
+END
+VER 3 0100000000000008 "Удар" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1/2/3] Удар Тьмы; [noform] Удар в спину
+END
+VER 3 0100000000000007 "Фокус блайнд" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Ослепление;
+END
+VER 3 0100000000000004 "Фокус кидни" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Удар по почкам;
+END
+VER 3 0100000000000001 "Фокус кик" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Пинок;
+END
+VER 3 0100000000000009 "Фокус сап" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Ошеломление;
+END
+VER 3 0100000000000002 "Фокус степ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Шаг сквозь тень;
+END

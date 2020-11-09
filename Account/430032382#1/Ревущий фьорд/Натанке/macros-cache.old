@@ -1,7 +1,7 @@
 VER 3 0100000000000012 "Байндинг" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [talent:5/2][@mouseover,help,nodead][help,nodead][] Связующее исцеление;
-/cast [talent:5/3][@mouseover,help,nodead][help,nodead][@player] Круг исцеления
+/cast [talent: 5/2, @mouseover, help][talent: 5/2] Связующее исцеление
+/cast [talent: 5/3, @mouseover, help][talent: 5/3]  Круг исцеления
 END
 VER 3 010000000000000A "Безмя" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -28,11 +28,11 @@ VER 3 010000000000000D "Грейтер" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Исцеление
 END
-VER 3 0100000000000005 "Диспел" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000008 "Диспел" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Очищение
 END
-VER 3 0100000000000008 "Диспел" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000005 "Диспел" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Очищение
 END

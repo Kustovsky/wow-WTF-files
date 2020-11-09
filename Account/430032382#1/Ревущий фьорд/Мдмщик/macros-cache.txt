@@ -1,4 +1,57 @@
+VER 3 0100000000000003 "Боп" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Благословение защиты;
+END
 VER 3 0100000000000001 "Глиммер" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Шок небес
+/use [@mouseover,help,nodead][@target,help,nodead] Шок небес; Шок небес
+END
+VER 3 010000000000000B "Диспел" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Очищение;
+END
+VER 3 0100000000000009 "Долгая флеха" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Свет небес;
+END
+VER 3 0100000000000002 "Лох" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Возложение рук;
+END
+VER 3 010000000000000D "Минисакра" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Свет мученика;
+END
+VER 3 010000000000000A "Молоток" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@target] Молот правосудия;
+END
+VER 3 0100000000000006 "Сакра" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Жертвенное благословение;
+END
+VER 3 0100000000000008 "Свет" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Слепящий свет;
+END
+VER 3 010000000000000E "Торжество" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Торжество;
+END
+VER 3 0100000000000005 "Флешка" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Вспышка Света;
+END
+VER 3 0100000000000004 "Фридом" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Благословенная свобода;
+END
+VER 3 0100000000000007 "Хаст" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл Святой каратель
+/use 13;
+END
+VER 3 010000000000000C "Частица" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Частица Света;
 END

@@ -183,11 +183,6 @@ MethodDungeonToolsDB = {
 					["difficulty"] = 11,
 					["objects"] = {
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "Preset 9",
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -363,6 +358,11 @@ MethodDungeonToolsDB = {
 							},
 						},
 					},
+					["text"] = "Preset 9",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["mdi"] = {
 						["beguiling"] = 1,
 						["freeholdJoined"] = false,
@@ -376,10 +376,6 @@ MethodDungeonToolsDB = {
 						["freeholdJoined"] = false,
 						["beguiling"] = 1,
 						["freehold"] = 1,
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
 					},
 					["value"] = {
 						["currentPull"] = 1,
@@ -587,6 +583,10 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "Default 2 2 4",
 					["objects"] = {
@@ -1917,10 +1917,6 @@ MethodDungeonToolsDB = {
 				{
 					["difficulty"] = 18,
 					["week"] = 9,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -2095,6 +2091,10 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 					["text"] = "Default 2",
 					["mdi"] = {
 						["beguiling"] = 1,
@@ -2158,27 +2158,27 @@ MethodDungeonToolsDB = {
 									8, -- [1]
 									1, -- [2]
 								},
-								[38] = {
-									6, -- [1]
-								},
 								[4] = {
 									13, -- [1]
 									14, -- [2]
 									2, -- [3]
 									3, -- [4]
 								},
-							}, -- [2]
-							{
-								[40] = {
+								[38] = {
 									6, -- [1]
 								},
+							}, -- [2]
+							{
+								["color"] = "00e8ff",
 								[38] = {
 									1, -- [1]
 								},
-								[39] = {
+								[3] = {
 									13, -- [1]
 								},
-								["color"] = "00e8ff",
+								[40] = {
+									6, -- [1]
+								},
 								[4] = {
 									15, -- [1]
 								},
@@ -2186,7 +2186,7 @@ MethodDungeonToolsDB = {
 									9, -- [1]
 									10, -- [2]
 								},
-								[3] = {
+								[39] = {
 									13, -- [1]
 								},
 							}, -- [3]
@@ -2275,11 +2275,11 @@ MethodDungeonToolsDB = {
 								["color"] = "bc00ff",
 							}, -- [8]
 							{
-								["color"] = "ff00fd",
-								[37] = {
-									14, -- [1]
-									15, -- [2]
-									16, -- [3]
+								[33] = {
+									8, -- [1]
+									7, -- [2]
+								},
+								[17] = {
 								},
 								[38] = {
 									18, -- [1]
@@ -2287,10 +2287,7 @@ MethodDungeonToolsDB = {
 								[10] = {
 									9, -- [1]
 								},
-								[33] = {
-									8, -- [1]
-									7, -- [2]
-								},
+								["color"] = "ff00fd",
 								[19] = {
 									13, -- [1]
 									1, -- [2]
@@ -2299,7 +2296,10 @@ MethodDungeonToolsDB = {
 								[40] = {
 									7, -- [1]
 								},
-								[17] = {
+								[37] = {
+									14, -- [1]
+									15, -- [2]
+									16, -- [3]
 								},
 							}, -- [9]
 							{
@@ -2314,8 +2314,9 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [10]
 							{
-								[14] = {
-									12, -- [1]
+								[19] = {
+									10, -- [1]
+									11, -- [2]
 								},
 								[17] = {
 								},
@@ -2327,15 +2328,14 @@ MethodDungeonToolsDB = {
 									10, -- [2]
 								},
 								["color"] = "ff0055",
-								[19] = {
-									10, -- [1]
-									11, -- [2]
-								},
-								[16] = {
+								[14] = {
+									12, -- [1]
 								},
 								[23] = {
 									4, -- [1]
 									5, -- [2]
+								},
+								[16] = {
 								},
 							}, -- [11]
 							{
@@ -9057,10 +9057,10 @@ MethodDungeonToolsDB = {
 									2, -- [1]
 									1, -- [2]
 								},
-								[11] = {
+								[42] = {
 									1, -- [1]
 								},
-								[43] = {
+								[22] = {
 									1, -- [1]
 								},
 								[3] = {
@@ -9106,10 +9106,10 @@ MethodDungeonToolsDB = {
 								},
 								[20] = {
 								},
-								[22] = {
+								[43] = {
 									1, -- [1]
 								},
-								[42] = {
+								[11] = {
 									1, -- [1]
 								},
 							}, -- [2]
@@ -9660,14 +9660,9 @@ MethodDungeonToolsDB = {
 								},
 								[17] = {
 								},
-								[39] = {
-								},
 								[10] = {
 								},
-								["color"] = "228b22",
-								[19] = {
-								},
-								[37] = {
+								[39] = {
 								},
 								[12] = {
 									6, -- [1]
@@ -9675,6 +9670,11 @@ MethodDungeonToolsDB = {
 									5, -- [3]
 									7, -- [4]
 								},
+								[19] = {
+								},
+								[37] = {
+								},
+								["color"] = "228b22",
 							}, -- [6]
 							{
 								["color"] = "228b22",
@@ -9716,9 +9716,9 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 								[37] = {
 								},
-								[23] = {
-								},
 								[16] = {
+								},
+								[23] = {
 								},
 							}, -- [10]
 							{
@@ -9731,20 +9731,20 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [11]
 							{
-								[37] = {
-								},
 								[17] = {
+								},
+								[37] = {
 								},
 								[23] = {
 								},
 								[39] = {
 								},
 								["color"] = "228b22",
-								[14] = {
+								[19] = {
 								},
 								[16] = {
 								},
-								[19] = {
+								[14] = {
 								},
 							}, -- [12]
 							{
@@ -9823,12 +9823,20 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 								[14] = {
 								},
-								[23] = {
-								},
 								[16] = {
+								},
+								[23] = {
 								},
 							}, -- [20]
 							{
+								["color"] = "228b22",
+								[4] = {
+									2, -- [1]
+									3, -- [2]
+								},
+								[8] = {
+									1, -- [1]
+								},
 								[16] = {
 									3, -- [1]
 									7, -- [2]
@@ -9838,44 +9846,6 @@ MethodDungeonToolsDB = {
 									11, -- [6]
 									6, -- [7]
 									10, -- [8]
-								},
-								[4] = {
-									2, -- [1]
-									3, -- [2]
-								},
-								[8] = {
-									1, -- [1]
-								},
-								["color"] = "228b22",
-								[37] = {
-									6, -- [1]
-									8, -- [2]
-									18, -- [3]
-									10, -- [4]
-									19, -- [5]
-									20, -- [6]
-									3, -- [7]
-									13, -- [8]
-								},
-								[17] = {
-									3, -- [1]
-									4, -- [2]
-									5, -- [3]
-									12, -- [4]
-									11, -- [5]
-									10, -- [6]
-									8, -- [7]
-									9, -- [8]
-								},
-								[9] = {
-									1, -- [1]
-								},
-								[18] = {
-									9, -- [1]
-								},
-								[38] = {
-									14, -- [1]
-									10, -- [2]
 								},
 								[19] = {
 									1, -- [1]
@@ -9890,19 +9860,43 @@ MethodDungeonToolsDB = {
 									7, -- [10]
 									6, -- [11]
 								},
+								[17] = {
+									3, -- [1]
+									4, -- [2]
+									5, -- [3]
+									12, -- [4]
+									11, -- [5]
+									10, -- [6]
+									8, -- [7]
+									9, -- [8]
+								},
+								[34] = {
+									1, -- [1]
+								},
+								[35] = {
+									1, -- [1]
+								},
 								[10] = {
 									1, -- [1]
 									12, -- [2]
 									11, -- [3]
 								},
-								[39] = {
-									13, -- [1]
-									2, -- [2]
-									7, -- [3]
-									14, -- [4]
-									8, -- [5]
-									4, -- [6]
-									15, -- [7]
+								[37] = {
+									6, -- [1]
+									8, -- [2]
+									18, -- [3]
+									10, -- [4]
+									19, -- [5]
+									20, -- [6]
+									3, -- [7]
+									13, -- [8]
+								},
+								[38] = {
+									14, -- [1]
+									10, -- [2]
+								},
+								[20] = {
+									1, -- [1]
 								},
 								[33] = {
 									7, -- [1]
@@ -9914,8 +9908,8 @@ MethodDungeonToolsDB = {
 								[11] = {
 									1, -- [1]
 								},
-								[43] = {
-									2, -- [1]
+								[22] = {
+									1, -- [1]
 								},
 								[44] = {
 									14, -- [1]
@@ -9966,16 +9960,22 @@ MethodDungeonToolsDB = {
 									13, -- [1]
 									14, -- [2]
 								},
-								[22] = {
-									1, -- [1]
+								[43] = {
+									2, -- [1]
 								},
-								[20] = {
-									1, -- [1]
+								[39] = {
+									13, -- [1]
+									2, -- [2]
+									7, -- [3]
+									14, -- [4]
+									8, -- [5]
+									4, -- [6]
+									15, -- [7]
 								},
-								[35] = {
-									1, -- [1]
+								[18] = {
+									9, -- [1]
 								},
-								[34] = {
+								[9] = {
 									1, -- [1]
 								},
 							}, -- [21]
@@ -10082,11 +10082,11 @@ MethodDungeonToolsDB = {
 									1, -- [1]
 								},
 								["color"] = "ab00ff",
-								[4] = {
-									1, -- [1]
-								},
 								[32] = {
 									9, -- [1]
+								},
+								[4] = {
+									1, -- [1]
 								},
 							}, -- [3]
 							{
@@ -10121,22 +10121,22 @@ MethodDungeonToolsDB = {
 								["color"] = "ff4e00",
 							}, -- [5]
 							{
-								[32] = {
-									4, -- [1]
-								},
 								[3] = {
 									3, -- [1]
 								},
+								[32] = {
+									4, -- [1]
+								},
 								["color"] = "b2ff00",
-								[34] = {
-									6, -- [1]
+								[4] = {
+									2, -- [1]
 								},
 								[5] = {
 									4, -- [1]
 									5, -- [2]
 								},
-								[4] = {
-									2, -- [1]
+								[34] = {
+									6, -- [1]
 								},
 							}, -- [6]
 							{
@@ -10257,11 +10257,11 @@ MethodDungeonToolsDB = {
 								[21] = {
 									1, -- [1]
 								},
-								[20] = {
-									2, -- [1]
-								},
 								[32] = {
 									7, -- [1]
+								},
+								[20] = {
+									2, -- [1]
 								},
 								["color"] = "00b9ff",
 							}, -- [15]
@@ -10369,15 +10369,15 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [23]
 							{
+								["color"] = "228b22",
 								[33] = {
 								},
-								["color"] = "228b22",
 								[34] = {
+								},
+								[16] = {
 								},
 								[30] = {
 									1, -- [1]
-								},
-								[16] = {
 								},
 							}, -- [24]
 						},
@@ -10518,11 +10518,6 @@ MethodDungeonToolsDB = {
 					["week"] = 3,
 					["uid"] = "luzgzYyP2Sp",
 					["difficulty"] = 11,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "b",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -10720,6 +10715,11 @@ MethodDungeonToolsDB = {
 							},
 						},
 					},
+					["text"] = "b",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["mdi"] = {
 						["freehold"] = 1,
 						["beguiling"] = 1,
@@ -10729,6 +10729,10 @@ MethodDungeonToolsDB = {
 				{
 					["difficulty"] = 15,
 					["week"] = 11,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -10943,10 +10947,6 @@ MethodDungeonToolsDB = {
 								["color"] = "ff3eff",
 							}, -- [1]
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
 					},
 					["text"] = "Default 2",
 					["mdi"] = {
@@ -12525,6 +12525,10 @@ MethodDungeonToolsDB = {
 					["week"] = 3,
 					["objects"] = {
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -12854,10 +12858,6 @@ MethodDungeonToolsDB = {
 								},
 							},
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "4556",
 					["mdi"] = {
@@ -13545,6 +13545,10 @@ MethodDungeonToolsDB = {
 							},
 						}, -- [8]
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 2,
 						["currentSublevel"] = 1,
@@ -13881,10 +13885,6 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [2]
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "4556 2",
 					["mdi"] = {
@@ -14577,6 +14577,11 @@ MethodDungeonToolsDB = {
 							},
 						}, -- [8]
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
+					["text"] = "4556 3",
 					["value"] = {
 						["currentPull"] = 2,
 						["currentSublevel"] = 1,
@@ -14914,11 +14919,6 @@ MethodDungeonToolsDB = {
 							}, -- [2]
 						},
 					},
-					["text"] = "4556 3",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["week"] = 3,
 				}, -- [4]
 				{
@@ -14927,11 +14927,6 @@ MethodDungeonToolsDB = {
 					["difficulty"] = 12,
 					["objects"] = {
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-					["text"] = "Preset 5",
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -15254,6 +15249,11 @@ MethodDungeonToolsDB = {
 							[12] = {
 							},
 						},
+					},
+					["text"] = "Preset 5",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["mdi"] = {
 						["freehold"] = 1,
@@ -15987,8 +15987,15 @@ MethodDungeonToolsDB = {
 									10, -- [9]
 									11, -- [10]
 								},
-								[51] = {
+								[36] = {
 									1, -- [1]
+									2, -- [2]
+									3, -- [3]
+									5, -- [4]
+									8, -- [5]
+									4, -- [6]
+									6, -- [7]
+									7, -- [8]
 								},
 								[38] = {
 									1, -- [1]
@@ -16017,15 +16024,8 @@ MethodDungeonToolsDB = {
 								[50] = {
 									1, -- [1]
 								},
-								[36] = {
+								[51] = {
 									1, -- [1]
-									2, -- [2]
-									3, -- [3]
-									5, -- [4]
-									8, -- [5]
-									4, -- [6]
-									6, -- [7]
-									7, -- [8]
 								},
 							}, -- [1]
 						},
@@ -16941,11 +16941,11 @@ MethodDungeonToolsDB = {
 									2, -- [3]
 								}, -- [2]
 								["color"] = "63ff00",
-								[47] = {
-									1, -- [1]
-								},
 								[41] = {
 									7, -- [1]
+								},
+								[47] = {
+									1, -- [1]
 								},
 								[40] = {
 									27, -- [1]
@@ -17016,19 +17016,19 @@ MethodDungeonToolsDB = {
 								[47] = {
 									6, -- [1]
 								},
-								[35] = {
+								[5] = {
 									1, -- [1]
-									4, -- [2]
-									3, -- [3]
+									3, -- [2]
+									4, -- [3]
 									2, -- [4]
 									5, -- [5]
 									8, -- [6]
 									7, -- [7]
 								},
-								[5] = {
+								[35] = {
 									1, -- [1]
-									3, -- [2]
-									4, -- [3]
+									4, -- [2]
+									3, -- [3]
 									2, -- [4]
 									5, -- [5]
 									8, -- [6]
@@ -17048,16 +17048,16 @@ MethodDungeonToolsDB = {
 								}, -- [5]
 								[45] = {
 								},
+								[35] = {
+								},
+								["color"] = "228b22",
+								[48] = {
+									2, -- [1]
+								},
 								[49] = {
 									1, -- [1]
 								},
-								["color"] = "228b22",
 								[34] = {
-								},
-								[35] = {
-								},
-								[48] = {
-									2, -- [1]
 								},
 							}, -- [5]
 							{
@@ -17449,37 +17449,39 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [26]
 							{
+								[28] = {
+								},
 								[45] = {
 									11, -- [1]
-								},
-								[28] = {
 								},
 								[30] = {
 									1, -- [1]
 								},
-								[29] = {
-									2, -- [1]
-									3, -- [2]
+								[47] = {
+									17, -- [1]
 								},
 								["color"] = "ff0300",
 								[16] = {
 									3, -- [1]
 								},
-								[47] = {
-									17, -- [1]
+								[29] = {
+									2, -- [1]
+									3, -- [2]
 								},
 							}, -- [27]
 							{
-								[28] = {
-									7, -- [1]
-								},
 								[45] = {
 									12, -- [1]
+								},
+								[28] = {
+									7, -- [1]
 								},
 								[30] = {
 									2, -- [1]
 								},
-								["color"] = "ff9e00",
+								[47] = {
+									5, -- [1]
+								},
 								[29] = {
 									4, -- [1]
 									5, -- [2]
@@ -17487,9 +17489,7 @@ MethodDungeonToolsDB = {
 								[16] = {
 									4, -- [1]
 								},
-								[47] = {
-									5, -- [1]
-								},
+								["color"] = "ff9e00",
 							}, -- [28]
 							{
 								["color"] = "d2ff00",
@@ -17515,10 +17515,10 @@ MethodDungeonToolsDB = {
 								[52] = {
 									1, -- [1]
 								},
-								[32] = {
+								[53] = {
 									1, -- [1]
 								},
-								[53] = {
+								[32] = {
 									1, -- [1]
 								},
 							}, -- [31]
@@ -18520,11 +18520,6 @@ MethodDungeonToolsDB = {
 						["freeholdJoined"] = false,
 					},
 					["difficulty"] = 11,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "ываыа",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -18668,6 +18663,11 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [1]
 						},
+					},
+					["text"] = "ываыа",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["objects"] = {
 						{
@@ -18717,11 +18717,6 @@ MethodDungeonToolsDB = {
 						["freeholdJoined"] = false,
 					},
 					["difficulty"] = 11,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "ываыа 2",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -18866,6 +18861,11 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["text"] = "ываыа 2",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["objects"] = {
 						{
 							["d"] = {
@@ -18909,6 +18909,10 @@ MethodDungeonToolsDB = {
 					["mdiEnabled"] = false,
 					["week"] = 3,
 					["difficulty"] = 11,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -19052,10 +19056,6 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [1]
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "ываыа 3",
 					["objects"] = {
@@ -19277,6 +19277,11 @@ MethodDungeonToolsDB = {
 						}, -- [2]
 					},
 					["difficulty"] = 11,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
+					["text"] = "ываыа 4",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -19431,11 +19436,6 @@ MethodDungeonToolsDB = {
 							},
 						},
 					},
-					["text"] = "ываыа 4",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
 						["beguiling"] = 1,
@@ -19446,6 +19446,10 @@ MethodDungeonToolsDB = {
 					["mdiEnabled"] = false,
 					["week"] = 4,
 					["objects"] = {
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["value"] = {
 						["currentPull"] = 1,
@@ -19631,10 +19635,6 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["text"] = "Default 3",
 					["difficulty"] = 13,
 					["mdi"] = {
@@ -19648,16 +19648,6 @@ MethodDungeonToolsDB = {
 					},
 					["week"] = 12,
 					["difficulty"] = 10,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "Standard",
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -19806,7 +19796,9 @@ MethodDungeonToolsDB = {
 									1, -- [1]
 									2, -- [2]
 								},
-								["color"] = "228b22",
+								[22] = {
+									1, -- [1]
+								},
 								[19] = {
 									12, -- [1]
 									14, -- [2]
@@ -19820,11 +19812,19 @@ MethodDungeonToolsDB = {
 								[23] = {
 									1, -- [1]
 								},
-								[22] = {
-									1, -- [1]
-								},
+								["color"] = "228b22",
 							}, -- [1]
 						},
+					},
+					["text"] = "Standard",
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 				}, -- [7]
 				{
@@ -19869,10 +19869,6 @@ MethodDungeonToolsDB = {
 						["freehold"] = 1,
 						["freeholdJoined"] = false,
 						["beguiling"] = 1,
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
 					},
 					["value"] = {
 						["currentPull"] = 1,
@@ -20085,6 +20081,10 @@ MethodDungeonToolsDB = {
 							},
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["text"] = "Default 2",
 					["difficulty"] = 11,
 					["objects"] = {
@@ -20112,10 +20112,6 @@ MethodDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 6,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["currentPull"] = 2,
 						["currentSublevel"] = 6,
@@ -20194,7 +20190,55 @@ MethodDungeonToolsDB = {
 							},
 							[8] = {
 							},
-							[5] = {
+							[9] = {
+								[161244] = {
+									["y"] = -449.7662311445357,
+									["connections"] = {
+										{
+											["target"] = 4,
+											["connectionIndex"] = 3,
+											["source"] = 3,
+										}, -- [1]
+									},
+									["x"] = 349.4092805739512,
+									["sublevel"] = 4,
+									["homeSublevel"] = 3,
+								},
+								[161124] = {
+									["y"] = -366.8191091196155,
+									["x"] = 248.5440358816585,
+								},
+								[161243] = {
+									["y"] = -142.8596228583197,
+									["connections"] = {
+										{
+											["target"] = 6,
+											["connectionIndex"] = 5,
+											["source"] = 5,
+										}, -- [1]
+									},
+									["x"] = 432.4075555414463,
+									["sublevel"] = 6,
+									["homeSublevel"] = 5,
+								},
+								[161241] = {
+									["y"] = -175.4197180271194,
+									["connections"] = {
+										{
+											["target"] = 2,
+											["connectionIndex"] = 1,
+											["source"] = 1,
+										}, -- [1]
+										{
+											["target"] = 3,
+											["connectionIndex"] = 2,
+											["source"] = 2,
+										}, -- [2]
+									},
+									["x"] = 459.489857210081,
+									["sublevel"] = 3,
+									["homeSublevel"] = 1,
+								},
 							},
 							[12] = {
 								[161244] = {
@@ -20288,55 +20332,7 @@ MethodDungeonToolsDB = {
 									["homeSublevel"] = 1,
 								},
 							},
-							[9] = {
-								[161244] = {
-									["y"] = -449.7662311445357,
-									["connections"] = {
-										{
-											["target"] = 4,
-											["connectionIndex"] = 3,
-											["source"] = 3,
-										}, -- [1]
-									},
-									["x"] = 349.4092805739512,
-									["sublevel"] = 4,
-									["homeSublevel"] = 3,
-								},
-								[161124] = {
-									["y"] = -366.8191091196155,
-									["x"] = 248.5440358816585,
-								},
-								[161243] = {
-									["y"] = -142.8596228583197,
-									["connections"] = {
-										{
-											["target"] = 6,
-											["connectionIndex"] = 5,
-											["source"] = 5,
-										}, -- [1]
-									},
-									["x"] = 432.4075555414463,
-									["sublevel"] = 6,
-									["homeSublevel"] = 5,
-								},
-								[161241] = {
-									["y"] = -175.4197180271194,
-									["connections"] = {
-										{
-											["target"] = 2,
-											["connectionIndex"] = 1,
-											["source"] = 1,
-										}, -- [1]
-										{
-											["target"] = 3,
-											["connectionIndex"] = 2,
-											["source"] = 2,
-										}, -- [2]
-									},
-									["x"] = 459.489857210081,
-									["sublevel"] = 3,
-									["homeSublevel"] = 1,
-								},
+							[5] = {
 							},
 							[11] = {
 								[161244] = {
@@ -20396,15 +20392,15 @@ MethodDungeonToolsDB = {
 									3, -- [1]
 									4, -- [2]
 								},
+								[26] = {
+									1, -- [1]
+								},
 								[4] = {
 									5, -- [1]
 									1, -- [2]
 									2, -- [3]
 									4, -- [4]
 									3, -- [5]
-								},
-								[26] = {
-									1, -- [1]
 								},
 								["color"] = "ff3eff",
 							}, -- [1]
@@ -20525,10 +20521,7 @@ MethodDungeonToolsDB = {
 									7, -- [2]
 									14, -- [3]
 								},
-								[12] = {
-									3, -- [1]
-									4, -- [2]
-								},
+								["color"] = "ff9b3e",
 								[26] = {
 									16, -- [1]
 									9, -- [2]
@@ -20538,7 +20531,10 @@ MethodDungeonToolsDB = {
 									17, -- [2]
 									18, -- [3]
 								},
-								["color"] = "ff9b3e",
+								[12] = {
+									3, -- [1]
+									4, -- [2]
+								},
 							}, -- [9]
 							{
 								[27] = {
@@ -20739,6 +20735,10 @@ MethodDungeonToolsDB = {
 							}, -- [22]
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 					["text"] = "4.6 TD by Dratnos",
 					["objects"] = {
 						{
@@ -20813,6 +20813,11 @@ MethodDungeonToolsDB = {
 						["freeholdJoined"] = false,
 					},
 					["difficulty"] = 11,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
+					["text"] = "Default 2",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 3,
@@ -21107,11 +21112,6 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["text"] = "Default 2",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["objects"] = {
 					},
 				}, -- [2]
@@ -21389,10 +21389,6 @@ MethodDungeonToolsDB = {
 							},
 						}, -- [12]
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -21575,6 +21571,10 @@ MethodDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [1]
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "іваіав",
 					["difficulty"] = 11,
@@ -22051,10 +22051,6 @@ MethodDungeonToolsDB = {
 							},
 						}, -- [15]
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -22239,6 +22235,10 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["text"] = "іваіав 2",
 					["difficulty"] = 11,
 					["mdi"] = {
@@ -22251,10 +22251,6 @@ MethodDungeonToolsDB = {
 					["mdiEnabled"] = false,
 					["week"] = 3,
 					["difficulty"] = 11,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -22411,6 +22407,10 @@ MethodDungeonToolsDB = {
 							[3] = {
 							},
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["text"] = "ппррпп",
 					["objects"] = {
@@ -22711,10 +22711,6 @@ MethodDungeonToolsDB = {
 					},
 					["week"] = 9,
 					["uid"] = "GvQ8DI0TFXT",
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -22900,6 +22896,10 @@ MethodDungeonToolsDB = {
 							},
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
 					["text"] = "Yo",
 					["difficulty"] = 10,
 					["mdi"] = {
@@ -22950,11 +22950,6 @@ MethodDungeonToolsDB = {
 					["objects"] = {
 					},
 					["difficulty"] = 11,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "Default 2",
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 4,
@@ -23109,6 +23104,11 @@ MethodDungeonToolsDB = {
 							[3] = {
 							},
 						},
+					},
+					["text"] = "Default 2",
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
 					},
 					["mdi"] = {
 						["freehold"] = 1,

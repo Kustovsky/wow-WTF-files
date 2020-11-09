@@ -1,2 +1,4 @@
 OPie_Classic: disabled
 MacroToolkit: disabled
+AddOnSkins: enabled
+Plater: disabled

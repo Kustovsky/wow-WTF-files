@@ -161,10 +161,10 @@ WeakAurasStopMotion: enabled
 WeakAurasTemplates: enabled
 WIM: enabled
 AzeriteUI: disabled
-TradeSkillMaster: enabled
+TradeSkillMaster: disabled
 AdiBags_Mechagon_Tinkering: disabled
 Pawn: disabled
-TradeSkillMaster_AppHelper: enabled
+TradeSkillMaster_AppHelper: disabled
 OzCooldowns: disabled
 ElvUI: enabled
 ElvUI_AdditionalFonts: disabled
@@ -189,3 +189,5 @@ DBM-WorldEvents: disabled
 DBM-Uldir: disabled
 DBM-DMF: disabled
 SharedMedia_Causese: enabled
+AddOnSkins: enabled
+AddonUsage: enabled

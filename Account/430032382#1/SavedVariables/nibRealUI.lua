@@ -1,37 +1,7 @@
 
 nibRealUIDB = {
 	["char"] = {
-		["Натанке - Ревущий фьорд"] = {
-			["init"] = {
-				["installStage"] = -1,
-				["needchatmoved"] = false,
-				["initialized"] = true,
-			},
-			["layout"] = {
-				["current"] = 2,
-			},
-		},
-		["Синийдиплом - Гордунни"] = {
-			["init"] = {
-				["needchatmoved"] = false,
-				["initialized"] = true,
-			},
-		},
 		["Идолмастер - Ревущий фьорд"] = {
-			["init"] = {
-				["installStage"] = -1,
-				["needchatmoved"] = false,
-				["initialized"] = true,
-			},
-		},
-		["Пакостник - Ревущий фьорд"] = {
-			["init"] = {
-				["installStage"] = -1,
-				["needchatmoved"] = false,
-				["initialized"] = true,
-			},
-		},
-		["Каскадёр - Ясеневый лес"] = {
 			["init"] = {
 				["installStage"] = -1,
 				["needchatmoved"] = false,
@@ -48,6 +18,55 @@ nibRealUIDB = {
 				["current"] = 2,
 			},
 		},
+		["Натанке - Ревущий фьорд"] = {
+			["init"] = {
+				["installStage"] = -1,
+				["needchatmoved"] = false,
+				["initialized"] = true,
+			},
+			["layout"] = {
+				["current"] = 2,
+			},
+		},
+		["Синийдиплом - Гордунни"] = {
+			["init"] = {
+				["initialized"] = true,
+				["needchatmoved"] = false,
+				["installStage"] = -1,
+			},
+		},
+		["Пакостник - Ревущий фьорд"] = {
+			["init"] = {
+				["installStage"] = -1,
+				["needchatmoved"] = false,
+				["initialized"] = true,
+			},
+		},
+		["Линуксоид - Ясеневый лес"] = {
+			["init"] = {
+				["initialized"] = true,
+				["installStage"] = -1,
+			},
+		},
+		["Дэниэль - Ревущий фьорд"] = {
+			["init"] = {
+				["initialized"] = true,
+				["installStage"] = -1,
+			},
+		},
+		["Каскадёр - Ясеневый лес"] = {
+			["init"] = {
+				["installStage"] = -1,
+				["needchatmoved"] = false,
+				["initialized"] = true,
+			},
+		},
+		["Ворбелья - Ревущий фьорд"] = {
+			["init"] = {
+				["initialized"] = true,
+				["installStage"] = -1,
+			},
+		},
 		["Отжигай - Ревущий фьорд"] = {
 			["layout"] = {
 				["current"] = 2,
@@ -60,12 +79,15 @@ nibRealUIDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Идолмастер - Ревущий фьорд"] = "RealUI",
+		["Мдмщик - Ревущий фьорд"] = "RealUI",
 		["Натанке - Ревущий фьорд"] = "RealUI",
 		["Синийдиплом - Гордунни"] = "RealUI",
-		["Идолмастер - Ревущий фьорд"] = "RealUI",
 		["Пакостник - Ревущий фьорд"] = "RealUI",
+		["Линуксоид - Ясеневый лес"] = "RealUI",
+		["Дэниэль - Ревущий фьорд"] = "RealUI",
 		["Каскадёр - Ясеневый лес"] = "RealUI",
-		["Мдмщик - Ревущий фьорд"] = "RealUI",
+		["Ворбелья - Ревущий фьорд"] = "RealUI",
 		["Отжигай - Ревущий фьорд"] = "RealUI",
 	},
 	["namespaces"] = {
@@ -84,10 +106,14 @@ nibRealUIDB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
+				["Натанке - Ревущий фьорд"] = {
+					"RealUI-Healing", -- [1]
+					"RealUI-Healing", -- [2]
+				},
 				["Мдмщик - Ревущий фьорд"] = {
 					"RealUI-Healing", -- [1]
 				},
-				["Натанке - Ревущий фьорд"] = {
+				["Линуксоид - Ясеневый лес"] = {
 					"RealUI-Healing", -- [1]
 					"RealUI-Healing", -- [2]
 				},
@@ -246,29 +272,14 @@ nibRealUIDB = {
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["OrderHallTalentFrame"] = {
-					["y"] = 32.49999618530273,
-					["x"] = 32,
-					["point"] = "LEFT",
-					["seen"] = true,
+				["ColorPickerFrame"] = {
+					["y"] = 116.9999694824219,
+					["x"] = -195.999755859375,
+					["point"] = "RIGHT",
 					["scale"] = 1,
 				},
-				["TaxiFrame"] = {
-					["y"] = 31.99998092651367,
-					["x"] = 16,
-					["point"] = "LEFT",
-					["seen"] = true,
-					["scale"] = 1,
-				},
-				["FriendsFrame"] = {
-					["y"] = 56,
-					["x"] = 16,
-					["point"] = "LEFT",
-					["seen"] = true,
-					["scale"] = 1,
-				},
-				["GossipFrame"] = {
-					["y"] = 20,
+				["PetStableFrame"] = {
+					["y"] = 48.99998474121094,
 					["x"] = 16,
 					["point"] = "LEFT",
 					["seen"] = true,
@@ -281,15 +292,23 @@ nibRealUIDB = {
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["ColorPickerFrame"] = {
-					["y"] = 116.9999694824219,
-					["x"] = -195.999755859375,
-					["point"] = "RIGHT",
+				["GossipFrame"] = {
+					["y"] = 20,
+					["x"] = 16,
+					["point"] = "LEFT",
+					["seen"] = true,
 					["scale"] = 1,
 				},
-				["AzeriteEmpoweredItemUI"] = {
-					["y"] = 30.00003433227539,
-					["x"] = 50.99999618530273,
+				["FriendsFrame"] = {
+					["y"] = 56,
+					["x"] = 16,
+					["point"] = "LEFT",
+					["seen"] = true,
+					["scale"] = 1,
+				},
+				["AchievementFrame"] = {
+					["y"] = 17.99998474121094,
+					["x"] = 96,
 					["point"] = "LEFT",
 					["seen"] = true,
 					["scale"] = 1,
@@ -301,10 +320,17 @@ nibRealUIDB = {
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["DressUpFrame"] = {
-					["y"] = 28.49994659423828,
-					["x"] = -135,
-					["point"] = "RIGHT",
+				["TaxiFrame"] = {
+					["y"] = 31.99998092651367,
+					["x"] = 16,
+					["point"] = "LEFT",
+					["seen"] = true,
+					["scale"] = 1,
+				},
+				["OrderHallTalentFrame"] = {
+					["y"] = 32.49999618530273,
+					["x"] = 32,
+					["point"] = "LEFT",
 					["seen"] = true,
 					["scale"] = 1,
 				},
@@ -322,16 +348,17 @@ nibRealUIDB = {
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["AchievementFrame"] = {
-					["y"] = 17.99998474121094,
-					["x"] = 96,
+				["AzeriteEmpoweredItemUI"] = {
+					["y"] = 30.00003433227539,
+					["x"] = 50.99999618530273,
 					["point"] = "LEFT",
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["GameMenuFrame"] = {
-					["y"] = -1.52587890625e-05,
-					["point"] = "CENTER",
+				["DressUpFrame"] = {
+					["y"] = 28.49994659423828,
+					["x"] = -135,
+					["point"] = "RIGHT",
 					["seen"] = true,
 					["scale"] = 1,
 				},
@@ -349,10 +376,9 @@ nibRealUIDB = {
 					["seen"] = true,
 					["scale"] = 1,
 				},
-				["PetStableFrame"] = {
-					["y"] = 48.99998474121094,
-					["x"] = 16,
-					["point"] = "LEFT",
+				["GameMenuFrame"] = {
+					["y"] = -1.52587890625e-05,
+					["point"] = "CENTER",
 					["seen"] = true,
 					["scale"] = 1,
 				},
@@ -388,16 +414,16 @@ nibRealUIDB = {
 		["MinimapAdv"] = {
 			["profiles"] = {
 				["RealUI"] = {
+					["hidden"] = {
+						["zones"] = {
+							["arena"] = false,
+						},
+					},
 					["position"] = {
 						["y"] = -40,
 						["anchorto"] = "TOPRIGHT",
 						["x"] = -7,
 						["size"] = 164,
-					},
-					["hidden"] = {
-						["zones"] = {
-							["arena"] = false,
-						},
 					},
 				},
 			},
@@ -508,39 +534,39 @@ nibRealUIDB = {
 						["realui"] = {
 							["durability"] = {
 							},
+							["netstats"] = {
+							},
 							["guild"] = {
-							},
-							["progress"] = {
-							},
-							["bags"] = {
 							},
 							["friends"] = {
 							},
-							["netstats"] = {
+							["progress"] = {
+							},
+							["spec"] = {
 							},
 							["currency"] = {
 							},
-							["spec"] = {
+							["bags"] = {
 							},
 						},
 						["others"] = {
 							["Details"] = {
 								["index"] = 6,
 							},
-							["WIM"] = {
+							["MethodDungeonTools"] = {
 								["enabled"] = true,
-								["index"] = 8,
+								["index"] = 6,
 							},
 							["DetailsStreamer"] = {
 								["index"] = 6,
 							},
 							["SimulationCraft"] = {
 								["enabled"] = true,
-								["index"] = 7,
-							},
-							["MethodDungeonTools"] = {
-								["enabled"] = true,
 								["index"] = 6,
+							},
+							["WIM"] = {
+								["enabled"] = true,
+								["index"] = 7,
 							},
 						},
 					},
@@ -568,124 +594,42 @@ nibRealUIDB = {
 		["currency"] = {
 			["Ревущийфьорд"] = {
 				["Horde"] = {
-					["Пакостник"] = {
-						[824] = 131,
-						[1560] = 271,
-						[1220] = 1042,
-						[1719] = 937,
-						["money"] = 51997260,
-						["class"] = "WARRIOR",
-						[1716] = 5,
-						[1803] = 377,
-						[1275] = 1,
-						[1533] = 114,
-						[1721] = 45,
-						[1166] = 155,
-						[1710] = 34,
-						[1755] = 25126,
-						[1718] = 82,
-						["lastSeen"] = 1590671533,
+					["Дэниэль"] = {
+						["money"] = 0,
+						["class"] = "ROGUE",
+						["lastSeen"] = 1603629699,
 					},
-					["Отжигай"] = {
-						["lastSeen"] = 1590690260,
-						["class"] = "DRUID",
-						[697] = 5,
-						[1704] = 10,
-						[1275] = 2,
-						[1710] = 12,
-						[515] = 89,
-						[1560] = 589,
-						["money"] = 36852535,
-						[1220] = 1228,
-						[1718] = 278,
-						[1719] = 5968,
-						[1533] = 241,
-						[1721] = 243,
-						[1166] = 540,
-						[738] = 3,
-						[1755] = 10628,
-						[1716] = 204,
-						[1803] = 7389,
-						[824] = 1110,
-					},
-					["Мдмщик"] = {
-						[1220] = 365,
-						["lastSeen"] = 1590687826,
-						["money"] = 85767043,
-						["class"] = "PALADIN",
-						[515] = 55,
-						[1719] = 45,
-						[1803] = 750,
-						[1755] = 5619,
-						[1166] = 225,
-						[1560] = 405,
-						[1721] = 10,
-						[824] = 248,
-						[1704] = 1,
-					},
-					["Натанке"] = {
-						[1580] = 1,
-						[1719] = 931,
-						["money"] = 72941087,
-						["class"] = "PRIEST",
-						[1716] = 65,
-						[1220] = 3365,
-						[1533] = 14,
-						[1803] = 184,
-						[824] = 24,
-						[1560] = 222,
-						[1710] = 9,
-						[1755] = 9539,
-						[1718] = 215,
-						["lastSeen"] = 1590595482,
-					},
-					["Идолмастер"] = {
-						["lastSeen"] = 1590671315,
-						["class"] = "HUNTER",
-						[1299] = 2195,
-						[1704] = 6,
-						[1275] = 1,
-						[1710] = 67,
-						[515] = 5,
-						[1155] = 150,
-						[1342] = 18,
-						[1560] = 912,
-						["money"] = 418493463,
-						[1220] = 29150,
-						[1718] = 195,
-						[1533] = 446,
-						[1716] = 276,
-						[1721] = 43,
-						[1226] = 18253,
-						[1719] = 4144,
-						[1755] = 22250,
-						[1166] = 2670,
-						[1803] = 3087,
-						[824] = 1386,
+					["Ворбелья"] = {
+						["money"] = 10000,
+						["class"] = "ROGUE",
+						["lastSeen"] = 1604177511,
 					},
 				},
 			},
 			["Ясеневыйлес"] = {
 				["Horde"] = {
-					["Каскадёр"] = {
-						[1220] = 1392,
-						[1299] = 1,
-						["money"] = 19814821,
-						["class"] = "MAGE",
-						[515] = 17,
-						[823] = 6,
-						[1166] = 840,
-						["lastSeen"] = 1593015721,
-						[824] = 504,
+					["Линуксоид"] = {
+						["money"] = 98232243,
+						["class"] = "PRIEST",
+						["lastSeen"] = 1604090902,
 					},
 				},
 			},
 			["Гордунни"] = {
 				["Alliance"] = {
 					["Синийдиплом"] = {
+						[1220] = 3193,
+						[1299] = 12,
 						["money"] = 14180028,
 						["class"] = "WARRIOR",
-						["lastSeen"] = 1594332266,
+						[824] = 81,
+						[1533] = 69,
+						[1717] = 68,
+						[1166] = 235,
+						[1560] = 882,
+						[241] = 4,
+						[1721] = 16,
+						["lastSeen"] = 1600207559,
 					},
 				},
 			},
@@ -709,18 +653,23 @@ nibRealUIDB = {
 			["positions"] = {
 				{
 					["HuDY"] = -5,
+					["ActionBarsBotY"] = 23,
 				}, -- [1]
 				{
 					["HuDY"] = -5,
+					["ActionBarsBotY"] = 23,
 				}, -- [2]
 			},
 			["registeredChars"] = {
+				["Идолмастер - Ревущий фьорд"] = true,
+				["Мдмщик - Ревущий фьорд"] = true,
 				["Натанке - Ревущий фьорд"] = true,
 				["Синийдиплом - Гордунни"] = true,
-				["Идолмастер - Ревущий фьорд"] = true,
 				["Пакостник - Ревущий фьорд"] = true,
+				["Линуксоид - Ясеневый лес"] = true,
+				["Дэниэль - Ревущий фьорд"] = true,
 				["Каскадёр - Ясеневый лес"] = true,
-				["Мдмщик - Ревущий фьорд"] = true,
+				["Ворбелья - Ревущий фьорд"] = true,
 				["Отжигай - Ревущий фьорд"] = true,
 			},
 		},

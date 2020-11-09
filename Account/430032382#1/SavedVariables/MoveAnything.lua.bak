@@ -28,11 +28,20 @@ MADB = {
 				},
 				["ZoneAbilityFrame"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						nil, -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
+						{
+							"TOPLEFT", -- [1]
+							nil, -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							0, -- [5]
+						}, -- [1]
+						{
+							"BOTTOMRIGHT", -- [1]
+							nil, -- [2]
+							"BOTTOMRIGHT", -- [3]
+							0, -- [4]
+							0, -- [5]
+						}, -- [2]
 					},
 					["name"] = "ZoneAbilityFrame",
 					["pos"] = {
