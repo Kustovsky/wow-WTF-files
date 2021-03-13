@@ -13,7 +13,7 @@ CarbData = {
 				},
 			},
 		},
-		["Синийдиплом - Гордунни"] = {
+		["Идолмастер - Ревущий фьорд"] = {
 			["Travel"] = {
 				["Taxi"] = {
 					["Version"] = 0.4,
@@ -25,7 +25,31 @@ CarbData = {
 				},
 			},
 		},
-		["Идолмастер - Ревущий фьорд"] = {
+		["Ворбелья - Ревущий фьорд"] = {
+			["Travel"] = {
+				["Taxi"] = {
+					["Version"] = 0.4,
+					["Taxi"] = {
+					},
+				},
+				["Version"] = 0.5,
+				["TaxiTime"] = {
+				},
+			},
+		},
+		["Фурзум - Ревущий фьорд"] = {
+			["Travel"] = {
+				["Taxi"] = {
+					["Version"] = 0.4,
+					["Taxi"] = {
+					},
+				},
+				["Version"] = 0.5,
+				["TaxiTime"] = {
+				},
+			},
+		},
+		["Синийдиплом - Гордунни"] = {
 			["Travel"] = {
 				["Taxi"] = {
 					["Version"] = 0.4,
@@ -47,6 +71,108 @@ CarbData = {
 			},
 		},
 		["Characters"] = {
+			["Ревущий фьорд.Холодос"] = {
+				["NXLoggedOnNum"] = 1,
+				["E"] = {
+				},
+				["Class"] = "Mage",
+				["TBar"] = {
+					["Version"] = 0.1,
+					["NxMap1TB"] = {
+						["Space"] = 1,
+						["AlignR"] = true,
+						["Size"] = 22,
+						["AlignB"] = true,
+					},
+				},
+				["L"] = {
+					["Version"] = 0.1,
+					["Events"] = {
+					},
+				},
+				["TimePlayed"] = 0,
+				["Level"] = 32,
+				["Version"] = 0.02,
+				["Opts"] = {
+				},
+			},
+			["Ревущий фьорд.Идолмастер"] = {
+				["NXLoggedOnNum"] = 1,
+				["E"] = {
+				},
+				["Class"] = "Hunter",
+				["TBar"] = {
+					["Version"] = 0.1,
+					["NxMap1TB"] = {
+						["Space"] = 1,
+						["AlignR"] = true,
+						["Size"] = 22,
+						["AlignB"] = true,
+					},
+				},
+				["L"] = {
+					["Version"] = 0.1,
+					["Events"] = {
+					},
+				},
+				["TimePlayed"] = 0,
+				["Level"] = 50,
+				["Version"] = 0.02,
+				["Opts"] = {
+				},
+			},
+			["Ревущий фьорд.Ворбелья"] = {
+				["NXLoggedOnNum"] = 1,
+				["E"] = {
+					"I^160579088500^1163^9439d0^Войти", -- [1]
+				},
+				["Class"] = "Rogue",
+				["TBar"] = {
+					["Version"] = 0.1,
+					["NxMap1TB"] = {
+						["Space"] = 1,
+						["AlignR"] = true,
+						["AlignB"] = true,
+						["Size"] = 22,
+					},
+				},
+				["Level"] = 50,
+				["TimePlayed"] = 0,
+				["L"] = {
+					["Version"] = 0.1,
+					["Events"] = {
+					},
+				},
+				["Version"] = 0.02,
+				["Opts"] = {
+				},
+			},
+			["Ревущий фьорд.Фурзум"] = {
+				["NXLoggedOnNum"] = 1,
+				["E"] = {
+					"I^160509097400^85^96c6c0^Войти", -- [1]
+				},
+				["Class"] = "Shaman",
+				["TBar"] = {
+					["Version"] = 0.1,
+					["NxMap1TB"] = {
+						["Space"] = 1,
+						["AlignR"] = true,
+						["AlignB"] = true,
+						["Size"] = 22,
+					},
+				},
+				["Level"] = 10,
+				["TimePlayed"] = 0,
+				["L"] = {
+					["Version"] = 0.1,
+					["Events"] = {
+					},
+				},
+				["Version"] = 0.02,
+				["Opts"] = {
+				},
+			},
 			["Гордунни.Синийдиплом"] = {
 				["NXLoggedOnNum"] = 1,
 				["E"] = {
@@ -73,62 +199,14 @@ CarbData = {
 				["Opts"] = {
 				},
 			},
-			["Ревущий фьорд.Идолмастер"] = {
-				["NXLoggedOnNum"] = 1,
-				["E"] = {
-				},
-				["Class"] = "Hunter",
-				["TBar"] = {
-					["Version"] = 0.1,
-					["NxMap1TB"] = {
-						["Space"] = 1,
-						["AlignR"] = true,
-						["Size"] = 22,
-						["AlignB"] = true,
-					},
-				},
-				["L"] = {
-					["Version"] = 0.1,
-					["Events"] = {
-					},
-				},
-				["TimePlayed"] = 0,
-				["Level"] = 120,
-				["Version"] = 0.02,
-				["Opts"] = {
-				},
-			},
-			["Ревущий фьорд.Холодос"] = {
-				["NXLoggedOnNum"] = 1,
-				["E"] = {
-				},
-				["Class"] = "Mage",
-				["TBar"] = {
-					["Version"] = 0.1,
-					["NxMap1TB"] = {
-						["Space"] = 1,
-						["AlignR"] = true,
-						["Size"] = 22,
-						["AlignB"] = true,
-					},
-				},
-				["L"] = {
-					["Version"] = 0.1,
-					["Events"] = {
-					},
-				},
-				["TimePlayed"] = 0,
-				["Level"] = 32,
-				["Version"] = 0.02,
-				["Opts"] = {
-				},
-			},
 		},
 	},
 	["profileKeys"] = {
 		["Холодос - Ревущий фьорд"] = "Default",
-		["Синийдиплом - Гордунни"] = "Default",
 		["Идолмастер - Ревущий фьорд"] = "Default",
+		["Ворбелья - Ревущий фьорд"] = "Default",
+		["Фурзум - Ревущий фьорд"] = "Default",
+		["Синийдиплом - Гордунни"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -158,12 +236,12 @@ CarbData = {
 				["NXMMDockScale"] = 0.4,
 				["Maps"] = {
 					[0] = {
-						["NXMapPosX"] = -1618.417770731449,
+						["NXMapPosX"] = -1958.712651888122,
 						["NXPlyrFollow"] = true,
-						["NXScale"] = 1.940663287673381,
-						["NXInstanceMaps"] = true,
-						["NXMapPosY"] = -119.1268795569788,
 						["NXWorldShow"] = true,
+						["NXScale"] = 99.33412471931138,
+						["NXMapPosY"] = 3990.780530099128,
+						["NXInstanceMaps"] = true,
 					},
 					[92] = {
 						["NXInstanceMaps"] = true,
@@ -356,7 +434,7 @@ CarbData = {
 					["206Y"] = -0.4,
 					["275H"] = -0.3,
 					["H"] = 242.5263214111328,
-					["X"] = -28.76138877868652,
+					["X"] = -28.76138687133789,
 					["92X"] = -0.0001,
 					["93L"] = 1,
 					["L"] = 1,
@@ -368,7 +446,7 @@ CarbData = {
 					["397Y"] = -0.4,
 					["519L"] = 1,
 					["275L"] = 1,
-					["Y"] = -3.789531230926514,
+					["Y"] = -3.789530992507935,
 					["91W"] = -0.19,
 					["128X"] = -0.0001,
 					["623Y"] = -0.4,

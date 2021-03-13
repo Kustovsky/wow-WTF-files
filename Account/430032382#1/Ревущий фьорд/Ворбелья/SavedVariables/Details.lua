@@ -21,18 +21,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 0,
-							["last_dps"] = 6168.204116693284,
-							["classe"] = "ROGUE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 8031.00176,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1604759917,
-							["aID"] = "1615-0A6A22F2",
-							["damage_taken"] = 0.00176,
-							["nome"] = "Ворбелья",
 							["spells"] = {
 								["_ActorTable"] = {
 									[8680] = {
@@ -51,14 +39,14 @@ _detalhes_database = {
 										["counter"] = 1,
 										["total"] = 8031,
 										["c_max"] = 0,
-										["c_min"] = 0,
+										["r_amt"] = 0,
 										["id"] = 8680,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["b_dmg"] = 0,
+										["m_crit"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -69,17 +57,29 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8031.00176,
+							["damage_taken"] = 0.00176,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1604759917,
+							["aID"] = "1615-0A6A22F2",
+							["last_dps"] = 6168.204116693284,
+							["nome"] = "Ворбелья",
+							["spec"] = 261,
 							["grupo"] = true,
 							["total"] = 8031.00176,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 261,
 							["colocacao"] = 1,
 							["last_event"] = 1604759916,
-							["on_hold"] = false,
-							["start_time"] = 1604759916,
-							["serial"] = "Player-1615-0A6A22F2",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1604759916,
+							["serial"] = "Player-1615-0A6A22F2",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -91,33 +91,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003965,
 							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 0.003965,
-							["dps_started"] = false,
-							["damage_taken"] = 8031.003965,
+							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Навозный жук",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "49743",
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["end_time"] = 1604759917,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 8031.003965,
 							["start_time"] = 1604759917,
 							["serial"] = "Creature-0-3891-1-4533-49743-000026AF78",
-							["friendlyfire_total"] = 0,
+							["aID"] = "49743",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -139,32 +139,32 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001232,
 							["targets_overheal"] = {
 							},
-							["classe"] = "ROGUE",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001232,
 							["total_without_pet"] = 0.001232,
 							["iniciar_hps"] = false,
 							["totaldenied"] = 0.001232,
-							["heal_enemy_amt"] = 0,
-							["total"] = 0.001232,
-							["spec"] = 261,
 							["aID"] = "1615-0A6A22F2",
-							["nome"] = "Ворбелья",
-							["targets_absorbs"] = {
-							},
-							["grupo"] = true,
+							["total"] = 0.001232,
+							["classe"] = "ROGUE",
 							["last_event"] = 0,
+							["nome"] = "Ворбелья",
+							["spec"] = 261,
+							["grupo"] = true,
+							["delay"] = 0,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
 							["start_time"] = 0,
 							["serial"] = "Player-1615-0A6A22F2",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
+							["targets_absorbs"] = {
 							},
 						}, -- [1]
 					},
@@ -322,9 +322,9 @@ _detalhes_database = {
 				["playing_solo"] = true,
 				["totals"] = {
 					8030.992462, -- [1]
-					-0.1038429999999835, -- [2]
+					-0.1179389999999835, -- [2]
 					{
-						0, -- [1]
+						-0.0100309999999979, -- [1]
 						[0] = -0.006456000000000017,
 						["alternatepower"] = 0,
 						[6] = 0,
@@ -380,9 +380,43 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:38:37",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Ворбелья"] = 8031.00176,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 68360.00600000001,
 				["combat_id"] = 912,
+				["frags"] = {
+					["Навозный жук"] = 1,
+				},
+				["spells_cast_timeline"] = {
+					["Player-1615-0A6A22F2"] = {
+						{
+							68358.704, -- [1]
+							197835, -- [2]
+							"", -- [3]
+						}, -- [1]
+					},
+				},
+				["tempo_start"] = 1604759916,
+				["combat_counter"] = 1048,
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Ворбелья"] = {
 						{
@@ -484,48 +518,28 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["spells_cast_timeline"] = {
-					["Player-1615-0A6A22F2"] = {
-						{
-							68358.704, -- [1]
-							197835, -- [2]
-							"", -- [3]
-						}, -- [1]
-					},
-				},
-				["tempo_start"] = 1604759916,
-				["frags"] = {
-					["Навозный жук"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["combat_counter"] = 1048,
 				["start_time"] = 68358.704,
 				["TimeData"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Ворбелья"] = 8031.00176,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "17:38:37",
 			}, -- [1]
 		},
 	},
-	["last_version"] = "v9.0.1.7950",
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["cooldowns"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["show_options"] = false,
+		["pos"] = {
+		},
+	},
+	["last_version"] = "v9.0.2.8246",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -533,34 +547,14 @@ _detalhes_database = {
 	},
 	["coach"] = {
 		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["last_version"] = 12,
-		["Имба"] = {
-			"Имба", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Brother Korloff", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
-		["nextreset"] = 1605473458,
+		["last_version"] = 14,
+		["nextreset"] = 1615909243,
 	},
 	["last_instance_id"] = 1594,
 	["announce_interrupts"] = {
@@ -647,14 +641,14 @@ _detalhes_database = {
 				[196711] = true,
 				[324183] = true,
 				[146739] = 172,
-				[190411] = 44949,
-				[85739] = 44949,
-				[317488] = 317485,
-				[199672] = 1943,
 				[222031] = 199547,
+				[85739] = 44949,
+				[227847] = 50622,
+				[199672] = 1943,
+				[190411] = 44949,
 				[227518] = true,
 				[75] = true,
-				[227847] = 50622,
+				[317488] = 317485,
 				[201428] = true,
 				[7268] = 5143,
 				[52174] = 6544,
@@ -690,6 +684,8 @@ _detalhes_database = {
 					["iType"] = "arena-HEALER",
 					["version"] = "v2.0",
 					["options"] = {
+						["iType"] = "arena-HEALER",
+						["name"] = "Arena Heal",
 						["colors"] = {
 							["Enemy Team Healing"] = {
 								1, -- [1]
@@ -702,8 +698,6 @@ _detalhes_database = {
 								1, -- [3]
 							},
 						},
-						["iType"] = "arena-HEALER",
-						["name"] = "Arena Heal",
 					},
 					["segment_type"] = 1,
 					["name"] = "Arena Heal",
@@ -714,6 +708,8 @@ _detalhes_database = {
 					["iType"] = "arena-DAMAGER",
 					["version"] = "v2.0",
 					["options"] = {
+						["iType"] = "arena-DAMAGER",
+						["name"] = "Arena Damage",
 						["colors"] = {
 							["Enemy Team Damage"] = {
 								1, -- [1]
@@ -726,8 +722,6 @@ _detalhes_database = {
 								1, -- [3]
 							},
 						},
-						["iType"] = "arena-DAMAGER",
-						["name"] = "Arena Damage",
 					},
 					["segment_type"] = 1,
 					["name"] = "Arena Damage",
@@ -744,8 +738,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -799,6 +793,7 @@ _detalhes_database = {
 				1, -- [4]
 			},
 			["is_first_run"] = false,
+			["grow_direction"] = "right",
 			["arrow_color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -814,19 +809,17 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
+			["use_spark"] = true,
 			["arrow_anchor_x"] = 0,
+			["point"] = "CENTER",
 			["row_texture"] = "Details Serenity",
+			["use_square_mode"] = false,
 			["scale"] = 1,
 			["row_height"] = 20,
-			["point"] = "CENTER",
+			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -834,13 +827,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = -3.0517578125e-05,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -852,7 +841,16 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["author"] = "Details! Team",
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
@@ -861,14 +859,14 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 		},
 	},
-	["cached_talents"] = {
-	},
 	["announce_prepots"] = {
-		["enabled"] = true,
+		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "08",
+	["last_day"] = "01",
+	["cached_talents"] = {
+	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -881,7 +879,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 1049,
+	["combat_counter"] = 1051,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -903,16 +901,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["damage_taken"] = 0.003946,
-					["friendlyfire_total"] = 0,
+					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 8031.003946,
 					["aID"] = "1615-0A6A22F2",
 					["dps_started"] = false,
 					["end_time"] = 1604759918,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["tipo"] = 1,
 					["nome"] = "Ворбелья",
 					["spells"] = {
@@ -935,10 +934,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 8680,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -955,11 +954,10 @@ _detalhes_database = {
 					["spec"] = 261,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1604759914,
 					["serial"] = "Player-1615-0A6A22F2",
-					["classe"] = "ROGUE",
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 2600,
@@ -971,17 +969,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "49743",
+					["friendlyfire"] = {
+					},
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005393,
 					["delay"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1604759918,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 8031.005393,
+					["last_dps"] = 0,
 					["nome"] = "Навозный жук",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -993,11 +992,10 @@ _detalhes_database = {
 					["total"] = 0.005393,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 8031.005393,
 					["start_time"] = 1604759915,
 					["serial"] = "Creature-0-3891-1-4533-49743-000026AF78",
-					["dps_started"] = false,
+					["fight_component"] = true,
 				}, -- [2]
 			},
 		}, -- [1]
@@ -1006,46 +1004,46 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorb"] = 0.004259,
-					["last_hps"] = 0,
 					["targets_overheal"] = {
-					},
-					["healing_from"] = {
-					},
-					["targets"] = {
-					},
-					["targets_absorbs"] = {
 					},
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.004259,
 					["iniciar_hps"] = false,
 					["aID"] = "1615-0A6A22F2",
 					["totalover"] = 0.004259,
 					["total_without_pet"] = 0.004259,
-					["spec"] = 261,
-					["healing_taken"] = 0.004259,
-					["classe"] = "ROGUE",
 					["total"] = 0.004259,
-					["end_time"] = 1604785446,
-					["heal_enemy_amt"] = 0,
-					["nome"] = "Ворбелья",
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
+					["targets_absorbs"] = {
 					},
-					["grupo"] = true,
-					["start_time"] = 1604785443,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Player-1615-0A6A22F2",
-					["custom"] = 0,
-					["tipo"] = 2,
 					["on_hold"] = false,
+					["serial"] = "Player-1615-0A6A22F2",
+					["totalabsorb"] = 0.004259,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.004259,
+					["healing_taken"] = 0.004259,
+					["end_time"] = 1604785446,
+					["classe"] = "ROGUE",
+					["healing_from"] = {
+					},
+					["nome"] = "Ворбелья",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["tipo"] = 2,
+					["start_time"] = 1604785443,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
 					["totaldenied"] = 0.004259,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["spec"] = 261,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -1182,7 +1180,13 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["cleu_timeline"] = {
+		["segments_added"] = {
+			{
+				["elapsed"] = 1.302000000010594,
+				["type"] = 0,
+				["name"] = "Навозный жук",
+				["clock"] = "17:38:37",
+			}, -- [1]
 		},
 		["combat_counter"] = 1047,
 		["totals"] = {
@@ -1217,6 +1221,8 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "17:38:37",
 		["end_time"] = 68360.00600000001,
+		["cleu_timeline"] = {
+		},
 		["totals_grupo"] = {
 			8031.00176, -- [1]
 			0, -- [2]
@@ -1252,14 +1258,6 @@ _detalhes_database = {
 			},
 			["damage_section"] = {
 			},
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 1.302000000010594,
-				["type"] = 0,
-				["name"] = "Навозный жук",
-				["clock"] = "17:38:37",
-			}, -- [1]
 		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
@@ -1317,7 +1315,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 31,
+		["logons"] = 33,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

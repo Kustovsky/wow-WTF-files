@@ -1,0 +1,12 @@
+AutoLootPlus: disabled
+BigWigs_Uldir: disabled
+BigWigs_Nyalotha: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_BattleOfDazaralor: disabled
+DynamicCam: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

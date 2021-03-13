@@ -25,7 +25,7 @@ Kui_Nameplates: enabled
 Kui_Nameplates_Core_Config: enabled
 Leatrix_Plus: enabled
 Kui_Nameplates_Core: enabled
-DynamicCam: enabled
+DynamicCam: disabled
 Details_TinyThreat: disabled
 Details_Streamer: disabled
 Details_Vanguard: disabled
@@ -251,3 +251,9 @@ TradeSkillMaster_AppHelper: disabled
 AdiBags_Mechagon_Tinkering: disabled
 ElvUI_AdditionalFonts: disabled
 ElvUI_BenikUI: enabled
+AutoLootPlus: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

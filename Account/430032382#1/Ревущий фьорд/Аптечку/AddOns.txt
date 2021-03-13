@@ -25,7 +25,7 @@ Kui_Nameplates: disabled
 Kui_Nameplates_Core_Config: disabled
 Leatrix_Plus: enabled
 Kui_Nameplates_Core: disabled
-DynamicCam: enabled
+DynamicCam: disabled
 Details_TinyThreat: enabled
 Details_Streamer: enabled
 Details_Vanguard: enabled
@@ -108,7 +108,7 @@ BigWigs_Voice: enabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_Azeroth: enabled
-BigWigs_Nyalotha: enabled
+BigWigs_Nyalotha: disabled
 Grid2: disabled
 Grid2Options: disabled
 Grid2RaidDebuffs: disabled
@@ -129,7 +129,7 @@ RangeDisplay: disabled
 RangeDisplay_Options: disabled
 Details_Elitism: enabled
 ElitismHelper: disabled
-BigWigs_BattleOfDazaralor: enabled
+BigWigs_BattleOfDazaralor: disabled
 Ludwig_Window: disabled
 Carbonite: disabled
 Carbonite.Warehouse: disabled
@@ -177,9 +177,9 @@ Bartender4: disabled
 BigWigs_Achievements: disabled
 BigWigs_Ra-denAssist: disabled
 BigWigs: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
-BigWigs_Uldir: enabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Uldir: disabled
 BigWigs_Countdown_Overwatch: enabled
 cargBags_Nivaya: disabled
 Masque: disabled
@@ -262,3 +262,11 @@ ACU: disabled
 Glass: disabled
 LibStub: enabled
 LibSharedMedia-3.0: enabled
+AutoLootPlus: disabled
+LittleWigs_Legion: disabled
+ManbabyDungeonTools: disabled
+DPSTacho: disabled
+LittleWigs_BurningCrusade: disabled
+!!Warmup: enabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled

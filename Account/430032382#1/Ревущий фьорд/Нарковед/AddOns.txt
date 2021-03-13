@@ -42,11 +42,11 @@ BigWigs_Ra-denAssist: enabled
 BigWigs: enabled
 BigWigs_CastleNathria: enabled
 BigWigs_Azeroth: enabled
-BigWigs_BattleOfDazaralor: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
-BigWigs_Nyalotha: enabled
-BigWigs_Uldir: enabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Nyalotha: disabled
+BigWigs_Uldir: disabled
 BigWigs_Voice: enabled
 BigWigs_CommonAuras: enabled
 BigWigs_Countdown_Overwatch: enabled
@@ -191,3 +191,9 @@ DBM-DMF: disabled
 SharedMedia_Causese: enabled
 AddOnSkins: enabled
 AddonUsage: enabled
+AutoLootPlus: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

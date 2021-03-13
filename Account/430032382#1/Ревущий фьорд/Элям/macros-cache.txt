@@ -19,8 +19,8 @@ VER 3 0100000000000005 "Быстра" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover,nodead,help][] Быстрина
 END
 VER 3 0100000000000008 "Волна" "INV_MISC_QUESTIONMARK"
-#showtooltip Волна исцеления
-/cast [@mouseover,nodead,help][] Волна исцеления;
+#showtooltip Исцеляющий всплеск
+/cast [@mouseover,nodead,help][] Быстрина
 END
 VER 3 0100000000000006 "Дабл" "INV_MISC_QUESTIONMARK"
 #showtooltip

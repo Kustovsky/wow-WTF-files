@@ -1,58 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Ловчий Аттумен",
-		}, -- [1]
-		{
-			["boss"] = "Оперный зал",
-		}, -- [2]
-		{
-			{
-				1.697000000000116, -- [1]
-				"Этот презренный мирок уже пал жертвой моей скверны. Сама земля отмечена клеймом Легиона!", -- [2]
-				"Архимонд", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				4.275000000008731, -- [1]
-				"Мощь легиона сокрушит вас!", -- [2]
-				"Гул'дан", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				4.275000000008731, -- [1]
-				"Свет… сильнее.", -- [2]
-				"Экзарх Ирель", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				5.51500000001397, -- [1]
-				"Узрите несметные войска Пылающего Легиона и осознайте всю тщетность борьбы!", -- [2]
-				"Архимонд", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				6.646000000007916, -- [1]
-				"Я — осквернитель! Владыка Пылающего Легиона! Этот мир СГОРИТ!", -- [2]
-				"Архимонд", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				16.48600000000442, -- [1]
-				"Просто так тебе не захватить этот мир, демон. Его обитатели не сдадутся без боя. Наша воля несокрушима! За Дренор!", -- [2]
-				"Громмаш Адский Крик", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				16.8640000000014, -- [1]
-				"Свет, защити нас от воплощения зла! Дай силы изгнать скверну!", -- [2]
-				"Экзарх Ирель", -- [3]
-				7, -- [4]
-			}, -- [7]
-			["boss"] = "Архимонд",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[15347] = {
 			["school"] = 2,
@@ -60,6 +7,14 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Ремесленник из клана Кузни Рока",
+		},
+		[329172] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
 		},
 		[300504] = {
 			["school"] = 64,
@@ -96,6 +51,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Защитник Азерот",
+		},
+		[339415] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
 		},
 		[33480] = {
 			["school"] = 32,
@@ -173,6 +137,17 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[329181] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[298465] = {
 			["school"] = 1,
 			["token"] = {
@@ -249,6 +224,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оштри-СвежевательДуш",
 		},
+		[51399] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Рунари",
+		},
 		[119684] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -292,6 +275,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Королева Азшара",
+		},
+		[318949] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Чумной спинолом",
 		},
 		[74634] = {
 			["school"] = 1,
@@ -364,6 +356,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Саурок из клана Соленой Чешуи",
 		},
+		[56775] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лазурный волхв",
+		},
 		[312810] = {
 			["school"] = 1,
 			["token"] = {
@@ -428,6 +431,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Незрячий наблюдатель",
 		},
+		[321005] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ингра Малох",
+		},
+		[333292] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
+		},
+		[321006] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ингра Малох",
+		},
 		[76684] = {
 			["school"] = 127,
 			["token"] = {
@@ -457,6 +484,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "К'тир резчик разума",
 		},
+		[56776] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Лазурный волхв",
+		},
 		[164616] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -466,6 +504,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Говорящий с огнем из клана Кровавого Молота",
 		},
+		[323057] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ингра Малох",
+		},
 		[14516] = {
 			["school"] = 1,
 			["token"] = {
@@ -473,6 +520,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Стражник Мол'дар",
+		},
+		[331249] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Азуль",
+		},
+		[335345] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лорд-камергер",
 		},
 		[164617] = {
 			["school"] = 4,
@@ -615,6 +678,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Раздор",
 		},
+		[325118] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Эллинойз",
+		},
 		[318976] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -649,6 +719,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Катастрофа",
 		},
+		[329217] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Доктор Икус",
+		},
 		[310788] = {
 			["school"] = 1,
 			["token"] = {
@@ -672,6 +750,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Силиваз Ревностный",
+		},
+		[343553] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Злопамятная тень",
 		},
 		[22120] = {
 			["school"] = 1,
@@ -729,6 +814,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Слад'ранская гадюка",
 		},
+		[343556] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[12021] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -775,6 +870,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пророк Тарон'джа",
 		},
+		[321034] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кин-Тара",
+		},
 		[178963] = {
 			["school"] = 32,
 			["token"] = {
@@ -812,6 +914,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Убийца из Темной Империи",
 		},
+		[331275] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Адвент Невермор",
+		},
 		[269843] = {
 			["school"] = 32,
 			["token"] = {
@@ -829,6 +938,13 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Рыцарь крови Солнечного Клинка",
+		},
+		[321038] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Зловещая подавительница",
 		},
 		[203538] = {
 			["school"] = 2,
@@ -970,8 +1086,8 @@ EncounterDetailsDB = {
 		[292380] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Галакрасс",
 		},
@@ -1183,6 +1299,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Джес Хаулис",
 		},
+		[72090] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Торавон Страж Льда",
+		},
 		[306726] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -1202,6 +1327,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Деспотичная Велари",
 		},
+		[321061] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
+		},
 		[209693] = {
 			["school"] = 1,
 			["token"] = {
@@ -1219,6 +1354,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Золотой Змей",
+		},
+		[69019] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Взрывная сфера",
 		},
 		[239386] = {
 			["school"] = 1,
@@ -1251,6 +1394,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Щитоносец из армии Зула",
+		},
+		[329256] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
 		},
 		[41425] = {
 			["school"] = 16,
@@ -1286,6 +1438,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ингвар Расхититель",
+		},
+		[329258] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
 		},
 		[306733] = {
 			["school"] = 32,
@@ -1378,6 +1538,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Апоко",
+		},
+		[329262] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лорд-камергер",
 		},
 		[267830] = {
 			["school"] = 8,
@@ -1472,6 +1640,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Старейшина Ликса",
 		},
+		[331316] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Докигг Изверг",
+		},
 		[267836] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1479,6 +1656,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Неизвестно",
+		},
+		[323126] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
 		},
 		[284219] = {
 			["school"] = 8,
@@ -1509,6 +1693,16 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Кристаллический хлестун",
+		},
+		[49106] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Имирьяр-берсерк",
 		},
 		[276031] = {
 			["school"] = 32,
@@ -1542,6 +1736,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ползучая порча",
+		},
+		[327227] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Сир Денатрий",
 		},
 		[252707] = {
 			["school"] = 64,
@@ -1601,6 +1803,24 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Анардилона-СвежевательДуш",
+		},
+		[41172] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Следопыт Альянса",
+		},
+		[323137] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дроман Ульфарран",
 		},
 		[33493] = {
 			["school"] = 32,
@@ -1708,6 +1928,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[323143] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лорд-камергер",
+		},
 		[135991] = {
 			["school"] = 8,
 			["token"] = {
@@ -1740,6 +1968,15 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Каннабес-СвежевательДуш",
+		},
+		[323146] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ингра Малох",
 		},
 		[50900] = {
 			["school"] = 8,
@@ -1869,6 +2106,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
+		[204596] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Тиладен",
+		},
 		[288343] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -1899,6 +2143,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Врагорез-5000",
+		},
+		[339538] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Beawølf-Drek'Thar",
 		},
 		[150332] = {
 			["school"] = 1,
@@ -2052,6 +2303,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Железная Кора - заступник",
 		},
+		[319070] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Костномозговая слизь",
+		},
 		[76200] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2059,6 +2321,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Повелитель Перерожденных Обсидий",
+		},
+		[323166] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
 		},
 		[276068] = {
 			["school"] = 16,
@@ -2068,6 +2338,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хадал Черная Бездна",
 		},
+		[333406] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
 		[225080] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -2075,6 +2354,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Вулканос",
+		},
+		[339550] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[233272] = {
 			["school"] = 1,
@@ -2093,6 +2380,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Маг огня корпорации Эшвейнов",
+		},
+		[343648] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Вантто",
 		},
 		[230201] = {
 			["school"] = 32,
@@ -2193,6 +2488,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Отчаявшийся негодяй",
 		},
+		[329321] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Свирепый гаргон",
+		},
 		[269937] = {
 			["school"] = 2,
 			["token"] = {
@@ -2221,6 +2524,26 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Призывательница штормов Фэй",
+		},
+		[335467] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Эллинойз",
+		},
+		[329324] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Свирепый гаргон",
 		},
 		[150344] = {
 			["school"] = 8,
@@ -2379,6 +2702,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Брат Айронхалл",
 		},
+		[339573] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
+		[341621] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[233283] = {
 			["school"] = 4,
 			["token"] = {
@@ -2408,6 +2751,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лазурный змей",
 		},
+		[341623] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[100780] = {
 			["school"] = 1,
 			["token"] = {
@@ -2424,6 +2776,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Брат Айронхалл",
 		},
+		[323195] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
+		[341625] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[278145] = {
 			["school"] = 2,
 			["type"] = "DEBUFF",
@@ -2433,12 +2804,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Humanlight-Kazzak",
 		},
+		[347769] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Pillar Stalker",
+		},
 		[164686] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Садана Кровавое Безумие",
+		},
+		[325245] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
 		},
 		[278147] = {
 			["school"] = 2,
@@ -2457,6 +2843,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Minatek-Eredar",
+		},
+		[69041] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Эллинойз",
 		},
 		[118699] = {
 			["school"] = 32,
@@ -2702,6 +3095,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тралл",
 		},
+		[325258] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Мве'зала",
+		},
 		[17393] = {
 			["school"] = 32,
 			["token"] = {
@@ -2751,6 +3154,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Матрона Кристиана",
 		},
+		[325261] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
 		[265877] = {
 			["school"] = 32,
 			["token"] = {
@@ -2767,6 +3177,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Мертвыйнос",
+		},
+		[265878] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Матрона Кристиана",
 		},
 		[250701] = {
 			["school"] = 4,
@@ -2822,6 +3239,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Эндергасса",
 		},
+		[329362] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Визгунья",
+		},
 		[265882] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2868,6 +3294,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Магистр Календрис",
+		},
+		[323221] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
 		},
 		[83381] = {
 			["school"] = 1,
@@ -3028,6 +3462,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ужас из пучины",
 		},
+		[57054] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Кристаллическая грация",
+		},
 		[207707] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3037,6 +3481,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неизвестно",
 		},
+		[172] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гадфазер",
+		},
 		[80313] = {
 			["school"] = 1,
 			["token"] = {
@@ -3044,6 +3497,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Сорвада",
+		},
+		[323236] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд-камергер",
 		},
 		[308903] = {
 			["school"] = 32,
@@ -3218,6 +3680,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хадал Черная Бездна",
 		},
+		[333485] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тошногнил",
+		},
 		[27634] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
@@ -3305,6 +3776,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Беспокойное облако",
 		},
+		[333488] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Амарт",
+		},
 		[33763] = {
 			["school"] = 8,
 			["token"] = {
@@ -3374,6 +3853,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Окинтеми",
+		},
+		[335540] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Докучливый бес",
 		},
 		[31602] = {
 			["school"] = 1,
@@ -3743,6 +4229,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Minatek-Eredar",
 		},
+		[325324] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
 		[298704] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -3776,6 +4269,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ярость Н'Зота",
+		},
+		[341709] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Призывательница Туманов",
 		},
 		[313041] = {
 			["school"] = 32,
@@ -3833,6 +4334,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лордэон",
 		},
+		[333523] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[106434] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3875,6 +4385,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Lolluna-TwistingNether",
+		},
+		[181113] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Скальный покоритель",
 		},
 		[308953] = {
 			["school"] = 1,
@@ -3982,6 +4499,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[335581] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Гнусная оккультистка",
+		},
 		[131971] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -4078,6 +4603,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вексиона",
 		},
+		[321253] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[333540] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Зира Двурушница",
+		},
 		[75722] = {
 			["school"] = 16,
 			["token"] = {
@@ -4145,6 +4687,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Стражница душ Ниами",
+		},
+		[57063] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Аномалус",
 		},
 		[768] = {
 			["school"] = 1,
@@ -4228,6 +4779,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Врагорез-5000",
 		},
+		[339690] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[224127] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -4254,6 +4815,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[69581] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Порожденный чумой ужас",
+		},
 		[306929] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -4265,6 +4837,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Шад'хар Ненасытный",
+		},
+		[335598] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Скальный покоритель",
 		},
 		[263927] = {
 			["school"] = 8,
@@ -4368,6 +4948,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Пламя Тайшалака",
+		},
+		[980] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Гадфазер",
+		},
+		[327414] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
 		},
 		[16380] = {
 			["school"] = 64,
@@ -4488,6 +5086,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ожившее золото",
 		},
+		[57066] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Орморок Воспитатель Дерев",
+		},
 		[298756] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -4529,12 +5135,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Н'Зот Заразитель",
 		},
+		[327426] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Расколотое видение",
+		},
 		[246663] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Разрушитель миров Кин'гарота",
+		},
+		[327427] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Расколотое видение",
 		},
 		[44268] = {
 			["school"] = 1,
@@ -4608,6 +5230,12 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Тузадинский некромант",
+		},
+		[57067] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[196496] = {
 			["school"] = 1,
@@ -4745,6 +5373,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Исказительница душ из ковена Мертвых Сердец",
 		},
+		[339728] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[236432] = {
 			["school"] = 4,
 			["token"] = {
@@ -4758,6 +5393,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ринтз",
+		},
+		[325395] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Неизвестно",
 		},
 		[186263] = {
 			["school"] = 32,
@@ -4925,6 +5568,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Чародей войска мертвых",
 		},
+		[38384] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
+		},
 		[270117] = {
 			["school"] = 1,
 			["token"] = {
@@ -4963,6 +5616,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зуулин",
 		},
+		[207771] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тиладен",
+		},
 		[93655] = {
 			["school"] = 4,
 			["token"] = {
@@ -4971,6 +5631,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Анжинер Термоштепсель",
+		},
+		[333602] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный маг",
 		},
 		[115157] = {
 			["school"] = 1,
@@ -5043,6 +5712,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фенрир",
 		},
+		[339751] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Эхо наездника на быке",
+		},
 		[150438] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5109,6 +5785,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Крейзирогаа-Гордунни",
+		},
+		[317231] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
 		},
 		[70109] = {
 			["school"] = 1,
@@ -5208,6 +5893,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кабалист-сектантка",
 		},
+		[331573] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Обузданный призрак",
+		},
 		[47346] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
@@ -5232,6 +5928,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
+		[327481] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Кин-Тара",
+		},
 		[280384] = {
 			["school"] = 8,
 			["token"] = {
@@ -5253,6 +5960,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Потусторонняя тварь",
+		},
+		[333627] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[74720] = {
 			["school"] = 1,
@@ -5317,6 +6031,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жуткий капитан Локвуд",
 		},
+		[323392] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лорд-камергер",
+		},
+		[325440] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скальный покоритель",
+		},
 		[307011] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -5332,6 +6062,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Взор безумия",
 		},
+		[325442] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Скальный покоритель",
+		},
 		[302917] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5339,6 +6078,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Сорвада",
+		},
+		[333634] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[176048] = {
 			["school"] = 1,
@@ -5388,6 +6134,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Бладдфолен",
+		},
+		[5760] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пинорино",
 		},
 		[193455] = {
 			["school"] = 1,
@@ -5454,6 +6208,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Найтгар",
+		},
+		[327497] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лорд Ставрос",
 		},
 		[50420] = {
 			["school"] = 1,
@@ -5602,6 +6364,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фарааон-Гордунни",
 		},
+		[345936] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Визгунья",
+		},
 		[268122] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5669,6 +6439,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
+		[323414] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд-камергер",
+		},
 		[280412] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -5694,6 +6471,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Брайар",
 		},
+		[321368] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
 		[260016] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -5704,6 +6490,21 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Жужжащий трутень",
+		},
+		[343895] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
+		},
+		[321370] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
 		},
 		[202680] = {
 			["school"] = 1,
@@ -5763,6 +6564,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Механомиротворец",
+		},
+		[329565] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Гнусная оккультистка",
 		},
 		[298849] = {
 			["school"] = 8,
@@ -5849,6 +6657,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вик'Гот",
 		},
+		[198590] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Гадфазер",
+		},
 		[22910] = {
 			["school"] = 4,
 			["token"] = {
@@ -5887,6 +6705,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Череп",
+		},
+		[193473] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Щупальце Бездны",
 		},
 		[307052] = {
 			["school"] = 32,
@@ -5938,6 +6764,17 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "\"Капитан\" Пирожок",
+		},
+		[323437] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Лорд-камергер",
 		},
 		[256955] = {
 			["school"] = 4,
@@ -6212,6 +7049,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клюквенная",
 		},
+		[341884] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скади Безжалостный",
+		},
 		[164815] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -6232,6 +7076,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ингибиттор",
 		},
+		[341885] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Скади Безжалостный",
+		},
 		[315265] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -6240,6 +7093,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Неизвестно",
+		},
+		[57082] = {
+			["school"] = 0,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Орморок Воспитатель Дерев",
 		},
 		[307075] = {
 			["school"] = 32,
@@ -6352,6 +7212,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Галганн Огнемолот",
+		},
+		[57083] = {
+			["school"] = 0,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Орморок Воспитатель Дерев",
 		},
 		[313227] = {
 			["school"] = 32,
@@ -6495,6 +7362,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Продавщица закусок",
+		},
+		[329618] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
 		},
 		[268186] = {
 			["school"] = 8,
@@ -6680,6 +7554,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Агграмар",
 		},
+		[325535] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Порочный псарь",
+		},
 		[311201] = {
 			["school"] = 4,
 			["token"] = {
@@ -6694,6 +7577,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Сжимающий ужас",
+		},
+		[48639] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имирьяр-воин",
 		},
 		[48895] = {
 			["school"] = 8,
@@ -6814,6 +7706,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иллиана Воронья Ольха",
 		},
+		[227291] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Нюцзао",
+		},
 		[278444] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -6899,6 +7798,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жрец Гонка",
 		},
+		[333737] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[164837] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -6959,6 +7867,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Акир-разоритель",
 		},
+		[325550] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
+		},
 		[313264] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -6973,6 +7888,17 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Резчик рун Сорн",
+		},
+		[325552] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
 		},
 		[188389] = {
 			["school"] = 4,
@@ -7078,6 +8004,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Стратхольмский курьер",
 		},
+		[55041] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
+		},
 		[246753] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -7149,6 +8083,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ферра",
+		},
+		[327610] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
+		[323515] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кроворуб",
 		},
 		[241636] = {
 			["school"] = 1,
@@ -7324,6 +8276,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Агграмар",
 		},
+		[331718] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Туманная защитница",
+		},
 		[260072] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -7331,6 +8293,18 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Жрец Па'ку",
+		},
+		[57091] = {
+			["school"] = 20,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Керистраза",
 		},
 		[294860] = {
 			["school"] = 8,
@@ -7369,12 +8343,20 @@ EncounterDetailsDB = {
 		[93697] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Лорд Вальден",
+		},
+		[335817] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Девия",
 		},
 		[51460] = {
 			["school"] = 32,
@@ -7563,6 +8545,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сул Пескорыск",
 		},
+		[323542] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[325590] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гнусная оккультистка",
+		},
+		[264158] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Жертвенная послушница",
+		},
 		[190456] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -7579,6 +8588,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Корамар",
 		},
+		[323544] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сын Хаккара",
+		},
 		[244722] = {
 			["school"] = 4,
 			["token"] = {
@@ -7586,6 +8606,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Адмирал Свиракс",
+		},
+		[50182] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
 		},
 		[59141] = {
 			["school"] = 4,
@@ -7619,6 +8648,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зуулин",
 		},
+		[323548] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Изменчивое воплощение",
+		},
 		[313310] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -7651,12 +8688,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бладдфолен",
 		},
+		[327646] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мве'зала",
+		},
 		[119299] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Адарогг",
+		},
+		[323551] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Изменчивое воплощение",
+		},
+		[323552] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховный адъюдикатор Ализа",
 		},
 		[294884] = {
 			["school"] = 1,
@@ -7673,6 +8735,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Даргрул",
+		},
+		[329697] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
 		},
 		[278504] = {
 			["school"] = 32,
@@ -7840,6 +8911,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неизвестно",
 		},
+		[339946] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Вантто",
+		},
 		[252923] = {
 			["school"] = 8,
 			["token"] = {
@@ -7873,6 +8952,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сонм страданий",
 		},
+		[323567] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сын Хаккара",
+		},
 		[268278] = {
 			["school"] = 32,
 			["token"] = {
@@ -7899,6 +8986,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кула Живодерка",
 		},
+		[327664] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[20615] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -7906,6 +9001,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Полководец Саларис",
+		},
+		[323569] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Сын Хаккара",
 		},
 		[33547] = {
 			["school"] = 32,
@@ -8002,6 +9106,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Раздиратель Плоти Нок'Гар",
+		},
+		[32390] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Гадфазер",
 		},
 		[16324] = {
 			["school"] = 1,
@@ -8176,6 +9288,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "О'мрогг Завоеватель",
+		},
+		[335875] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Алый кабалист",
 		},
 		[274443] = {
 			["school"] = 1,
@@ -8494,6 +9614,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Стражник Мол'дар",
 		},
+		[323608] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
 		[236563] = {
 			["school"] = 32,
 			["token"] = {
@@ -8594,6 +9722,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Наводчик корпорации Эшвейнов",
 		},
+		[257044] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Паранойяджем",
+		},
 		[272422] = {
 			["school"] = 64,
 			["token"] = {
@@ -8608,6 +9745,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Сонм страданий",
+		},
+		[319521] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кул'тарок",
 		},
 		[257045] = {
 			["school"] = 1,
@@ -8726,6 +9872,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Восставший чаротворец",
 		},
+		[329770] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[331818] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
+		},
 		[184355] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -8780,6 +9943,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ингибиттор",
+		},
+		[329774] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
 		},
 		[157736] = {
 			["school"] = 4,
@@ -8917,6 +10089,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ревелош",
 		},
+		[49170] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Имирьяр - шаман заката",
+		},
 		[238627] = {
 			["school"] = 1,
 			["token"] = {
@@ -8933,12 +10114,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ядовит-СвежевательДуш",
 		},
+		[329785] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Алый кабалист",
+		},
 		[59409] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Свала Вечноскорбящая",
+		},
+		[325691] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мве'зала",
 		},
 		[115739] = {
 			["school"] = 1,
@@ -8964,6 +10161,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Картензия",
 		},
+		[342077] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Визгунья",
+		},
 		[72737] = {
 			["school"] = 64,
 			["type"] = "BUFF",
@@ -8972,6 +10177,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Саурфанг Смертоносный",
+		},
+		[203819] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тиладен",
+		},
+		[50195] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
 		},
 		[109085] = {
 			["school"] = 1,
@@ -9110,6 +10331,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гримлок",
 		},
+		[49172] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имирьяр - шаман заката",
+		},
 		[280654] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -9189,6 +10418,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ша Жестокости",
+		},
+		[319567] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Кул'тарок",
 		},
 		[256044] = {
 			["school"] = 1,
@@ -9343,6 +10581,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лорд Уэйкрест",
 		},
+		[325725] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Мве'зала",
+		},
+		[338012] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Фонтан анимы",
+		},
 		[236598] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -9358,6 +10614,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Mindgrasp Stalker",
+		},
+		[338013] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Фонтан анимы",
 		},
 		[307297] = {
 			["school"] = 32,
@@ -9392,6 +10655,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Юй-лун",
 		},
+		[323681] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
 		[75817] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -9410,6 +10680,21 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Леди Кольцо Ненависти",
+		},
+		[323683] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
+		[329828] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Корень истребления",
 		},
 		[30989] = {
 			["school"] = 1,
@@ -9454,6 +10739,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ил'гинот",
 		},
+		[338022] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лоскутный солдат",
+		},
 		[307306] = {
 			["school"] = 32,
 			["token"] = {
@@ -9488,6 +10780,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
+		[329834] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Корень истребления",
+		},
+		[329835] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
 		[268403] = {
 			["school"] = 8,
 			["token"] = {
@@ -9495,6 +10802,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Король Дазар",
+		},
+		[333932] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Длань разрушения",
 		},
 		[13704] = {
 			["school"] = 32,
@@ -9860,6 +11175,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
+		[321669] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Иллюзорный клон",
+		},
 		[30991] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -9883,6 +11207,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Листен",
+		},
+		[325769] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[319626] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кул'тарок",
 		},
 		[259145] = {
 			["school"] = 32,
@@ -10002,6 +11342,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suto-Kazzak",
 		},
+		[56860] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Посвященный охотник на магов",
+		},
 		[268439] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -10047,6 +11399,31 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "\"Параксий\"",
+		},
+		[323730] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
+		[329875] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Реморния",
+		},
+		[323732] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
 		},
 		[268443] = {
 			["school"] = 64,
@@ -10184,6 +11561,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вексиона",
 		},
+		[333980] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[9482] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -10227,6 +11613,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зуулин",
 		},
+		[331937] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[297126] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -10258,6 +11652,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кристалл Скверны",
 		},
+		[331939] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[293032] = {
 			["school"] = 2,
 			["token"] = {
@@ -10265,6 +11667,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Клюквенная",
+		},
+		[344226] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Кааль",
 		},
 		[107574] = {
 			["school"] = 1,
@@ -10284,6 +11693,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Храмовый страж Ануур",
 		},
+		[319654] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
+		},
 		[244825] = {
 			["school"] = 4,
 			["token"] = {
@@ -10291,6 +11709,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ф'арг",
+		},
+		[319655] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
 		},
 		[299178] = {
 			["school"] = 1,
@@ -10308,6 +11733,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Нараксас",
+		},
+		[311465] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Раздевайтесь",
 		},
 		[136295] = {
 			["school"] = 8,
@@ -10347,12 +11780,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Храмовый страж Ануур",
 		},
+		[311467] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Раздевайтесь",
+		},
 		[245851] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Гончая Скверны",
+		},
+		[311469] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Раздевайтесь",
 		},
 		[282801] = {
 			["school"] = 1,
@@ -10419,6 +11868,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Акир-трутень",
 		},
+		[342189] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Верный камнерожденный",
+		},
 		[193636] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -10436,6 +11892,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Velâren-Blackmoore",
+		},
+		[311474] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Фаствулъв",
 		},
 		[150634] = {
 			["school"] = 1,
@@ -10590,6 +12054,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Руническая послушница",
 		},
+		[331966] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[280773] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -10597,6 +12070,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Киннар",
+		},
+		[331967] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Гниющий слизнекоготь",
 		},
 		[305347] = {
 			["school"] = 1,
@@ -10628,6 +12109,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Зловещий резчик душ",
+		},
+		[334017] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Обузданный призрак",
 		},
 		[280776] = {
 			["school"] = 1,
@@ -10862,6 +12352,23 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[327887] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[323792] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Сгусток анимы",
+		},
 		[253037] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -11077,6 +12584,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Язма",
 		},
+		[331997] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
 		[55078] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -11176,6 +12693,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бонкк-Ясеневыйлес",
 		},
+		[319715] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
+		},
 		[288999] = {
 			["school"] = 1,
 			["token"] = {
@@ -11238,6 +12762,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Нано Мегабум",
+		},
+		[334053] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "\"Орифрион\"",
 		},
 		[317672] = {
 			["school"] = 1,
@@ -11338,6 +12870,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Призрачная смотрительница",
+		},
+		[321772] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дроман Ульфарран",
 		},
 		[228478] = {
 			["school"] = 1,
@@ -11470,6 +13011,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[319733] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[325877] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тень Кель'таса",
+		},
 		[295161] = {
 			["school"] = 8,
 			["token"] = {
@@ -11490,6 +13048,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Слад'ран",
 		},
+		[329974] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Реморния",
+		},
 		[256128] = {
 			["school"] = 4,
 			["token"] = {
@@ -11505,6 +13070,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Крушащий ужас",
+		},
+		[114250] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Beawølf-Drek'Thar",
 		},
 		[8269] = {
 			["school"] = 1,
@@ -11672,6 +13245,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Механомиротворец",
 		},
+		[323845] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[327942] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тотем неистовства ветра",
+		},
 		[1490] = {
 			["school"] = 125,
 			["type"] = "DEBUFF",
@@ -11798,6 +13388,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ионар",
 		},
+		[342282] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[307471] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -11897,6 +13495,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Шад'хар Ненасытный",
+		},
+		[325908] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[319765] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кул'тарок",
 		},
 		[264476] = {
 			["school"] = 4,
@@ -12185,6 +13799,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Дазар",
 		},
+		[319780] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Склизгл",
+		},
+		[321828] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Призывательница Туманов",
+		},
 		[301351] = {
 			["school"] = 1,
 			["token"] = {
@@ -12200,6 +13833,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Король Гоббамак",
+		},
+		[323877] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
 		},
 		[258199] = {
 			["school"] = 1,
@@ -12379,6 +14020,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Motijopo-Magtheridon",
 		},
+		[321837] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Иллюзорный клон",
+		},
 		[196771] = {
 			["school"] = 16,
 			["token"] = {
@@ -12411,6 +14059,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гончая клана Гордок",
 		},
+		[323889] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[3636] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
@@ -12430,6 +14085,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ирреальный резонанс",
 		},
+		[342320] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[29722] = {
 			["school"] = 4,
 			["token"] = {
@@ -12446,6 +14109,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Jaryste-Kazzak",
+		},
+		[342321] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
 		},
 		[169129] = {
 			["school"] = 4,
@@ -12511,6 +14182,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wilddeamon-Draenor",
 		},
+		[327992] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Реморния",
+		},
 		[115290] = {
 			["school"] = 32,
 			["token"] = {
@@ -12534,6 +14214,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Лордсайр",
+		},
+		[330042] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сир Денатрий",
 		},
 		[278849] = {
 			["school"] = 8,
@@ -12599,6 +14288,16 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Фарааон-Гордунни",
+		},
+		[48179] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Керистраза",
 		},
 		[297283] = {
 			["school"] = 1,
@@ -12860,6 +14559,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маг-лорд Уром",
 		},
+		[336212] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
 		[309592] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -12910,6 +14618,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Изуродованный кадавр",
+		},
+		[48438] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Шрека-Ясеневыйлес",
 		},
 		[228532] = {
 			["school"] = 32,
@@ -12984,6 +14701,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Су'линь",
 		},
+		[342364] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
 		[246965] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -12992,6 +14716,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Аннигилятор",
+		},
+		[325983] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Фаствулъв",
 		},
 		[280933] = {
 			["school"] = 4,
@@ -13011,6 +14742,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Брат Корлофф",
 		},
+		[325984] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Фаствулъв",
+		},
+		[214202] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Фаствулъв",
+		},
 		[153794] = {
 			["school"] = 1,
 			["token"] = {
@@ -13026,6 +14773,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Spöky-Stormscale",
+		},
+		[321891] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
 		},
 		[249015] = {
 			["school"] = 1,
@@ -13065,6 +14822,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гниль Озумата",
 		},
+		[321894] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
+		[340324] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
 		[55095] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -13085,6 +14858,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Лорд Пережар",
+		},
+		[323943] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Девия",
 		},
 		[249017] = {
 			["school"] = 64,
@@ -13121,6 +14903,13 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+		},
+		[336231] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Диверсант из Каменного легиона",
 		},
 		[264560] = {
 			["school"] = 16,
@@ -13328,6 +15117,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шупальце Дест'агат",
 		},
+		[326005] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[116841] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -13407,6 +15205,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Имба",
+		},
+		[196809] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Божественный образ",
 		},
 		[51514] = {
 			["school"] = 8,
@@ -13496,6 +15301,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рухран",
 		},
+		[326018] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Личинка иглобрюха",
+		},
 		[256198] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -13514,6 +15327,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Генерал Бьярнгрим",
+		},
+		[336258] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
 		},
 		[264587] = {
 			["school"] = 1,
@@ -13600,6 +15421,21 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Глубток",
+		},
+		[340358] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Заклинатель чумы",
+		},
+		[196816] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Божественный образ",
 		},
 		[214222] = {
 			["school"] = 2,
@@ -13691,6 +15527,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аллерия Ветрокрылая",
 		},
+		[321935] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Сгусток слизи",
+		},
 		[272790] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -13703,8 +15547,8 @@ EncounterDetailsDB = {
 		[259277] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "ренгар",
 		},
@@ -13761,6 +15605,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Алззин Перевертень",
 		},
+		[334228] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
 		[264605] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -13769,6 +15622,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Румми Мэнкомб",
+		},
+		[145629] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[268702] = {
 			["school"] = 8,
@@ -13779,6 +15639,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Каменный яростень",
+		},
+		[323992] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
 		},
 		[268703] = {
 			["school"] = 8,
@@ -13805,6 +15672,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Каменный яростень",
+		},
+		[330137] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Реморния",
 		},
 		[51006] = {
 			["school"] = 1,
@@ -13833,6 +15707,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Надсмотрщик за рабами Крушто",
 		},
+		[321948] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
+		},
 		[114291] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -13853,6 +15735,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мудрый Марис",
 		},
+		[319902] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
+		},
 		[268709] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -13862,6 +15751,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Геомант Торговой компании",
+		},
+		[328094] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Заклинатель чумы",
 		},
 		[257236] = {
 			["school"] = 4,
@@ -13935,6 +15833,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Шатуг",
+		},
+		[321956] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
 		},
 		[278954] = {
 			["school"] = 2,
@@ -14157,6 +16064,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иней",
 		},
+		[344496] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[307637] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -14166,6 +16081,15 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Акир-трутень",
+		},
+		[336306] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
 		},
 		[260318] = {
 			["school"] = 4,
@@ -14220,6 +16144,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иссеченная душа",
 		},
+		[328117] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[118905] = {
 			["school"] = 8,
 			["token"] = {
@@ -14227,6 +16161,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Тотем конденсации",
+		},
+		[321975] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Моровая слизь",
 		},
 		[210150] = {
 			["school"] = 8,
@@ -14279,6 +16220,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вексиона",
 		},
+		[334266] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
 		[210152] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -14287,6 +16236,23 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Spöky-Stormscale",
+		},
+		[328124] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[328125] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неумирающий камнебес",
 		},
 		[210153] = {
 			["school"] = 1,
@@ -14362,6 +16328,12 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Генерал Хусам",
+		},
+		[319938] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[210155] = {
 			["school"] = 1,
@@ -14466,6 +16438,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бладдфолен",
 		},
+		[324044] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Халкиас",
+		},
 		[61507] = {
 			["school"] = 1,
 			["token"] = {
@@ -14497,6 +16476,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Душа Гара'джала",
 		},
+		[324046] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
 		[295378] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -14513,6 +16502,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Сэрмар-СвежевательДуш",
+		},
+		[324047] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
 		},
 		[309713] = {
 			["school"] = 32,
@@ -14595,6 +16591,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Кроглот Зараженный",
+		},
+		[328146] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Червь-трупоед",
 		},
 		[257262] = {
 			["school"] = 1,
@@ -14909,6 +16913,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Motijopo-Magtheridon",
 		},
+		[330217] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Реморния",
+		},
 		[50760] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -14970,6 +16982,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Раал Прожорливый",
 		},
+		[324079] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
+		[328175] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Гниющий слизнекоготь",
+		},
 		[89739] = {
 			["school"] = 1,
 			["token"] = {
@@ -15000,6 +17029,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Дева Скорби",
+		},
+		[334321] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Хирург Трупошов",
 		},
 		[264698] = {
 			["school"] = 32,
@@ -15036,6 +17073,26 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[328180] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Заклинатель чумы",
+		},
+		[324085] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дессия Обезглавливательница",
 		},
 		[15572] = {
 			["school"] = 1,
@@ -15078,6 +17135,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Ра-ден",
+		},
+		[324090] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
 		},
 		[118922] = {
 			["school"] = 1,
@@ -15149,6 +17213,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Живое колдунство",
 		},
+		[340477] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[150801] = {
 			["school"] = 1,
 			["token"] = {
@@ -15212,6 +17285,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Окста",
 		},
+		[332294] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
+		[320008] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Миллхаус Манашторм",
+		},
+		[332295] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
 		[268815] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -15238,11 +17338,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воплощение тьмы",
 		},
+		[332296] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
 		[258313] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Тюремщик корпорации Эшвейнов",
 		},
@@ -15266,6 +17374,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Пленный шахтер",
+		},
+		[320012] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[6795] = {
 			["school"] = 1,
@@ -15455,6 +17572,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мясник из братства Стальных Волн",
 		},
+		[332313] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
+		},
 		[315932] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -15465,6 +17590,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Непреклонная карательница",
+		},
+		[326171] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Мве'зала",
 		},
 		[270882] = {
 			["school"] = 4,
@@ -15492,6 +17625,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мясник из братства Стальных Волн",
 		},
+		[346651] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Баронесса Фрида",
+		},
 		[289315] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -15499,6 +17641,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Сорвада",
+		},
+		[332318] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грязешмяк",
 		},
 		[260372] = {
 			["school"] = 1,
@@ -15539,6 +17690,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ноксион",
+		},
+		[346657] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Баронесса Фрида",
 		},
 		[30505] = {
 			["school"] = 32,
@@ -15651,6 +17810,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Живые миазмы",
 		},
+		[322088] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кул'тарок",
+		},
 		[89753] = {
 			["school"] = 1,
 			["token"] = {
@@ -15667,6 +17833,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Смертельный хлестун",
+		},
+		[338471] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
 		},
 		[274991] = {
 			["school"] = 16,
@@ -15724,6 +17897,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Аспидис",
+		},
+		[328237] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Кристалл фантазмов",
 		},
 		[264757] = {
 			["school"] = 32,
@@ -15927,6 +18107,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маут",
 		},
+		[315961] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Warsfly-Archimonde",
+		},
 		[89757] = {
 			["school"] = 5,
 			["token"] = {
@@ -16004,6 +18191,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Рауль",
 		},
+		[346681] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Баронесса Фрида",
+		},
 		[53330] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -16038,6 +18234,24 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
+		[77472] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Эрекнус",
+		},
+		[320063] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дессия Обезглавливательница",
+		},
 		[132403] = {
 			["school"] = 2,
 			["type"] = "BUFF",
@@ -16061,6 +18275,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Красавчик Харлан",
+		},
+		[346685] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Баронесса Фрида",
 		},
 		[275014] = {
 			["school"] = 16,
@@ -16137,6 +18358,27 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
+		[336451] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Защитник из многоокой рати",
+		},
+		[346690] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кастелян Никлаус",
+		},
 		[232746] = {
 			["school"] = 16,
 			["token"] = {
@@ -16153,6 +18395,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Кель'тас Солнечный Скиталец",
+		},
+		[31403] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Командир Пивобород",
 		},
 		[307784] = {
 			["school"] = 1,
@@ -16199,6 +18450,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Адмирал Терзающий Рев",
+		},
+		[346694] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Старательный служитель",
 		},
 		[277072] = {
 			["school"] = 1,
@@ -16307,6 +18567,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Чернокнижник из клана Призрачной Луны",
 		},
+		[344655] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[68774] = {
 			["school"] = 16,
 			["type"] = "BUFF",
@@ -16404,6 +18672,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Юдора",
 		},
+		[346709] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
+		[324184] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тиладен",
+		},
 		[16430] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -16436,6 +18719,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Лорд Штормсонг",
+		},
+		[344663] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кроворуб",
 		},
 		[93861] = {
 			["school"] = 1,
@@ -16635,6 +18926,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsaxilgaan-Sylvanas",
 		},
+		[320103] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ползучая слизь",
+		},
 		[313960] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -16649,6 +18949,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Клюквенная",
+		},
+		[56919] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Священник Альянса",
 		},
 		[257337] = {
 			["school"] = 8,
@@ -16675,6 +18984,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Воздушный подавитель ОУ-8",
+		},
+		[324205] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
 		},
 		[249148] = {
 			["school"] = 1,
@@ -16732,6 +19051,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мягконог",
 		},
+		[320114] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
 		[316019] = {
 			["school"] = 32,
 			["token"] = {
@@ -16768,6 +19095,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лорд Уэйкрест",
 		},
+		[336499] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Призывательница Туманов",
+		},
 		[281210] = {
 			["school"] = 16,
 			["token"] = {
@@ -16799,6 +19136,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Обвал",
 		},
+		[326263] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[320120] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пакиран Заразный",
+		},
 		[261440] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -16815,6 +19168,14 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[342647] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Неизвестно",
 		},
 		[102572] = {
 			["school"] = 8,
@@ -16898,6 +19259,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Один",
+		},
+		[326271] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[305794] = {
 			["school"] = 32,
@@ -17091,6 +19459,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гений Торговой компании",
 		},
+		[346762] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Баронесса Фрида",
+		},
 		[299664] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -17098,6 +19476,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Силлини-Гордунни",
+		},
+		[334476] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хирург Трупошов",
 		},
 		[68789] = {
 			["school"] = 1,
@@ -17113,6 +19499,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Рэйджшторм",
+		},
+		[320144] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
 		},
 		[32863] = {
 			["school"] = 32,
@@ -17216,6 +19612,16 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 		},
+		[334485] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
+		},
 		[118961] = {
 			["school"] = 0,
 			["type"] = "DEBUFF",
@@ -17230,6 +19636,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Докторша",
+		},
+		[328343] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ядовитый паук",
 		},
 		[244050] = {
 			["school"] = 32,
@@ -17246,6 +19661,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лордсайр",
 		},
+		[334488] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[244051] = {
 			["school"] = 32,
 			["token"] = {
@@ -17259,6 +19683,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "\"Платиновый лупцеватор\"",
+		},
+		[326302] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[118963] = {
 			["school"] = 1,
@@ -17289,8 +19722,8 @@ EncounterDetailsDB = {
 		[314018] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Клюквенная",
 		},
@@ -17318,6 +19751,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Humanlight-Kazzak",
+		},
+		[322212] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Частица сомнений",
 		},
 		[244056] = {
 			["school"] = 32,
@@ -17356,6 +19796,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Храмовый страж Ануур",
 		},
+		[342691] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кул'тарок",
+		},
 		[244057] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -17389,6 +19837,34 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Томрек",
+		},
+		[320168] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
+		},
+		[342694] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[320170] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[311980] = {
 			["school"] = 1,
@@ -17430,6 +19906,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Christophstü-Eredar",
 		},
+		[328365] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Стрелок-отравитель",
+		},
 		[149865] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -17439,6 +19924,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Гхаму-ра",
+		},
+		[326319] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Друст-жнец",
 		},
 		[207203] = {
 			["school"] = 16,
@@ -17483,12 +19976,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[346800] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
 		[299702] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "За'кул",
+		},
+		[320180] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Пакиран Заразный",
 		},
 		[152939] = {
 			["school"] = 4,
@@ -17595,6 +20105,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[322232] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Маркграфиня Страдама",
+		},
 		[16564] = {
 			["school"] = 8,
 			["token"] = {
@@ -17630,6 +20148,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Симплеон",
 		},
+		[322236] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Тлетворное порождение",
+		},
 		[285377] = {
 			["school"] = 1,
 			["token"] = {
@@ -17637,12 +20163,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Платиновый лупцеватор\"",
 		},
+		[73920] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Эрекнус",
+		},
 		[118459] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Няш",
+		},
+		[322239] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тлетворное порождение",
 		},
 		[80064] = {
 			["school"] = 8,
@@ -17669,6 +20209,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ака'али Завоевательница",
 		},
+		[73921] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Эрекнус",
+		},
 		[244071] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -17682,6 +20229,8 @@ EncounterDetailsDB = {
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Черносерд Подстрекатель",
 		},
@@ -17912,6 +20461,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лавовый страж Гордот",
 		},
+		[342733] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
+		},
 		[312017] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -17927,6 +20484,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Скорлек-ВечнаяПесня",
+		},
+		[342735] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
 		},
 		[210291] = {
 			["school"] = 2,
@@ -17944,6 +20509,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Баночкапива",
+		},
+		[465] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Фаствулъв",
 		},
 		[148859] = {
 			["school"] = 32,
@@ -17998,6 +20571,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Визирь Цзинь'бак",
 		},
+		[342741] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
+		},
 		[271071] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -18048,6 +20631,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лужа смолы",
 		},
+		[35944] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Священник Альянса",
+		},
 		[264931] = {
 			["school"] = 1,
 			["token"] = {
@@ -18077,6 +20669,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Генерал Хусам",
+		},
+		[332509] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
 		},
 		[38760] = {
 			["school"] = 32,
@@ -18167,6 +20768,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doomax-Stormscale",
 		},
+		[221562] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Рунари",
+		},
 		[247159] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -18220,6 +20830,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Эгос",
 		},
+		[320230] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
+		},
 		[152964] = {
 			["school"] = 32,
 			["token"] = {
@@ -18269,6 +20887,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пираньядо",
 		},
+		[320232] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
+		},
+		[56935] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
 		[114886] = {
 			["school"] = 16,
 			["token"] = {
@@ -18277,7 +20912,10 @@ EncounterDetailsDB = {
 		},
 		[774] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Саржет",
@@ -18377,6 +21015,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ядовит-СвежевательДуш",
 		},
+		[56936] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
 		[318193] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -18418,6 +21066,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ра-ден",
 		},
+		[334579] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ползучая слизь",
+		},
+		[346866] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верный камнерожденный",
+		},
 		[257407] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -18427,6 +21091,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Резан",
+		},
+		[328437] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[264957] = {
 			["school"] = 1,
@@ -18564,6 +21236,30 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Модуль пересозидания",
+		},
+		[322304] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Маркграфиня Страдама",
+		},
+		[56938] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
+		[328448] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[310019] = {
 			["school"] = 8,
@@ -18712,6 +21408,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Бдительная дева",
+		},
+		[56939] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
 		},
 		[256393] = {
 			["school"] = 64,
@@ -18881,12 +21585,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Главный машинист Искроточец",
 		},
+		[320272] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
+		},
 		[20153] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Инфернал",
+		},
+		[324368] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Азуль",
 		},
 		[20537] = {
 			["school"] = 64,
@@ -18920,6 +21641,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бдительная дева",
 		},
+		[324370] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Азуль",
+		},
 		[318227] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -18927,6 +21655,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Мирдассена",
+		},
+		[323749] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пустой сосуд анимы",
 		},
 		[86740] = {
 			["school"] = 1,
@@ -18961,6 +21696,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Слабая расщелина тьмы",
 		},
+		[298946] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Нано Мегабум",
+		},
 		[316181] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -18968,6 +21711,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Анубисат-часовой",
+		},
+		[342466] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Воплощение гордыни",
 		},
 		[262940] = {
 			["school"] = 32,
@@ -18988,12 +21739,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пимгиб",
 		},
+		[342494] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Воплощение гордыни",
+		},
 		[285466] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Jaryste-Kazzak",
+		},
+		[320278] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
 		},
 		[76502] = {
 			["school"] = 1,
@@ -19003,12 +21770,66 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сумеречный садист",
 		},
+		[342332] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Воплощение гордыни",
+		},
+		[280772] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Киннар",
+		},
+		[327885] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд-камергер",
+		},
+		[263642] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Магнетарр-СвежевательДуш",
+		},
+		[72091] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Торавон Страж Льда",
+		},
 		[285468] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "\"Гномогедд-0Н\"",
+		},
+		[329561] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Купель сущности",
+		},
+		[344754] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Плеточник Бездны",
 		},
 		[283421] = {
 			["school"] = 1,
@@ -19026,6 +21847,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Янь-Чжу Высвобожденный",
 		},
+		[325793] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Порочный псарь",
+		},
+		[325799] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Порочный псарь",
+		},
 		[291613] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -19037,6 +21872,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воздушное судно R-21/X",
 		},
+		[338070] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
+		},
 		[250258] = {
 			["school"] = 8,
 			["token"] = {
@@ -19044,6 +21887,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Вол'каал",
+		},
+		[61548] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Имирьяр-берсерк",
 		},
 		[235924] = {
 			["school"] = 32,
@@ -19078,6 +21930,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Щитоносец из армии Зула",
 		},
+		[115072] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бладдфолен",
+		},
 		[269090] = {
 			["school"] = 4,
 			["token"] = {
@@ -19101,6 +21960,39 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Рикса Огневерт",
+		},
+		[319639] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кул'тарок",
+		},
+		[268077] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сестра Солена",
+		},
+		[61549] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имирьяр-берсерк",
+		},
+		[56778] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лазурный хранитель",
 		},
 		[166302] = {
 			["school"] = 1,
@@ -19127,6 +22019,30 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Тотем хватки земли",
+		},
+		[203720] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Тиладен",
+		},
+		[317792] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Чародей из войска мертвых",
+		},
+		[326430] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тень Кель'таса",
 		},
 		[19514] = {
 			["school"] = 8,
@@ -19165,12 +22081,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Полководец Паржеш",
 		},
+		[328479] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Возрожденный феникс",
+		},
+		[5605] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Оракул из племени Каменного Свода",
+		},
 		[267047] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Песочная змея",
+		},
+		[342814] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лордс",
+		},
+		[342314] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лоуналл",
+		},
+		[330528] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Изголодавшийся клещ",
 		},
 		[256405] = {
 			["school"] = 1,
@@ -19191,6 +22146,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Озумат",
 		},
+		[55635] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Голем Драккари",
+		},
 		[265001] = {
 			["school"] = 16,
 			["token"] = {
@@ -19199,6 +22164,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Воденыш",
+		},
+		[321444] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тиладен",
 		},
 		[269097] = {
 			["school"] = 32,
@@ -19224,6 +22197,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Раал Прожорливый",
 		},
+		[337824] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Фаствулъв",
+		},
+		[342817] = {
+			["school"] = 126,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Иззатаиль",
+		},
 		[35953] = {
 			["school"] = 32,
 			["token"] = {
@@ -19239,6 +22227,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Каннабес-СвежевательДуш",
+		},
+		[47700] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кристаллический хранитель",
 		},
 		[269099] = {
 			["school"] = 1,
@@ -19260,6 +22256,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Гидротварь",
+		},
+		[201657] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тиладен",
 		},
 		[269100] = {
 			["school"] = 1,
@@ -19295,12 +22298,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воздушное судно R-21/X",
 		},
+		[325203] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Эллинойз",
+		},
+		[17682] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Посвященный охотник на магов",
+		},
 		[281388] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Канонир дома Эшвейнов",
+		},
+		[56837] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
+		},
+		[56934] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
+		[321712] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Дармелия",
 		},
 		[121557] = {
 			["school"] = 2,
@@ -19310,12 +22358,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кактьма",
 		},
+		[324392] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
+		[38618] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Командир Пивобород",
+		},
+		[8092] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Эллинойз",
+		},
 		[107223] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Солнце",
+		},
+		[316099] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Гадфазер",
 		},
 		[269104] = {
 			["school"] = 32,
@@ -19344,6 +22422,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пещерный трогг",
 		},
+		[332585] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[59247] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Имирьяр-знахарь",
+		},
 		[17467] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -19353,12 +22447,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лорд Аурий Ривендер",
 		},
+		[586] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Эллинойз",
+		},
 		[25914] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Клюквенная",
+		},
+		[343881] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[320300] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
 		},
 		[185763] = {
 			["school"] = 1,
@@ -19370,14 +22491,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Картензия",
 		},
+		[339639] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вырванная душа",
+		},
 		[61295] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Вулканос",
 		},
@@ -19388,6 +22516,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Верховный пророк Барим",
 		},
+		[338731] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
 		[267060] = {
 			["school"] = 1,
 			["token"] = {
@@ -19395,6 +22532,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Заназал Мудрый",
+		},
+		[164618] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Взрывное пламя",
 		},
 		[46193] = {
 			["school"] = 2,
@@ -19431,6 +22575,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Полководец Саларис",
 		},
+		[51750] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Король Имирон",
+		},
+		[331314] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
 		[47729] = {
 			["school"] = 16,
 			["token"] = {
@@ -19448,6 +22608,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Корсар из братства Стальных Волн",
 		},
+		[329711] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Алая кабалистка",
+		},
+		[342281] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[260508] = {
 			["school"] = 1,
 			["token"] = {
@@ -19456,6 +22634,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Оживленный голиаф",
+		},
+		[335304] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ловчий Альтимор",
+		},
+		[331638] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд Ставрос",
 		},
 		[28858] = {
 			["school"] = 8,
@@ -19467,6 +22661,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Железная Кора - заступник",
 		},
+		[9672] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скелет-страж",
+		},
 		[257437] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -19476,6 +22681,12 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Корсар из братства Стальных Волн",
+		},
+		[328497] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
 		},
 		[76509] = {
 			["school"] = 16,
@@ -19498,6 +22709,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неизвестно",
 		},
+		[345902] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[299575] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Силиваз Ревностный",
+		},
+		[330546] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Древний капитан",
+		},
 		[120024] = {
 			["school"] = 1,
 			["token"] = {
@@ -19505,6 +22739,41 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Лавовый страж Гордот",
+		},
+		[308682] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гневион",
+		},
+		[329951] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Реморния",
+		},
+		[319657] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
+		},
+		[20787] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лефтендрис",
 		},
 		[204197] = {
 			["school"] = 4,
@@ -19514,12 +22783,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кактьма",
 		},
+		[344721] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[53617] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ануб'арский ядомант",
+		},
+		[51725] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Волшебная аберрация",
 		},
 		[269116] = {
 			["school"] = 1,
@@ -19537,6 +22820,50 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Отважный страж Леди Наз'жар",
+		},
+		[322358] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Доктор Икус",
+		},
+		[340788] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[342310] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[331634] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
+		[268854] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Pellpung-TarrenMill",
 		},
 		[231843] = {
 			["school"] = 1,
@@ -19592,6 +22919,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зубохлоп",
 		},
+		[56641] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Суперсейлор",
+		},
+		[56920] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Священник Альянса",
+		},
+		[344718] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Reverberating Eruption Stalker",
+		},
+		[22884] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Чо'Раш Наблюдатель",
+		},
+		[344500] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[259489] = {
 			["school"] = 1,
 			["token"] = {
@@ -19615,6 +22982,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suto-Kazzak",
 		},
+		[263628] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Механомиротворец",
+		},
+		[342425] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
 		[308029] = {
 			["school"] = 32,
 			["token"] = {
@@ -19630,6 +23018,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vvexi-Blackrock",
 		},
+		[341442] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Извергающаяся слизь",
+		},
+		[327808] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Раскольник-офицер",
+		},
+		[38619] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Командир Пивобород",
+		},
 		[310078] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -19639,12 +23050,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пасть Дест'агат",
 		},
+		[335298] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грязешмяк",
+		},
 		[198058] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Один",
+		},
+		[328254] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Докучливый бес",
+		},
+		[343898] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
 		},
 		[233894] = {
 			["school"] = 32,
@@ -19671,6 +23106,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Взрывной тотем",
 		},
+		[318102] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
+		[335297] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Грязешмяк",
+		},
+		[333377] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
 		[47731] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
@@ -19681,6 +23138,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Великая ведунья Телестра",
 		},
+		[243431] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Агграмар",
+		},
 		[271174] = {
 			["school"] = 8,
 			["token"] = {
@@ -19689,6 +23153,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Бледный пожиратель",
+		},
+		[329636] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[46180] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Апоко",
 		},
 		[310082] = {
 			["school"] = 1,
@@ -19704,6 +23186,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бледный пожиратель",
 		},
+		[311487] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Уоуоуоуо",
+		},
 		[248230] = {
 			["school"] = 1,
 			["token"] = {
@@ -19718,6 +23208,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пасть Дест'агат",
 		},
+		[329943] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Реморния",
+		},
 		[314179] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -19725,6 +23223,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Темный инквизитор Занеш",
+		},
+		[345561] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кин-Тара",
 		},
 		[269129] = {
 			["school"] = 1,
@@ -19742,6 +23249,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Анардилона-СвежевательДуш",
 		},
+		[329518] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тень Кель'таса",
+		},
+		[325257] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
+		[335372] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[271178] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -19753,6 +23285,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бледный пожиратель",
 		},
+		[346698] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Кастелян Никлаус",
+		},
+		[334625] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Девия",
+		},
 		[269131] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -19763,6 +23312,32 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Лорд Штормсонг",
+		},
+		[275909] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сорвада",
+		},
+		[201959] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Углепанцирный подчинитель",
+		},
+		[346654] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Баронесса Фрида",
 		},
 		[191919] = {
 			["school"] = 16,
@@ -19777,6 +23352,39 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Карш Гнущий Сталь",
+		},
+		[325506] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скальный покоритель",
+		},
+		[342309] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Спидкорр",
+		},
+		[325936] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[324148] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
 		},
 		[281420] = {
 			["school"] = 16,
@@ -19798,6 +23406,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Уничтожитель",
 		},
+		[328424] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[342544] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Генерал Грашаал",
+		},
+		[167898] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Старлордо-Гордунни",
+		},
+		[324424] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
 		[310090] = {
 			["school"] = 1,
 			["token"] = {
@@ -19811,6 +23451,23 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Созерцатель Тьмы",
+		},
+		[325665] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Насыщательница душ",
+		},
+		[340807] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[25020] = {
 			["school"] = 8,
@@ -19845,6 +23502,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хранитель энергии Эрегос",
 		},
+		[323149] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ингра Малох",
+		},
+		[342280] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[181683] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -19862,6 +23537,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Палач Мясодел",
 		},
+		[342857] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Иззатаиль",
+		},
+		[320200] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[273234] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -19869,6 +23563,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Мечущаяся искра",
+		},
+		[332619] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сир Денатрий",
 		},
 		[187827] = {
 			["school"] = 127,
@@ -19878,6 +23581,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лилидана",
 		},
+		[331251] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Азуль",
+		},
+		[332620] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
 		[231854] = {
 			["school"] = 1,
 			["token"] = {
@@ -19886,6 +23605,69 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Харджатан",
+		},
+		[346303] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Танцующие болваны",
+		},
+		[339759] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
+		[326309] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[327503] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
+		[325713] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[265665] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Живая гниль",
+		},
+		[272528] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Снайпер дома Эшвейнов",
+		},
+		[340758] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[95970] = {
 			["school"] = 16,
@@ -19898,12 +23680,82 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Д-1000",
 		},
+		[320336] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный маг",
+		},
+		[325254] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
+		[341475] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Темнокрылая убийца",
+		},
+		[326040] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Былые грехи",
+		},
+		[325399] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
 		[273239] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Магнетарр-СвежевательДуш",
+		},
+		[323372] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
+		[342863] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Визгунья",
+		},
+		[334522] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
 		},
 		[202164] = {
 			["school"] = 1,
@@ -19913,6 +23765,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сэргора-СвежевательДуш",
 		},
+		[342322] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[59252] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Имирьяр - шаман заката",
+		},
+		[320009] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Шрека-Ясеневыйлес",
+		},
 		[306005] = {
 			["school"] = 64,
 			["type"] = "BUFF",
@@ -19920,6 +23797,21 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Маут",
+		},
+		[332626] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[61556] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кристаллический ветвеплет",
 		},
 		[35959] = {
 			["school"] = 4,
@@ -19964,12 +23856,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мертвыйнос",
 		},
+		[330580] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[306617] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Вез'окк Беспросветный",
+		},
 		[15583] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Разбойник из племени Буйного Нрава",
+		},
+		[328533] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Защитник из многоокой рати",
+		},
+		[324154] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
 		},
 		[77030] = {
 			["school"] = 127,
@@ -19995,6 +23921,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рыжжая",
 		},
+		[319531] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кул'тарок",
+		},
+		[244449] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[298425] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Киран",
+		},
+		[319650] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
+		},
+		[325587] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Бвонсамди",
+		},
+		[321754] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
 		[293724] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20019,6 +23992,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Румми Мэнкомб",
 		},
+		[325225] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[325184] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[312155] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -20040,6 +24029,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Тотем потоков",
+		},
+		[152801] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Нхаллиш",
 		},
 		[131521] = {
 			["school"] = 32,
@@ -20074,6 +24070,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Красавчик Харлан",
 		},
+		[98021] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тотем духовной связи",
+		},
 		[113379] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20082,13 +24086,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Опасность",
 		},
-		[98021] = {
-			["school"] = 8,
+		[324444] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Тотем духовной связи",
+			["source"] = "\"Орифрион\"",
+		},
+		[342874] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[131522] = {
 			["school"] = 32,
@@ -20105,6 +24117,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Гневион",
+		},
+		[319713] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
 		},
 		[293729] = {
 			["school"] = 8,
@@ -20132,12 +24152,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Давигром",
 		},
+		[111670] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Фанатик Алого ордена",
+		},
 		[27581] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Полководец Саларис",
+		},
+		[332535] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кастелян Никлаус",
+		},
+		[341473] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Темнокрылая убийца",
+		},
+		[317605] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Нектара Изувер",
 		},
 		[257460] = {
 			["school"] = 4,
@@ -20155,6 +24207,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Serathin-Blackhand",
 		},
+		[197556] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Фенрир",
+		},
+		[324146] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "\"Вентунакс\"",
+		},
+		[323650] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Жуткий молельщик",
+		},
+		[328322] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неумирающий камнебес",
+		},
+		[321249] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Взбесившийся вурдалак",
+		},
 		[190909] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20162,6 +24254,56 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Неизвестно",
+		},
+		[327089] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[68785] = {
+			["school"] = 17,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Начальник кузни Гархлад",
+		},
+		[325262] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
+		[319703] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[334404] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ловчий Альтимор",
+		},
+		[70890] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Шадоуденсич",
 		},
 		[198077] = {
 			["school"] = 2,
@@ -20183,12 +24325,82 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Палач Мясодел",
 		},
+		[319592] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[325807] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мве'зала",
+		},
+		[342048] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[87187] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Злобный черный медведь",
+		},
 		[171457] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Сипелгас-Борейскаятундра",
+		},
+		[328248] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Гнусная оккультистка",
+		},
+		[334246] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ненасытный громила",
+		},
+		[321893] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Иллюзорный лисохвост",
+		},
+		[316847] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[320358] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хирург Трупошов",
 		},
 		[76522] = {
 			["school"] = 1,
@@ -20216,6 +24428,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Найтгар",
 		},
+		[320359] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[297834] = {
 			["school"] = 40,
 			["token"] = {
@@ -20223,6 +24442,31 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Токсикоид",
+		},
+		[47736] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
+		[320145] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
+		},
+		[323110] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сочащиеся ошметки",
 		},
 		[297835] = {
 			["school"] = 40,
@@ -20232,12 +24476,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Токсикоид",
 		},
+		[324260] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[81642] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Зубохлоп",
+		},
+		[331527] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
 		},
 		[297836] = {
 			["school"] = 8,
@@ -20249,6 +24511,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мощная искра",
 		},
+		[315341] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пинорино",
+		},
+		[322410] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сгусток слизи",
+		},
+		[163558] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ядовит-СвежевательДуш",
+		},
 		[273264] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20256,6 +24545,25 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Сарварду",
+		},
+		[324449] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Мордрета, Вечная императрица",
+		},
+		[321755] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
 		},
 		[303981] = {
 			["school"] = 32,
@@ -20274,6 +24582,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Констеллар-куратор",
 		},
+		[324459] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Склизгл",
+		},
+		[333629] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Возрожденный арбалетчик",
+		},
+		[316981] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
+		[340842] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кристалл фантазмов",
+		},
 		[154055] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20284,6 +24622,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Голем-защитник Небесного Пути",
 		},
+		[334695] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[320365] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[255419] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20291,6 +24643,22 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Констеллар-куратор",
+		},
+		[331606] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Подавляющее знамя",
+		},
+		[325236] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[168390] = {
 			["school"] = 4,
@@ -20308,6 +24676,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Преобразившийся сумеречный ревнитель",
+		},
+		[326242] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Склизгл",
 		},
 		[85739] = {
 			["school"] = 1,
@@ -20327,8 +24704,11 @@ EncounterDetailsDB = {
 		},
 		[70381] = {
 			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Начальник кузни Гархлад",
 		},
@@ -20363,11 +24743,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Подчиненная душа",
 		},
+		[255422] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Констеллар-куратор",
+		},
 		[81644] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[258777] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Боец на веслах из братства Стальных Волн",
 		},
 		[255421] = {
 			["school"] = 1,
@@ -20384,6 +24780,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Темный инквизитор Занеш",
+		},
+		[25058] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Кабалист-послушник",
+		},
+		[336752] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Призывательница Туманов",
 		},
 		[265081] = {
 			["school"] = 1,
@@ -20413,7 +24827,9 @@ EncounterDetailsDB = {
 		},
 		[279416] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Serathin-Blackhand",
@@ -20431,6 +24847,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[12466] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд Пережар",
 		},
 		[88300] = {
 			["school"] = 1,
@@ -20484,12 +24909,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Преданная жрица крови",
 		},
-		[310135] = {
+		[30637] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Эгос",
+			["source"] = "Омор Неодолимый",
+		},
+		[334708] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Тень Баргаста",
+		},
+		[182049] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Кровожад",
 		},
 		[31422] = {
 			["school"] = 64,
@@ -20500,6 +24945,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Эонус",
 		},
+		[310135] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Эгос",
+		},
+		[328338] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Стрелок-отравитель",
+		},
 		[69871] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20509,6 +24969,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Исследователь чумы",
 		},
+		[316995] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
 		[240066] = {
 			["school"] = 1,
 			["token"] = {
@@ -20516,6 +24983,23 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Волномаг из племени Острозубов",
+		},
+		[326389] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[320376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Создание Трупошва",
 		},
 		[297851] = {
 			["school"] = 1,
@@ -20525,6 +25009,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Мощная искра",
+		},
+		[336759] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Призывательница Туманов",
 		},
 		[301947] = {
 			["school"] = 1,
@@ -20549,9 +25041,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Румми Мэнкомб",
 		},
+		[332664] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[327952] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Создание Трупошва",
+		},
+		[331440] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ингра Малох",
+		},
 		[226757] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Оозборн",
@@ -20568,8 +25086,34 @@ EncounterDetailsDB = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Восставший тихоступ",
+		},
+		[156974] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Терон'кров",
+		},
+		[323118] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
+		},
+		[38593] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Темпорус",
 		},
 		[191946] = {
 			["school"] = 1,
@@ -20577,6 +25121,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Полководец Паржеш",
+		},
+		[273836] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Фэнриса",
 		},
 		[88814] = {
 			["school"] = 2,
@@ -20587,12 +25141,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Верховный пророк Барим",
 		},
+		[323853] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Жуткий молельщик",
+		},
+		[315585] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[254403] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Шатуг",
+		},
+		[150753] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Надсмотрщик за рабами Крушто",
+		},
+		[332668] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[310143] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Спидкорр",
 		},
 		[168398] = {
 			["school"] = 1,
@@ -20604,6 +25197,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пушка \"Силы Чернорука\"",
 		},
+		[326039] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
 		[260547] = {
 			["school"] = 4,
 			["token"] = {
@@ -20611,12 +25214,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оживленный голиаф",
 		},
+		[320147] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Миллифисент Манашторм",
+		},
+		[321999] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Моровая слизь",
+		},
 		[273285] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Взрывчатый стручок",
+		},
+		[332670] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[257476] = {
 			["school"] = 1,
@@ -20641,6 +25268,23 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Jaly-DarkmoonFaire",
+		},
+		[323209] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
+		},
+		[52671] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Искра Ионар",
 		},
 		[5137] = {
 			["school"] = 32,
@@ -20684,6 +25328,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
+		[312741] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Иссеченная душа",
+		},
 		[93423] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -20693,12 +25344,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Барон Эшбери",
 		},
+		[322274] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Похитительница с \"Золрамуса\"",
+		},
+		[320171] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Амарт",
+		},
 		[273289] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Jaly-DarkmoonFaire",
+		},
+		[198013] = {
+			["school"] = 124,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spöky-Stormscale",
 		},
 		[257478] = {
 			["school"] = 1,
@@ -20711,6 +25390,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мастиф братства Стальных Волн",
 		},
+		[155722] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Заводкой",
+		},
+		[330627] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[253654] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дазар'айский сокрушитель",
+		},
+		[315508] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пинорино",
+		},
 		[22592] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20718,6 +25429,37 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Принцесса Терадрас",
+		},
+		[4987] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Клюквенная",
+		},
+		[271784] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Футбомбный хулиган",
+		},
+		[184473] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[321226] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[84721] = {
 			["school"] = 16,
@@ -20732,6 +25474,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Крабстер",
+		},
+		[179582] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Повелитель Скверны Закуун",
 		},
 		[295818] = {
 			["school"] = 8,
@@ -20758,6 +25507,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Инструктор Ледяное Сердце",
 		},
+		[340870] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Грань Аннигиляции",
+		},
+		[114548] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Янь-Чжу Высвобожденный",
+		},
 		[273294] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -20780,6 +25549,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Motijopo-Magtheridon",
+		},
+		[329340] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Верховный адъюдикатор Ализа",
 		},
 		[255433] = {
 			["school"] = 1,
@@ -20805,6 +25584,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фрекинговый тотем",
 		},
+		[31616] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Вулканос",
+		},
 		[58747] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20814,12 +25600,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Генерал Бьярнгрим",
 		},
+		[324490] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Склизгл",
+		},
 		[59259] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Берсерк из закаленной стали",
+		},
+		[340872] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Грань Аннигиляции",
 		},
 		[255434] = {
 			["school"] = 1,
@@ -20842,6 +25645,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Катастрофа",
 		},
+		[257757] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Буканьер из братства Трюмных Крыс",
+		},
+		[326281] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[323821] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[298669] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Трикси Искрожгучка",
+		},
+		[320366] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
 		[246220] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20850,6 +25696,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Разрушитель миров Кин'гарота",
 		},
+		[267685] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Симплеон",
+		},
 		[256459] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20857,6 +25711,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Гармандоа-ЧерныйШрам",
+		},
+		[342923] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Визгунья",
 		},
 		[295825] = {
 			["school"] = 8,
@@ -20875,6 +25736,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тотем воскрешения",
 		},
+		[239486] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Нестабильная порча",
+		},
 		[27584] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -20884,6 +25752,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Полководец Саларис",
+		},
+		[167105] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Warsfly-Archimonde",
+		},
+		[182171] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[128238] = {
 			["school"] = 1,
@@ -20919,6 +25803,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неповоротливое тело",
 		},
+		[332687] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Грязешмяк",
+		},
+		[319603] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[267969] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Служитель храма",
+		},
 		[181718] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -20937,6 +25847,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фамилиар кабалистов",
 		},
+		[328593] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
 		[287638] = {
 			["school"] = 40,
 			["type"] = "DEBUFF",
@@ -20945,12 +25865,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клюквенная",
 		},
+		[322450] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
 		[316307] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Взор безумия",
+		},
+		[263066] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Ленивый лаборант",
 		},
 		[287639] = {
 			["school"] = 8,
@@ -20961,6 +25901,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клюквенная",
 		},
+		[42751] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[128239] = {
 			["school"] = 1,
 			["token"] = {
@@ -20969,12 +25915,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Молниеносный клинок клана Гуртан",
 		},
+		[258938] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Жрица корпорации Эшвейнов",
+		},
+		[294855] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Непримечательное растение",
+		},
 		[306070] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Маут",
+		},
+		[2484] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вулканос",
+		},
+		[61564] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Орморок Воспитатель Дерев",
 		},
 		[45182] = {
 			["school"] = 1,
@@ -20992,6 +25970,83 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Неммфилд-ВечнаяПесня",
+		},
+		[323064] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
+		},
+		[70362] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ледяной змей Шпиля",
+		},
+		[325260] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховная надзирательница Бериллия",
+		},
+		[299460] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Стрелок из банды Поршнеголовых",
+		},
+		[345495] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Вспененная пустула",
+		},
+		[331618] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
+		[316826] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Искаженный отросток",
+		},
+		[320208] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Создание Трупошва",
+		},
+		[274631] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ученик Айронхалла",
 		},
 		[269214] = {
 			["school"] = 1,
@@ -21014,6 +26069,52 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Раздор",
+		},
+		[97463] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Мирэска",
+		},
+		[334743] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[274720] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Глубинный угорь",
+		},
+		[227338] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Полночь",
+		},
+		[182170] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Кровожад",
+		},
+		[156746] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дозорный Каатар",
 		},
 		[192985] = {
 			["school"] = 16,
@@ -21041,6 +26142,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Омега-крушитель\"",
 		},
+		[323538] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховный адъюдикатор Ализа",
+		},
 		[295838] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -21049,6 +26159,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Есимурка",
 		},
+		[299525] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Стрелок из банды Поршнеголовых",
+		},
+		[332698] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грязешмяк",
+		},
 		[241108] = {
 			["school"] = 1,
 			["token"] = {
@@ -21056,6 +26181,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Легионер из клана Волнистой Чешуи",
+		},
+		[328206] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[332617] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Доктор Икус",
 		},
 		[267171] = {
 			["school"] = 32,
@@ -21066,6 +26207,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Себнак",
 		},
+		[265968] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Заряженная песчаная дьяволица",
+		},
+		[45181] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Коверт-Гордунни",
+		},
+		[336463] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пинорино",
+		},
+		[321247] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Амарт",
+		},
 		[200154] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -21075,6 +26247,28 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Раскаленный углешкур",
+		},
+		[278463] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Обезумевший мастер выживания",
+		},
+		[43265] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Варранос-СвежевательДуш",
+		},
+		[1543] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Анардилона-СвежевательДуш",
 		},
 		[69369] = {
 			["school"] = 1,
@@ -21092,12 +26286,75 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рэйджшторм",
 		},
+		[268846] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Испытатель экспериментального оружия",
+		},
 		[47743] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Аномалус",
+		},
+		[199090] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Сердитый бык",
+		},
+		[72385] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Саурфанг Смертоносный",
+		},
+		[156960] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Терон'кров",
+		},
+		[322240] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тлетворное порождение",
+		},
+		[262947] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Гений Торговой компании",
+		},
+		[322465] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тред'ова",
 		},
 		[255445] = {
 			["school"] = 1,
@@ -21106,6 +26363,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Резан",
 		},
+		[106736] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ша Сомнения",
+		},
 		[151010] = {
 			["school"] = 1,
 			["token"] = {
@@ -21113,6 +26378,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Воин-костещеп",
+		},
+		[314905] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Оссират",
 		},
 		[2649] = {
 			["school"] = 1,
@@ -21129,6 +26402,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
+		[76956] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[69882] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -21141,6 +26422,68 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иерофант с \"Усмирителя небес\"",
 		},
+		[320248] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пакиран Заразный",
+		},
+		[140092] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Цзи-Кунь",
+		},
+		[257741] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Задира из братства Чернозубых",
+		},
+		[344993] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Свирепый гаргон",
+		},
+		[22950] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бессмер'тер",
+		},
+		[153396] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Аззакель",
+		},
+		[279958] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nojinx-Draenor",
+		},
+		[332314] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Скрывающийся ассасин",
+		},
 		[30913] = {
 			["school"] = 8,
 			["token"] = {
@@ -21148,6 +26491,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Броггок",
+		},
+		[333353] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Домина Отравленный Клинок",
 		},
 		[257495] = {
 			["school"] = 8,
@@ -21177,6 +26528,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Докторша",
 		},
+		[69024] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Крик",
+		},
 		[310184] = {
 			["school"] = 32,
 			["token"] = {
@@ -21201,12 +26562,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
+		[312721] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Иссеченная душа",
+		},
 		[269230] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ребан",
+		},
+		[196064] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Роевик из племени Соленой Чешуи",
 		},
 		[281517] = {
 			["school"] = 1,
@@ -21236,11 +26615,46 @@ EncounterDetailsDB = {
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Бан'талос",
+		},
+		[263074] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Гротескный эксперимент",
+		},
+		[334757] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Баргаст",
+		},
+		[318378] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лордсайр",
+		},
+		[279471] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kêen-ChamberofAspects",
 		},
 		[33666] = {
 			["school"] = 8,
@@ -21252,12 +26666,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бормотун",
 		},
-		[279471] = {
+		[70396] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kêen-ChamberofAspects",
+			["source"] = "Прислужник Шпиля",
 		},
 		[187874] = {
 			["school"] = 8,
@@ -21267,12 +26681,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Winjêck-Blackmoore",
 		},
-		[70396] = {
-			["school"] = 1,
+		[260811] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Прислужник Шпиля",
+			["source"] = "Шеф Разданк",
+		},
+		[322475] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[43649] = {
 			["school"] = 32,
@@ -21292,17 +26715,59 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Легионер из клана Волнистой Чешуи",
 		},
+		[235214] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[288146] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Имба",
+		},
 		[260570] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[12739] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Темный чародей из секты Тузадин",
+		},
+		[15582] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тенелов из племени Буйного Нрава",
+		},
 		[239069] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[321471] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Призывательница Туманов",
 		},
 		[108280] = {
 			["school"] = 8,
@@ -21338,6 +26803,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Скелет-берсерк",
 		},
+		[334765] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[336813] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Призывательница Туманов",
+		},
+		[273333] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Втеориидпс",
+		},
+		[324527] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Склизгл",
+		},
 		[269238] = {
 			["school"] = 1,
 			["token"] = {
@@ -21345,12 +26845,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pellpung-TarrenMill",
 		},
+		[29579] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Фантомный гость",
+		},
 		[161256] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Ошир",
+		},
+		[326574] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хирург Трупошов",
 		},
 		[269239] = {
 			["school"] = 1,
@@ -21385,6 +26902,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пилоносая акула",
 		},
+		[325004] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
 		[33923] = {
 			["school"] = 8,
 			["token"] = {
@@ -21392,6 +26916,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Бормотун",
+		},
+		[57984] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Большой элементаль огня",
 		},
 		[275384] = {
 			["school"] = 8,
@@ -21407,6 +26938,24 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Winjêck-Blackmoore",
+		},
+		[277225] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Неисправный голем",
+		},
+		[184449] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Диа Зловещий Шепот",
 		},
 		[43650] = {
 			["school"] = 32,
@@ -21454,6 +27003,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оракул из клана Колец Ненависти",
 		},
+		[321725] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Иллюзорный клон",
+		},
+		[342961] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Дилер Зи'екса",
+		},
 		[30914] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -21470,6 +27037,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Катастрофа",
 		},
+		[273323] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Докторша",
+		},
 		[76030] = {
 			["school"] = 1,
 			["token"] = {
@@ -21477,6 +27052,25 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Красавица",
+		},
+		[188114] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рокмора",
+		},
+		[262270] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алхимик Торговой компании",
 		},
 		[318391] = {
 			["school"] = 1,
@@ -21486,14 +27080,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Великий потусторонний червь",
 		},
-		[149997] = {
-			["school"] = 4,
+		[306090] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Катастрофа",
+			["source"] = "Неизвестно",
+		},
+		[153430] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Дозорный Каатар",
+		},
+		[70911] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Профессор Мерзоцид",
 		},
 		[191976] = {
 			["school"] = 8,
@@ -21504,13 +27113,73 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хирья",
 		},
-		[48258] = {
+		[263103] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ленивый лаборант",
+		},
+		[321834] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Призывательница Туманов",
+		},
+		[149997] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Катастрофа",
+		},
+		[11443] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Темный чародей из секты Тузадин",
+		},
+		[276212] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Свала Вечноскорбящая",
+			["source"] = "Шеф Разданк",
+		},
+		[138609] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Огромный голем анимы",
+		},
+		[299496] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Стрелок из банды Поршнеголовых",
+		},
+		[22911] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ферра",
 		},
 		[76031] = {
 			["school"] = 4,
@@ -21533,6 +27202,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Нхаллиш",
 		},
+		[319724] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Неумирающий камнебес",
+		},
+		[263105] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ленивый лаборант",
+		},
+		[270277] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Шеф Разданк",
+		},
+		[322491] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Маркграфиня Страдама",
+		},
 		[43651] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -21550,6 +27253,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гневион",
 		},
+		[138644] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Темный Анимус",
+		},
+		[322492] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Маркграфиня Страдама",
+		},
 		[308158] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -21559,6 +27278,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маут",
 		},
+		[70388] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Грозный волшебник",
+		},
+		[322493] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный маг",
+		},
 		[306111] = {
 			["school"] = 4,
 			["token"] = {
@@ -21566,6 +27303,20 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Гневион",
+		},
+		[71405] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Принц Келесет",
+		},
+		[199547] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дедр",
 		},
 		[76032] = {
 			["school"] = 4,
@@ -21575,12 +27326,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Красавица",
 		},
+		[201902] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Скверносерд-стрелок",
+		},
 		[267205] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Артэида-ЧерныйШрам",
+		},
+		[178155] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Рилак - ужас небес",
+		},
+		[332734] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
 		},
 		[157168] = {
 			["school"] = 1,
@@ -21609,6 +27387,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мехагонский боевой механик",
 		},
+		[274383] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Крысолов",
+		},
+		[334322] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Создание Трупошва",
+		},
+		[210714] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вудукомбо",
+		},
+		[70371] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бесноватое поганище",
+		},
+		[15288] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сумеречный эмиссар",
+		},
 		[306115] = {
 			["school"] = 8,
 			["token"] = {
@@ -21626,6 +27444,55 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Пламенеющий служитель",
+		},
+		[49143] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Мертвыйнос",
+		},
+		[153315] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ранжит",
+		},
+		[199373] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Войско мертвых",
+		},
+		[255836] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Жрица Алун'за",
+		},
+		[288158] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имба",
+		},
+		[186662] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Порожденный Скверной архидемон",
 		},
 		[314308] = {
 			["school"] = 1,
@@ -21645,6 +27512,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пламенеющий служитель",
 		},
+		[201858] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скверносерд-стрелок",
+		},
 		[233961] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -21661,6 +27537,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ург'рот Сокрушитель Героев",
 		},
+		[278637] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кровавый клещ",
+		},
+		[321406] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[313253] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Гневион",
+		},
+		[298898] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Нано Мегабум",
+		},
 		[150004] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -21670,12 +27579,66 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мастер горна Гон'ду",
 		},
+		[318406] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кроворуб",
+		},
+		[153006] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дозорный Каатар",
+		},
 		[308168] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Маут",
+		},
+		[63106] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Гадфазер",
+		},
+		[87081] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Землеглот из пещерных глубин",
+		},
+		[69012] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Крик",
+		},
+		[199151] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сердитый бык",
 		},
 		[47748] = {
 			["school"] = 64,
@@ -21686,6 +27649,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аномалус",
 		},
+		[32323] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ирреальный мамонт",
+		},
 		[88321] = {
 			["school"] = 4,
 			["token"] = {
@@ -21693,12 +27666,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бомба-липучка",
 		},
-		[114942] = {
-			["school"] = 8,
+		[327039] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Тотем целительного прилива",
+			["source"] = "Сир Денатрий",
+		},
+		[312266] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пепельный убийца",
 		},
 		[265168] = {
 			["school"] = 1,
@@ -21708,13 +27691,99 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Румми Мэнкомб",
 		},
-		[245227] = {
+		[114942] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Тотем целительного прилива",
+		},
+		[157173] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Страж Скверны",
+		},
+		[149913] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тукр",
+		},
+		[334792] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Адмирал Свиракс",
+			["source"] = "Ловчий Альтимор",
+		},
+		[38844] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Смертоносный эредар",
+		},
+		[68771] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Начальник кузни Гархлад",
+		},
+		[69167] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Повелитель Плети Тираний",
+		},
+		[59267] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Горток Бледное Копыто",
+		},
+		[19319] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алззин Перевертень",
+		},
+		[88490] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Врагорез-5000",
+		},
+		[244033] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Агграмар",
 		},
 		[269266] = {
 			["school"] = 1,
@@ -21724,6 +27793,82 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Крушащий ужас",
+		},
+		[328651] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Стрелок-отравитель",
+		},
+		[37361] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скелет-страж",
+		},
+		[42729] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ингвар Расхититель",
+		},
+		[193235] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Химдалль",
+		},
+		[93581] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Барон Эшбери",
+		},
+		[330700] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Зараженный ужас",
+		},
+		[44475] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Маг-стражник Солнечного Клинка",
+		},
+		[115167] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[56814] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Имба",
 		},
 		[297937] = {
 			["school"] = 1,
@@ -21735,6 +27880,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Айтанель",
 		},
+		[256864] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Диномант Киш'о",
+		},
 		[310224] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -21742,6 +27896,25 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Перерожденный служитель Бездны",
+		},
+		[47981] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Орморок Воспитатель Дерев",
+		},
+		[334797] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Баргаст",
 		},
 		[308177] = {
 			["school"] = 32,
@@ -21751,6 +27924,22 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
+		[59146] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вилли Разбивающий Надежды",
+		},
+		[313089] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Бладдфолен",
+		},
 		[308178] = {
 			["school"] = 8,
 			["token"] = {
@@ -21758,6 +27947,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ка'зир",
+		},
+		[195060] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
 		},
 		[7154] = {
 			["school"] = 32,
@@ -21768,6 +27965,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Элдретарский призрак",
 		},
+		[288126] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Неммфилд-ВечнаяПесня",
+		},
+		[255425] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Констеллар-куратор",
+		},
 		[256493] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -21776,6 +27988,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Азеритовая футбомба",
 		},
+		[228729] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Люминор",
+		},
+		[30739] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вождь Каргат Острорук",
+		},
 		[297941] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -21783,6 +28012,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Альера-ЧерныйШрам",
+		},
+		[264235] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Яйцо",
 		},
 		[59268] = {
 			["school"] = 1,
@@ -21795,6 +28031,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Горток Бледное Копыто",
 		},
+		[33919] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Таварок",
+		},
+		[264140] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Шипастая гончая",
+		},
 		[150011] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -21803,6 +28058,23 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Мастер горна Гон'ду",
+		},
+		[80750] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Бальназар",
+		},
+		[328659] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Возрожденный феникс",
 		},
 		[88836] = {
 			["school"] = 1,
@@ -21813,12 +28085,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Адмирал Терзающий Рев",
 		},
+		[154415] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Стражница душ Ниами",
+		},
+		[244903] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пламя Тайшалака",
+		},
+		[200182] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Тень Ксавия",
+		},
 		[30916] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Броггок",
+		},
+		[15587] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Магистр Календрис",
 		},
 		[54149] = {
 			["school"] = 2,
@@ -21828,12 +28137,70 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клюквенная",
 		},
+		[328661] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Хлещущая слизь",
+		},
+		[298866] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[310959] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Покрытый символами обелиск",
+		},
+		[47723] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Великая ведунья Телестра",
+		},
+		[328662] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[152954] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Дозорный Каатар",
+		},
 		[47750] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Кактьма",
+		},
+		[276229] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "\"БУМБОТ\"",
 		},
 		[258544] = {
 			["school"] = 1,
@@ -21842,6 +28209,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Джес Хаулис",
+		},
+		[48518] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Вантто",
 		},
 		[72967] = {
 			["school"] = 1,
@@ -21858,6 +28233,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Minatek-Eredar",
 		},
+		[328664] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Оживленный маг",
+		},
 		[8292] = {
 			["school"] = 8,
 			["token"] = {
@@ -21867,21 +28250,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гримлок",
 		},
-		[135680] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[200721] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Лэй Шэнь",
-		},
-		[154110] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Аракнат",
+			["source"] = "Даргрул",
 		},
 		[77575] = {
 			["school"] = 32,
@@ -21891,13 +28265,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лордсайр",
 		},
-		[308189] = {
+		[135680] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мейлорн-Гордунни",
+			["source"] = "Лэй Шэнь",
+		},
+		[330713] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Визгунья",
+		},
+		[154110] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Аракнат",
+		},
+		[293854] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Мехагонский боевой механик",
 		},
 		[269282] = {
 			["school"] = 32,
@@ -21918,6 +28316,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Волнобород",
 		},
+		[308189] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Мейлорн-Гордунни",
+		},
+		[334810] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Мве'зала",
+		},
+		[328667] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Оживленный маг",
+		},
+		[199658] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Двацветока",
+		},
 		[72968] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -21925,6 +28356,45 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Яркийсекс-Гордунни",
+		},
+		[260798] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Икумка-Дракономор",
+		},
+		[12039] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Дозорный цитадели Адского Пламени",
+		},
+		[44289] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кагани Ночной Удар",
+		},
+		[216521] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Баночкапива",
+		},
+		[129250] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кактьма",
 		},
 		[135682] = {
 			["school"] = 1,
@@ -21934,6 +28404,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лэй Шэнь",
 		},
+		[72219] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тухлопуз",
+		},
 		[300001] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -21942,12 +28421,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
-		[302049] = {
-			["school"] = 8,
+		[245237] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Выброс амниотической жидкости",
+			["source"] = "Разрушитель миров Кин'гарота",
 		},
 		[110852] = {
 			["school"] = 1,
@@ -21957,6 +28438,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гу Небесный Удар",
 		},
+		[322527] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
 		[47751] = {
 			["school"] = 64,
 			["token"] = {
@@ -21964,6 +28453,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Аномалус",
+		},
+		[343005] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Визгунья",
 		},
 		[314337] = {
 			["school"] = 1,
@@ -21973,6 +28471,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маут",
 		},
+		[153089] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Садана Кровавое Безумие",
+		},
 		[154113] = {
 			["school"] = 1,
 			["token"] = {
@@ -21980,6 +28485,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Аракнат",
+		},
+		[15615] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вилли Разбивающий Надежды",
 		},
 		[279526] = {
 			["school"] = 1,
@@ -21989,12 +28502,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kêen-ChamberofAspects",
 		},
+		[59183] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Необузданный огненный шторм",
+		},
+		[75992] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ведьма бурь Леди Наз'жар",
+		},
 		[293861] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Противопехотная белка",
+		},
+		[202719] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Автомат",
+		},
+		[82425] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вестник Тьмы",
 		},
 		[85256] = {
 			["school"] = 2,
@@ -22019,12 +28566,54 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Миша",
 		},
+		[287674] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Роогатка",
+		},
+		[184662] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Найтгар",
+		},
+		[257426] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Головорез из братства Стальных Волн",
+		},
+		[309572] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Магистр Умбрий",
+		},
 		[259574] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Вол'каал",
+		},
+		[274437] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ученица призывательницы штормов",
 		},
 		[310246] = {
 			["school"] = 1,
@@ -22035,6 +28624,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Дест'агат",
+		},
+		[163276] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ловушка для огров",
 		},
 		[30917] = {
 			["school"] = 8,
@@ -22056,6 +28654,43 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Кабалист-пеплоуст",
+		},
+		[326629] = {
+			["school"] = 40,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
+		[64695] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тотем хватки земли",
+		},
+		[39049] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Эонус",
+		},
+		[69899] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Иерофант с \"Усмирителя небес\"",
 		},
 		[69387] = {
 			["school"] = 32,
@@ -22082,6 +28717,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иронайа",
 		},
+		[260188] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[241635] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Бдительная дева",
+		},
 		[153093] = {
 			["school"] = 32,
 			["token"] = {
@@ -22089,12 +28740,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Садана Кровавое Безумие",
 		},
+		[185857] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Морпех корпорации Эшвейнов",
+		},
 		[195072] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Яркийсекс-Гордунни",
+		},
+		[8265] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тотем лавы",
+		},
+		[268230] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Матрос корпорации Эшвейнов",
 		},
 		[49544] = {
 			["school"] = 8,
@@ -22107,14 +28783,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пророк Тарон'джа",
 		},
-		[314347] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[85222] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Клюквенная",
+		},
+		[307828] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Пепельный убийца",
+			["source"] = "Вексиона",
+		},
+		[106966] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Малая нестабильная энергия",
+		},
+		[153094] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Садана Кровавое Безумие",
+		},
+		[264155] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Воденыш",
 		},
 		[59271] = {
 			["school"] = 8,
@@ -22122,6 +28829,21 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Огромный йормунгар",
+		},
+		[195037] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Оракул из клана Колец Ненависти",
+		},
+		[309854] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ра-ден",
 		},
 		[150023] = {
 			["school"] = 1,
@@ -22141,6 +28863,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Starlordcz-BurningBlade",
 		},
+		[240611] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Зовущая море из клана Волнистой Чешуи",
+		},
+		[156842] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Терон'кров",
+		},
+		[297907] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Королева Азшара",
+		},
 		[163334] = {
 			["school"] = 1,
 			["token"] = {
@@ -22149,6 +28899,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Нииза Нокс",
+		},
+		[80801] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лавовый разлом",
 		},
 		[123654] = {
 			["school"] = 8,
@@ -22159,6 +28916,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мин Коварный",
 		},
+		[324589] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[192003] = {
 			["school"] = 4,
 			["token"] = {
@@ -22167,6 +28933,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Пылающее порождение гидры",
+		},
+		[302681] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Трикси Искрожгучка",
+		},
+		[266923] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Энергетическое ядро",
 		},
 		[38538] = {
 			["school"] = 64,
@@ -22194,12 +28978,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заступник с \"Усмирителя небес\"",
 		},
+		[48265] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лордсайр",
+		},
 		[150025] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Исцеляющие воды",
+		},
+		[111129] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гу Небесный Удар",
 		},
 		[233983] = {
 			["school"] = 32,
@@ -22211,6 +29011,16 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Белак",
+		},
+		[318449] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Н'Зот Заразитель",
 		},
 		[154121] = {
 			["school"] = 1,
@@ -22225,6 +29035,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Сэрмар-СвежевательДуш",
+		},
+		[123655] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хайан Неудержимый",
 		},
 		[297972] = {
 			["school"] = 8,
@@ -22245,13 +29065,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тотем земляной стены",
 		},
-		[200196] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[192005] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Волшебное порождение гидры",
+		},
+		[93707] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Листен",
+			["source"] = "Лорд Годфри",
+		},
+		[59528] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Волхан",
 		},
 		[77069] = {
 			["school"] = 127,
@@ -22269,14 +29106,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Н'Зот Заразитель",
 		},
-		[59528] = {
-			["school"] = 4,
+		[69902] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Волхан",
+			["source"] = "Заступник с \"Усмирителя небес\"",
+		},
+		[330738] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[51849] = {
 			["school"] = 1,
@@ -22286,6 +29128,37 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Сьоннир Литейщик",
+		},
+		[200682] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Солстен",
+		},
+		[113309] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Опасность",
+		},
+		[322548] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Создание Трупошва",
+		},
+		[308212] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Анардилона-СвежевательДуш",
 		},
 		[81677] = {
 			["school"] = 1,
@@ -22298,12 +29171,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бесноватый кроколиск",
 		},
-		[250368] = {
+		[260541] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Оживленный голиаф",
+		},
+		[300395] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Вол'каал",
+			["source"] = "Пашмар Фанатичная",
+		},
+		[263165] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Эллинойз",
 		},
 		[15716] = {
 			["school"] = 1,
@@ -22314,6 +29204,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Громила из клана Гордок",
 		},
+		[250368] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вол'каал",
+		},
+		[306168] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[38539] = {
 			["school"] = 64,
 			["token"] = {
@@ -22322,6 +29228,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Повелитель времени Дежа",
+		},
+		[108271] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Докторша",
+		},
+		[300717] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лордсайр",
 		},
 		[31942] = {
 			["school"] = 1,
@@ -22359,6 +29281,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лэй Шэнь",
 		},
+		[309961] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ил'гинот",
+		},
 		[56969] = {
 			["school"] = 64,
 			["type"] = "BUFF",
@@ -22380,6 +29313,23 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Новос Призыватель",
+		},
+		[337253] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[31224] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ринтз",
 		},
 		[199176] = {
 			["school"] = 1,
@@ -22405,6 +29355,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Командир Улток",
 		},
+		[322554] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вершитель Тарвольд",
+		},
+		[17294] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Фрас Сиаби",
+		},
+		[93629] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лорд Годфри",
+		},
 		[59529] = {
 			["school"] = 1,
 			["token"] = {
@@ -22414,6 +29395,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Волхан",
 		},
+		[292565] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[199177] = {
 			["school"] = 1,
 			["token"] = {
@@ -22421,6 +29411,57 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Эбеновый ворг",
+		},
+		[16827] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хати",
+		},
+		[264166] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Воденыш",
+		},
+		[225311] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Клюквенная",
+		},
+		[337251] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[75024] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Инферний",
+		},
+		[38540] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Повелитель времени Дежа",
 		},
 		[273411] = {
 			["school"] = 1,
@@ -22431,14 +29472,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аспидис",
 		},
-		[75024] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[199178] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Инферний",
+			["source"] = "Нараксас",
 		},
 		[124682] = {
 			["school"] = 8,
@@ -22462,12 +29502,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Токсикоид",
 		},
-		[38540] = {
-			["school"] = 64,
+		[332797] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[232757] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Повелитель времени Дежа",
+			["source"] = "Госпожа Сашж'ин",
+		},
+		[259572] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вол'каал",
+		},
+		[150032] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Магмолат",
 		},
 		[199179] = {
 			["school"] = 1,
@@ -22483,6 +29554,49 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Воздушный подавитель ОУ-8",
+		},
+		[320512] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гниющий слизнекоготь",
+		},
+		[57994] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вулканос",
+		},
+		[324608] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Орифрион\"",
+		},
+		[337249] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[135700] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Заводкой",
 		},
 		[230920] = {
 			["school"] = 1,
@@ -22501,6 +29615,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Тек'рис",
+		},
+		[21832] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Принцесса Терадрас",
 		},
 		[58506] = {
 			["school"] = 1,
@@ -22532,6 +29655,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заназал Мудрый",
 		},
+		[310277] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Дест'агат",
+		},
 		[59530] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -22543,14 +29677,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оплавленный голем",
 		},
-		[21832] = {
+		[322563] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[150035] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Принцесса Терадрас",
+			["source"] = "Исцеляющие воды",
 		},
 		[30151] = {
 			["school"] = 1,
@@ -22579,6 +29721,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пепельный убийца",
 		},
+		[248815] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ф'арг",
+		},
+		[334851] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный шаркающий ужас",
+		},
+		[320517] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Чумной спинолом",
+		},
+		[853] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Найтгар",
+		},
 		[199182] = {
 			["school"] = 1,
 			["token"] = {
@@ -22586,6 +29760,24 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Эбеновый ворг",
+		},
+		[334852] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Гекутис",
+		},
+		[255496] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Констеллар-куратор",
 		},
 		[306184] = {
 			["school"] = 32,
@@ -22619,13 +29811,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
-		[255496] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[322567] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Констеллар-куратор",
+			["source"] = "Вершитель Тарвольд",
 		},
 		[248329] = {
 			["school"] = 4,
@@ -22650,6 +29841,40 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Шад'хар Ненасытный",
+		},
+		[138070] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Высвобожденная сила",
+		},
+		[260551] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Оживленный голиаф",
+		},
+		[192794] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[54290] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ануб'арский прядильщик",
 		},
 		[49548] = {
 			["school"] = 8,
@@ -22677,6 +29902,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ром'огг Костекрушитель",
 		},
+		[244768] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ф'арг",
+		},
+		[263863] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hydra",
+		},
+		[197137] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ловчий из клана Колец Ненависти",
+		},
 		[17353] = {
 			["school"] = 1,
 			["token"] = {
@@ -22695,6 +29942,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
+		[240594] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Аватара Падшего",
+		},
+		[168965] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Корамар",
+		},
 		[192018] = {
 			["school"] = 2,
 			["token"] = {
@@ -22712,6 +29975,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Взор безумия",
 		},
+		[154135] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Аракнат",
+		},
 		[291856] = {
 			["school"] = 8,
 			["token"] = {
@@ -22720,6 +29994,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Плазменная сфера",
 		},
+		[239379] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Охотница Каспария",
+		},
+		[283640] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "\"Гномогедд-0Н\"",
+		},
+		[266106] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Дикий кровавый роевик",
+		},
 		[248332] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -22727,12 +30026,38 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[75540] = {
-			["school"] = 4,
+		[334860] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Пта Ярость Земли",
+			["source"] = "Гекутис",
+		},
+		[74137] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Изисет",
+		},
+		[193686] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Король-бог Сковальд",
+		},
+		[256039] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Надзиратель Корги",
 		},
 		[310288] = {
 			["school"] = 32,
@@ -22749,6 +30074,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
+		[185358] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Анардилона-СвежевательДуш",
+		},
+		[266206] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Кула Живодерка",
+		},
+		[150001] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мордреш Огненный Глаз",
+		},
+		[322576] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Друст-душеруб",
+		},
 		[281621] = {
 			["school"] = 4,
 			["token"] = {
@@ -22756,6 +30114,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Огнелетчица Торговой компании",
+		},
+		[93857] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Барон Сильверлейн",
 		},
 		[49037] = {
 			["school"] = 16,
@@ -22777,6 +30143,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Призванный Тотем неистовства ветра",
 		},
+		[205523] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Баночкапива",
+		},
+		[32175] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Докторша",
+		},
+		[267618] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Мчимба Бальзамировщик",
+		},
+		[247781] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Харджатан",
+		},
 		[314387] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -22784,6 +30184,32 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Злокачественный нарост",
+		},
+		[254769] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Наполненный Скверной разрушитель",
+		},
+		[42724] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ингвар Расхититель",
+		},
+		[188950] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Осквернение",
 		},
 		[197141] = {
 			["school"] = 8,
@@ -22794,6 +30220,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ловчий из клана Колец Ненависти",
 		},
+		[23600] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Полководец Саларис",
+		},
 		[285720] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -22801,6 +30236,22 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Холимакарон",
+		},
+		[304141] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Королева Азшара",
+		},
+		[239439] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Вековечный защитник",
 		},
 		[195094] = {
 			["school"] = 1,
@@ -22813,11 +30264,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воин из клана Колец Ненависти",
 		},
-		[314390] = {
-			["school"] = 1,
+		[225568] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Скверносерд-призыватель",
 		},
 		[22857] = {
 			["school"] = 1,
@@ -22828,6 +30281,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Давигром",
 		},
+		[314390] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[291865] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Воздушное судно R-21/X",
+		},
 		[15589] = {
 			["school"] = 1,
 			["token"] = {
@@ -22836,96 +30303,95 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Принц Тортелдрин",
 		},
-		[153499] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Аззакель",
-		},
-		[29579] = {
+		[279902] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Неммфилд-ВечнаяПесня",
+		},
+		[268271] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Фантомный гость",
+			["source"] = "Леди Уэйкрест",
 		},
-		[227338] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Полночь",
-		},
-		[227638] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ловчий Аттумен",
-		},
-		[241828] = {
+		[44314] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Селин Огненное Сердце",
+		},
+		[343060] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Призрачный конь",
+			["source"] = "Генерал Грашаал",
 		},
-		[29513] = {
-			["school"] = 4,
+		[324631] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Фантомный гость",
+			["source"] = "Резерпин",
 		},
-		[150045] = {
+		[121185] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Великий страж клана Каргеш",
+		},
+		[23881] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ядовит-СвежевательДуш",
+		},
+		[10444] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Магмолат",
+			["source"] = "Докторша",
 		},
-		[274383] = {
+		[22835] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Крысолов",
-		},
-		[228729] = {
-			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Люминор",
+			["source"] = "Топотун Криг",
 		},
-		[228013] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Мадам Чугунок",
-		},
-		[228221] = {
-			["school"] = 1,
+		[16458] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Метелка",
+			["source"] = "Чумной вурдалак",
+		},
+		[189112] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тиладен",
 		},
 		[310298] = {
 			["school"] = 32,
@@ -22937,21 +30403,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зловещий резчик душ",
 		},
-		[16458] = {
-			["school"] = 8,
+		[197144] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Чумной вурдалак",
+			["source"] = "Ловчий из клана Колец Ненависти",
 		},
-		[45470] = {
-			["school"] = 1,
+		[33617] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Suto-Kazzak",
+			["source"] = "Великий мастер Ворпил",
 		},
 		[49806] = {
 			["school"] = 1,
@@ -22969,14 +30440,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ром'огг Костекрушитель",
 		},
-		[232156] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[150020] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Коглстон",
+			["source"] = "Сумеречный владыка Балтиэль",
 		},
 		[235028] = {
 			["school"] = 2,
@@ -22996,25 +30466,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сьоннир Литейщик",
 		},
-		[244033] = {
-			["school"] = 4,
+		[279584] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Агграмар",
-		},
-		[263202] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Геомант Торговой компании",
+			["source"] = "Мирдассена",
+		},
+		[69912] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Клинок ужаса с \"Усмирителя небес\"",
 		},
 		[298014] = {
 			["school"] = 8,
@@ -23027,40 +30492,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Айтанель",
 		},
-		[244903] = {
-			["school"] = 4,
+		[75441] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Пламя Тайшалака",
+			["source"] = "Неизвестно",
 		},
-		[186662] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Порожденный Скверной архидемон",
-		},
-		[43265] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Варранос-СвежевательДуш",
-		},
-		[274720] = {
+		[260926] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Глубинный угорь",
+			["source"] = "Сестра Солена",
+		},
+		[328731] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Возрожденный феникс",
+		},
+		[162264] = {
+			["school"] = 127,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spöky-Stormscale",
 		},
 		[267299] = {
 			["school"] = 32,
@@ -23087,13 +30552,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вулканос",
 		},
-		[182171] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[53792] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Генерал Бьярнгрим",
 		},
 		[150048] = {
 			["school"] = 4,
@@ -23103,12 +30569,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оплавленный элементаль",
 		},
-		[69902] = {
+		[337235] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Заступник с \"Усмирителя небес\"",
+			["source"] = "Тред'ова",
 		},
 		[193051] = {
 			["school"] = 16,
@@ -23140,12 +30607,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Исцеляющий идол Менну",
 		},
-		[179582] = {
-			["school"] = 1,
+		[257974] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Повелитель Скверны Закуун",
+			["source"] = "Генерал Эрод",
 		},
 		[298018] = {
 			["school"] = 16,
@@ -23164,39 +30633,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Даркдрул",
 		},
-		[199600] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[244400] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Имба",
+			["source"] = "Разрушитель миров Кин'гарота",
 		},
-		[185857] = {
-			["school"] = 1,
+		[301177] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Морпех корпорации Эшвейнов",
+			["source"] = "Воздушный подавитель ОУ-8",
 		},
-		[119381] = {
+		[345425] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Бладдфолен",
+			["source"] = "Визгунья",
 		},
-		[265089] = {
+		[13787] = {
 			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Преданная жрица крови",
+			["source"] = "Неизвестно",
 		},
 		[269351] = {
 			["school"] = 1,
@@ -23207,50 +30674,50 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Т'зала",
 		},
-		[278755] = {
+		[316756] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Кислотный акир",
+		},
+		[319241] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Автомат",
+		},
+		[291878] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Оскверненный дух",
+			["source"] = "Воздушное судно R-21/X",
 		},
-		[124506] = {
+		[326994] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[263074] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Гротескный эксперимент",
+			["source"] = "Сир Денатрий",
 		},
-		[184449] = {
-			["school"] = 32,
+		[244399] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Диа Зловещий Шепот",
-		},
-		[299525] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Стрелок из банды Поршнеголовых",
+			["source"] = "Дециматор",
 		},
 		[298021] = {
 			["school"] = 16,
@@ -23261,15 +30728,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Айтанель",
 		},
-		[50831] = {
-			["school"] = 8,
+		[29513] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сьоннир Литейщик",
+			["source"] = "Фантомный гость",
 		},
 		[293926] = {
 			["school"] = 8,
@@ -23289,23 +30755,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Миша",
 		},
-		[299496] = {
-			["school"] = 1,
+		[262347] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Стрелок из банды Поршнеголовых",
-		},
-		[154135] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Аракнат",
+			["source"] = "Платный разгонятель толпы",
 		},
 		[310309] = {
 			["school"] = 1,
@@ -23315,14 +30775,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Дест'агат",
 		},
-		[312266] = {
+		[30153] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пепельный убийца",
+			["source"] = "Страж Скверны",
+		},
+		[5607] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Исцеляющий идол",
 		},
 		[153123] = {
 			["school"] = 1,
@@ -23333,33 +30798,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ранжит",
 		},
-		[268797] = {
-			["school"] = 8,
+		[22833] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Алхимик Торговой компании",
+			["source"] = "Топотун Криг",
 		},
-		[260425] = {
-			["school"] = 1,
+		[267308] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Иловое речное чудище",
+			["source"] = "Заназал Мудрый",
 		},
-		[156960] = {
-			["school"] = 4,
+		[38801] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Терон'кров",
+			["source"] = "Рокмар Трескун",
 		},
 		[11366] = {
 			["school"] = 4,
@@ -23370,14 +30835,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Галакрасс",
 		},
-		[267308] = {
-			["school"] = 8,
+		[332836] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Заназал Мудрый",
+			["source"] = "Гнилостный мясник",
 		},
 		[310311] = {
 			["school"] = 32,
@@ -23412,15 +30880,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бродячий панцирник",
 		},
-		[38801] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[293930] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Рокмар Трескун",
+			["source"] = "Мехагонский механик",
 		},
 		[312360] = {
 			["school"] = 32,
@@ -23430,20 +30897,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аллерия Ветрокрылая",
 		},
-		[57984] = {
-			["school"] = 4,
+		[24394] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Большой элементаль огня",
+			["source"] = "Hydra",
 		},
-		[267310] = {
-			["school"] = 32,
+		[300074] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Воплощение глубин",
+			["source"] = "Королева Азшара",
 		},
 		[48016] = {
 			["school"] = 1,
@@ -23460,19 +30927,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хваткая ненависть",
 		},
-		[239486] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Нестабильная порча",
-		},
 		[267311] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Воплощение глубин",
+		},
+		[154149] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Прототип солнечного голема Небесного Пути",
 		},
 		[81690] = {
 			["school"] = 1,
@@ -23484,35 +30953,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зубохлоп",
 		},
-		[2484] = {
-			["school"] = 8,
+		[76478] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Вулканос",
+			["source"] = "Сумеречный мучитель",
 		},
-		[115129] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[153727] = {
-			["school"] = 1,
+		[121183] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Lolluna-TwistingNether",
 		},
-		[241179] = {
-			["school"] = 1,
+		[236060] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Легионер из клана Волнистой Чешуи",
+			["source"] = "Симплеон",
+		},
+		[75547] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Плывун",
 		},
 		[287790] = {
 			["school"] = 1,
@@ -23533,14 +31006,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мал'тир - маг Бездны",
 		},
-		[154150] = {
-			["school"] = 4,
+		[195105] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Прототип солнечного голема Небесного Пути",
+			["source"] = "Бродячий панцирник",
 		},
 		[269361] = {
 			["school"] = 1,
@@ -23574,31 +31048,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оплавленный элементаль",
 		},
-		[195104] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Бродячий панцирник",
-		},
-		[263103] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[326699] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ленивый лаборант",
+			["source"] = "Сир Денатрий",
 		},
-		[299460] = {
+		[22858] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Стрелок из банды Поршнеголовых",
+			["source"] = "Капитан Давигром",
+		},
+		[324652] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Склизгл",
 		},
 		[236061] = {
 			["school"] = 1,
@@ -23609,15 +31082,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бдительная дева",
 		},
-		[195105] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[326700] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бродячий панцирник",
+			["source"] = "Сир Денатрий",
 		},
 		[205345] = {
 			["school"] = 4,
@@ -23626,19 +31096,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Галакрасс",
 		},
-		[1543] = {
-			["school"] = 64,
+		[45524] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Анардилона-СвежевательДуш",
+			["source"] = "Мертвыйнос",
 		},
-		[269231] = {
-			["school"] = 1,
+		[154150] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ребан",
+			["source"] = "Прототип солнечного голема Небесного Пути",
 		},
 		[75548] = {
 			["school"] = 1,
@@ -23647,15 +31121,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неизвестно",
 		},
-		[46026] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[75683] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Апоко",
+			["source"] = "Леди Наз'жар",
 		},
 		[76572] = {
 			["school"] = 1,
@@ -23692,12 +31166,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Наполненный Скверной разрушитель",
 		},
-		[202127] = {
-			["school"] = 4,
+		[310322] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Бладдфолен",
 		},
 		[120087] = {
 			["school"] = 8,
@@ -23725,15 +31200,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Белак",
 		},
-		[262270] = {
+		[195109] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Алхимик Торговой компании",
+			["source"] = "Заклинательница штормов из клана Колец Ненависти",
 		},
 		[195108] = {
 			["school"] = 8,
@@ -23742,13 +31215,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заклинательница штормов из клана Колец Ненависти",
 		},
-		[310322] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[343086] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Генерал Кааль",
 		},
 		[41106] = {
 			["school"] = 1,
@@ -23767,15 +31241,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Замученная душа",
 		},
-		[156842] = {
+		[324659] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Терон'кров",
+			["source"] = "Изменчивое воплощение",
 		},
 		[310323] = {
 			["school"] = 32,
@@ -23803,28 +31274,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Истерзанная душа",
 		},
-		[195109] = {
-			["school"] = 8,
+		[332849] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Заклинательница штормов из клана Колец Ненависти",
+			["source"] = "Сир Денатрий",
 		},
-		[310324] = {
+		[269369] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Т'зала",
+		},
+		[310325] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Вексиона",
-		},
-		[153396] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Аззакель",
 		},
 		[21707] = {
 			["school"] = 1,
@@ -23841,28 +31316,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аргус Порабощенный",
 		},
-		[310325] = {
+		[326707] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Вексиона",
+			["source"] = "Сир Денатрий",
 		},
-		[153002] = {
-			["school"] = 2,
+		[58460] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Дозорный Каатар",
+			["source"] = "Лазурный головорез",
 		},
-		[152954] = {
-			["school"] = 2,
+		[264233] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Дозорный Каатар",
+			["source"] = "Яйцо",
 		},
 		[308278] = {
 			["school"] = 32,
@@ -23872,20 +31351,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аллерия Ветрокрылая",
 		},
-		[197137] = {
-			["school"] = 1,
+		[111649] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ловчий из клана Колец Ненависти",
+			["source"] = "Неизвестно",
 		},
-		[76956] = {
+		[328756] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Ингра Малох",
 		},
 		[15654] = {
 			["school"] = 32,
@@ -23919,15 +31402,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Левфша-СвежевательДуш",
 		},
-		[196064] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[322614] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Роевик из племени Соленой Чешуи",
+			["source"] = "Тред'ова",
 		},
 		[93468] = {
 			["school"] = 2,
@@ -23938,12 +31419,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Барон Эшбери",
 		},
-		[272554] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[33499] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Кабалист-ревнительница",
 		},
 		[246305] = {
 			["school"] = 1,
@@ -23977,13 +31460,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Дест'агат",
 		},
-		[195037] = {
-			["school"] = 64,
+		[271698] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Оракул из клана Колец Ненависти",
+			["source"] = "Азерокк",
 		},
 		[273470] = {
 			["school"] = 1,
@@ -24020,22 +31503,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
-		[72219] = {
-			["school"] = 40,
+		[259092] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Призыватель шторма из братства Стальных Волн",
+		},
+		[115994] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Тухлопуз",
-		},
-		[300491] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Серена Острая Чешуя",
+			["source"] = "Шадоуденсич",
 		},
 		[310331] = {
 			["school"] = 32,
@@ -24047,14 +31531,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Глаз разума",
 		},
-		[42729] = {
+		[43667] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ингвар Расхититель",
+			["source"] = "Принц Келесет",
 		},
 		[58769] = {
 			["school"] = 1,
@@ -24082,14 +31566,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
-		[263234] = {
-			["school"] = 8,
+		[69920] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гюрзис",
+			["source"] = "Убийца с \"Усмирителя небес\"",
 		},
 		[86814] = {
 			["school"] = 1,
@@ -24114,15 +31596,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Глаз разума",
 		},
-		[153006] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[230950] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Дозорный Каатар",
+			["source"] = "Ловец из бездны",
 		},
 		[259618] = {
 			["school"] = 1,
@@ -24134,22 +31613,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Злобный деметродон",
 		},
-		[267331] = {
-			["school"] = 32,
+		[154159] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Имба",
+			["source"] = "Подзарядник солнечного голема",
 		},
-		[198595] = {
-			["school"] = 8,
+		[17501] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Валарьяр - призыватель молний",
+			["source"] = "Пушка Багрового Легиона",
 		},
 		[53394] = {
 			["school"] = 1,
@@ -24167,21 +31646,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гниложор",
 		},
-		[188196] = {
-			["school"] = 8,
+		[51124] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Вудукомбо",
+			["source"] = "Мертвыйнос",
 		},
-		[192005] = {
-			["school"] = 64,
+		[50868] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Волшебное порождение гидры",
+			["source"] = "Кристаллус",
+		},
+		[271428] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Гений Торговой компании",
 		},
 		[46227] = {
 			["school"] = 1,
@@ -24192,13 +31678,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кагани Ночной Удар",
 		},
-		[69920] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Убийца с \"Усмирителя небес\"",
-		},
 		[308288] = {
 			["school"] = 32,
 			["token"] = {
@@ -24206,38 +31685,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аллерия Ветрокрылая",
 		},
-		[314905] = {
+		[334909] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Оссират",
 		},
-		[70371] = {
+		[17399] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Бальназар",
+		},
+		[260202] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Шеф Разданк",
+		},
+		[260190] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бесноватое поганище",
-		},
-		[278637] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кровавый клещ",
-		},
-		[199090] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Сердитый бык",
+			["source"] = "Шеф Разданк",
 		},
 		[192044] = {
 			["school"] = 2,
@@ -24254,19 +31734,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nínì-Hyjal",
 		},
-		[156746] = {
-			["school"] = 2,
+		[273465] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Дозорный Каатар",
+			["source"] = "Winjêck-Blackmoore",
 		},
-		[11443] = {
-			["school"] = 32,
+		[28747] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Темный чародей из секты Тузадин",
+			["source"] = "Крик'тир Хранитель Врат",
 		},
 		[114460] = {
 			["school"] = 4,
@@ -24282,38 +31765,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Наполненный Скверной разрушитель",
 		},
-		[268899] = {
+		[193315] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Райзли",
-		},
-		[205549] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Нараксас",
-		},
-		[264574] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Песчаный стрелок",
+			["source"] = "Атева-Ясеневыйлес",
 		},
-		[260188] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[22703] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Фирнаэ",
+		},
+		[235314] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Симплеон",
+		},
+		[310340] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ка'зир",
 		},
 		[84768] = {
 			["school"] = 1,
@@ -24333,13 +31813,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева душ Дехана",
 		},
-		[310340] = {
-			["school"] = 8,
+		[334913] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ка'зир",
+			["source"] = "Мве'зала",
 		},
 		[197165] = {
 			["school"] = 1,
@@ -24348,28 +31830,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гнев Азшары",
 		},
-		[69809] = {
-			["school"] = 1,
+		[267325] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Кор'кронский боевой штандарт",
+			["source"] = "Имба",
 		},
-		[300102] = {
-			["school"] = 4,
+		[150067] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неисправный хламобот",
-		},
-		[71405] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Принц Келесет",
+			["source"] = "Мордреш Огненный Глаз",
 		},
 		[143924] = {
 			["school"] = 1,
@@ -24377,6 +31852,13 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Атева-Ясеневыйлес",
+		},
+		[320580] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
 		},
 		[153139] = {
 			["school"] = 8,
@@ -24387,32 +31869,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ранжит",
 		},
-		[69167] = {
-			["school"] = 1,
+		[47540] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Кактьма",
+		},
+		[310343] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Повелитель Плети Тираний",
+			["source"] = "Кислотный акир",
 		},
-		[140092] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[212653] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Цзи-Кунь",
-		},
-		[201858] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Скверносерд-стрелок",
+			["source"] = "Лордхайд",
 		},
 		[30923] = {
 			["school"] = 32,
@@ -24436,29 +31916,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тень Ксавия",
 		},
-		[154468] = {
-			["school"] = 32,
+		[151092] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Пленный шахтер",
 		},
-		[69899] = {
+		[18327] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Иерофант с \"Усмирителя небес\"",
+			["source"] = "Баронесса Анастари",
 		},
-		[69580] = {
-			["school"] = 1,
+		[318216] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Павший воин",
+			["source"] = "Motijopo-Magtheridon",
 		},
 		[163379] = {
 			["school"] = 4,
@@ -24477,19 +31962,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аспидис",
 		},
-		[235240] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[52437] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Бдительная дева",
+			["source"] = "Doomax-Stormscale",
 		},
-		[291915] = {
+		[256552] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Пилоносая акула",
 		},
 		[192048] = {
 			["school"] = 2,
@@ -24508,75 +31995,102 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Свала Вечноскорбящая",
 		},
-		[255425] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Констеллар-куратор",
-		},
-		[71614] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Король-лич",
-		},
-		[69012] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Крик",
-		},
-		[70116] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ледяной змей Шпиля",
-		},
-		[280772] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Киннар",
-		},
-		[48260] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Горток Бледное Копыто",
-		},
-		[78807] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Озрук",
-		},
-		[48267] = {
+		[30283] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Свала Вечноскорбящая",
+			["source"] = "Себнак",
+		},
+		[332871] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Верховный истязатель Даритос",
+		},
+		[324667] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Склизгл",
+		},
+		[244000] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Хранительница порталов Азабель",
+		},
+		[106470] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[10072] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Обсидиановый часовой",
+		},
+		[202108] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Заклинатель чумных осколков",
+		},
+		[52960] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Локен",
+		},
+		[180927] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Артиллерийское орудие Скверны",
+		},
+		[291918] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Летающий кран",
+		},
+		[93985] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сорвада",
+		},
+		[246315] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Параксий\"",
 		},
 		[59795] = {
 			["school"] = 8,
@@ -24587,46 +32101,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ионар",
 		},
-		[291918] = {
+		[168929] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Летающий кран",
-		},
-		[310348] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шупальце Дест'агат",
-		},
-		[246315] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "\"Параксий\"",
-		},
-		[119582] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[39049] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Эонус",
+			["source"] = "Черепон",
 		},
 		[192050] = {
 			["school"] = 8,
@@ -24636,32 +32117,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Змеикс",
 		},
-		[308673] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[41107] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Око хаоса",
-		},
-		[268007] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Хранитель Сердца",
+			["source"] = "Генерал Бьярнгрим",
 		},
-		[273323] = {
-			["school"] = 8,
+		[265085] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Румми Мэнкомб",
+		},
+		[309852] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Докторша",
+			["source"] = "Ра-ден",
 		},
 		[44949] = {
 			["school"] = 1,
@@ -24670,14 +32149,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ядовит-СвежевательДуш",
 		},
-		[15288] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[93535] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сумеречный эмиссар",
+			["source"] = "Лорд Вальден",
 		},
 		[53652] = {
 			["school"] = 2,
@@ -24696,31 +32173,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аарукс",
 		},
-		[225568] = {
-			["school"] = 32,
+		[11082] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Скверносерд-призыватель",
+			["source"] = "\"Электрошокер-6000\"",
 		},
-		[201902] = {
-			["school"] = 4,
+		[1079] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Скверносерд-стрелок",
+			["source"] = "Заводкой",
 		},
-		[69925] = {
-			["school"] = 8,
+		[178741] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Заступник с \"Усмирителя небес\"",
+			["source"] = "Магнетарр-СвежевательДуш",
 		},
 		[291922] = {
 			["school"] = 1,
@@ -24737,16 +32214,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пасть Дест'агат",
 		},
-		[296018] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[69925] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "За'кул",
+			["source"] = "Заступник с \"Усмирителя небес\"",
 		},
 		[230959] = {
 			["school"] = 32,
@@ -24778,22 +32251,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Знатоквуду-СвежевательДуш",
 		},
-		[51750] = {
+		[10101] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Король Имирон",
-		},
-		[106736] = {
-			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ша Сомнения",
+			["source"] = "Алззин Перевертень",
+		},
+		[5176] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Шрека-Ясеневыйлес",
 		},
 		[269399] = {
 			["school"] = 32,
@@ -24810,31 +32283,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заводкой",
 		},
-		[269232] = {
+		[50988] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[296018] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "За'кул",
+		},
+		[86603] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ребан",
-		},
-		[216521] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Баночкапива",
-		},
-		[59183] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Необузданный огненный шторм",
+			["source"] = "Шадопанский пленник",
 		},
 		[263257] = {
 			["school"] = 8,
@@ -24845,12 +32318,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аспидис",
 		},
-		[227255] = {
-			["school"] = 4,
+		[69926] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Магнетарр-СвежевательДуш",
+			["source"] = "Кор'кронский оракул",
 		},
 		[275544] = {
 			["school"] = 32,
@@ -24860,37 +32335,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кактьма",
 		},
-		[278463] = {
+		[334929] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Обезумевший мастер выживания",
-		},
-		[296022] = {
-			["school"] = 32,
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Генерал Кааль",
 		},
-		[69017] = {
-			["school"] = 1,
+		[14887] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лефтендрис",
+		},
+		[89252] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "\"Капитан\" Пирожок",
+		},
+		[112929] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Неизвестно",
-		},
-		[163276] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Ловушка для огров",
 		},
 		[257582] = {
 			["school"] = 1,
@@ -24902,20 +32379,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Земляной яростень",
 		},
-		[112929] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[114465] = {
-			["school"] = 4,
+		[320596] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Чумокост",
+		},
+		[328789] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грань Аннигиляции",
 		},
 		[291928] = {
 			["school"] = 8,
@@ -24944,14 +32427,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Темный инквизитор Занеш",
 		},
-		[28747] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[265542] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Крик'тир Хранитель Врат",
+			["source"] = "Смрадная личинка",
 		},
 		[150076] = {
 			["school"] = 0,
@@ -24960,14 +32441,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мастер горна Гон'ду",
 		},
-		[306985] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[334932] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ярость Н'Зота",
+			["source"] = "Гекутис",
 		},
 		[296025] = {
 			["school"] = 8,
@@ -24976,12 +32455,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воздушный подавитель ОУ-8",
 		},
-		[84987] = {
+		[9775] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сиамат",
+			["source"] = "Облученный погромщик",
 		},
 		[291930] = {
 			["school"] = 1,
@@ -24991,23 +32471,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Куб металлолома",
 		},
-		[236547] = {
+		[61684] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дух зверя",
+		},
+		[263262] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Охотница Каспария",
-		},
-		[69927] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Мститель с \"Усмирителя небес\"",
+			["source"] = "Сланцеед",
 		},
 		[31948] = {
 			["school"] = 1,
@@ -25019,12 +32499,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рокмар Трескун",
 		},
-		[235236] = {
-			["school"] = 4,
+		[69927] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Белак",
+			["source"] = "Мститель с \"Усмирителя небес\"",
 		},
 		[310361] = {
 			["school"] = 32,
@@ -25044,47 +32526,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Восставший чаротворец",
 		},
-		[15582] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Тенелов из племени Буйного Нрава",
-		},
-		[167898] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Старлордо-Гордунни",
-		},
-		[114466] = {
-			["school"] = 16,
+		[322648] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Пенистая преграда",
 		},
-		[292463] = {
-			["school"] = 8,
+		[300893] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сакальтор",
+			["source"] = "Pellpung-TarrenMill",
 		},
-		[240611] = {
-			["school"] = 16,
+		[343126] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Зовущая море из клана Волнистой Чешуи",
+			["source"] = "Генерал Кааль",
+		},
+		[296257] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "За'кул",
+		},
+		[272055] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Живец",
 		},
 		[150078] = {
 			["school"] = 0,
@@ -25122,30 +32602,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мирмидон из клана Колец Ненависти",
 		},
-		[178157] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Рилак - ужас небес",
-		},
-		[12739] = {
+		[319346] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[265540] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Смрадная личинка",
+		},
+		[154175] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Темный чародей из секты Тузадин",
-		},
-		[309572] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Магистр Умбрий",
+			["source"] = "Костебрюх",
 		},
 		[70952] = {
 			["school"] = 1,
@@ -25177,25 +32655,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Палач из Темной Империи",
 		},
-		[113141] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Темный магистр Гандлинг",
-		},
-		[154175] = {
+		[334939] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Костебрюх",
+			["source"] = "Маргор",
+		},
+		[9128] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Офицер из клана Ярости Горна",
 		},
 		[163390] = {
 			["school"] = 1,
@@ -25216,29 +32691,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Верховный инквизитор Вайтмейн",
 		},
-		[313089] = {
-			["school"] = 32,
+		[77978] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бладдфолен",
+			["source"] = "Лоскутный ужас",
 		},
-		[301078] = {
-			["school"] = 1,
+		[245994] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Агграмар",
+		},
+		[26573] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Киран",
-		},
-		[45181] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Коверт-Гордунни",
+			["source"] = "Christophstü-Eredar",
 		},
 		[312415] = {
 			["school"] = 1,
@@ -25248,72 +32723,71 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Палач из Темной Империи",
 		},
-		[59140] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Волдырный парозлоб",
-		},
-		[22911] = {
+		[322654] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ферра",
+			["source"] = "Тред'ова",
 		},
-		[306090] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[93564] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лорд Годфри",
-		},
-		[306273] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ра-ден",
-		},
-		[31458] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Темпорус",
-		},
-		[236513] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Оживленный храмовник",
-		},
-		[298946] = {
+		[193659] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Нано Мегабум",
+			["source"] = "Король-бог Сковальд",
+		},
+		[266107] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Дикий кровавый роевик",
+		},
+		[19483] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Инфернал",
+		},
+		[322655] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[248713] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Замученная душа",
+		},
+		[334942] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Маргор",
+		},
+		[267367] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Механомиротворец",
 		},
 		[251445] = {
 			["school"] = 4,
@@ -25334,27 +32808,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Принц Келесет",
 		},
-		[44289] = {
-			["school"] = 8,
+		[39367] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Кагани Ночной Удар",
-		},
-		[31616] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Вулканос",
-		},
-		[287674] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Роогатка",
+			["source"] = "Зерекет Бездонный",
 		},
 		[150082] = {
 			["school"] = 8,
@@ -25365,6 +32828,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аарукс",
 		},
+		[330848] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[191037] = {
+			["school"] = 72,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Уоуоуоуо",
+		},
 		[33689] = {
 			["school"] = 1,
 			["token"] = {
@@ -25372,20 +32850,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бормотун",
 		},
-		[236518] = {
+		[31901] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Омор Неодолимый",
+		},
+		[263274] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Жрица Лунное Пламя",
-		},
-		[67767] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Защитник Черного Клинка",
+			["source"] = "Небесный капитан Крагг",
 		},
 		[85288] = {
 			["school"] = 1,
@@ -25394,12 +32873,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сэргора-СвежевательДуш",
 		},
-		[263274] = {
+		[334945] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Небесный капитан Крагг",
+			["source"] = "Маргор",
 		},
 		[69930] = {
 			["school"] = 2,
@@ -25410,32 +32891,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мститель с \"Усмирителя небес\"",
 		},
-		[84982] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сиамат",
-		},
-		[48873] = {
+		[149893] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Домина",
+		},
+		[30925] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Король Дред",
+			["source"] = "Мастер",
 		},
-		[300971] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[74538] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Роксери-Борейскаятундра",
+			["source"] = "Храмовая гадюка",
 		},
 		[263275] = {
 			["school"] = 1,
@@ -25493,30 +32975,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ра-ден",
 		},
-		[199658] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Двацветока",
-		},
-		[292565] = {
-			["school"] = 32,
+		[198496] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Уларогг Скаломол",
 		},
-		[88839] = {
+		[260881] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Вулканос",
+		},
+		[320614] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Адмирал Терзающий Рев",
+			["source"] = "Червь-трупоед",
 		},
 		[251448] = {
 			["school"] = 4,
@@ -25536,13 +33019,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "КУ-ДЖ0",
 		},
-		[313253] = {
+		[254760] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гневион",
+			["source"] = "Шатуг",
 		},
 		[263278] = {
 			["school"] = 1,
@@ -25550,30 +33032,32 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[68785] = {
-			["school"] = 17,
-			["type"] = "BUFF",
+		[193585] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Начальник кузни Гархлад",
+			["source"] = "Скальный зверолов",
 		},
-		[168348] = {
-			["school"] = 4,
+		[171454] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пушка \"Силы Чернорука\"",
+			["source"] = "Сипелгас-Борейскаятундра",
 		},
-		[75645] = {
-			["school"] = 1,
+		[17434] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Глашатай сумрака Корла",
+			["source"] = "Лорд Аурий Ривендер",
 		},
 		[312425] = {
 			["school"] = 1,
@@ -25590,12 +33074,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король-бог Сковальд",
 		},
-		[244130] = {
+		[3716] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шатуг",
+			["source"] = "Грак'таке",
 		},
 		[81706] = {
 			["school"] = 1,
@@ -25606,22 +33090,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зубохлоп",
 		},
-		[257426] = {
+		[271677] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Головорез из братства Стальных Волн",
-		},
-		[24394] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Hydra",
+			["source"] = "Гадфазер",
 		},
 		[291949] = {
 			["school"] = 4,
@@ -25629,6 +33103,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "КУ-ДЖ0",
+		},
+		[316522] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Эрдэлия",
 		},
 		[257593] = {
 			["school"] = 8,
@@ -25638,11 +33120,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Азерокк",
 		},
-		[70444] = {
-			["school"] = 4,
+		[181827] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Страж Тьмы и Скверны",
 		},
 		[281711] = {
 			["school"] = 1,
@@ -25662,14 +33145,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сьоннир Литейщик",
 		},
-		[2094] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[70444] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Томрек",
 		},
 		[34970] = {
 			["school"] = 1,
@@ -25680,12 +33160,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рокмар Трескун",
 		},
-		[181827] = {
-			["school"] = 1,
+		[255546] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Страж Тьмы и Скверны",
+			["source"] = "Кринжи",
 		},
 		[300142] = {
 			["school"] = 1,
@@ -25700,21 +33180,23 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[9128] = {
-			["school"] = 1,
+		[119590] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Круг огня",
+		},
+		[79050] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Офицер из клана Ярости Горна",
-		},
-		[269242] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Pellpung-TarrenMill",
+			["source"] = "Верховная жрица Азил",
 		},
 		[260666] = {
 			["school"] = 1,
@@ -25726,13 +33208,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Позолоченная жрица",
 		},
-		[15615] = {
+		[231998] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Вилли Разбивающий Надежды",
+			["source"] = "Харджатан",
 		},
 		[53400] = {
 			["school"] = 8,
@@ -25766,18 +33249,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хирья",
 		},
-		[2120] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[43308] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tsaxilgaan-Sylvanas",
+			["source"] = "Боджи-Азурегос",
 		},
-		[47981] = {
+		[274860] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
@@ -25785,7 +33265,7 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Орморок Воспитатель Дерев",
+			["source"] = "Головорез из братства Стальных Волн",
 		},
 		[260667] = {
 			["school"] = 32,
@@ -25824,12 +33304,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Каннабес-СвежевательДуш",
 		},
-		[80801] = {
-			["school"] = 4,
+		[47737] = {
+			["school"] = 64,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Лавовый разлом",
+			["source"] = "Хаотический разлом",
 		},
 		[310385] = {
 			["school"] = 8,
@@ -25866,38 +33347,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Позолоченная жрица",
 		},
-		[297912] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Киран",
-		},
-		[241635] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Бдительная дева",
-		},
-		[245237] = {
+		[114410] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Разрушитель миров Кин'гарота",
+			["source"] = "Брат Корлофф",
 		},
-		[23881] = {
-			["school"] = 1,
+		[205196] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ядовит-СвежевательДуш",
+			["source"] = "Зловещий охотник",
+		},
+		[334960] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Маргор",
+		},
+		[260669] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Рикса Огневерт",
 		},
 		[257597] = {
 			["school"] = 8,
@@ -25915,14 +33398,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Волнобород",
 		},
-		[314483] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[265337] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сам'рек Призыватель Хаоса",
+			["source"] = "Запачканный кровью поросенок",
 		},
 		[50841] = {
 			["school"] = 8,
@@ -25933,12 +33416,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сьоннир Литейщик",
 		},
-		[75025] = {
-			["school"] = 1,
+		[334961] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Инферний",
+			["source"] = "Мве'зала",
 		},
 		[69934] = {
 			["school"] = 2,
@@ -25963,14 +33447,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ужасное чудище",
 		},
-		[153094] = {
+		[298103] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Садана Кровавое Безумие",
+			["source"] = "Оргозоа",
 		},
 		[258622] = {
 			["school"] = 8,
@@ -25980,12 +33462,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Азерокк",
 		},
-		[298103] = {
-			["school"] = 1,
+		[281721] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Оргозоа",
+			["source"] = "Оштри-СвежевательДуш",
 		},
 		[154187] = {
 			["school"] = 32,
@@ -26013,71 +33497,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Раздиратель Плоти Нок'Гар",
 		},
-		[306295] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[304056] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[14887] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лефтендрис",
-		},
-		[13298] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Нежить-скарабей",
-		},
-		[153164] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Оскверненный дух",
-		},
-		[150001] = {
+		[30926] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Мордреш Огненный Глаз",
+			["source"] = "Назан",
 		},
-		[83926] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Злобный бичеватель разума",
-		},
-		[15976] = {
+		[36142] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бритвохлест",
+			["source"] = "Даллия Глашатай Судьбы",
 		},
 		[70447] = {
 			["school"] = 40,
@@ -26090,13 +33525,69 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неустойчивый слизнюк",
 		},
-		[248815] = {
+		[320630] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ф'арг",
+			["source"] = "Червь-трупоед",
+		},
+		[153164] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Оскверненный дух",
+		},
+		[51121] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Маг-лорд Уром",
+		},
+		[16592] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кабалист-жрец Тьмы",
+		},
+		[320631] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Червь-трупоед",
+		},
+		[15976] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Бритвохлест",
+		},
+		[296061] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рэйджшторм",
 		},
 		[192072] = {
 			["school"] = 1,
@@ -26114,14 +33605,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кактьма",
 		},
-		[15587] = {
-			["school"] = 32,
+		[330871] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Магистр Календрис",
+			["source"] = "Сир Денатрий",
 		},
 		[105771] = {
 			["school"] = 1,
@@ -26131,11 +33622,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Епсоге",
 		},
-		[265879] = {
-			["school"] = 32,
+		[310396] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Дест'агат",
 		},
 		[304251] = {
 			["school"] = 32,
@@ -26146,13 +33639,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хаффер",
 		},
-		[16592] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[322681] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Кабалист-жрец Тьмы",
+			["source"] = "Создание Трупошва",
 		},
 		[256577] = {
 			["school"] = 32,
@@ -26170,20 +33664,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Полководец Паржеш",
 		},
-		[296061] = {
-			["school"] = 32,
+		[108843] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Рэйджшторм",
+			["source"] = "Ингибиттор",
 		},
-		[106966] = {
+		[86830] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Малая нестабильная энергия",
+			["source"] = "Миллхаус Манашторм",
 		},
 		[50842] = {
 			["school"] = 32,
@@ -26193,22 +33687,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Варранос-СвежевательДуш",
 		},
-		[310396] = {
+		[318587] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Дест'агат",
+			["source"] = "\"Гномогедд-0Н\"",
 		},
-		[168965] = {
-			["school"] = 8,
+		[212552] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Корамар",
+			["source"] = "Когтикойд",
 		},
 		[59801] = {
 			["school"] = 8,
@@ -26226,13 +33719,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Проклятый",
 		},
-		[264140] = {
-			["school"] = 1,
+		[334970] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шипастая гончая",
+			["source"] = "Мве'зала",
 		},
 		[152143] = {
 			["school"] = 8,
@@ -26248,41 +33742,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Грознокрылый ворон",
 		},
-		[52237] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Волхан",
-		},
-		[212552] = {
-			["school"] = 1,
+		[152144] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Когтикойд",
+			["source"] = "Загустевшая чумная слизь",
 		},
-		[3149] = {
+		[334971] = {
 			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Среброгривый ревун",
-		},
-		[16867] = {
-			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Баронесса Анастари",
+			["source"] = "Маргор",
+		},
+		[320637] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Чумокост",
+		},
+		[339067] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Грязешмяк",
 		},
 		[116011] = {
 			["school"] = 64,
@@ -26292,16 +33785,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Симплеон",
 		},
-		[22924] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[271671] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Тендрис Криводрев",
+			["source"] = "Wilddeamon-Draenor",
 		},
 		[304256] = {
 			["school"] = 1,
@@ -26319,21 +33808,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неизвестно",
 		},
-		[294855] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[273988] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Непримечательное растение",
+			["source"] = "Фирнаэ",
 		},
-		[82425] = {
-			["school"] = 32,
+		[258627] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Вестник Тьмы",
+			["source"] = "Земляной яростень",
 		},
 		[279684] = {
 			["school"] = 1,
@@ -26343,14 +33834,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неммфилд-ВечнаяПесня",
 		},
-		[31224] = {
+		[69070] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ринтз",
+			["source"] = "Мертвыйнос",
 		},
 		[70961] = {
 			["school"] = 1,
@@ -26360,14 +33849,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Проклятый",
 		},
-		[93707] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[244949] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лорд Годфри",
 		},
 		[258628] = {
 			["school"] = 1,
@@ -26375,12 +33862,12 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[85222] = {
-			["school"] = 2,
+		[244294] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Клюквенная",
+			["source"] = "Аннигилятор",
 		},
 		[291972] = {
 			["school"] = 1,
@@ -26432,14 +33919,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[259572] = {
+		[5320] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Вол'каал",
+			["source"] = "Сергра Черный Шип",
 		},
 		[84784] = {
 			["school"] = 1,
@@ -26459,21 +33945,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Мехагон",
 		},
-		[153089] = {
-			["school"] = 32,
+		[168227] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Садана Кровавое Безумие",
+			["source"] = "Черепон",
 		},
-		[12039] = {
-			["school"] = 2,
+		[75907] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Дозорный цитадели Адского Пламени",
+			["source"] = "Отважный страж Леди Наз'жар",
 		},
 		[255558] = {
 			["school"] = 32,
@@ -26483,29 +33973,29 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[238588] = {
-			["school"] = 4,
+		[295445] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Танкоборец-1\"",
+		},
+		[298087] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Горот",
+			["source"] = "Оргозоа",
 		},
-		[266206] = {
+		[320644] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Кула Живодерка",
-		},
-		[11976] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Скелет-берсерк",
+			["source"] = "Ксав Несломленный",
 		},
 		[251463] = {
 			["school"] = 1,
@@ -26514,13 +34004,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsaxilgaan-Sylvanas",
 		},
-		[319241] = {
-			["school"] = 32,
+		[208086] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Автомат",
+			["source"] = "Doomax-Stormscale",
 		},
 		[310406] = {
 			["school"] = 32,
@@ -26530,20 +34020,20 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[54719] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Колосс Драккари",
-		},
 		[298120] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Айтанель",
+		},
+		[306311] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Истерзанная душа",
 		},
 		[199246] = {
 			["school"] = 1,
@@ -26553,14 +34043,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Нараксас",
 		},
-		[307828] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[298121] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Вексиона",
+			["source"] = "Айтанель",
 		},
 		[263309] = {
 			["school"] = 1,
@@ -26570,13 +34059,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гюрзис",
 		},
-		[298121] = {
-			["school"] = 8,
+		[76594] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Айтанель",
+			["source"] = "Сумеречный ревнитель",
 		},
 		[308360] = {
 			["school"] = 1,
@@ -26585,13 +34073,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Акир-трутень",
 		},
-		[138609] = {
-			["school"] = 64,
+		[88481] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Огромный голем анимы",
+			["source"] = "Врагорез-5000",
 		},
 		[119085] = {
 			["school"] = 1,
@@ -26601,28 +34091,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бладдфолен",
 		},
-		[193376] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Уларогг Скаломол",
-		},
-		[781] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Анардилона-СвежевательДуш",
-		},
-		[294027] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[268013] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Клюквенная",
+			["source"] = "Проклинатель худу",
 		},
 		[234059] = {
 			["school"] = 124,
@@ -26632,36 +34109,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
-		[129250] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кактьма",
-		},
-		[16827] = {
+		[257608] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Хати",
+			["source"] = "Королева песков",
 		},
-		[268260] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Канонир дома Эшвейнов",
-		},
-		[304267] = {
+		[328839] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Айтанель",
+			["source"] = "Сир Денатрий",
+		},
+		[114061] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Джандис Барова",
 		},
 		[57755] = {
 			["school"] = 1,
@@ -26671,13 +34142,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тейзира-Галакронд",
 		},
+		[75571] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ром'огг Костекрушитель",
+		},
+		[304267] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Айтанель",
+		},
+		[298124] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Токсикоид",
+		},
 		[116014] = {
 			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Симплеон",
+		},
+		[192081] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сорвада",
+		},
+		[253039] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Клинок Скверны - штурмовик",
 		},
 		[269456] = {
 			["school"] = 16,
@@ -26687,46 +34202,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вик'Гот",
 		},
-		[52671] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Искра Ионар",
-		},
-		[44224] = {
+		[332937] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Кель'тас Солнечный Скиталец",
+			["source"] = "Зловещее отражение",
 		},
-		[41107] = {
+		[86620] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Генерал Бьярнгрим",
+			["source"] = "Дробитель",
 		},
-		[31991] = {
-			["school"] = 4,
+		[115078] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Менну Предатель",
-		},
-		[26573] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Christophstü-Eredar",
+			["source"] = "Баночкапива",
 		},
 		[281744] = {
 			["school"] = 1,
@@ -26744,13 +34246,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рэйджшторм",
 		},
-		[17399] = {
-			["school"] = 32,
+		[270576] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Бальназар",
+			["source"] = "Клюквенная",
 		},
 		[258634] = {
 			["school"] = 4,
@@ -26768,20 +34270,24 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[245463] = {
-			["school"] = 4,
+		[324748] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Агграмар",
+			["source"] = "Пинорино",
 		},
-		[240594] = {
+		[66290] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Аватара Падшего",
+			["source"] = "Бальназар",
 		},
 		[296080] = {
 			["school"] = 1,
@@ -26800,36 +34306,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Темный инквизитор Занеш",
 		},
-		[16953] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[258773] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Небесный капитан Крагг",
-		},
-		[68788] = {
+		[150755] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Начальник кузни Гархлад",
+			["source"] = "Гуг'рокк",
 		},
-		[260926] = {
+		[16244] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Певчий Форрестен",
+		},
+		[226406] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Углепанцирный подчинитель",
+		},
+		[310042] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Сестра Солена",
+			["source"] = "Молотящее щупальце",
 		},
 		[13737] = {
 			["school"] = 1,
@@ -26841,22 +34352,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Разоритель из клана Гордок",
 		},
-		[273310] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Кактьма",
-		},
-		[263318] = {
-			["school"] = 8,
+		[47773] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Аспидис",
+			["source"] = "Великая ведунья Телестра",
+		},
+		[320655] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Чумокост",
 		},
 		[265366] = {
 			["school"] = 16,
@@ -26896,39 +34408,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Прыгопотам",
 		},
-		[184662] = {
-			["school"] = 2,
+		[96231] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Christophstü-Eredar",
+		},
+		[268587] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Король Дазар",
+		},
+		[49821] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гамапчхи-СвежевательДуш",
+		},
+		[345230] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Найтгар",
-		},
-		[310690] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Spöky-Stormscale",
-		},
-		[233431] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Атриган",
-		},
-		[296851] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Пашмар Фанатичная",
+			["source"] = "Раздевайтесь",
 		},
 		[265368] = {
 			["school"] = 1,
@@ -26940,39 +34447,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заколдованный капитан",
 		},
-		[49821] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Гамапчхи-СвежевательДуш",
-		},
-		[298898] = {
+		[256589] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Нано Мегабум",
-		},
-		[54290] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ануб'арский прядильщик",
+			["source"] = "Капитан Рауль",
 		},
-		[150020] = {
-			["school"] = 16,
+		[22688] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Алззин Перевертень",
+		},
+		[9080] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Жестокий убийца",
+		},
+		[266035] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Сумеречный владыка Балтиэль",
+			["source"] = "Ведьма-послушница",
 		},
 		[260685] = {
 			["school"] = 32,
@@ -26983,48 +34497,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Старейшина Ликса",
 		},
-		[6673] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Хаммеси-Гордунни",
-		},
-		[318449] = {
+		[183969] = {
 			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Н'Зот Заразитель",
+			["source"] = "Неизвестно",
 		},
-		[200721] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Даргрул",
-		},
-		[38592] = {
+		[47568] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Темпорус",
+			["source"] = "Мертвыйнос",
 		},
-		[19319] = {
+		[157348] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изначальный элементаль бури",
+		},
+		[236282] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рэйджшторм",
+		},
+		[40504] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Алззин Перевертень",
+			["source"] = "Бритвохлест",
 		},
 		[112945] = {
 			["school"] = 1,
@@ -27042,21 +34553,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заколдованный капитан",
 		},
-		[265372] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Порабощенный стражник",
-		},
-		[261710] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[255567] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -27068,29 +34564,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Т'лонджа",
 		},
-		[273563] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Песчаный стрелок",
-		},
-		[75547] = {
-			["school"] = 8,
+		[261710] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Плывун",
 		},
-		[263778] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[265372] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Аспидис",
+			["source"] = "Порабощенный стражник",
+		},
+		[45470] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Suto-Kazzak",
+		},
+		[245121] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Энтропическая мина",
+		},
+		[241305] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Послушник из племени Острозубов",
 		},
 		[304280] = {
 			["school"] = 8,
@@ -27100,68 +34610,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оргозоа",
 		},
-		[274437] = {
-			["school"] = 8,
+		[15578] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ученица призывательницы штормов",
-		},
-		[135700] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[264173] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Себнак",
-		},
-		[298669] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Трикси Искрожгучка",
+			["source"] = "Топотун Криг",
 		},
-		[297907] = {
-			["school"] = 32,
+		[268705] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Песочная змея",
+		},
+		[153759] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Королева Азшара",
+			["source"] = "Ранжит",
 		},
-		[283640] = {
+		[199705] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "\"Гномогедд-0Н\"",
+			["source"] = "Нараксас",
 		},
-		[87861] = {
-			["school"] = 16,
+		[322711] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Глубток",
+			["source"] = "Халкиас",
 		},
 		[304282] = {
 			["school"] = 1,
@@ -27173,15 +34664,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рексар",
 		},
-		[30283] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[87861] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Себнак",
+			["source"] = "Глубток",
+		},
+		[80182] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пьяный хозен-буян",
+		},
+		[335000] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мве'зала",
 		},
 		[236115] = {
 			["school"] = 1,
@@ -27198,21 +34704,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кровояд",
 		},
+		[320804] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
 		[74551] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Сумеречный ловец огня",
-		},
-		[265376] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Фанатичный охотник за головами",
 		},
 		[8362] = {
 			["school"] = 2,
@@ -27232,6 +34738,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева песков",
 		},
+		[328857] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Визгунья",
+		},
 		[265377] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -27243,6 +34757,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фанатичный охотник за головами",
 		},
+		[87896] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Глубток",
+		},
 		[2139] = {
 			["school"] = 64,
 			["token"] = {
@@ -27250,41 +34771,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Неммфилд-ВечнаяПесня",
 		},
-		[291865] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Воздушное судно R-21/X",
-		},
-		[302681] = {
-			["school"] = 8,
+		[256105] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Трикси Искрожгучка",
+			["source"] = "Надзиратель Корги",
 		},
-		[310277] = {
-			["school"] = 32,
+		[278961] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Дест'агат",
-		},
-		[76151] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сумеречный обманщик",
+			["source"] = "Больной плеточник",
 		},
 		[256594] = {
 			["school"] = 1,
@@ -27302,21 +34805,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
-		[58460] = {
+		[274426] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Лазурный головорез",
+			["source"] = "Kêen-ChamberofAspects",
 		},
-		[124273] = {
-			["school"] = 1,
+		[36974] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Бладдфолен",
+			["source"] = "Убийца из клана Изувеченной Длани",
 		},
 		[36512] = {
 			["school"] = 1,
@@ -27328,13 +34831,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Провидец Гнева Соккорат",
 		},
-		[268271] = {
-			["school"] = 32,
+		[280849] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Леди Уэйкрест",
+			["source"] = "Ядовит-СвежевательДуш",
 		},
 		[53406] = {
 			["school"] = 1,
@@ -27344,14 +34846,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хадронокс",
 		},
-		[11082] = {
-			["school"] = 8,
+		[258709] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "\"Электрошокер-6000\"",
 		},
 		[240213] = {
 			["school"] = 124,
@@ -27380,31 +34879,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Епсоге",
 		},
-		[138070] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Высвобожденная сила",
-		},
-		[247781] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Харджатан",
-		},
-		[260402] = {
+		[134820] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лэпра",
+			["source"] = "Лэй Шэнь",
+		},
+		[179057] = {
+			["school"] = 124,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лордэон",
+		},
+		[153501] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Нхаллиш",
 		},
 		[9770] = {
 			["school"] = 8,
@@ -27413,13 +34914,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Облученный погромщик",
 		},
-		[260551] = {
+		[201846] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Оживленный голиаф",
+			["source"] = "Докторша",
 		},
 		[191068] = {
 			["school"] = 32,
@@ -27445,52 +34946,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Земляной яростень",
 		},
-		[236060] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Симплеон",
-		},
-		[111129] = {
+		[34366] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Гу Небесный Удар",
+			["source"] = "Чернозубый тарантул",
 		},
-		[225311] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Клюквенная",
-		},
-		[304141] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Королева Азшара",
-		},
-		[5487] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[312336] = {
-			["school"] = 32,
+		[265364] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Темный инквизитор Занеш",
+			["source"] = "Чумная жаба",
+		},
+		[259732] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Заклинатель спор Занча",
+		},
+		[9143] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ремесленник из клана Кузни Рока",
+		},
+		[113315] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Раздор",
+		},
+		[316704] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рэйджшторм",
 		},
 		[33697] = {
 			["school"] = 1,
@@ -27509,12 +35011,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Галакрасс",
 		},
-		[230950] = {
-			["school"] = 32,
+		[264608] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ловец из бездны",
+			["source"] = "Румми Мэнкомб",
 		},
 		[10666] = {
 			["school"] = 1,
@@ -27535,30 +35038,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маг-лорд Уром",
 		},
-		[280602] = {
+		[3391] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Механожокей",
-		},
-		[75441] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Принцесса Терадрас",
 		},
-		[298569] = {
+		[257422] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ваарра-Гордунни",
+		},
+		[192094] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Полководец Паржеш",
 		},
 		[241240] = {
 			["school"] = 1,
@@ -27569,29 +35071,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мирмидон из племени Острозубов",
 		},
-		[264211] = {
+		[10258] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Баночкапива",
-		},
-		[259092] = {
-			["school"] = 8,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Призыватель шторма из братства Стальных Волн",
+			["source"] = "Аркедас",
 		},
-		[204242] = {
-			["school"] = 2,
+		[79849] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Страж Кирин-Тора",
+		},
+		[29544] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lolluna-TwistingNether",
+			["source"] = "Капитан Давигром",
 		},
 		[22482] = {
 			["school"] = 1,
@@ -27616,13 +35118,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жрица Алун'за",
 		},
-		[239439] = {
-			["school"] = 4,
+		[191848] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Вековечный защитник",
+			["source"] = "Змеикс",
 		},
 		[269484] = {
 			["school"] = 16,
@@ -27631,80 +35134,85 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вик'Гот",
 		},
-		[260924] = {
-			["school"] = 1,
+		[15744] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Сержант Бейнбридж",
-		},
-		[264233] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Яйцо",
+			["source"] = "Пимгиб",
 		},
-		[154159] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Подзарядник солнечного голема",
-		},
-		[266258] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Drust Slaver Summoning Portal",
-		},
-		[232757] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Госпожа Сашж'ин",
-		},
-		[44314] = {
+		[107110] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Селин Огненное Сердце",
 		},
-		[244768] = {
+		[253300] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Разрушитель миров Кин'гарота",
+		},
+		[335013] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[84785] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ауг",
+		},
+		[39006] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Провидец Гнева Соккорат",
+		},
+		[30500] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Ф'арг",
+			["source"] = "Главный чернокнижник Пустоклят",
 		},
-		[308212] = {
+		[255577] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Анардилона-СвежевательДуш",
-		},
-		[853] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Найтгар",
+			["source"] = "Жрица Алун'за",
+		},
+		[263345] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Тяжелое орудие",
 		},
 		[265391] = {
 			["school"] = 1,
@@ -27722,14 +35230,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Маладия",
 		},
-		[22835] = {
-			["school"] = 1,
+		[326824] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Топотун Криг",
+			["source"] = "Неизвестно",
 		},
 		[106807] = {
 			["school"] = 1,
@@ -27755,23 +35264,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Загустевшая чумная слизь",
 		},
-		[200404] = {
-			["school"] = 4,
+		[332969] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Даргрул",
 		},
-		[263345] = {
+		[217694] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Тяжелое орудие",
+			["source"] = "Симплеон",
 		},
 		[265393] = {
 			["school"] = 1,
@@ -27789,20 +35295,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Брайар",
 		},
-		[11978] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Финий Темнострой",
-		},
-		[235314] = {
+		[256137] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Симплеон",
+			["source"] = "Азеритовая футбомба",
+		},
+		[335129] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ловчий Альтимор",
 		},
 		[70460] = {
 			["school"] = 16,
@@ -27811,23 +35317,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заморозка Ледяной ловушки",
 		},
-		[205523] = {
-			["school"] = 1,
+		[91872] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Баночкапива",
+			["source"] = "Служитель Сиамата",
 		},
-		[119840] = {
+		[49376] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сик'тик-солдат",
+			["source"] = "Kêen-ChamberofAspects",
 		},
 		[279729] = {
 			["school"] = 8,
@@ -27836,13 +35340,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сакальтор",
 		},
-		[250372] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[271539] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Вол'каал",
+			["source"] = "Haokuro-Blackmoore",
 		},
 		[260698] = {
 			["school"] = 32,
@@ -27853,19 +35356,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Солена",
 		},
-		[307224] = {
+		[106808] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Оргозоа",
-		},
-		[271539] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Haokuro-Blackmoore",
+			["source"] = "Ук-Ук",
+		},
+		[114999] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оскверненный Тажань Чжу",
 		},
 		[3355] = {
 			["school"] = 16,
@@ -27883,29 +35390,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вол'зит Шепчущая",
 		},
-		[201427] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Spöky-Stormscale",
-		},
-		[119971] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Темный шаман Корантал",
-		},
-		[108843] = {
+		[193827] = {
 			["school"] = 4,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Король-бог Сковальд",
+		},
+		[113746] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ингибиттор",
+			["source"] = "Баночкапива",
 		},
 		[260699] = {
 			["school"] = 32,
@@ -27916,6 +35414,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Солена",
 		},
+		[13738] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Плотоядный живодер",
+		},
 		[269493] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -27925,22 +35433,54 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Платный разгонятель толпы",
 		},
-		[46046] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Врач Солнечного Клинка",
-		},
-		[32175] = {
+		[153544] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ранжит",
+		},
+		[322735] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Докторша",
+			["source"] = "Хаккар Свежеватель Душ",
+		},
+		[274714] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[272668] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пылающая душа",
+		},
+		[244625] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Крейсер Легиона",
+		},
+		[322736] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
 		},
 		[195172] = {
 			["school"] = 1,
@@ -27950,48 +35490,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мирмидон из клана Колец Ненависти",
 		},
-		[13745] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Сумеречный эмиссар",
-		},
-		[54716] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Колосс Драккари",
-		},
-		[193235] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Химдалль",
-		},
-		[260700] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Сестра Маладия",
-		},
-		[279584] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Мирдассена",
-		},
 		[271543] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -28000,30 +35498,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
-		[255581] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Жрица Алун'за",
-		},
-		[260643] = {
-			["school"] = 1,
+		[328880] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Епсоге",
-		},
-		[255579] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Жрица Алун'за",
+			["source"] = "Изобретатель Зи'Мокс",
+		},
+		[339119] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Фаствулъв",
 		},
 		[271544] = {
 			["school"] = 1,
@@ -28033,13 +35521,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
-		[244000] = {
-			["school"] = 4,
+		[326833] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Хранительница порталов Азабель",
+			["source"] = "Эхо греха",
+		},
+		[258653] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Щитоносец из армии Зула",
+		},
+		[295339] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сорвада",
 		},
 		[260701] = {
 			["school"] = 1,
@@ -28050,22 +35553,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Брайар",
 		},
-		[46181] = {
-			["school"] = 8,
+		[304409] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Апоко",
+			["source"] = "Королева Азшара",
 		},
-		[93857] = {
-			["school"] = 32,
+		[33865] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Барон Сильверлейн",
+			["source"] = "Эфириал-падальщик",
 		},
 		[255582] = {
 			["school"] = 4,
@@ -28075,21 +35576,21 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[193315] = {
-			["school"] = 1,
+		[49528] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Атева-Ясеневыйлес",
+			["source"] = "Пророк Тарон'джа",
 		},
-		[278567] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[312490] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Меченный смертью поработитель",
+			["source"] = "Гневион",
 		},
 		[44194] = {
 			["school"] = 1,
@@ -28098,12 +35599,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кель'тас Солнечный Скиталец",
 		},
-		[244583] = {
+		[64044] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Шатуг",
+			["source"] = "Экставия-ВечнаяПесня",
 		},
 		[260702] = {
 			["school"] = 32,
@@ -28111,14 +35614,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[22833] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[52534] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Топотун Криг",
+			["source"] = "Ануб'арский темный чародей",
 		},
 		[246368] = {
 			["school"] = 1,
@@ -28136,12 +35639,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Страж Тьмы и Скверны",
 		},
-		[300074] = {
+		[267548] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Королева Азшара",
+			["source"] = "Неизвестно",
 		},
 		[22995] = {
 			["school"] = 64,
@@ -28159,13 +35664,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Командир Улток",
 		},
-		[119590] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Круг огня",
-		},
 		[260703] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -28177,55 +35675,92 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Маладия",
 		},
-		[59323] = {
+		[15786] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Апоко",
+		},
+		[328885] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Верховный истязатель Даритос",
+		},
+		[245392] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Агграмар",
+		},
+		[75347] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Скади Безжалостный",
+			["source"] = "Сотрясение",
 		},
-		[15801] = {
-			["school"] = 8,
+		[236442] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Капитан Ята Лунный Удар",
+		},
+		[234129] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гладиатор из племени Острозубов",
+		},
+		[328887] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Визгунья",
+		},
+		[24275] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Beawølf-Drek'Thar",
+		},
+		[236131] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Королева душ Дехана",
+		},
+		[154221] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ревелош",
+			["source"] = "Хихикающий пироман",
 		},
-		[39004] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Бездонный портал Бездны",
-		},
-		[306163] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Гневион",
-		},
-		[111649] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[23600] = {
+		[115002] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Полководец Саларис",
+			["source"] = "Оскверненный Тажань Чжу",
 		},
 		[265407] = {
 			["school"] = 1,
@@ -28238,72 +35773,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Распорядитель банкета",
 		},
-		[154221] = {
-			["school"] = 4,
+		[30498] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Хихикающий пироман",
+			["source"] = "Слабая расщелина тьмы",
 		},
-		[53792] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Генерал Бьярнгрим",
-		},
-		[115002] = {
-			["school"] = 1,
+		[320787] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Оскверненный Тажань Чжу",
+			["source"] = "Миллхаус Манашторм",
 		},
-		[75571] = {
-			["school"] = 1,
+		[328889] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ром'огг Костекрушитель",
+			["source"] = "Верховный истязатель Даритос",
 		},
-		[319346] = {
+		[322746] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-		},
-		[299095] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Оргозоа",
-		},
-		[47773] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Великая ведунья Телестра",
-		},
-		[194153] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Сакальтор",
 		},
 		[17620] = {
 			["school"] = 32,
@@ -28323,29 +35822,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Докторша",
 		},
-		[34980] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Менну Предатель",
-		},
-		[181867] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Найтгар",
-		},
-		[33499] = {
+		[328890] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховный истязатель Даритос",
+		},
+		[265410] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Гуляка из дома Уэйкрестов",
+		},
+		[21337] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Кабалист-ревнительница",
+			["source"] = "Загнивший плетун",
 		},
 		[192106] = {
 			["school"] = 8,
@@ -28356,42 +35855,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Докторша",
 		},
-		[265910] = {
+		[265392] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Золотой Змей",
+			["source"] = "Распорядитель банкета",
 		},
-		[75683] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[312595] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Леди Наз'жар",
+			["source"] = "Дест'агат",
 		},
 		[267459] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Забытый обитатель глубин",
 		},
-		[88736] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[33711] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Адмирал Терзающий Рев",
+			["source"] = "Бормотун",
 		},
 		[271555] = {
 			["school"] = 1,
@@ -28403,15 +35901,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Погребальный голем",
 		},
-		[236131] = {
+		[341263] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Королева душ Дехана",
+			["source"] = "Эллинойз",
 		},
 		[116027] = {
 			["school"] = 4,
@@ -28422,13 +35917,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Прыгун",
 		},
-		[302272] = {
-			["school"] = 1,
+		[233062] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Воздушный подавитель ОУ-8",
+			["source"] = "Горот",
 		},
 		[263365] = {
 			["school"] = 8,
@@ -28461,28 +35960,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ошир",
 		},
-		[80182] = {
+		[194153] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сакальтор",
+		},
+		[328894] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Верховный истязатель Даритос",
+		},
+		[95038] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пьяный хозен-буян",
-		},
-		[246373] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Разрушитель миров Кин'гарота",
-		},
-		[127802] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Икумка-Дракономор",
+			["source"] = "Зефирий",
 		},
 		[292035] = {
 			["school"] = 4,
@@ -28503,13 +36004,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Танкоборец-1\"",
 		},
-		[318216] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[48291] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Motijopo-Magtheridon",
+			["source"] = "Король Имирон",
 		},
 		[202347] = {
 			["school"] = 72,
@@ -28527,12 +36030,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мейлектаус",
 		},
-		[76594] = {
-			["school"] = 1,
+		[296212] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Сумеречный ревнитель",
+			["source"] = "Клюквенная",
 		},
 		[271559] = {
 			["school"] = 1,
@@ -28550,33 +36053,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
-		[13738] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Плотоядный живодер",
-		},
-		[277703] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Галакрасс",
-		},
-		[16791] = {
-			["school"] = 1,
+		[271561] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Мировой судья Бартилас",
+			["source"] = "Погребальный голем",
+		},
+		[192109] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Докторша",
+		},
+		[328897] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Визгунья",
 		},
 		[5302] = {
 			["school"] = 1,
@@ -28594,31 +36094,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мордекс-СвежевательДуш",
 		},
-		[265759] = {
-			["school"] = 32,
+		[52387] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Матрона Бриндл",
-		},
-		[271561] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Погребальный голем",
-		},
-		[53791] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Генерал Бьярнгрим",
+			["source"] = "Волхан",
 		},
 		[51363] = {
 			["school"] = 32,
@@ -28629,6 +36112,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Восставший темный чародей",
 		},
+		[298259] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Токсикоид",
+		},
+		[201363] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ядовит-СвежевательДуш",
+		},
+		[326851] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[263371] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Аспидис",
+		},
 		[314565] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -28638,23 +36157,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кровь Заразителя",
 		},
-		[271562] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Погребальный голем",
-		},
-		[52643] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Разоритель из закаленной стали",
-		},
 		[195182] = {
 			["school"] = 1,
 			["token"] = {
@@ -28663,13 +36165,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suto-Kazzak",
 		},
-		[302279] = {
+		[277706] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "\"Танкоборец-1\"",
+			["source"] = "Фирнаэ",
 		},
 		[271563] = {
 			["school"] = 1,
@@ -28685,21 +36187,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жрица Алун'за",
 		},
-		[164632] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[271562] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гром'карская огненная лучница",
+			["source"] = "Погребальный голем",
 		},
-		[89252] = {
+		[44196] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "\"Капитан\" Пирожок",
+			["source"] = "Неизвестно",
 		},
 		[5782] = {
 			["school"] = 32,
@@ -28709,13 +36211,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Знатоквуду-СвежевательДуш",
 		},
-		[296138] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[298782] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Фарааон-Гордунни",
+			["source"] = "Королева Азшара",
 		},
 		[236138] = {
 			["school"] = 32,
@@ -28727,11 +36228,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева душ Дехана",
 		},
-		[256710] = {
-			["school"] = 4,
+		[312592] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Шад'хар Ненасытный",
 		},
 		[271565] = {
 			["school"] = 8,
@@ -28740,115 +36243,81 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бальзамировочный состав",
 		},
-		[181873] = {
+		[322759] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
+		},
+		[47780] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Повелитель теней Искар",
+			["source"] = "Распорядитель",
 		},
-		[152144] = {
+		[31985] = {
 			["school"] = 8,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Загустевшая чумная слизь",
+			["source"] = "Менну Предатель",
 		},
-		[154923] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Связанный кровью фамилиар",
-		},
-		[38232] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[36696] = {
+		[48292] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Энтропический глаз",
+			["source"] = "Король Имирон",
+		},
+		[127802] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Икумка-Дракономор",
 		},
 		[316617] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Kêen-ChamberofAspects",
 		},
-		[193686] = {
+		[153240] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Король-бог Сковальд",
-		},
-		[77370] = {
-			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Пта Ярость Земли",
+			["source"] = "Садана Кровавое Безумие",
 		},
-		[298087] = {
+		[38209] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Чо'Раш Наблюдатель",
+		},
+		[200338] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Оргозоа",
+			["source"] = "Даргрул",
 		},
-		[257641] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кул-тирасский стрелок",
-		},
-		[6262] = {
+		[181867] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Kêen-ChamberofAspects",
-		},
-		[312523] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Бормочущий мясожор",
-		},
-		[30739] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Вождь Каргат Острорук",
-		},
-		[93505] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лорд Вальден",
+			["source"] = "Найтгар",
 		},
 		[33702] = {
 			["school"] = 1,
@@ -28859,13 +36328,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Каннабес-СвежевательДуш",
 		},
-		[300893] = {
+		[312523] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бормочущий мясожор",
+		},
+		[47779] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Распорядитель",
+		},
+		[93505] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд Вальден",
+		},
+		[326858] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[72004] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Pellpung-TarrenMill",
+			["source"] = "Торавон Страж Льда",
 		},
 		[247403] = {
 			["school"] = 1,
@@ -28874,12 +36375,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Харджатан",
 		},
-		[35748] = {
-			["school"] = 32,
+		[60067] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Злобная гончая",
+			["source"] = "Командир Пивобород",
 		},
 		[151159] = {
 			["school"] = 8,
@@ -28896,41 +36400,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рексар",
 		},
-		[316522] = {
+		[52086] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ануб'арский прядильщик",
+		},
+		[114493] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный труп",
+		},
+		[268088] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Эрдэлия",
+			["source"] = "Сестра Маладия",
 		},
-		[260881] = {
+		[320717] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Вулканос",
+			["source"] = "Неизвестно",
 		},
-		[283534] = {
-			["school"] = 8,
+		[181873] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Магнитохват",
-		},
-		[164618] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Взрывное пламя",
-		},
-		[192794] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Повелитель теней Искар",
 		},
 		[6742] = {
 			["school"] = 8,
@@ -28941,15 +36451,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гримлок",
 		},
-		[260669] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[335114] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Рикса Огневерт",
+			["source"] = "Ловчий Альтимор",
 		},
 		[76100] = {
 			["school"] = 1,
@@ -28961,14 +36469,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Командир Улток",
 		},
-		[27615] = {
-			["school"] = 1,
+		[32364] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Кагани Ночной Удар",
+			["source"] = "Принц Шаффар",
 		},
 		[236142] = {
 			["school"] = 1,
@@ -28979,12 +36489,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Реактор душ",
 		},
-		[3716] = {
-			["school"] = 32,
+		[235927] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Грак'таке",
+			["source"] = "Оживленный храмовник",
 		},
 		[312528] = {
 			["school"] = 32,
@@ -28995,32 +36506,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
-		[298461] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[75851] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Бладдфолен",
+			["source"] = "Карш Гнущий Сталь",
 		},
-		[265346] = {
-			["school"] = 32,
+		[47781] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Грознокрылый ворон",
+			["source"] = "Распорядитель",
 		},
-		[258627] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[39207] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Земляной яростень",
+			["source"] = "Кровояд",
 		},
 		[312529] = {
 			["school"] = 8,
@@ -29031,13 +36538,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
-		[168929] = {
+		[330959] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Черепон",
+			["source"] = "Кастелян Никлаус",
 		},
 		[162424] = {
 			["school"] = 1,
@@ -29047,12 +36555,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ошир",
 		},
-		[154396] = {
-			["school"] = 4,
+		[154262] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Высший мудрец Вирикс",
+			["source"] = "Злобная вершительница судеб",
 		},
 		[312530] = {
 			["school"] = 32,
@@ -29071,12 +36579,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маут",
 		},
-		[30508] = {
+		[115008] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Главный чернокнижник Пустоклят",
+			["source"] = "Бладдфолен",
 		},
 		[241263] = {
 			["school"] = 1,
@@ -29088,14 +36596,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ведьма из клана Волнистой Чешуи",
 		},
-		[266106] = {
+		[270674] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Дикий кровавый роевик",
+			["source"] = "Velâren-Blackmoore",
 		},
 		[298197] = {
 			["school"] = 8,
@@ -29114,46 +36622,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Есимурка",
 		},
-		[77978] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Лоскутный ужас",
-		},
-		[296150] = {
-			["school"] = 8,
+		[335112] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Ловчий Альтимор",
 		},
-		[265337] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Запачканный кровью поросенок",
-		},
-		[253300] = {
-			["school"] = 4,
+		[320723] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Разрушитель миров Кин'гарота",
 		},
-		[5320] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[309990] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сергра Черный Шип",
+			["source"] = "Н'Зот Заразитель",
+		},
+		[69958] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Проповедник с \"Усмирителя небес\"",
+		},
+		[263958] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Клубок змей",
 		},
 		[44198] = {
 			["school"] = 4,
@@ -29162,12 +36670,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Феникс",
 		},
-		[230143] = {
+		[335111] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Госпожа Сашж'ин",
+			["source"] = "Ловчий Альтимор",
 		},
 		[154235] = {
 			["school"] = 64,
@@ -29176,15 +36685,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Нечестивый маг",
 		},
-		[33617] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[339155] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Великий мастер Ворпил",
+			["source"] = "Стрелок-отравитель",
 		},
 		[271579] = {
 			["school"] = 8,
@@ -29194,22 +36701,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Геомант Торговой компании",
 		},
-		[7485] = {
+		[322773] = {
 			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Остроклык Мясник",
-		},
-		[106808] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Хаккар Свежеватель Душ",
+		},
+		[46150] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ук-Ук",
+			["source"] = "Ведьма из клана Змеиных Колец",
 		},
 		[75590] = {
 			["school"] = 32,
@@ -29220,44 +36727,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сумеречный мучитель",
 		},
-		[265364] = {
-			["school"] = 8,
+		[115003] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Чумная жаба",
+			["source"] = "Янь-Чжу Высвобожденный",
 		},
-		[89652] = {
+		[297585] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Огр-надзиратель",
+			["source"] = "Королева Азшара",
 		},
-		[234180] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[87874] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Глубток",
-		},
-		[192081] = {
+		[296138] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сорвада",
+			["source"] = "Фарааон-Гордунни",
+		},
+		[78674] = {
+			["school"] = 72,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сакальтор",
+		},
+		[320727] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[198263] = {
 			["school"] = 2,
@@ -29267,14 +36773,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Один",
 		},
-		[301177] = {
-			["school"] = 4,
+		[48294] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Воздушный подавитель ОУ-8",
+			["source"] = "Король Имирон",
 		},
 		[294107] = {
 			["school"] = 1,
@@ -29285,54 +36792,60 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сторожевой бот модели \"ПЕС\"",
 		},
-		[256083] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Надзиратель Корги",
-		},
-		[252661] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Крадущийся теневой клинок",
-		},
-		[114410] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Брат Корлофф",
-		},
-		[114999] = {
+		[337110] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Баронесса Фрида",
+		},
+		[6262] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kêen-ChamberofAspects",
+		},
+		[267533] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Капитан Джолли",
+		},
+		[32361] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Таварок",
+		},
+		[115010] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[330968] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Оскверненный Тажань Чжу",
-		},
-		[271583] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[121284] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Командующий флангом Нер'онок",
+			["source"] = "Ворчливый официант",
 		},
 		[8364] = {
 			["school"] = 16,
@@ -29345,21 +36858,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Скелет-страж",
 		},
-		[47568] = {
+		[75603] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Анрафет",
+		},
+		[328921] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Мертвыйнос",
-		},
-		[152170] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Магмолат",
+			["source"] = "Визгунья",
 		},
 		[117570] = {
 			["school"] = 1,
@@ -29370,34 +36884,61 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фрагмент сомнения",
 		},
-		[262287] = {
-			["school"] = 4,
+		[33958] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Огнелетчица Торговой компании",
+			["source"] = "Кабалист-ревнительница",
 		},
-		[17366] = {
-			["school"] = 4,
+		[51110] = {
+			["school"] = 64,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Инструктор Галфорд",
+			["source"] = "Маг-лорд Уром",
 		},
-		[81297] = {
-			["school"] = 2,
+		[93675] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лорд Годфри",
+		},
+		[258864] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Humanlight-Kazzak",
-		},
-		[44196] = {
-			["school"] = 4,
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Морпех корпорации Эшвейнов",
+		},
+		[304350] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рексар",
+		},
+		[257650] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сержант Бейнбридж",
 		},
 		[44199] = {
 			["school"] = 4,
@@ -29409,72 +36950,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Феникс",
 		},
-		[257650] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[17366] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сержант Бейнбридж",
-		},
-		[304350] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Рексар",
+			["source"] = "Инструктор Галфорд",
 		},
-		[12472] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[244318] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Неммфилд-ВечнаяПесня",
 		},
-		[230273] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ловец из бездны",
-		},
-		[255372] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Резан",
-		},
-		[10072] = {
+		[234128] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Обсидиановый часовой",
+			["source"] = "Гладиатор из племени Острозубов",
 		},
-		[47737] = {
+		[76670] = {
 			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Хаотический разлом",
-		},
-		[256627] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кул-тирасский стражник",
+			["source"] = "Изисет",
 		},
 		[75592] = {
 			["school"] = 66,
@@ -29486,57 +36989,73 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Храмовый страж Ануур",
 		},
-		[257974] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[256627] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Генерал Эрод",
+			["source"] = "Кул-тирасский стражник",
 		},
-		[193983] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Король-бог Сковальд",
-		},
-		[52921] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Локен",
-		},
-		[318587] = {
+		[343259] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "\"Гномогедд-0Н\"",
+			["source"] = "Гекутис",
 		},
-		[164812] = {
-			["school"] = 64,
+		[320729] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
+		},
+		[124317] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Па'валак",
+		},
+		[320771] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
+		[59306] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Король Имирон",
+		},
+		[232756] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Госпожа Сашж'ин",
+		},
+		[153234] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сорвада",
-		},
-		[10092] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
+			["source"] = "Аззакель",
 		},
 		[70985] = {
 			["school"] = 32,
@@ -29552,14 +37071,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Молотящее щупальце",
 		},
-		[271590] = {
+		[104773] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Каннабес-СвежевательДуш",
+		},
+		[10092] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Леди Уэйкрест",
+			["source"] = "Неизвестно",
+		},
+		[264464] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Элланара",
+		},
+		[269576] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Каленкин-ВечнаяПесня",
 		},
 		[314593] = {
 			["school"] = 8,
@@ -29570,45 +37114,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ка'зир",
 		},
-		[236351] = {
+		[10348] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Оживленный храмовник",
-		},
-		[17470] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Тимми Беспощадный",
-		},
-		[22860] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Капитан Давигром",
-		},
-		[298212] = {
-			["school"] = 40,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Токсикоид",
-		},
-		[272827] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Разоритель из братства Трюмных Крыс",
+			["source"] = "Прокаженный техник",
 		},
 		[310499] = {
 			["school"] = 1,
@@ -29619,90 +37133,103 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шупальце Дест'агат",
 		},
-		[265410] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Гуляка из дома Уэйкрестов",
-		},
-		[33958] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Кабалист-ревнительница",
-		},
-		[192109] = {
-			["school"] = 8,
+		[335072] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Докторша",
+			["source"] = "Миллхаус Манашторм",
 		},
-		[312490] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Гневион",
-		},
-		[66196] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Мертвыйнос",
-		},
-		[254383] = {
+		[48295] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шатуг",
+			["source"] = "Король Имирон",
 		},
-		[51110] = {
-			["school"] = 64,
+		[300777] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Жижементаль",
+		},
+		[298212] = {
+			["school"] = 40,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Маг-лорд Уром",
+			["source"] = "Токсикоид",
 		},
-		[19483] = {
+		[246373] = {
 			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Разрушитель миров Кин'гарота",
+		},
+		[36554] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Инфернал",
+			["source"] = "Томрек",
 		},
-		[115010] = {
+		[330978] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Кастелян Никлаус",
 		},
-		[69070] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Мертвыйнос",
-		},
-		[201411] = {
-			["school"] = 4,
+		[75610] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Бес ужасающего огня",
+			["source"] = "Глашатай сумрака Корла",
+		},
+		[115289] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Талнос Воздаятель Душ",
+		},
+		[255620] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оживленный почетный страж",
+		},
+		[5211] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Дерево",
+		},
+		[54850] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Колосс Драккари",
 		},
 		[703] = {
 			["school"] = 1,
@@ -29714,12 +37241,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Томрек",
 		},
-		[265974] = {
-			["school"] = 8,
+		[253583] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Гальваззт",
+			["source"] = "Дазар'айский авгур",
 		},
 		[30933] = {
 			["school"] = 64,
@@ -29732,30 +37261,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Иллиана Воронья Ольха",
 		},
-		[12471] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кабалист-ревнительница",
-		},
-		[308044] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Маут",
-		},
-		[258653] = {
+		[138453] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Щитоносец из армии Зула",
+			["source"] = "Голем анимы",
+		},
+		[53595] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сэрмар-СвежевательДуш",
+		},
+		[53454] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ануб'арак",
 		},
 		[76618] = {
 			["school"] = 4,
@@ -29764,23 +37292,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Воспламенение",
 		},
-		[17434] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лорд Аурий Ривендер",
-		},
-		[217694] = {
-			["school"] = 4,
+		[91871] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Симплеон",
+			["source"] = "Служитель Сиамата",
+		},
+		[7068] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Фантомный горожанин",
 		},
 		[69963] = {
 			["school"] = 2,
@@ -29800,20 +37328,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ловушка Мерзоцида",
 		},
-		[135299] = {
-			["school"] = 8,
+		[82255] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Гражорд",
+			["source"] = "Вестник Тьмы",
 		},
-		[205196] = {
-			["school"] = 32,
+		[257641] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Зловещий охотник",
+			["source"] = "Кул-тирасский стрелок",
 		},
 		[193152] = {
 			["school"] = 1,
@@ -29823,48 +37354,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Волнобород",
 		},
-		[2645] = {
+		[271711] = {
 			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лордсайр",
+		},
+		[271583] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[271590] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Вулканос",
+			["source"] = "Леди Уэйкрест",
 		},
-		[75347] = {
+		[328936] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сотрясение",
+			["source"] = "Сир Денатрий",
 		},
-		[115078] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Баночкапива",
-		},
-		[106823] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Лю Пламенное Сердце",
-		},
-		[50476] = {
-			["school"] = 64,
+		[49576] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Маг-лорд Уром",
+			["source"] = "Рунари",
 		},
 		[16727] = {
 			["school"] = 1,
@@ -29876,40 +37402,61 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Гордок",
 		},
-		[255577] = {
+		[55093] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Жрица Алун'за",
-		},
-		[277943] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Вулканос",
+			["source"] = "Слад'ранский душитель",
 		},
-		[16793] = {
+		[39340] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Зыбун",
+		},
+		[114646] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Мировой судья Бартилас",
+			["source"] = "Навязчивый ша",
 		},
-		[39207] = {
-			["school"] = 16,
+		[69968] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Кровояд",
+			["source"] = "Иерофант с \"Усмирителя небес\"",
+		},
+		[253562] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Дазар'айский авгур",
+		},
+		[315161] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лордсайр",
 		},
 		[51112] = {
 			["school"] = 64,
@@ -29919,44 +37466,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Маг-лорд Уром",
 		},
-		[113315] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[75604] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Раздор",
-		},
-		[278961] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Больной плеточник",
-		},
-		[257871] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Буканьер из братства Стальных Волн",
-		},
-		[171454] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Сипелгас-Борейскаятундра",
-		},
-		[279793] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Nínì-Hyjal",
+			["source"] = "Анрафет",
 		},
 		[44457] = {
 			["school"] = 4,
@@ -29965,49 +37481,68 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Симплеон",
 		},
-		[274426] = {
+		[279793] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Nínì-Hyjal",
+		},
+		[322796] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[16856] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Лорд Аурий Ривендер",
+		},
+		[326892] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kêen-ChamberofAspects",
-		},
-		[9143] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ремесленник из клана Кузни Рока",
+			["source"] = "Дессия Обезглавливательница",
 		},
-		[256105] = {
+		[53418] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Надзиратель Корги",
-		},
-		[262347] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Платный разгонятель толпы",
+			["source"] = "Хадронокс",
 		},
-		[49376] = {
+		[198793] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kêen-ChamberofAspects",
+			["source"] = "Minatek-Eredar",
+		},
+		[106827] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ша Жестокости",
 		},
 		[192131] = {
 			["school"] = 1,
@@ -30043,16 +37578,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Остаток души",
 		},
-		[32364] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[47944] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[283422] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Принц Шаффар",
+			["source"] = "\"Гномогедд-0Н\"",
 		},
 		[871] = {
 			["school"] = 1,
@@ -30063,20 +37602,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Velâren-Blackmoore",
 		},
-		[281844] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Doomax-Stormscale",
-		},
-		[272055] = {
-			["school"] = 1,
+		[47688] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Живец",
+			["source"] = "Хаотический разлом",
 		},
 		[192132] = {
 			["school"] = 8,
@@ -30086,70 +37618,58 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хирья",
 		},
-		[80467] = {
+		[9941] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Озрук",
+			["source"] = "Осколок обсидиана",
 		},
-		[244410] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Дециматор",
-		},
-		[236282] = {
+		[13584] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Рэйджшторм",
+			["source"] = "Терадримский осколыш",
 		},
-		[310073] = {
+		[307977] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mindgrasp Stalker",
-		},
-		[168227] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Черепон",
+			["source"] = "Пророк Скитра",
 		},
-		[233062] = {
+		[106823] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Горот",
+			["source"] = "Лю Пламенное Сердце",
 		},
-		[263371] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[244395] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Аспидис",
+			["source"] = "Разрушитель миров Кин'гарота",
+		},
+		[217234] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Уларогг Скаломол",
 		},
 		[50089] = {
 			["school"] = 32,
@@ -30162,6 +37682,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Новос Призыватель",
 		},
+		[192133] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Хирья",
+		},
 		[225921] = {
 			["school"] = 1,
 			["token"] = {
@@ -30170,20 +37698,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Магнетарр-СвежевательДуш",
 		},
-		[298229] = {
-			["school"] = 40,
+		[153226] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Токсикоид",
+			["source"] = "Острозуб из племени Мутной Воды",
 		},
-		[164547] = {
-			["school"] = 64,
+		[313184] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сакальтор",
+			["source"] = "Эгос",
 		},
 		[59304] = {
 			["school"] = 1,
@@ -30195,15 +37727,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Король Имирон",
 		},
-		[298124] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Токсикоид",
-		},
 		[273657] = {
 			["school"] = 1,
 			["token"] = {
@@ -30211,25 +37734,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Меченный смертью поработитель",
 		},
-		[52960] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Локен",
-		},
-		[193585] = {
+		[347376] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dance Controller",
+		},
+		[153227] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Скальный зверолов",
+			["source"] = "Ролталл",
+		},
+		[296184] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Кактьма",
 		},
 		[44202] = {
 			["school"] = 4,
@@ -30262,32 +37790,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Теракула",
 		},
-		[296184] = {
-			["school"] = 8,
+		[106826] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Кактьма",
-		},
-		[39006] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Провидец Гнева Соккорат",
+			["source"] = "Ша Жестокости",
 		},
-		[277706] = {
+		[281844] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Фирнаэ",
+			["source"] = "Doomax-Stormscale",
+		},
+		[316661] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лордсайр",
 		},
 		[192135] = {
 			["school"] = 1,
@@ -30317,29 +37842,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Надзиратель блока",
 		},
-		[51725] = {
-			["school"] = 64,
+		[298229] = {
+			["school"] = 40,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Волшебная аберрация",
-		},
-		[205708] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Неммфилд-ВечнаяПесня",
-		},
-		[69967] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Священник с \"Усмирителя небес\"",
+			["source"] = "Токсикоид",
 		},
 		[33707] = {
 			["school"] = 1,
@@ -30349,22 +37857,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Черносерд Подстрекатель",
 		},
-		[153227] = {
-			["school"] = 4,
+		[69967] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Священник с \"Усмирителя небес\"",
+		},
+		[153153] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Садана Кровавое Безумие",
+		},
+		[53468] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ролталл",
+			["source"] = "Ануб'арак",
 		},
-		[285472] = {
+		[290026] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мейлектаус",
 		},
 		[16172] = {
 			["school"] = 1,
@@ -30375,29 +37899,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Землетряс Драккари",
 		},
-		[270576] = {
+		[46043] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Чернокнижник Солнечного Клинка",
+		},
+		[2782] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Заводкой",
+		},
+		[113765] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Клюквенная",
-		},
-		[268705] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Песочная змея",
-		},
-		[10258] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Аркедас",
+			["source"] = "Громоклин",
 		},
 		[263424] = {
 			["school"] = 1,
@@ -30415,15 +37939,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Казинакдх",
 		},
-		[16856] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[192706] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Лорд Аурий Ривендер",
+			["source"] = "Гнев Азшары",
 		},
 		[318714] = {
 			["school"] = 32,
@@ -30442,23 +37963,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гюрзис",
 		},
-		[268013] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[1766] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Проклинатель худу",
+			["source"] = "Промедолыч",
 		},
-		[164545] = {
-			["school"] = 8,
+		[333049] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сакальтор",
+			["source"] = "Дармелия",
 		},
 		[59305] = {
 			["school"] = 32,
@@ -30476,14 +37994,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dralian-Draenor",
 		},
-		[106826] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[106984] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ша Жестокости",
+			["source"] = "Гу Небесный Удар",
 		},
 		[267522] = {
 			["school"] = 1,
@@ -30502,22 +38020,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Укротительница волн из клана Колец Ненависти",
 		},
-		[310455] = {
-			["school"] = 32,
+		[74135] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Маут",
+			["source"] = "Изисет",
 		},
-		[15744] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[265974] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Пимгиб",
+			["source"] = "Гальваззт",
 		},
 		[267523] = {
 			["school"] = 1,
@@ -30530,6 +38045,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Джолли",
 		},
+		[320785] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Миллхаус Манашторм",
+		},
 		[279810] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -30538,66 +38061,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Зуулин",
 		},
-		[82255] = {
+		[313652] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ка'зир",
+		},
+		[80807] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Камнешкур",
+		},
+		[80066] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Зефирий",
+		},
+		[34914] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Вестник Тьмы",
+			["source"] = "Wilddeamon-Draenor",
 		},
-		[266512] = {
+		[296211] = {
 			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Гальваззт",
-		},
-		[267841] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Призывательница штормов Фэй",
-		},
-		[150755] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Гуг'рокк",
-		},
-		[88481] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Врагорез-5000",
+			["source"] = "Клюквенная",
 		},
-		[31935] = {
-			["school"] = 2,
+		[297261] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Serathin-Blackhand",
-		},
-		[255620] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Оживленный почетный страж",
+			["source"] = "Король Гоббамак",
 		},
 		[38828] = {
 			["school"] = 64,
@@ -30624,31 +38138,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оргозоа",
 		},
-		[53468] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ануб'арак",
-		},
-		[9080] = {
+		[33684] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Жестокий убийца",
+			["source"] = "Неизвестно",
 		},
-		[259191] = {
-			["school"] = 32,
+		[120027] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Язма",
+		},
+		[121182] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хартак Поджигатель",
 		},
 		[10093] = {
 			["school"] = 1,
@@ -30659,70 +38170,73 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Песчаная буря",
 		},
-		[268854] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Pellpung-TarrenMill",
-		},
-		[198793] = {
+		[52540] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Minatek-Eredar",
+			["source"] = "Ануб'арский рыскатель",
 		},
-		[119611] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Нолики",
-		},
-		[263573] = {
-			["school"] = 8,
+		[157122] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гюрзис",
+			["source"] = "Сэрмар-СвежевательДуш",
 		},
-		[61684] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[296150] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[322817] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Девия",
+		},
+		[87874] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Глубток",
+		},
+		[33709] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Дух зверя",
+			["source"] = "Черносерд Подстрекатель",
 		},
-		[269576] = {
-			["school"] = 1,
+		[202494] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Каленкин-ВечнаяПесня",
+			["source"] = "Король-бог Сковальд",
 		},
-		[285959] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[153234] = {
-			["school"] = 1,
+		[322818] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Аззакель",
+			["source"] = "Девия",
 		},
 		[260741] = {
 			["school"] = 1,
@@ -30736,12 +38250,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сестра Брайар",
 		},
-		[59306] = {
-			["school"] = 32,
+		[285959] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Король Имирон",
+			["source"] = "Бладдфолен",
 		},
 		[69970] = {
 			["school"] = 8,
@@ -30752,41 +38267,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Проповедник с \"Усмирителя небес\"",
 		},
-		[31901] = {
-			["school"] = 1,
+		[235907] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Реактор душ",
+		},
+		[324867] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Омор Неодолимый",
+			["source"] = "Резерпин",
 		},
-		[96231] = {
-			["school"] = 1,
+		[318245] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Christophstü-Eredar",
-		},
-		[82622] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Верховный пророк Барим",
+			["source"] = "Пророк Скитра",
 		},
-		[55093] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[320772] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Слад'ранский душитель",
+			["source"] = "Налтор Криомант",
 		},
 		[259718] = {
 			["school"] = 1,
@@ -30797,13 +38312,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заклинатель спор Занча",
 		},
-		[299914] = {
+		[341250] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Силиваз Ревностный",
+			["source"] = "Грязешмяк",
 		},
 		[89936] = {
 			["school"] = 1,
@@ -30830,14 +38346,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Изначальный элементаль бури",
 		},
-		[153501] = {
-			["school"] = 32,
+		[52469] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Нхаллиш",
+			["source"] = "Дозорный Гашра",
 		},
 		[108366] = {
 			["school"] = 32,
@@ -30847,22 +38365,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Каннабес-СвежевательДуш",
 		},
-		[235907] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[268898] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Реактор душ",
+			["source"] = "Райзли",
 		},
-		[267533] = {
-			["school"] = 4,
+		[119611] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Капитан Джолли",
+			["source"] = "Нолики",
 		},
 		[93520] = {
 			["school"] = 32,
@@ -30874,21 +38390,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лорд Годфри",
 		},
-		[257422] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[17962] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ваарра-Гордунни",
+			["source"] = "Бонкк-Ясеневыйлес",
 		},
-		[154797] = {
+		[1719] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Акерма-СвежевательДуш",
+			["source"] = "Сэргора-СвежевательДуш",
 		},
 		[273677] = {
 			["school"] = 32,
@@ -30897,16 +38414,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Проклинатель худу",
 		},
-		[248499] = {
+		[260792] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Аргус Порабощенный",
+			["source"] = "Камнехвостый скорпид",
 		},
 		[241290] = {
 			["school"] = 8,
@@ -30932,14 +38446,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заклинатель спор Занча",
 		},
-		[268088] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[341254] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сестра Маладия",
+			["source"] = "Возрожденный феникс",
 		},
 		[106319] = {
 			["school"] = 16,
@@ -30947,13 +38459,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[202494] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[333002] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Король-бог Сковальд",
+			["source"] = "Гнусная оккультистка",
 		},
 		[123725] = {
 			["school"] = 4,
@@ -30964,13 +38479,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Баночкапива",
 		},
-		[153315] = {
-			["school"] = 1,
+		[197550] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ранжит",
+			["source"] = "Король Волнобород",
 		},
 		[159381] = {
 			["school"] = 1,
@@ -30979,21 +38495,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рухран",
 		},
-		[22688] = {
+		[310073] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mindgrasp Stalker",
+		},
+		[150759] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Алззин Перевертень",
-		},
-		[154262] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Злобная вершительница судеб",
+			["source"] = "Надсмотрщик за рабами Крушто",
 		},
 		[42669] = {
 			["school"] = 1,
@@ -31004,14 +38523,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ингвар Расхититель",
 		},
-		[199705] = {
+		[335113] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Нараксас",
+			["source"] = "Ловчий Альтимор",
 		},
 		[69972] = {
 			["school"] = 32,
@@ -31085,28 +38603,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
-		[200338] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Даргрул",
-		},
-		[13584] = {
+		[52643] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Терадримский осколыш",
+			["source"] = "Разоритель из закаленной стали",
 		},
-		[75604] = {
+		[317291] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Анрафет",
+			["source"] = "Spöky-Stormscale",
+		},
+		[335116] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ловчий Альтимор",
 		},
 		[193171] = {
 			["school"] = 1,
@@ -31124,13 +38641,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шад'хар Ненасытный",
 		},
-		[69973] = {
-			["school"] = 4,
+		[306656] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Призыватель с \"Усмирителя небес\"",
+			["source"] = "Вез'окк Беспросветный",
 		},
 		[245389] = {
 			["school"] = 8,
@@ -31140,30 +38657,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Имба",
 		},
-		[312592] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Шад'хар Ненасытный",
-		},
-		[304475] = {
-			["school"] = 64,
+		[69973] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Королева Азшара",
+			["source"] = "Призыватель с \"Усмирителя небес\"",
 		},
-		[315161] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[100] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лордсайр",
+			["source"] = "Doomax-Stormscale",
+		},
+		[19801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Спидкорр",
 		},
 		[48045] = {
 			["school"] = 32,
@@ -31173,151 +38687,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гамапчхи-СвежевательДуш",
 		},
-		[1766] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Промедолыч",
-		},
-		[298259] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Токсикоид",
-		},
-		[314406] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Мал'тир - маг Бездны",
-		},
-		[1822] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[296212] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Клюквенная",
-		},
-		[201399] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Бес ужасающего огня",
-		},
-		[300308] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Яйцо из инкубатора",
-		},
-		[33711] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Бормотун",
-		},
-		[312595] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Дест'агат",
-		},
-		[105421] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сэрмар-СвежевательДуш",
-		},
-		[21337] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Загнивший плетун",
-		},
-		[232756] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Госпожа Сашж'ин",
-		},
-		[69974] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Стрелок с \"Усмирителя небес\"",
-		},
-		[40504] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Бритвохлест",
-		},
-		[298782] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Королева Азшара",
-		},
-		[280849] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ядовит-СвежевательДуш",
-		},
-		[234129] = {
+		[320784] = {
 			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гладиатор из племени Острозубов",
+			["source"] = "Налтор Криомант",
 		},
-		[217234] = {
+		[290068] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пилоносая акула",
+		},
+		[302279] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Уларогг Скаломол",
+			["source"] = "\"Танкоборец-1\"",
+		},
+		[335119] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ловчий Альтимор",
 		},
 		[164504] = {
 			["school"] = 1,
@@ -31327,21 +38728,132 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Раздиратель Плоти Нок'Гар",
 		},
-		[245392] = {
+		[277703] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Галакрасс",
+		},
+		[300308] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Агграмар",
+			["source"] = "Яйцо из инкубатора",
 		},
-		[267548] = {
+		[1822] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Заводкой",
+		},
+		[201364] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ядовит-СвежевательДуш",
+		},
+		[302272] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Воздушный подавитель ОУ-8",
+		},
+		[59052] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Motijopo-Magtheridon",
+		},
+		[35748] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Злобная гончая",
+		},
+		[69974] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Стрелок с \"Усмирителя небес\"",
+		},
+		[34980] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Менну Предатель",
+		},
+		[35395] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Найтгар",
+		},
+		[17150] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Неизвестно",
+		},
+		[320788] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Налтор Криомант",
+		},
+		[152170] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Магмолат",
+		},
+		[310563] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пасть Дест'агат",
+		},
+		[179864] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Кровожад",
+		},
+		[320789] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ксав Несломленный",
 		},
 		[181912] = {
 			["school"] = 1,
@@ -31360,25 +38872,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фэнриса",
 		},
-		[40505] = {
-			["school"] = 1,
+		[310455] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Вурдалак-живодер",
+			["source"] = "Маут",
 		},
-		[253562] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[30638] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Дазар'айский авгур",
+			["source"] = "Омор Неодолимый",
 		},
 		[1966] = {
 			["school"] = 1,
@@ -31389,15 +38895,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Имба",
 		},
-		[69975] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[36514] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Стрелок с \"Усмирителя небес\"",
+			["source"] = "Чародейский взрыв",
 		},
 		[310552] = {
 			["school"] = 32,
@@ -31409,13 +38912,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Око Дест'агат",
 		},
-		[304409] = {
-			["school"] = 1,
+		[69975] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Королева Азшара",
+			["source"] = "Стрелок с \"Усмирителя небес\"",
 		},
 		[181913] = {
 			["school"] = 4,
@@ -31424,63 +38929,71 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Повелитель теней Искар",
 		},
-		[79249] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[82326] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Lolluna-TwistingNether",
-		},
-		[267611] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Найтгар",
-		},
-		[272668] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Пылающая душа",
-		},
-		[115289] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Талнос Воздаятель Душ",
-		},
-		[47944] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[120160] = {
+		[155158] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Nikitaé-MarécagedeZangar",
+		},
+		[255581] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Жрица Алун'за",
+		},
+		[260700] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сестра Маладия",
+		},
+		[314406] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Хайан Неудержимый",
+			["source"] = "Мал'тир - маг Бездны",
 		},
-		[46180] = {
+		[12626] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лоскутный ужас",
+		},
+		[74366] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Изисет",
+		},
+		[190411] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ядовит-СвежевательДуш",
+		},
+		[258134] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Мародер из братства Трюмных Крыс",
+		},
+		[32365] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
@@ -31488,48 +39001,38 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Апоко",
+			["source"] = "Принц Шаффар",
 		},
-		[274714] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[244318] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[7384] = {
+		[255579] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Икумка-Дракономор",
+			["source"] = "Жрица Алун'за",
 		},
-		[276282] = {
-			["school"] = 8,
+		[79249] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ученица призывательницы штормов",
 		},
-		[32361] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[154797] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Акерма-СвежевательДуш",
+		},
+		[264498] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Таварок",
+			["source"] = "Фэнриса",
 		},
 		[179867] = {
 			["school"] = 32,
@@ -31539,13 +39042,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кровожад",
 		},
-		[17962] = {
-			["school"] = 4,
+		[251356] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Бонкк-Ясеневыйлес",
+			["source"] = "Ф'арг",
 		},
 		[8814] = {
 			["school"] = 4,
@@ -31559,29 +39062,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тенегорнский геолог",
 		},
-		[318245] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Пророк Скитра",
-		},
-		[80066] = {
+		[17235] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Зефирий",
+			["source"] = "Неруб'энкан",
 		},
-		[201363] = {
+		[80467] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ядовит-СвежевательДуш",
+			["source"] = "Озрук",
+		},
+		[328987] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сын Хаккара",
 		},
 		[153247] = {
 			["school"] = 4,
@@ -31591,12 +39095,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ролталл",
 		},
-		[30638] = {
-			["school"] = 32,
+		[260280] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Омор Неодолимый",
+			["source"] = "Шеф Разданк",
 		},
 		[81751] = {
 			["school"] = 2,
@@ -31615,14 +39122,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фрагмент души",
 		},
-		[1719] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[262287] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сэргора-СвежевательДуш",
+			["source"] = "Огнелетчица Торговой компании",
 		},
 		[240277] = {
 			["school"] = 4,
@@ -31631,31 +39136,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Разрушитель миров Кин'гарота",
 		},
-		[307977] = {
-			["school"] = 32,
+		[3110] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пророк Скитра",
+			["source"] = "Абакио",
 		},
-		[112992] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[82326] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Прыгопотам",
+			["source"] = "Lolluna-TwistingNether",
 		},
-		[317291] = {
-			["school"] = 32,
+		[164615] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Spöky-Stormscale",
+			["source"] = "Говорящий с огнем из клана Кровавого Молота",
 		},
 		[316703] = {
 			["school"] = 32,
@@ -31672,43 +39177,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жрица Делрисса",
 		},
-		[290068] = {
+		[88288] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Пилоносая акула",
+			["source"] = "Болванчик",
 		},
-		[100] = {
-			["school"] = 1,
+		[106851] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Doomax-Stormscale",
-		},
-		[316704] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Рэйджшторм",
-		},
-		[34366] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Чернозубый тарантул",
-		},
-		[259732] = {
-			["school"] = 40,
-			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Заклинатель спор Занча",
+			["source"] = "Янь-Чжу Высвобожденный",
+		},
+		[47791] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Опытный охотник на магов",
+		},
+		[150679] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Амненнар Хладовей",
+		},
+		[288800] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Симплеон",
 		},
 		[10094] = {
 			["school"] = 1,
@@ -31717,13 +39232,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Древний каменный хранитель",
 		},
-		[33684] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[31935] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Serathin-Blackhand",
 		},
 		[294180] = {
 			["school"] = 4,
@@ -31736,22 +39251,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сторожевой бот модели \"ПЕС\"",
 		},
-		[80807] = {
-			["school"] = 8,
+		[56222] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Камнешкур",
+			["source"] = "Мертвыйнос",
 		},
-		[3110] = {
-			["school"] = 4,
+		[262383] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Абакио",
+			["source"] = "Боевая машина Торговой компании",
+		},
+		[135299] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Гражорд",
 		},
 		[75609] = {
 			["school"] = 72,
@@ -31762,15 +39285,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Анрафет",
 		},
-		[134820] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Лэй Шэнь",
-		},
 		[271656] = {
 			["school"] = 1,
 			["token"] = {
@@ -31778,14 +39292,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Автомат",
 		},
-		[283422] = {
-			["school"] = 1,
+		[16793] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "\"Гномогедд-0Н\"",
+			["source"] = "Мировой судья Бартилас",
 		},
 		[93527] = {
 			["school"] = 16,
@@ -31796,17 +39310,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лорд Вальден",
 		},
-		[293670] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[152742] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Защитник мастерской",
+			["source"] = "Огненная глыба",
 		},
 		[197277] = {
 			["school"] = 2,
@@ -31816,13 +39327,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Найтгар",
 		},
-		[234128] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[272874] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Гладиатор из племени Острозубов",
+			["source"] = "Командир из корпорации Эшвейнов",
+		},
+		[77370] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Пта Ярость Земли",
 		},
 		[192158] = {
 			["school"] = 2,
@@ -31834,13 +39354,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Олмир Просвещенный",
 		},
-		[87896] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Глубток",
-		},
 		[271658] = {
 			["school"] = 1,
 			["token"] = {
@@ -31848,14 +39361,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лэпра",
 		},
-		[36554] = {
+		[347425] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Лорд Ставрос",
+		},
+		[265376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Фанатичный охотник за головами",
+		},
+		[279709] = {
+			["school"] = 12,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сакальтор",
+		},
+		[84544] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Служитель Сиамата",
+		},
+		[339235] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Томрек",
+			["source"] = "Халкиас",
 		},
 		[50627] = {
 			["school"] = 1,
@@ -31864,60 +39409,31 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[6552] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Есимурка",
-		},
-		[295339] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сорвада",
-		},
-		[191848] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Змеикс",
-		},
-		[208086] = {
+		[310567] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Doomax-Stormscale",
+			["source"] = "Пасть Дест'агат",
 		},
-		[241305] = {
+		[266512] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Послушник из племени Острозубов",
+			["source"] = "Гальваззт",
 		},
-		[33865] = {
-			["school"] = 1,
+		[273563] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Эфириал-падальщик",
-		},
-		[310604] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Княгиняабзац",
+			["source"] = "Песчаный стрелок",
 		},
 		[316711] = {
 			["school"] = 1,
@@ -31930,45 +39446,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Эгос",
 		},
-		[244395] = {
+		[322709] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Разрушитель миров Кин'гарота",
+			["source"] = "Тред'ова",
 		},
-		[113765] = {
+		[17470] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Тимми Беспощадный",
+		},
+		[339237] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Громоклин",
+			["source"] = "Халкиас",
 		},
-		[157348] = {
+		[283534] = {
 			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Магнитохват",
+		},
+		[241306] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Изначальный элементаль бури",
-		},
-		[297261] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Король Гоббамак",
-		},
-		[183969] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
+			["source"] = "Послушник из племени Острозубов",
 		},
 		[121173] = {
 			["school"] = 1,
@@ -31988,22 +39502,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vvexi-Blackrock",
 		},
-		[54850] = {
+		[268068] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Колосс Драккари",
+			["source"] = "Княгиняабзац",
 		},
-		[9941] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[231363] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Осколок обсидиана",
+			["source"] = "Горот",
 		},
 		[106839] = {
 			["school"] = 1,
@@ -32019,22 +39533,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Рэйджшторм",
 		},
-		[313652] = {
+		[263318] = {
 			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ка'зир",
-		},
-		[46043] = {
-			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Чернокнижник Солнечного Клинка",
+			["source"] = "Аспидис",
+		},
+		[65081] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dralian-Draenor",
 		},
 		[271664] = {
 			["school"] = 1,
@@ -32052,24 +39566,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оозборн",
 		},
-		[34914] = {
-			["school"] = 32,
+		[205708] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Неммфилд-ВечнаяПесня",
+		},
+		[306289] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wilddeamon-Draenor",
-		},
-		[192706] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Гнев Азшары",
+			["source"] = "Гневион",
 		},
 		[205472] = {
 			["school"] = 4,
@@ -32078,15 +39590,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsaxilgaan-Sylvanas",
 		},
-		[93675] = {
+		[277943] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лорд Годфри",
+			["source"] = "Вулканос",
 		},
 		[300334] = {
 			["school"] = 1,
@@ -32097,12 +39607,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
-		[76670] = {
-			["school"] = 64,
+		[267841] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Изисет",
+			["source"] = "Призывательница штормов Фэй",
 		},
 		[121174] = {
 			["school"] = 4,
@@ -32121,13 +39631,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кровавый осквернитель",
 		},
-		[29544] = {
-			["school"] = 1,
+		[82622] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Капитан Давигром",
+			["source"] = "Верховный пророк Барим",
 		},
 		[73564] = {
 			["school"] = 8,
@@ -32138,13 +39651,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сиамат",
 		},
-		[53454] = {
-			["school"] = 1,
+		[294027] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ануб'арак",
+			["source"] = "Клюквенная",
 		},
 		[3356] = {
 			["school"] = 4,
@@ -32157,14 +39670,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тенегорнский геолог",
 		},
-		[86881] = {
+		[158792] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Корбор",
+			["source"] = "Сорвада",
 		},
 		[302384] = {
 			["school"] = 8,
@@ -32176,17 +39688,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Шокотрон X1\"",
 		},
-		[258864] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[223819] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Морпех корпорации Эшвейнов",
+			["source"] = "Beawølf-Drek'Thar",
 		},
 		[273716] = {
 			["school"] = 64,
@@ -32195,48 +39703,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сержант Бейнбридж",
 		},
-		[31707] = {
-			["school"] = 16,
+		[7485] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Остроклык Мясник",
+		},
+		[255430] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Констеллар-куратор",
+		},
+		[230273] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Элементаль воды",
+			["source"] = "Ловец из бездны",
 		},
-		[47688] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Хаотический разлом",
-		},
-		[87187] = {
+		[255372] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Злобный черный медведь",
+			["source"] = "Резан",
 		},
-		[55635] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[50843] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Голем Драккари",
-		},
-		[17150] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
+			["source"] = "Кристаллус",
 		},
 		[294195] = {
 			["school"] = 8,
@@ -32250,14 +39755,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Оборонобот I\"",
 		},
-		[155158] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[84521] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nikitaé-MarécagedeZangar",
+			["source"] = "Служитель Сиамата",
 		},
 		[273718] = {
 			["school"] = 64,
@@ -32265,22 +39768,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[153153] = {
+		[267385] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Садана Кровавое Безумие",
+			["source"] = "Неизвестно",
 		},
-		[260792] = {
-			["school"] = 1,
+		[193983] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Камнехвостый скорпид",
+			["source"] = "Король-бог Сковальд",
 		},
 		[106841] = {
 			["school"] = 4,
@@ -32293,30 +39796,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лю Пламенное Сердце",
 		},
-		[271671] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wilddeamon-Draenor",
-		},
-		[150759] = {
-			["school"] = 1,
+		[298461] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Надсмотрщик за рабами Крушто",
+			["source"] = "Бладдфолен",
 		},
-		[157122] = {
-			["school"] = 2,
+		[265346] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сэрмар-СвежевательДуш",
+			["source"] = "Грознокрылый ворон",
+		},
+		[306301] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Маут",
 		},
 		[271672] = {
 			["school"] = 1,
@@ -32348,12 +39851,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пасть Дест'агат",
 		},
-		[30498] = {
-			["school"] = 32,
+		[260924] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Слабая расщелина тьмы",
+			["source"] = "Сержант Бейнбридж",
 		},
 		[239264] = {
 			["school"] = 64,
@@ -32365,41 +39870,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Жрица Лунное Пламя",
 		},
-		[122244] = {
-			["school"] = 16,
+		[306295] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сик'тик-инженер",
 		},
-		[51121] = {
-			["school"] = 64,
+		[314483] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Маг-лорд Уром",
+			["source"] = "Сам'рек Призыватель Хаоса",
 		},
-		[114646] = {
+		[308044] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Навязчивый ша",
+			["source"] = "Маут",
 		},
-		[270674] = {
+		[8599] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Velâren-Blackmoore",
+			["source"] = "Погромщик из племени Каменного Свода",
 		},
 		[114009] = {
 			["school"] = 4,
@@ -32407,19 +39908,20 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[38209] = {
-			["school"] = 2,
+		[89735] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Чо'Раш Наблюдатель",
+			["source"] = "Испорченный стейк",
 		},
-		[260773] = {
-			["school"] = 32,
+		[193682] = {
+			["school"] = 16,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Сестра Солена",
+			["source"] = "Леди Кольцо Ненависти",
 		},
 		[30938] = {
 			["school"] = 32,
@@ -32431,29 +39933,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кели'дан Разрушитель",
 		},
-		[53595] = {
+		[15655] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Разоритель из закаленной стали",
+		},
+		[293670] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Защитник мастерской",
+		},
+		[105421] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 			["source"] = "Сэрмар-СвежевательДуш",
-		},
-		[115003] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Янь-Чжу Высвобожденный",
-		},
-		[300777] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Жижементаль",
 		},
 		[265533] = {
 			["school"] = 1,
@@ -32465,13 +39973,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клещ из Подгнилья",
 		},
-		[95038] = {
-			["school"] = 8,
+		[32363] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Зефирий",
+			["source"] = "Принц Шаффар",
 		},
 		[310584] = {
 			["school"] = 8,
@@ -32480,21 +39989,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Пасть Дест'агат",
 		},
-		[244625] = {
+		[320823] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Крейсер Легиона",
+			["source"] = "Миллифисент Манашторм",
 		},
-		[236442] = {
-			["school"] = 1,
+		[12472] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Капитан Ята Лунный Удар",
+			["source"] = "Неммфилд-ВечнаяПесня",
 		},
 		[275773] = {
 			["school"] = 2,
@@ -32504,54 +40014,59 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Humanlight-Kazzak",
 		},
-		[271711] = {
-			["school"] = 8,
+		[285472] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Лордсайр",
+			["source"] = "Мейлектаус",
 		},
-		[150753] = {
+		[345397] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Визгунья",
+		},
+		[121443] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Командующий флангом Нер'онок",
+		},
+		[265910] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Надсмотрщик за рабами Крушто",
+			["source"] = "Золотой Змей",
 		},
-		[74135] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Изисет",
-		},
-		[52534] = {
+		[267329] = {
 			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ануб'арский темный чародей",
+			["source"] = "Кринжи",
 		},
-		[2782] = {
-			["school"] = 64,
+		[320825] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[49528] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пророк Тарон'джа",
+			["source"] = "Механическая бомбелка",
 		},
 		[115546] = {
 			["school"] = 1,
@@ -32560,33 +40075,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бладдфолен",
 		},
-		[298306] = {
+		[50476] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Маг-лорд Уром",
+		},
+		[296851] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Пашмар Фанатичная",
+		},
+		[236351] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Оживленный храмовник",
+		},
+		[343135] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-		},
-		[271685] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dralian-Draenor",
-		},
-		[4987] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Клюквенная",
-		},
-		[107110] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Генерал Грашаал",
 		},
 		[17244] = {
 			["school"] = 32,
@@ -32604,53 +40123,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шатуг",
 		},
-		[263958] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[114465] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Клубок змей",
 		},
-		[75603] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Анрафет",
-		},
-		[52469] = {
+		[306273] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Дозорный Гашра",
+			["source"] = "Ра-ден",
 		},
-		[121182] = {
+		[204011] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сэрмар-СвежевательДуш",
+		},
+		[233264] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Жрица Лунное Пламя",
+		},
+		[38232] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Хартак Поджигатель",
-		},
-		[107356] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Оскверненный Тажань Чжу",
+			["source"] = "Неизвестно",
 		},
 		[52658] = {
 			["school"] = 8,
@@ -32661,39 +40169,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ионар",
 		},
-		[88288] = {
+		[81297] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Humanlight-Kazzak",
+		},
+		[89652] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Болванчик",
+			["source"] = "Огр-надзиратель",
 		},
-		[245121] = {
-			["school"] = 4,
+		[192058] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Энтропическая мина",
+			["source"] = "Вулканос",
 		},
-		[268077] = {
-			["school"] = 1,
+		[107356] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сестра Солена",
-		},
-		[265540] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Смрадная личинка",
+			["source"] = "Оскверненный Тажань Чжу",
 		},
 		[275779] = {
 			["school"] = 2,
@@ -32703,23 +40209,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Christophstü-Eredar",
 		},
-		[297585] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Королева Азшара",
-		},
-		[296257] = {
+		[267360] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "За'кул",
+			["source"] = "Вол'зит Шепчущая",
 		},
-		[260280] = {
+		[320830] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Механическая бомбелка",
+		},
+		[114466] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пенистая преграда",
+		},
+		[328791] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
@@ -32727,56 +40242,47 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Шеф Разданк",
+			["source"] = "Лорд-камергер",
 		},
-		[120027] = {
+		[257871] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Буканьер из братства Стальных Волн",
+		},
+		[271685] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dralian-Draenor",
+		},
+		[298306] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[2645] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Вулканос",
+		},
+		[18968] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[106851] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Янь-Чжу Высвобожденный",
-		},
-		[9775] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Облученный погромщик",
-		},
-		[265542] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Смрадная личинка",
-		},
-		[5211] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Дерево",
-		},
-		[235927] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Оживленный храмовник",
+			["source"] = "Огнечар Элдрета",
 		},
 		[271686] = {
 			["school"] = 8,
@@ -32785,29 +40291,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dralian-Draenor",
 		},
-		[258134] = {
-			["school"] = 1,
+		[296022] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Мародер из братства Трюмных Крыс",
-		},
-		[35395] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Найтгар",
 		},
-		[91872] = {
-			["school"] = 8,
+		[154396] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Служитель Сиамата",
+			["source"] = "Высший мудрец Вирикс",
+		},
+		[265759] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Матрона Бриндл",
 		},
 		[20572] = {
 			["school"] = 1,
@@ -32826,28 +40329,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оскверненный Тажань Чжу",
 		},
-		[75851] = {
-			["school"] = 4,
+		[254383] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Карш Гнущий Сталь",
+			["source"] = "Шатуг",
 		},
-		[79849] = {
-			["school"] = 4,
+		[113866] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Джандис Барова",
+		},
+		[76151] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Страж Кирин-Тора",
-		},
-		[255422] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Констеллар-куратор",
+			["source"] = "Сумеречный обманщик",
 		},
 		[161457] = {
 			["school"] = 2,
@@ -32856,28 +40359,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Дозорный Каатар",
 		},
-		[93535] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лорд Вальден",
-		},
-		[313184] = {
+		[260773] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Эгос",
+			["source"] = "Сестра Солена",
 		},
-		[288800] = {
+		[119582] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Симплеон",
+			["source"] = "Бладдфолен",
+		},
+		[15503] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Гараксас",
 		},
 		[255654] = {
 			["school"] = 1,
@@ -32888,46 +40391,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заводкой",
 		},
-		[231998] = {
-			["school"] = 1,
+		[76188] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Харджатан",
-		},
-		[264498] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Фэнриса",
+			["source"] = "Повелитель Перерожденных Обсидий",
 		},
-		[56222] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[310348] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Мертвыйнос",
-		},
-		[310567] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Пасть Дест'агат",
-		},
-		[52540] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ануб'арский рыскатель",
+			["source"] = "Шупальце Дест'агат",
+		},
+		[72034] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Торавон Страж Льда",
+		},
+		[230143] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Госпожа Сашж'ин",
+		},
+		[30508] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Главный чернокнижник Пустоклят",
 		},
 		[106334] = {
 			["school"] = 16,
@@ -32936,63 +40438,52 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мудрый Марис",
 		},
-		[231363] = {
-			["school"] = 4,
+		[83926] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Злобный бичеватель разума",
+		},
+		[260643] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Епсоге",
+		},
+		[312110] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Королева Азшара",
+		},
+		[291915] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[337220] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[119840] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Горот",
-		},
-		[32365] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Принц Шаффар",
-		},
-		[310042] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Молотящее щупальце",
-		},
-		[32363] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Принц Шаффар",
-		},
-		[75610] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Глашатай сумрака Корла",
-		},
-		[7068] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Фантомный горожанин",
+			["source"] = "Сик'тик-солдат",
 		},
 		[228011] = {
 			["school"] = 16,
@@ -33002,46 +40493,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мадам Чугунок",
 		},
-		[212653] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Лордхайд",
-		},
-		[114061] = {
-			["school"] = 64,
+		[31707] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Джандис Барова",
-		},
-		[47540] = {
-			["school"] = 2,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Кактьма",
+			["source"] = "Элементаль воды",
 		},
-		[197550] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Король Волнобород",
-		},
-		[52086] = {
+		[320839] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ануб'арский прядильщик",
+			["source"] = "Похитительница с \"Золрамуса\"",
+		},
+		[86881] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Корбор",
+		},
+		[22860] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Капитан Давигром",
+		},
+		[300102] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Неисправный хламобот",
 		},
 		[121181] = {
 			["school"] = 4,
@@ -33050,22 +40541,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Хартак Поджигатель",
 		},
-		[268068] = {
-			["school"] = 8,
+		[332865] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Княгиняабзац",
-		},
-		[179057] = {
-			["school"] = 124,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лордэон",
+			["source"] = "Склизгл",
+		},
+		[307224] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Оргозоа",
 		},
 		[6136] = {
 			["school"] = 16,
@@ -33075,78 +40563,80 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Восставший колдун",
 		},
-		[91871] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Служитель Сиамата",
-		},
-		[65081] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Dralian-Draenor",
-		},
-		[138453] = {
+		[53791] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Голем анимы",
+			["source"] = "Генерал Бьярнгрим",
 		},
-		[310563] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[267331] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Пасть Дест'агат",
+			["source"] = "Имба",
 		},
-		[241306] = {
+		[264211] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Послушник из племени Острозубов",
-		},
-		[16244] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Певчий Форрестен",
+			["source"] = "Баночкапива",
 		},
-		[50868] = {
-			["school"] = 1,
+		[12471] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Кристаллус",
+			["source"] = "Кабалист-ревнительница",
 		},
-		[51124] = {
+		[99] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сорвада",
+		},
+		[22859] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Капитан Давигром",
+		},
+		[228013] = {
 			["school"] = 16,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мертвыйнос",
+			["source"] = "Мадам Чугунок",
 		},
-		[17501] = {
+		[310604] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Княгиняабзац",
+		},
+		[320843] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Пушка Багрового Легиона",
+			["source"] = "Изголодавшийся клещ",
 		},
 		[298318] = {
 			["school"] = 8,
@@ -33165,36 +40655,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Velâren-Blackmoore",
 		},
-		[256137] = {
-			["school"] = 4,
+		[263234] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Азеритовая футбомба",
+			["source"] = "Гюрзис",
 		},
-		[271698] = {
+		[6552] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Азерокк",
+			["source"] = "Есимурка",
 		},
-		[153544] = {
-			["school"] = 1,
+		[17228] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ранжит",
+			["source"] = "Кели'дан Разрушитель",
 		},
-		[251356] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[324662] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ф'арг",
+			["source"] = "Кин-Тара",
 		},
 		[302415] = {
 			["school"] = 64,
@@ -33211,56 +40703,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
-		[152742] = {
-			["school"] = 4,
+		[322893] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Огненная глыба",
+			["source"] = "Девия",
 		},
-		[30500] = {
+		[307808] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ярость Н'Зота",
+		},
+		[310324] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Вексиона",
+		},
+		[154923] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Связанный кровью фамилиар",
+		},
+		[46046] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Врач Солнечного Клинка",
+		},
+		[22686] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Главный чернокнижник Пустоклят",
-		},
-		[258709] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[106984] = {
-			["school"] = 8,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гу Небесный Удар",
-		},
-		[15578] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Топотун Криг",
-		},
-		[306656] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Вез'окк Беспросветный",
+			["source"] = "Король Дред",
 		},
 		[302417] = {
 			["school"] = 16,
@@ -33285,12 +40778,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лордсайр",
 		},
-		[201364] = {
-			["school"] = 1,
+		[121284] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ядовит-СвежевательДуш",
+			["source"] = "Командующий флангом Нер'онок",
 		},
 		[302418] = {
 			["school"] = 16,
@@ -33301,59 +40796,55 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Командир из корпорации Эшвейнов",
 		},
-		[121183] = {
-			["school"] = 2,
+		[112992] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Прыгопотам",
+		},
+		[241179] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Легионер из клана Волнистой Чешуи",
+		},
+		[195104] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Бродячий панцирник",
+		},
+		[267310] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Воплощение глубин",
+		},
+		[115989] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lolluna-TwistingNether",
+			["source"] = "Шадоуденсич",
 		},
-		[31985] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Менну Предатель",
-		},
-		[39367] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Зерекет Бездонный",
-		},
-		[121443] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Командующий флангом Нер'онок",
-		},
-		[164615] = {
+		[306163] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Говорящий с огнем из клана Кровавого Молота",
-		},
-		[248713] = {
-			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Замученная душа",
+			["source"] = "Гневион",
 		},
 		[124255] = {
 			["school"] = 1,
@@ -33362,12 +40853,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Баночкапива",
 		},
-		[74366] = {
-			["school"] = 64,
+		[244583] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Изисет",
+			["source"] = "Шатуг",
 		},
 		[33975] = {
 			["school"] = 4,
@@ -33381,21 +40872,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Инструктор Галфорд",
 		},
-		[12626] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лоскутный ужас",
-		},
-		[244399] = {
+		[6343] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Дециматор",
+			["source"] = "Торзеси",
+		},
+		[7384] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Икумка-Дракономор",
 		},
 		[51125] = {
 			["school"] = 4,
@@ -33413,33 +40908,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гу Небесный Удар",
 		},
-		[295445] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "\"Танкоборец-1\"",
-		},
-		[316756] = {
+		[50831] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Кислотный акир",
-		},
-		[75907] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Отважный страж Леди Наз'жар",
+			["source"] = "Сьоннир Литейщик",
+		},
+		[120160] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хайан Неудержимый",
+		},
+		[115147] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Талнос Воздаятель Душ",
 		},
 		[112993] = {
 			["school"] = 1,
@@ -33448,21 +40944,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Прыгопотам",
 		},
-		[46150] = {
-			["school"] = 8,
+		[150601] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ведьма из клана Змеиных Колец",
+			["source"] = "Вестник смерти Черношип",
 		},
-		[244400] = {
-			["school"] = 4,
+		[267611] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Разрушитель миров Кин'гарота",
+			["source"] = "Найтгар",
 		},
 		[310614] = {
 			["school"] = 32,
@@ -33510,117 +41007,117 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Анрафет",
 		},
-		[33709] = {
+		[164812] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сорвада",
+		},
+		[263202] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Геомант Торговой компании",
+		},
+		[113136] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Темный магистр Гандлинг",
+		},
+		[343063] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Черносерд Подстрекатель",
-		},
-		[253583] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Дазар'айский авгур",
-		},
-		[179864] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Кровожад",
-		},
-		[30637] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Омор Неодолимый",
+			["source"] = "Генерал Грашаал",
 		},
 		[288091] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Ядовит-СвежевательДуш",
 		},
-		[268587] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Король Дазар",
-		},
-		[152801] = {
+		[322903] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Нхаллиш",
-		},
-		[59052] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Motijopo-Magtheridon",
-		},
-		[121185] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Великий страж клана Каргеш",
+			["source"] = "Генерал Кааль",
 		},
-		[266035] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ведьма-послушница",
-		},
-		[274860] = {
+		[119971] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Головорез из братства Стальных Волн",
+			["source"] = "Темный шаман Корантал",
 		},
-		[296211] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[312336] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Клюквенная",
+			["source"] = "Темный инквизитор Занеш",
 		},
-		[279902] = {
+		[201399] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Бес ужасающего огня",
+		},
+		[150045] = {
 			["school"] = 4,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Магмолат",
+		},
+		[252661] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Крадущийся теневой клинок",
+		},
+		[204242] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Неммфилд-ВечнаяПесня",
+			["source"] = "Lolluna-TwistingNether",
+		},
+		[304475] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Королева Азшара",
 		},
 		[265568] = {
 			["school"] = 32,
@@ -33632,12 +41129,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Оскверненный дух",
 		},
-		[153240] = {
+		[278567] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Садана Кровавое Безумие",
+			["source"] = "Меченный смертью поработитель",
 		},
 		[75623] = {
 			["school"] = 32,
@@ -33648,12 +41146,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Анрафет",
 		},
-		[264464] = {
-			["school"] = 1,
+		[39004] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Элланара",
+			["source"] = "Бездонный портал Бездны",
 		},
 		[251570] = {
 			["school"] = 32,
@@ -33664,28 +41162,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аргус Порабощенный",
 		},
-		[312110] = {
-			["school"] = 32,
+		[333145] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Королева Азшара",
+			["source"] = "Темнокрылая убийца",
 		},
-		[309990] = {
+		[6673] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Хаммеси-Гордунни",
+		},
+		[303819] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Н'Зот Заразитель",
-		},
-		[36974] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Убийца из клана Изувеченной Длани",
 		},
 		[25821] = {
 			["school"] = 1,
@@ -33697,48 +41199,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вождь Каргат Острорук",
 		},
-		[267618] = {
-			["school"] = 8,
+		[248499] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Мчимба Бальзамировщик",
-		},
-		[78674] = {
-			["school"] = 72,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сакальтор",
+			["source"] = "Аргус Порабощенный",
 		},
-		[8599] = {
+		[312680] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Безликий поработитель",
+		},
+		[5487] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Погромщик из племени Каменного Свода",
+			["source"] = "Заводкой",
 		},
-		[1079] = {
+		[322908] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Девия",
+		},
+		[298569] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Заводкой",
-		},
-		[106470] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
 			},
 		},
 		[155327] = {
@@ -33751,17 +41252,55 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Стражница душ Ниами",
 		},
-		[153759] = {
+		[250372] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ранжит",
+			["source"] = "Вол'каал",
 		},
-		[86620] = {
+		[224125] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Дух волка",
+		},
+		[11978] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Финий Темнострой",
+		},
+		[31464] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Темпорус",
+		},
+		[121536] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Кактьма",
+		},
+		[75540] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пта Ярость Земли",
+		},
+		[46035] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
@@ -33769,45 +41308,7 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Дробитель",
-		},
-		[84521] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Служитель Сиамата",
-		},
-		[201846] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Докторша",
-		},
-		[124317] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Генерал Па'валак",
-		},
-		[10101] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Алззин Перевертень",
-		},
-		[193827] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Король-бог Сковальд",
+			["source"] = "Магистр Солнечного Клинка",
 		},
 		[27613] = {
 			["school"] = 1,
@@ -33817,38 +41318,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кагани Ночной Удар",
 		},
-		[201959] = {
-			["school"] = 8,
+		[273310] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Углепанцирный подчинитель",
-		},
-		[193682] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Леди Кольцо Ненависти",
-		},
-		[64044] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Экставия-ВечнаяПесня",
+			["source"] = "Кактьма",
 		},
-		[113746] = {
+		[266258] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Баночкапива",
+			["source"] = "Drust Slaver Summoning Portal",
+		},
+		[22899] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бессмер'тер",
+		},
+		[36696] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Энтропический глаз",
 		},
 		[40120] = {
 			["school"] = 1,
@@ -33858,36 +41355,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Икасси-Гордунни",
 		},
-		[106827] = {
+		[257292] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ша Жестокости",
+			["source"] = "Кул-тирасский боец авангарда",
 		},
-		[39340] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Зыбун",
-		},
-		[66290] = {
+		[322569] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бальназар",
+			["source"] = "Друст-душеруб",
+		},
+		[266030] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Фирнаэ",
 		},
 		[106853] = {
 			["school"] = 1,
@@ -33906,12 +41398,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
-		[204011] = {
-			["school"] = 2,
+		[88839] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сэрмар-СвежевательДуш",
+			["source"] = "Адмирал Терзающий Рев",
 		},
 		[183998] = {
 			["school"] = 2,
@@ -33921,64 +41414,63 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lolluna-TwistingNether",
 		},
-		[53418] = {
+		[46181] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Апоко",
+		},
+		[264173] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Себнак",
+		},
+		[16791] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Мировой судья Бартилас",
+		},
+		[75025] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Инферний",
+		},
+		[164545] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сакальтор",
+		},
+		[269029] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Жуткий капитан Локвуд",
+		},
+		[48267] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Хадронокс",
-		},
-		[290026] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[193659] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Король-бог Сковальд",
-		},
-		[79050] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Верховная жрица Азил",
-		},
-		[180927] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Артиллерийское орудие Скверны",
-		},
-		[69968] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Иерофант с \"Усмирителя небес\"",
-		},
-		[114493] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Оживленный труп",
+			["source"] = "Свала Вечноскорбящая",
 		},
 		[96103] = {
 			["school"] = 1,
@@ -34003,21 +41495,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dralian-Draenor",
 		},
-		[260202] = {
-			["school"] = 1,
+		[322557] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Шеф Разданк",
-		},
-		[244949] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Друст-душеруб",
+		},
+		[268932] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Король Дазар",
 		},
 		[106854] = {
 			["school"] = 4,
@@ -34026,22 +41519,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мастер Снежный Вихрь",
 		},
-		[22686] = {
+		[50729] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ирреальный волк",
+		},
+		[260402] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Король Дред",
-		},
-		[316661] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лордсайр",
+			["source"] = "Лэпра",
 		},
 		[11504] = {
 			["school"] = 4,
@@ -34050,122 +41546,114 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ходячая бомба",
 		},
-		[264608] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Румми Мэнкомб",
-		},
-		[104773] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Каннабес-СвежевательДуш",
-		},
-		[153226] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Острозуб из племени Мутной Воды",
-		},
-		[150679] = {
+		[332794] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Амненнар Хладовей",
-		},
-		[312680] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Безликий поработитель",
-		},
-		[192133] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Хирья",
+			["source"] = "Сир Денатрий",
 		},
-		[273988] = {
+		[88736] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Фирнаэ",
+			["source"] = "Адмирал Терзающий Рев",
 		},
-		[15503] = {
-			["school"] = 2,
+		[605] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Гараксас",
+			["source"] = "Кактьма",
 		},
-		[89735] = {
-			["school"] = 8,
+		[250669] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Испорченный стейк",
+			["source"] = "Аргус Порабощенный",
 		},
-		[233264] = {
+		[164547] = {
 			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Жрица Лунное Пламя",
+			["source"] = "Сакальтор",
 		},
-		[300395] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Пашмар Фанатичная",
-		},
-		[253039] = {
+		[263778] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Клинок Скверны - штурмовик",
+			["source"] = "Аспидис",
 		},
-		[50988] = {
+		[268260] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Канонир дома Эшвейнов",
 		},
-		[43308] = {
+		[12555] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Бьярнгрим",
+		},
+		[322550] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[193376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Уларогг Скаломол",
+		},
+		[244410] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Боджи-Азурегос",
+			["source"] = "Дециматор",
+		},
+		[299095] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Оргозоа",
+		},
+		[337255] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Тред'ова",
+		},
+		[31991] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Менну Предатель",
 		},
 		[240315] = {
 			["school"] = 1,
@@ -34176,30 +41664,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Насиженное яйцо",
 		},
-		[5607] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Исцеляющий идол",
-		},
-		[36142] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[343024] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Даллия Глашатай Судьбы",
+			["source"] = "Визгунья",
 		},
-		[113136] = {
-			["school"] = 4,
+		[267257] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Темный магистр Гандлинг",
+			["source"] = "Громовой тотем",
+		},
+		[200196] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Листен",
 		},
 		[260793] = {
 			["school"] = 32,
@@ -34210,14 +41697,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Кроглот Зараженный",
 		},
-		[86603] = {
+		[343022] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шадопанский пленник",
+			["source"] = "Визгунья",
 		},
 		[221886] = {
 			["school"] = 2,
@@ -34227,31 +41712,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Клюквенная",
 		},
-		[76478] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[201983] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Сумеречный мучитель",
-		},
-		[262383] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Боевая машина Торговой компании",
-		},
-		[226406] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Углепанцирный подчинитель",
+		},
+		[52237] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Волхан",
+		},
+		[259938] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Шеф-повар Даниэль",
 		},
 		[121190] = {
 			["school"] = 1,
@@ -34261,13 +41747,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Цийлинь-стражник",
 		},
-		[268898] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[222026] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Райзли",
+			["source"] = "Мертвыйнос",
 		},
 		[275826] = {
 			["school"] = 1,
@@ -34279,14 +41764,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Командир из корпорации Эшвейнов",
 		},
-		[83914] = {
-			["school"] = 32,
+		[188494] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Злобный бичеватель разума",
 		},
 		[106856] = {
 			["school"] = 4,
@@ -34295,88 +41779,86 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Лю Пламенное Сердце",
 		},
-		[198496] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Уларогг Скаломол",
-		},
-		[267385] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[260190] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Шеф Разданк",
-		},
-		[99] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Сорвада",
-		},
-		[309852] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ра-ден",
-		},
-		[149893] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Домина",
-		},
-		[151092] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Пленный шахтер",
-		},
-		[18968] = {
+		[83171] = {
 			["school"] = 4,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[314347] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Огнечар Элдрета",
+			["source"] = "Пепельный убийца",
 		},
-		[272528] = {
+		[306985] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ярость Н'Зота",
+		},
+		[268865] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Испытатель экспериментального оружия",
+		},
+		[42730] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ингвар Расхититель",
+		},
+		[300971] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Роксери-Борейскаятундра",
+		},
+		[280602] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Механожокей",
+		},
+		[78807] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Озрук",
+		},
+		[48920] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Снайпер дома Эшвейнов",
+			["source"] = "Король Дред",
 		},
 		[120167] = {
 			["school"] = 4,
@@ -34393,22 +41875,22 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[64695] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[201411] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Тотем хватки земли",
+			["source"] = "Бес ужасающего огня",
 		},
-		[306289] = {
+		[32369] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Гневион",
+			["source"] = "Эфириал-ученик",
 		},
 		[267639] = {
 			["school"] = 4,
@@ -34419,28 +41901,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мчимба Бальзамировщик",
 		},
-		[113866] = {
-			["school"] = 64,
+		[16953] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Джандис Барова",
+			["source"] = "Заводкой",
 		},
-		[255430] = {
+		[297912] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Констеллар-куратор",
+			["source"] = "Киран",
 		},
-		[265392] = {
+		[30476] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Распорядитель банкета",
+			["source"] = "Язычник из клана Изувеченной Длани",
 		},
 		[75117] = {
 			["school"] = 2,
@@ -34449,21 +41930,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Опаляющий свет",
 		},
-		[306301] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[69898] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Маут",
+			["source"] = "Иерофант с \"Усмирителя небес\"",
 		},
-		[245994] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[124503] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Агграмар",
+			["source"] = "Баночкапива",
 		},
 		[298357] = {
 			["school"] = 1,
@@ -34481,43 +41963,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Капитан Ята Лунный Удар",
 		},
-		[31464] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Темпорус",
-		},
-		[10348] = {
-			["school"] = 1,
+		[59320] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Прокаженный техник",
+			["source"] = "Источник духа",
 		},
-		[50729] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[203794] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Caso-Ragnaros",
+		},
+		[302049] = {
+			["school"] = 8,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ирреальный волк",
+			["source"] = "Выброс амниотической жидкости",
 		},
-		[111670] = {
-			["school"] = 2,
+		[79370] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Фанатик Алого ордена",
+			["source"] = "Изисет",
 		},
 		[200389] = {
 			["school"] = 8,
@@ -34528,26 +42002,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Филлфилипс",
 		},
-		[254760] = {
-			["school"] = 32,
+		[48400] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[84987] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Шатуг",
+			["source"] = "Сиамат",
 		},
-		[244294] = {
-			["school"] = 4,
+		[52921] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Аннигилятор",
-		},
-		[260798] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Икумка-Дракономор",
+			["source"] = "Локен",
 		},
 		[30686] = {
 			["school"] = 32,
@@ -34586,32 +42064,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Захватчик дома Эшвейнов",
 		},
-		[192094] = {
+		[11976] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Полководец Паржеш",
+			["source"] = "Скелет-берсерк",
 		},
-		[267360] = {
-			["school"] = 32,
+		[330712] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Визгунья",
+		},
+		[330711] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Вол'зит Шепчущая",
-		},
-		[272874] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Командир из корпорации Эшвейнов",
+			["source"] = "Визгунья",
 		},
 		[275836] = {
 			["school"] = 8,
@@ -34622,21 +42096,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Захватчик дома Эшвейнов",
 		},
-		[3391] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Принцесса Терадрас",
-		},
-		[108271] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[331399] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Докторша",
+			["source"] = "Маркграфиня Страдама",
+		},
+		[238588] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Горот",
 		},
 		[165579] = {
 			["school"] = 32,
@@ -34645,20 +42120,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Костебрюх",
 		},
-		[306311] = {
-			["school"] = 32,
+		[260067] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Истерзанная душа",
+			["source"] = "Бобби Хаулис",
 		},
-		[84785] = {
+		[239383] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ауг",
+			["source"] = "Цель Копья",
 		},
 		[234179] = {
 			["school"] = 4,
@@ -34668,32 +42145,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аватара Падшего",
 		},
-		[80750] = {
-			["school"] = 32,
+		[322936] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Бальназар",
+			["source"] = "Халкиас",
 		},
-		[76188] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Повелитель Перерожденных Обсидий",
-		},
-		[74137] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[93686] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Изисет",
+			["source"] = "Командир Спрингвейл",
+		},
+		[178157] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Рилак - ужас небес",
 		},
 		[312698] = {
 			["school"] = 4,
@@ -34702,35 +42176,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Гневион",
 		},
-		[52437] = {
+		[74780] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Doomax-Stormscale",
+			["source"] = "Осколок звезды",
 		},
-		[84544] = {
+		[67767] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Защитник Черного Клинка",
+		},
+		[308018] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Акир-скарабей",
+		},
+		[234180] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Служитель Сиамата",
-		},
-		[190411] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ядовит-СвежевательДуш",
-		},
-		[288126] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Неммфилд-ВечнаяПесня",
 		},
 		[194249] = {
 			["school"] = 32,
@@ -34740,42 +42212,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
-		[45524] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[244130] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Шатуг",
+		},
+		[59321] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Источник духа",
+		},
+		[781] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мертвыйнос",
+			["source"] = "Анардилона-СвежевательДуш",
 		},
-		[281721] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Оштри-СвежевательДуш",
-		},
-		[18327] = {
-			["school"] = 8,
+		[70116] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Баронесса Анастари",
-		},
-		[150601] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Вестник смерти Черношип",
+			["source"] = "Ледяной змей Шпиля",
 		},
 		[256706] = {
 			["school"] = 1,
@@ -34784,42 +42251,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тротак",
 		},
-		[224125] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Дух волка",
-		},
-		[257608] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Королева песков",
-		},
-		[44475] = {
-			["school"] = 64,
+		[200587] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Маг-стражник Солнечного Клинка",
+			["source"] = "Левфша-СвежевательДуш",
 		},
-		[69958] = {
+		[70395] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Прислужник Шпиля",
+		},
+		[273794] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Стафпати-Корольлич",
+		},
+		[186269] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Проповедник с \"Усмирителя небес\"",
+			["source"] = "Заклинатель чумных осколков",
 		},
 		[61369] = {
 			["school"] = 1,
@@ -34830,59 +42292,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Д-1000",
 		},
-		[202108] = {
+		[345466] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Заклинатель чумных осколков",
+			["source"] = "Рунари",
 		},
-		[115008] = {
+		[125439] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бладдфолен",
+			["source"] = "Заводкой",
 		},
-		[46035] = {
+		[168348] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Пушка \"Силы Чернорука\"",
+		},
+		[71614] = {
 			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Магистр Солнечного Клинка",
-		},
-		[201983] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Углепанцирный подчинитель",
-		},
-		[158792] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Сорвада",
+			["source"] = "Король-лич",
 		},
-		[6343] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[269242] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Торзеси",
+			["source"] = "Pellpung-TarrenMill",
+		},
+		[245227] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Адмирал Свиракс",
 		},
 		[54970] = {
 			["school"] = 8,
@@ -34892,38 +42346,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Слад'ран",
 		},
-		[38844] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Смертоносный эредар",
-		},
-		[155722] = {
+		[27615] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Заводкой",
+			["source"] = "Кагани Ночной Удар",
 		},
-		[113309] = {
+		[48260] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Опасность",
+			["source"] = "Горток Бледное Копыто",
 		},
-		[267329] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[322943] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Кринжи",
+			["source"] = "Халкиас",
+		},
+		[188196] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Вудукомбо",
 		},
 		[257732] = {
 			["school"] = 1,
@@ -34943,13 +42398,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Знатоквуду-СвежевательДуш",
 		},
-		[267325] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[115129] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Имба",
+			["source"] = "Бладдфолен",
 		},
 		[316801] = {
 			["school"] = 1,
@@ -34959,64 +42413,59 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Мирдассена",
 		},
-		[256552] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Пилоносая акула",
-		},
-		[46036] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Магистр Солнечного Клинка",
-		},
-		[188494] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[52387] = {
+		[241828] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Призрачный конь",
+		},
+		[227255] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Волхан",
+			["source"] = "Магнетарр-СвежевательДуш",
 		},
-		[162264] = {
-			["school"] = 127,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Spöky-Stormscale",
-		},
-		[265085] = {
+		[322945] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Румми Мэнкомб",
+			["source"] = "Халкиас",
 		},
-		[115147] = {
+		[268899] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Талнос Воздаятель Душ",
+			["source"] = "Райзли",
+		},
+		[59140] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Волдырный парозлоб",
+		},
+		[209859] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Снайпер дома Эшвейнов",
+		},
+		[84982] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сиамат",
 		},
 		[260805] = {
 			["school"] = 1,
@@ -35036,13 +42485,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Скади Безжалостный",
 		},
-		[260541] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[265879] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Оживленный голиаф",
 		},
 		[59834] = {
 			["school"] = 8,
@@ -35054,61 +42501,64 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Искра Ионар",
 		},
-		[199373] = {
+		[256710] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[10887] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Войско мертвых",
+			["source"] = "Мировой судья Бартилас",
 		},
-		[10444] = {
-			["school"] = 4,
+		[120758] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Докторша",
+			["source"] = "Командир Во'цзак",
 		},
-		[309961] = {
-			["school"] = 32,
+		[299914] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ил'гинот",
+			["source"] = "Силиваз Ревностный",
 		},
-		[15786] = {
+		[2094] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Томрек",
+		},
+		[268007] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Апоко",
+			["source"] = "Хранитель Сердца",
 		},
-		[36514] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Чародейский взрыв",
-		},
-		[266107] = {
+		[119381] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Дикий кровавый роевик",
-		},
-		[22703] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Фирнаэ",
+			["source"] = "Бладдфолен",
 		},
 		[181968] = {
 			["school"] = 4,
@@ -35117,29 +42567,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Связанная кровью чародейка Скверны",
 		},
-		[257292] = {
+		[304056] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Бладдфолен",
+		},
+		[48873] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Кул-тирасский боец авангарда",
+			["source"] = "Король Дред",
 		},
-		[17235] = {
-			["school"] = 1,
+		[153002] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неруб'энкан",
-		},
-		[303819] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
+			["source"] = "Дозорный Каатар",
 		},
 		[145109] = {
 			["school"] = 8,
@@ -35170,22 +42623,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Сорвада",
 		},
-		[256039] = {
-			["school"] = 1,
+		[292463] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Надзиратель Корги",
+			["source"] = "Сакальтор",
 		},
-		[50843] = {
-			["school"] = 1,
+		[335338] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Кристаллус",
+			["source"] = "Лорд-камергер",
 		},
 		[257736] = {
 			["school"] = 8,
@@ -35210,34 +42663,41 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Эйсвент",
 		},
-		[239379] = {
+		[153727] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[2120] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tsaxilgaan-Sylvanas",
+		},
+		[69155] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Повелитель Плети Тираний",
+		},
+		[323138] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Охотница Каспария",
-		},
-		[178741] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Магнетарр-СвежевательДуш",
-		},
-		[192058] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Вулканос",
-		},
-		[265807] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Хантнемета-СвежевательДуш",
+			["source"] = "Ингра Малох",
 		},
 		[300428] = {
 			["school"] = 1,
@@ -35254,48 +42714,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Призывательница шторма из братства Стальных Волн",
 		},
-		[299575] = {
-			["school"] = 8,
+		[48258] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Свала Вечноскорбящая",
+		},
+		[269231] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ребан",
+		},
+		[69017] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Силиваз Ревностный",
+			["source"] = "Неизвестно",
 		},
-		[269369] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[59323] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Скади Безжалостный",
+		},
+		[269232] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Т'зала",
-		},
-		[239383] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Цель Копья",
-		},
-		[188114] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Рокмора",
-		},
-		[12555] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Генерал Бьярнгрим",
+			["source"] = "Ребан",
 		},
 		[59835] = {
 			["school"] = 8,
@@ -35306,24 +42763,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Локен",
 		},
-		[48920] = {
+		[46026] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Король Дред",
-		},
-		[264235] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Яйцо",
+			["source"] = "Апоко",
+		},
+		[185175] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Железный призыватель Скверны",
 		},
 		[193234] = {
 			["school"] = 1,
@@ -35391,28 +42847,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Задира из братства Чернозубых",
 		},
-		[288146] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Имба",
-		},
-		[235214] = {
-			["school"] = 2,
+		[263573] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Гюрзис",
 		},
-		[260811] = {
-			["school"] = 4,
+		[54716] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Шеф Разданк",
+			["source"] = "Колосс Драккари",
+		},
+		[13745] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сумеречный эмиссар",
 		},
 		[294290] = {
 			["school"] = 1,
@@ -35432,21 +42889,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
-		[300717] = {
-			["school"] = 4,
+		[68788] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лордсайр",
-		},
-		[13787] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Начальник кузни Гархлад",
+		},
+		[301078] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Киран",
 		},
 		[294291] = {
 			["school"] = 1,
@@ -35455,73 +42913,70 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Переработчик отходов",
 		},
-		[312721] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[201427] = {
+			["school"] = 127,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Иссеченная душа",
+			["source"] = "Spöky-Stormscale",
 		},
-		[88490] = {
+		[260425] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Врагорез-5000",
+			["source"] = "Иловое речное чудище",
 		},
-		[268865] = {
-			["school"] = 64,
+		[236547] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Испытатель экспериментального оружия",
+			["source"] = "Охотница Каспария",
 		},
-		[74538] = {
-			["school"] = 8,
+		[59408] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Храмовая гадюка",
+			["source"] = "Восставший чаротворец",
 		},
-		[279958] = {
+		[329104] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Лорд-камергер",
+		},
+		[262268] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Nojinx-Draenor",
+			["source"] = "Алхимик Торговой компании",
 		},
-		[32369] = {
+		[78535] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Элдретарский фантазм",
+		},
+		[200404] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Эфириал-ученик",
-		},
-		[291878] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Воздушное судно R-21/X",
-		},
-		[257741] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Задира из братства Чернозубых",
+			["source"] = "Даргрул",
 		},
 		[201428] = {
 			["school"] = 127,
@@ -35544,13 +42999,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Шеф Разданк",
 		},
-		[30926] = {
-			["school"] = 4,
+		[319941] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Назан",
+			["source"] = "Эшелон",
 		},
 		[148187] = {
 			["school"] = 1,
@@ -35559,31 +43014,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Бладдфолен",
 		},
-		[93985] = {
-			["school"] = 1,
+		[22661] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Сорвада",
-		},
-		[256864] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Диномант Киш'о",
+			["source"] = "Алззин Перевертень",
 		},
-		[87081] = {
+		[69580] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Землеглот из пещерных глубин",
+			["source"] = "Павший воин",
 		},
-		[20787] = {
+		[343558] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Хирург Трупошов",
+		},
+		[113141] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
@@ -35593,16 +43051,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Лефтендрис",
+			["source"] = "Темный магистр Гандлинг",
 		},
-		[154149] = {
+		[69809] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Прототип солнечного голема Небесного Пути",
+			["source"] = "Кор'кронский боевой штандарт",
 		},
 		[81269] = {
 			["school"] = 8,
@@ -35611,68 +43068,59 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Даркдрул",
 		},
-		[310959] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[198595] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Покрытый символами обелиск",
-		},
-		[203794] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Caso-Ragnaros",
-		},
-		[306168] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Неизвестно",
-		},
-		[254769] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Наполненный Скверной разрушитель",
-		},
-		[150032] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Магмолат",
+			["source"] = "Валарьяр - призыватель молний",
 		},
-		[22899] = {
-			["school"] = 32,
+		[228221] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Метелка",
+		},
+		[199600] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имба",
+		},
+		[97462] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бессмер'тер",
+			["source"] = "Мирэска",
 		},
-		[93629] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[265091] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Преданная жрица крови",
+		},
+		[254384] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Лорд Годфри",
+			["source"] = "Ф'арг",
+		},
+		[202127] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Бладдфолен",
 		},
 		[316823] = {
 			["school"] = 32,
@@ -35682,42 +43130,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Humanlight-Kazzak",
 		},
-		[309854] = {
-			["school"] = 40,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ра-ден",
-		},
-		[121536] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Кактьма",
-		},
-		[269029] = {
+		[75272] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Жуткий капитан Локвуд",
+			["source"] = "Ром'огг Костекрушитель",
 		},
-		[263863] = {
+		[329110] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Доктор Икус",
+		},
+		[319539] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Кул'тарок",
+		},
+		[336449] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Защитник из многоокой рати",
+		},
+		[236518] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Hydra",
-		},
-		[307808] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ярость Н'Зота",
+			["source"] = "Жрица Лунное Пламя",
 		},
 		[263583] = {
 			["school"] = 1,
@@ -35728,21 +43187,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Надсмотрщик Аскари",
 		},
-		[250669] = {
-			["school"] = 32,
+		[323250] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Аргус Порабощенный",
+			["source"] = "Дроман Ульфарран",
 		},
-		[605] = {
-			["school"] = 32,
+		[342905] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Кактьма",
+			["source"] = "Миллхаус Манашторм",
 		},
 		[302491] = {
 			["school"] = 8,
@@ -35751,72 +43212,75 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spöky-Stormscale",
 		},
-		[255836] = {
+		[272554] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[268797] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Алхимик Торговой компании",
+		},
+		[124273] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Бладдфолен",
+		},
+		[327649] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Жрица Алун'за",
+			["source"] = "Мве'зала",
 		},
-		[42724] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ингвар Расхититель",
-		},
-		[316826] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Искаженный отросток",
-		},
-		[268932] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Король Дазар",
-		},
-		[288158] = {
+		[329113] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Имба",
-		},
-		[95249] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Небесный Огонь",
-		},
-		[264166] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Воденыш",
+			["source"] = "Лорд-камергер",
 		},
-		[268230] = {
-			["school"] = 1,
+		[325360] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Матрос корпорации Эшвейнов",
+			["source"] = "Верховная надзирательница Бериллия",
+		},
+		[320277] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
+		},
+		[83914] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Злобный бичеватель разума",
 		},
 		[35008] = {
 			["school"] = 16,
@@ -35834,70 +43298,72 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Локен",
 		},
-		[120758] = {
+		[46036] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Магистр Солнечного Клинка",
+		},
+		[236513] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Командир Во'цзак",
+			["source"] = "Оживленный храмовник",
 		},
-		[279709] = {
-			["school"] = 12,
+		[325551] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сакальтор",
+			["source"] = "Домина Отравленный Клинок",
 		},
-		[267257] = {
+		[319685] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Криксис Ненасытный",
+		},
+		[255909] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Имба",
+		},
+		[198892] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Громовой тотем",
+			["source"] = "Штормовой дракон",
 		},
-		[30925] = {
+		[192249] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Мастер",
+			["source"] = "Мущщынаы",
 		},
-		[150035] = {
-			["school"] = 1,
+		[186562] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Исцеляющие воды",
-		},
-		[30476] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Язычник из клана Изувеченной Длани",
-		},
-		[266923] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Энергетическое ядро",
-		},
-		[199178] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Нараксас",
+			["source"] = "Зловещий охотник",
 		},
 		[124274] = {
 			["school"] = 1,
@@ -35917,51 +43383,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Громила из братства Чернозубых",
 		},
-		[8265] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Тотем лавы",
-		},
-		[222026] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Мертвыйнос",
-		},
-		[267685] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Симплеон",
-		},
-		[125439] = {
+		[217011] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Заводкой",
+			["source"] = "Разъяренная толпа",
 		},
-		[43667] = {
+		[320293] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сатель Злосчастный",
+		},
+		[38592] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Темпорус",
+		},
+		[69021] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ик",
+		},
+		[179583] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Повелитель Скверны Закуун",
+		},
+		[69028] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Принц Келесет",
-		},
-		[185358] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Анардилона-СвежевательДуш",
+			["source"] = "Крик",
 		},
 		[9906] = {
 			["school"] = 1,
@@ -35972,31 +43444,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Нефритовый василиск",
 		},
-		[17294] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Фрас Сиаби",
-		},
-		[264155] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Воденыш",
-		},
-		[256589] = {
-			["school"] = 1,
+		[44605] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Капитан Рауль",
+			["source"] = "Магистр Солнечного Клинка",
+		},
+		[331415] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Генерал Кааль",
+		},
+		[326538] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Былые грехи",
 		},
 		[195292] = {
 			["school"] = 32,
@@ -36006,33 +43480,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Варранос-СвежевательДуш",
 		},
-		[114548] = {
-			["school"] = 16,
+		[310690] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spöky-Stormscale",
+		},
+		[319702] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[322977] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Янь-Чжу Высвобожденный",
-		},
-		[293854] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Мехагонский боевой механик",
-		},
-		[19574] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Сарварду",
+			["source"] = "Халкиас",
 		},
 		[124275] = {
 			["school"] = 1,
@@ -36042,29 +43513,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Баночкапива",
 		},
-		[178155] = {
-			["school"] = 8,
+		[82533] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Рилак - ужас небес",
-		},
-		[271784] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Футбомбный хулиган",
-		},
-		[47723] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Великая ведунья Телестра",
+			["source"] = "Вестник Тьмы",
+		},
+		[258773] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Небесный капитан Крагг",
+		},
+		[339706] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Эхо наездника на быке",
 		},
 		[316835] = {
 			["school"] = 32,
@@ -36076,12 +43549,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Искаженный отросток",
 		},
-		[253654] = {
+		[245463] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Дазар'айский сокрушитель",
+			["source"] = "Агграмар",
 		},
 		[86392] = {
 			["school"] = 1,
@@ -36114,12 +43588,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аку'май Ядовитый",
 		},
-		[312741] = {
-			["school"] = 32,
+		[44224] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Иссеченная душа",
+			["source"] = "Кель'тас Солнечный Скиталец",
 		},
 		[227034] = {
 			["school"] = 8,
@@ -36136,38 +43611,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Омега-крушитель\"",
 		},
-		[78535] = {
-			["school"] = 32,
+		[215430] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Элдретарский фантазм",
+			["source"] = "Валарьяр - призыватель молний",
 		},
-		[42730] = {
+		[196354] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Верховный друид Глайдалис",
+		},
+		[340860] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ингвар Расхититель",
+			["source"] = "Корень истребления",
 		},
-		[56814] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[235240] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Имба",
-		},
-		[30153] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Страж Скверны",
+			["source"] = "Бдительная дева",
 		},
 		[151268] = {
 			["school"] = 8,
@@ -36177,57 +43652,53 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[259938] = {
-			["school"] = 1,
+		[271788] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Шеф-повар Даниэль",
-		},
-		[273836] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Фэнриса",
+			["source"] = "Спидкорр",
 		},
-		[38593] = {
+		[54719] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Темпорус",
+			["source"] = "Колосс Драккари",
 		},
-		[48265] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Лордсайр",
-		},
-		[5605] = {
+		[68987] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Оракул из племени Каменного Свода",
+			["source"] = "Ик",
 		},
-		[48400] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[323810] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Генерал Кааль",
+		},
+		[321976] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Моровая слизь",
+		},
+		[265089] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Преданная жрица крови",
 		},
 		[292267] = {
 			["school"] = 8,
@@ -36247,32 +43718,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Аку'май Ядовитый",
 		},
-		[200682] = {
+		[264574] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Солстен",
+			["source"] = "Песчаный стрелок",
 		},
-		[49143] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Мертвыйнос",
-		},
-		[123655] = {
+		[265807] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Хайан Неудержимый",
+			["source"] = "Хантнемета-СвежевательДуш",
 		},
-		[9672] = {
-			["school"] = 16,
+		[320069] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
@@ -36280,7 +43743,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Скелет-страж",
+			["source"] = "Дессия Обезглавливательница",
+		},
+		[124506] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Бладдфолен",
 		},
 		[106871] = {
 			["school"] = 32,
@@ -36296,55 +43766,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ра-ден",
 		},
-		[12466] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Лорд Пережар",
-		},
-		[25058] = {
-			["school"] = 2,
+		[232156] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Кабалист-послушник",
+			["source"] = "Коглстон",
 		},
-		[258777] = {
+		[16867] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Баронесса Анастари",
+		},
+		[3149] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Среброгривый ревун",
+		},
+		[323852] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Жуткий молельщик",
+		},
+		[346989] = {
+			["school"] = 0,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Неизвестно",
+		},
+		[153499] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Боец на веслах из братства Стальных Волн",
-		},
-		[199547] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Дедр",
-		},
-		[37361] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Скелет-страж",
-		},
-		[86830] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Миллхаус Манашторм",
+			["source"] = "Аззакель",
 		},
 		[35010] = {
 			["school"] = 8,
@@ -36355,64 +43827,57 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Менну Предатель",
 		},
-		[33919] = {
+		[154468] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[323393] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Таварок",
+			["source"] = "Лорд-камергер",
 		},
-		[260067] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[51052] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Бобби Хаулис",
+			["source"] = "Стафпати-Корольлич",
 		},
-		[254384] = {
+		[314994] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Маут",
+		},
+		[321011] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ф'арг",
+			["source"] = "Миллифисент Манашторм",
 		},
-		[202719] = {
-			["school"] = 64,
+		[276282] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Автомат",
+			["source"] = "Ученица призывательницы штормов",
 		},
-		[270277] = {
-			["school"] = 4,
+		[13298] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Шеф Разданк",
-		},
-		[124503] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Баночкапива",
-		},
-		[163558] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ядовит-СвежевательДуш",
+			["source"] = "Нежить-скарабей",
 		},
 		[106872] = {
 			["school"] = 32,
@@ -36424,29 +43889,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ша Жестокости",
 		},
-		[10887] = {
+		[19574] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Мировой судья Бартилас",
+			["source"] = "Сарварду",
 		},
-		[79370] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Изисет",
-		},
-		[149913] = {
-			["school"] = 1,
+		[272827] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Разоритель из братства Трюмных Крыс",
+		},
+		[327464] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Тукр",
+			["source"] = "Реморния",
 		},
 		[258779] = {
 			["school"] = 16,
@@ -36464,37 +43928,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Белак",
 		},
-		[316847] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[75992] = {
+		[68989] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ик",
+		},
+		[327233] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Изрыгатель чумы",
+		},
+		[256083] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ведьма бурь Леди Наз'жар",
+			["source"] = "Надзиратель Корги",
 		},
-		[138644] = {
-			["school"] = 1,
+		[71335] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Темный Анимус",
-		},
-		[266030] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Фирнаэ",
+			["source"] = "Ружейник с \"Усмирителя небес\"",
 		},
 		[267702] = {
 			["school"] = 1,
@@ -36516,27 +43985,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Буканьер из братства Трюмных Крыс",
 		},
-		[17228] = {
+		[344874] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Эшелон",
+		},
+		[333489] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Кели'дан Разрушитель",
+			["source"] = "Амарт",
 		},
-		[57994] = {
-			["school"] = 8,
+		[333231] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Вулканос",
-		},
-		[255546] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Кринжи",
+			["source"] = "Сатель Злосчастный",
 		},
 		[294324] = {
 			["school"] = 1,
@@ -36547,20 +44022,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Переработчик отходов",
 		},
-		[22858] = {
+		[333492] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Амарт",
+		},
+		[320050] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Капитан Давигром",
-		},
-		[276229] = {
-			["school"] = 4,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "\"БУМБОТ\"",
+			["source"] = "Ксав Несломленный",
 		},
 		[275895] = {
 			["school"] = 1,
@@ -36571,22 +44047,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вудукомбо",
 		},
-		[257757] = {
+		[75645] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Буканьер из братства Трюмных Крыс",
-		},
-		[22859] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Капитан Давигром",
+			["source"] = "Глашатай сумрака Корла",
+		},
+		[156975] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Терон'кров",
 		},
 		[314803] = {
 			["school"] = 64,
@@ -36604,36 +44078,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Homing Missile Stalker",
 		},
-		[42751] = {
-			["school"] = 32,
+		[330026] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Доктор Икус",
 		},
-		[298866] = {
-			["school"] = 32,
+		[323150] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Грехокаменная статуя",
 		},
-		[74780] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[66196] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Мертвыйнос",
+		},
+		[323825] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Осколок звезды",
-		},
-		[186269] = {
-			["school"] = 8,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Заклинатель чумных осколков",
+			["source"] = "Затягивающий разлом",
 		},
 		[151275] = {
 			["school"] = 8,
@@ -36652,20 +44128,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Цзао Искатель Солнца",
 		},
-		[59146] = {
-			["school"] = 1,
+		[328468] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Вилли Разбивающий Надежды",
+			["source"] = "Изобретатель Зи'Мокс",
 		},
-		[83171] = {
-			["school"] = 4,
+		[325382] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Леди Инерва Дарквейн",
 		},
 		[15346] = {
 			["school"] = 2,
@@ -36676,21 +44154,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Финий Темнострой",
 		},
-		[318378] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[190397] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Лордсайр",
+			["source"] = "Неизвестно",
 		},
-		[22950] = {
-			["school"] = 64,
+		[314903] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Бессмер'тер",
+			["source"] = "Оссират",
 		},
 		[256735] = {
 			["school"] = 1,
@@ -36700,127 +44177,132 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ринтз",
 		},
-		[267367] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Механомиротворец",
-		},
-		[293930] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[326221] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мехагонский механик",
+			["source"] = "Мве'зала",
 		},
-		[298425] = {
-			["school"] = 8,
+		[329455] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
+		[31458] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Темпорус",
+		},
+		[93564] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Киран",
+			["source"] = "Лорд Годфри",
 		},
-		[244449] = {
+		[323177] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Дроман Ульфарран",
+		},
+		[227638] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ловчий Аттумен",
+		},
+		[322999] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Девия",
+		},
+		[324010] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[69898] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Иерофант с \"Усмирителя небес\"",
-		},
-		[97462] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Мирэска",
-		},
-		[306617] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Вез'окк Беспросветный",
-		},
-		[115167] = {
-			["school"] = 16,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Миллифисент Манашторм",
 		},
-		[93686] = {
+		[22924] = {
 			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Командир Спрингвейл",
-		},
-		[22661] = {
-			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Алззин Перевертень",
-		},
-		[198013] = {
-			["school"] = 124,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Spöky-Stormscale",
-		},
-		[32323] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ирреальный мамонт",
+			["source"] = "Тендрис Криводрев",
 		},
-		[209859] = {
+		[324427] = {
 			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Снайпер дома Эшвейнов",
-		},
-		[69028] = {
-			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Крик",
+			["source"] = "\"Орифрион\"",
 		},
-		[97463] = {
+		[331836] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Мирэска",
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[40505] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вурдалак-живодер",
+		},
+		[326456] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Тень Кель'таса",
+		},
+		[334523] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
+		},
+		[323001] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Халкиас",
 		},
 		[16740] = {
 			["school"] = 1,
@@ -36838,29 +44320,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Баронесса Анастари",
 		},
-		[69021] = {
+		[323878] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ик",
+			["source"] = "\"Орифрион\"",
 		},
-		[265665] = {
-			["school"] = 8,
+		[235236] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Живая гниль",
+			["source"] = "Белак",
 		},
-		[263262] = {
-			["school"] = 8,
+		[95249] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сланцеед",
+			["source"] = "Небесный Огонь",
 		},
 		[253666] = {
 			["school"] = 4,
@@ -36869,24 +44349,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Дазар'айский сокрушитель",
 		},
-		[15655] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[333808] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Разоритель из закаленной стали",
+			["source"] = "Доктор Икус",
 		},
-		[68771] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[259191] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Начальник кузни Гархлад",
+			["source"] = "Язма",
 		},
 		[308669] = {
 			["school"] = 32,
@@ -36906,51 +44381,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Себнак",
 		},
-		[75272] = {
+		[326139] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Былые грехи",
+		},
+		[323107] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Сочащиеся ошметки",
+		},
+		[321009] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Кин-Тара",
+		},
+		[326455] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ром'огг Костекрушитель",
+			["source"] = "Тень Кель'таса",
 		},
-		[69926] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Кор'кронский оракул",
-		},
-		[69024] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Крик",
-		},
-		[59408] = {
+		[329742] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Восставший чаротворец",
-		},
-		[308018] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Акир-скарабей",
+			["source"] = "Алчущий разрушитель",
 		},
 		[265668] = {
 			["school"] = 8,
@@ -36988,15 +44456,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Minatek-Eredar",
 		},
-		[93581] = {
-			["school"] = 32,
+		[216368] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Барон Эшбери",
+			["source"] = "Даргрул",
 		},
 		[292290] = {
 			["school"] = 8,
@@ -37007,49 +44473,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Омега-крушитель\"",
 		},
-		[196354] = {
+		[342740] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Верховный друид Глайдалис",
+			["source"] = "Голиаф из Каменного Легиона",
 		},
-		[265968] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Заряженная песчаная дьяволица",
-		},
-		[59267] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Горток Бледное Копыто",
-		},
-		[275909] = {
+		[343995] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Сорвада",
+			["source"] = "Визгунья",
 		},
-		[70388] = {
+		[15801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ревелош",
+		},
+		[308673] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Око хаоса",
+		},
+		[334498] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Грозный волшебник",
+			["source"] = "Генерал Грашаал",
 		},
 		[193260] = {
 			["school"] = 8,
@@ -37059,13 +44525,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[216368] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[325361] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Даргрул",
+			["source"] = "Изобретатель Зи'Мокс",
 		},
 		[154353] = {
 			["school"] = 32,
@@ -37074,13 +44540,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Знамение смерти",
 		},
-		[69155] = {
-			["school"] = 1,
+		[321258] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Повелитель Плети Тираний",
 		},
 		[106877] = {
 			["school"] = 32,
@@ -37090,12 +44555,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ша Жестокости",
 		},
-		[217011] = {
-			["school"] = 1,
+		[346660] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Разъяренная толпа",
+			["source"] = "Баронесса Фрида",
 		},
 		[124283] = {
 			["school"] = 1,
@@ -37105,37 +44570,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Генерал Па'валак",
 		},
-		[200182] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Тень Ксавия",
-		},
-		[276212] = {
-			["school"] = 4,
+		[344230] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Шеф Разданк",
+			["source"] = "Генерал Кааль",
 		},
-		[243431] = {
-			["school"] = 1,
+		[345535] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Агграмар",
+			["source"] = "Трэшхолдер",
 		},
-		[69912] = {
+		[323010] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Клинок ужаса с \"Усмирителя небес\"",
+			["source"] = "Девия",
+		},
+		[327619] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Вальсирующий вентир",
 		},
 		[59330] = {
 			["school"] = 1,
@@ -37147,24 +44615,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Скади Безжалостный",
 		},
-		[70362] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ледяной змей Шпиля",
-		},
-		[310343] = {
+		[340357] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Кислотный акир",
+			["source"] = "Моровая слизь",
+		},
+		[323011] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Девия",
 		},
 		[183023] = {
 			["school"] = 1,
@@ -37182,22 +44646,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Дикий бес",
 		},
-		[215430] = {
+		[69029] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ик",
+		},
+		[70274] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Валарьяр - призыватель молний",
-		},
-		[150067] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Мордреш Огненный Глаз",
+			["source"] = "Порожденный чумой ужас",
 		},
 		[260838] = {
 			["school"] = 4,
@@ -37218,74 +44683,71 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Назан",
 		},
-		[263628] = {
+		[205549] = {
 			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Нараксас",
+		},
+		[332572] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[341443] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Механомиротворец",
+			["source"] = "Неизвестно",
 		},
-		[197144] = {
+		[342732] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Голиаф из Каменного Легиона",
+		},
+		[320966] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ловчий из клана Колец Ненависти",
+			["source"] = "Кин-Тара",
 		},
-		[22884] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Чо'Раш Наблюдатель",
-		},
-		[197556] = {
+		[339480] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Фенрир",
+			["source"] = "Генерал Кааль",
 		},
-		[195060] = {
-			["school"] = 16,
+		[333913] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Генерал Кааль",
 		},
-		[210714] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Вудукомбо",
-		},
-		[153430] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Дозорный Каатар",
-		},
-		[198892] = {
-			["school"] = 8,
+		[48640] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Штормовой дракон",
+			["source"] = "Имирьяр-воин",
 		},
 		[246505] = {
 			["school"] = 4,
@@ -37295,12 +44757,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Фанатичная пиромантка",
 		},
-		[271428] = {
-			["school"] = 4,
+		[344503] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Гений Торговой компании",
+			["source"] = "Неизвестно",
 		},
 		[300490] = {
 			["school"] = 1,
@@ -37319,14 +44783,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тяжелое ядро",
 		},
-		[199151] = {
+		[329808] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Сердитый бык",
+			["source"] = "Генерал Грашаал",
 		},
 		[306634] = {
 			["school"] = 32,
@@ -37334,37 +44799,39 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[308682] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Гневион",
-		},
-		[70395] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Прислужник Шпиля",
-		},
-		[154415] = {
-			["school"] = 48,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Стражница душ Ниами",
-		},
-		[157173] = {
+		[300491] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Страж Скверны",
+			["source"] = "Серена Острая Чешуя",
+		},
+		[233431] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Атриган",
+		},
+		[328276] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Сир Денатрий",
+		},
+		[329298] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Алчущий разрушитель",
 		},
 		[300492] = {
 			["school"] = 1,
@@ -37386,21 +44853,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Малекай Бледный",
 		},
-		[277225] = {
+		[346706] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Неисправный голем",
+			["source"] = "Кастелян Никлаус",
 		},
-		[200587] = {
-			["school"] = 32,
+		[331209] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Левфша-СвежевательДуш",
+			["source"] = "Грязешмяк",
 		},
 		[17253] = {
 			["school"] = 1,
@@ -37419,13 +44887,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Скади Безжалостный",
 		},
-		[273465] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[59246] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Winjêck-Blackmoore",
+			["source"] = "Имирьяр-знахарь",
 		},
 		[306637] = {
 			["school"] = 32,
@@ -37442,45 +44911,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Серена Острая Чешуя",
 		},
-		[156975] = {
-			["school"] = 127,
+		[323687] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Терон'кров",
+			["source"] = "Дилер Зи'екса",
 		},
-		[156974] = {
-			["school"] = 4,
+		[329906] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Реморния",
+		},
+		[326075] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Терон'кров",
+			["source"] = "Насыщательница душ",
 		},
-		[263105] = {
-			["school"] = 4,
+		[331550] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Сотворенное воплощение",
+		},
+		[330468] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ленивый лаборант",
-		},
-		[262947] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Гений Торговой компании",
-		},
-		[262268] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Алхимик Торговой компании",
+			["source"] = "Криксис Ненасытный",
 		},
 		[312782] = {
 			["school"] = 32,
@@ -37498,27 +44969,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Заводкой",
 		},
-		[268846] = {
-			["school"] = 64,
+		[146739] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Гадфазер",
+		},
+		[55090] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Испытатель экспериментального оружия",
-		},
-		[263066] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Ленивый лаборант",
+			["source"] = "Шадоуденсич",
 		},
 		[193267] = {
 			["school"] = 1,
@@ -37537,12 +45003,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Темный Анимус",
 		},
-		[265091] = {
+		[321442] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Преданная жрица крови",
+			["source"] = "Тиладен",
 		},
 		[147193] = {
 			["school"] = 32,
@@ -37551,150 +45017,152 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nojinx-Draenor",
 		},
-		[255909] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Имба",
-		},
-		[267969] = {
+		[122244] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Служитель храма",
+			["source"] = "Сик'тик-инженер",
 		},
-		[274631] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[56937] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ученик Айронхалла",
+			["source"] = "Великая ведунья Телестра",
 		},
-		[258938] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Жрица корпорации Эшвейнов",
-		},
-		[71335] = {
-			["school"] = 4,
+		[55040] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ружейник с \"Усмирителя небес\"",
+			["source"] = "Опытный охотник на магов",
 		},
-		[192249] = {
+		[57056] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Мущщынаы",
+			["source"] = "Кристаллический хлестун",
 		},
-		[72385] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Саурфанг Смертоносный",
-		},
-		[70911] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Профессор Мерзоцид",
-		},
-		[115072] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Бладдфолен",
-		},
-		[184473] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[182170] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Кровожад",
-		},
-		[44605] = {
+		[57062] = {
 			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Магистр Солнечного Клинка",
-		},
-		[182049] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Кровожад",
-		},
-		[82533] = {
-			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Вестник Тьмы",
+			["source"] = "Аномалус",
 		},
-		[314903] = {
+		[57086] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Оссират",
+			["source"] = "Орморок Воспитатель Дерев",
 		},
-		[179583] = {
-			["school"] = 4,
+		[57052] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Повелитель Скверны Закуун",
+			["source"] = "Кристаллический хранитель",
 		},
-		[263642] = {
+		[340452] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[329168] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Магнетарр-СвежевательДуш",
+			["source"] = "Грехокаменная статуя",
 		},
-		[185175] = {
+		[56777] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лазурный хранитель",
+		},
+		[342076] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Железный призыватель Скверны",
+			["source"] = "Тааиас",
+		},
+		[343503] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Лоскутный солдат",
+		},
+		[278755] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Оскверненный дух",
+		},
+		[328210] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Резерпин",
+		},
+		[325384] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Леди Инерва Дарквейн",
+		},
+		[327122] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Реморния",
+		},
+		[329170] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Грехокаменная статуя",
+		},
+		[325797] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Порочный псарь",
 		},
 		[300502] = {
 			["school"] = 1,
@@ -37705,21 +45173,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Королева Азшара",
 		},
-		[314994] = {
+		[327123] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Маут",
+			["source"] = "Реморния",
 		},
-		[188950] = {
+		[329171] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Осквернение",
+			["source"] = "Грехокаменная статуя",
 		},
 		[306646] = {
 			["school"] = 32,
@@ -37730,20 +45197,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Вез'окк Беспросветный",
 		},
-		[186562] = {
-			["school"] = 32,
+		[164632] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Зловещий охотник",
+			["source"] = "Гром'карская огненная лучница",
 		},
-		[190397] = {
-			["school"] = 32,
+		[203096] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Неизвестно",
+			["source"] = "Низендра",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Лорд-камергер",
+		}, -- [1]
+		{
+			["boss"] = "Верховный адъюдикатор Ализа",
+		}, -- [2]
+		{
+			["boss"] = "Эшелон",
+		}, -- [3]
 	},
 }

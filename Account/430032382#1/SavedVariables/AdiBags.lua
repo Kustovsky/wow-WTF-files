@@ -28,13 +28,52 @@ AdiBagsDB = {
 		},
 		["WoW"] = {
 		},
-		["Mechagon Tinkering"] = {
-		},
-		["ItemSets"] = {
-		},
 		["Shadowlands"] = {
 		},
 		["DataSource"] = {
+		},
+		["Mechagon Tinkering"] = {
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["shown"] = {
+						["Очки завоевания"] = false,
+						["Печать судьбы воина"] = false,
+						["Любопытная монета"] = false,
+						["Пробуждающая сущность"] = false,
+						["Малый амулет удачи"] = false,
+						["Ресурсы оплота класса"] = false,
+						["Вневременная монета"] = false,
+						["Военная медаль Армии Чести"] = false,
+						["Стигия"] = false,
+						["Знак признания Серебряного Авангарда"] = false,
+						["Эхо Ни'алоты"] = false,
+						["Ресурсы гарнизона"] = false,
+						["Бойцовское золото"] = false,
+						["Припасы Армии погибели Легиона"] = false,
+						["Ресурсы для войны"] = false,
+						["Фрагмент артефакта"] = false,
+						["Радужная манажемчужина"] = false,
+						["Призовой купон ярмарки Новолуния"] = false,
+						["Пыль титанов"] = false,
+						["Осколок духа"] = false,
+						["Честь"] = false,
+						["Пепел душ"] = false,
+						["Осколок Пустоты"] = false,
+						["Древняя мана"] = false,
+						["Благодарственное подношение"] = false,
+						["Искаженный временем знак"] = false,
+						["Запасенная анима"] = false,
+						["Зараженные реликвии"] = false,
+						["Дублон мореплавателя"] = false,
+						["Сгусток видений"] = false,
+						["Видавший виды артефакт"] = false,
+						["Незрячий глаз"] = false,
+					},
+					["hideZeroes"] = false,
+				},
+			},
 		},
 		["Junk"] = {
 		},
@@ -42,11 +81,18 @@ AdiBagsDB = {
 		},
 		["ItemLevel"] = {
 		},
-		["WoD"] = {
+		["BfA"] = {
 		},
 		["MoneyFrame"] = {
 		},
 		["AdiBags_TooltipInfo"] = {
+			["profiles"] = {
+				["Default"] = {
+					["container"] = "alt",
+					["item"] = "always",
+					["filter"] = "always",
+				},
+			},
 		},
 		["ItemCategory"] = {
 			["profiles"] = {
@@ -74,25 +120,9 @@ AdiBagsDB = {
 		},
 		["Archaeology"] = {
 		},
-		["BfA"] = {
+		["WoD"] = {
 		},
-		["CurrencyFrame"] = {
-			["profiles"] = {
-				["Default"] = {
-					["shown"] = {
-						["Осколок Пустоты"] = false,
-						["Осколок духа"] = false,
-						["Ресурсы оплота класса"] = false,
-						["Древняя мана"] = false,
-						["Любопытная монета"] = false,
-						["Ресурсы гарнизона"] = false,
-						["Бойцовское золото"] = false,
-						["Припасы Армии погибели Легиона"] = false,
-						["Пробуждающая сущность"] = false,
-						["Фрагмент артефакта"] = false,
-					},
-				},
-			},
+		["ItemSets"] = {
 		},
 		["Corrupted"] = {
 		},
@@ -112,18 +142,19 @@ AdiBagsDB = {
 		["Каскадёр - Ясеневый лес"] = "Default",
 		["Biglilpump - Argent Dawn"] = "Default",
 		["Сисяныч - Ревущий фьорд"] = "Default",
+		["Фурзум - Ревущий фьорд"] = "Default",
 		["Мрачныйокунь - Ревущий фьорд"] = "Default",
 		["Мдмщик - Ревущий фьорд"] = "Default",
-		["Ворбелья - Ревущий фьорд"] = "Default",
 		["Синийдиплом - Гордунни"] = "Default",
 		["Линуксоид - Ясеневый лес"] = "Default",
-		["Натанке - Ревущий фьорд"] = "Default",
 		["Дэниэль - Ревущий фьорд"] = "Default",
+		["Натанке - Ревущий фьорд"] = "Default",
 		["Абдуловера - Ревущий фьорд"] = "Default",
 		["Костетряс - Ревущий фьорд"] = "Default",
+		["Ывалоывоар - Ревущий фьорд"] = "Default",
 		["Анусвконус - Ревущий фьорд"] = "Default",
 		["Гномокосилка - Ревущий фьорд"] = "Default",
-		["Ывалоывоар - Ревущий фьорд"] = "Default",
+		["Ворбелья - Ревущий фьорд"] = "Default",
 		["Отжигай - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
@@ -133,17 +164,20 @@ AdiBagsDB = {
 				["incomplete"] = true,
 			},
 			["columnWidth"] = {
-				["Backpack"] = 7,
+				["Backpack"] = 18,
 			},
 			["autoOpen"] = false,
+			["skin"] = {
+				["background"] = "Blizzard Marble",
+				["border"] = "Blizzard Party",
+			},
 			["positions"] = {
 				["anchor"] = {
 					["xOffset"] = -0.0855712890625,
 					["yOffset"] = 21.27685928344727,
 				},
 			},
-			["scale"] = 1,
-			["compactLayout"] = true,
+			["scale"] = 1.1,
 			["hideAnchor"] = true,
 			["autoDeposit"] = true,
 			["rightClickConfig"] = false,

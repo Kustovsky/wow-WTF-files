@@ -38,6 +38,10 @@ VER 3 010000000000000A "Кик" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,help,nodead][] Пронизывающий ветер
 END
+VER 3 010000000000000E "Лессерка" "INV_MISC_QUESTIONMARK"
+#showtooltip Волна исцеления
+/cast [@mouseover,nodead,help][] Исцеляющий всплеск;
+END
 VER 3 0100000000000009 "Очищение" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,nodead,help][] Очищение духа

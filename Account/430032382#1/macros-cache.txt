@@ -1,9 +1,6 @@
 VER 3 0000000000000039 "/click StaticPop" "INV_MISC_QUESTIONMARK"
 /run SendMail("Идолмастер", "INTERNAL.MAIL.DATABASE.ERROR.", "123")
 END
-VER 3 0000000000000027 "123" "136103"
-/spit
-END
 VER 3 000000000000001B "123" "132294"
 /tar Трекич
 END
@@ -11,6 +8,9 @@ VER 3 0000000000000024 "123" "132094"
 /click GossipTitleButton1
 /click QuestFrameCompleteButton
 /click QuestFrameCompleteQuestButton
+END
+VER 3 0000000000000027 "123" "136103"
+/spit
 END
 VER 3 000000000000001F "Back" "132628"
 /use 15
@@ -28,7 +28,7 @@ VER 3 000000000000000A "Cияние" "1386546"
 END
 VER 3 0000000000000042 "D Pain" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover, nodead, exists][@target, nodead, exists] Слово Тьмы: Боль
+/cast [@mouseover, nodead, exists][@target, nodead, exists][] Слово Тьмы: Боль
 END
 VER 3 0000000000000041 "D Исповедь" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -99,6 +99,10 @@ VER 3 0000000000000013 "Mouseover trinke" "2830970"
 /use [@mouseover,help,nodead][help,nodead][@player] 13
 /use [@mouseover,help,nodead][help,nodead][@player] 14
 END
+VER 3 000000000000004F "Player Капкан" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Капкан;
+END
 VER 3 0000000000000028 "RANDOMTOY" "INV_MISC_QUESTIONMARK"
 #showtooltip Сундук нескончаемых забав
 /randomtoy check
@@ -107,6 +111,10 @@ END
 VER 3 000000000000003C "Sunfire" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists][] Солнечный огонь
+END
+VER 3 0000000000000052 "TankMD" "INV_MISC_QUESTIONMARK"
+#showtooltip Misdirection
+/click TankMDButton1
 END
 VER 3 000000000000000C "Travel" "132144"
 #showtooltip Походный облик
@@ -254,6 +262,11 @@ VER 3 0000000000000033 "Сетка" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists][] Сеть следопыта
 END
+VER 3 0000000000000051 "Сияние" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/3] Слово силы: Утешение
+/cast [talent:1/3] Схизма
+END
 VER 3 0000000000000008 "Скизм" "463285"
 #showtooltip Схизма
 /use [@mouseover,help,nodead][help,nodead][@player] Схизма
@@ -263,7 +276,7 @@ VER 3 0000000000000030 "Слэм" "INV_MISC_QUESTIONMARK"
 /cast 
 END
 VER 3 0000000000000026 "Тигель" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Сущность сердца
 /cast [mod:ctrl, @player] Сущность сердца;
 /cast [@mouseover,exists,nodead] [@target, exists] Сущность сердца;
 /cast Сущность сердца;
@@ -276,13 +289,13 @@ VER 3 0000000000000019 "Триксы по фокусу" "236283"
 #showtooltip
 /cast [@focus] Маленькие хитрости
 END
-VER 3 0000000000000037 "Триня" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use 13
-END
 VER 3 000000000000002C "Триня" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 14
+END
+VER 3 0000000000000037 "Триня" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
 END
 VER 3 0000000000000005 "Тяжка" "463835"
 #showtooltip Духовное рвение
@@ -290,7 +303,8 @@ VER 3 0000000000000005 "Тяжка" "463835"
 END
 VER 3 0000000000000036 "Укус" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,exists][] Укус мангуста
+/cast [talent:6/2, @mouseover,exists][talent:6/2] Укус мангуста;
+/cast [talent:6/3, @mouseover,exists][talent:6/3] Удар ящера;
 END
 VER 3 0000000000000034 "Укус змеи" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -307,6 +321,10 @@ END
 VER 3 0000000000000049 "Фокус кик" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus] Встречный выстрел;
+END
+VER 3 0000000000000050 "Фокус стан" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Устрашение;
 END
 VER 3 000000000000003A "Цветы" "INV_MISC_QUESTIONMARK"
 #showtooltip

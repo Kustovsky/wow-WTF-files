@@ -11,7 +11,7 @@ Kui_Nameplates_Core_Config: enabled
 Leatrix_Plus: enabled
 Kui_Nameplates_Core: enabled
 ElvUI_MerathilisUI: enabled
-DynamicCam: enabled
+DynamicCam: disabled
 Details_TinyThreat: enabled
 Details_Streamer: enabled
 Details_Vanguard: enabled
@@ -161,11 +161,11 @@ BigWigs_Achievements: enabled
 BigWigs_Ra-denAssist: enabled
 BigWigs: enabled
 BigWigs_Azeroth: enabled
-BigWigs_BattleOfDazaralor: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
-BigWigs_Nyalotha: enabled
-BigWigs_Uldir: enabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Nyalotha: disabled
+BigWigs_Uldir: disabled
 BigWigs_Countdown_Overwatch: enabled
 cargBags_Nivaya: disabled
 Masque: disabled
@@ -231,3 +231,9 @@ AdiBags_Mechagon_Tinkering: disabled
 ElvUI_AdditionalFonts: disabled
 ElvUI_BenikUI: enabled
 LootAppraiser: disabled
+AutoLootPlus: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

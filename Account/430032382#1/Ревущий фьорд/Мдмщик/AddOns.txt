@@ -89,7 +89,7 @@ BigWigs_Core: enabled
 LittleWigs: enabled
 BigWigs_Voice: enabled
 BigWigs_CommonAuras: enabled
-BigWigs_Nyalotha: enabled
+BigWigs_Nyalotha: disabled
 Grid2: disabled
 Grid2Options: disabled
 Grid2RaidDebuffs: disabled
@@ -175,10 +175,10 @@ Bartender4: enabled
 BigWigs_Achievements: enabled
 BigWigs_Ra-denAssist: enabled
 BigWigs: enabled
-BigWigs_BattleOfDazaralor: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
-BigWigs_Uldir: enabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Uldir: disabled
 BigWigs_Countdown_Overwatch: enabled
 Masque: disabled
 OPie: enabled
@@ -245,3 +245,9 @@ PremadeGroupsFilter: enabled
 ElvUI_BenikUI: enabled
 AdiBags_Mechagon_Tinkering: disabled
 ElvUI_AdditionalFonts: disabled
+AutoLootPlus: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

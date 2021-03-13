@@ -3,7 +3,7 @@ AdiBagsDB = {
 	["namespaces"] = {
 		["Herbalism"] = {
 		},
-		["Shadowlands"] = {
+		["Mechagon Tinkering"] = {
 		},
 		["FilterOverride"] = {
 			["profiles"] = {
@@ -28,29 +28,52 @@ AdiBagsDB = {
 		},
 		["WoW"] = {
 		},
-		["DataSource"] = {
-		},
-		["WoD"] = {
-		},
-		["TBC"] = {
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
+					["hideZeroes"] = false,
 					["shown"] = {
-						["Осколок Пустоты"] = false,
-						["Осколок духа"] = false,
+						["Незрячий глаз"] = false,
 						["Ресурсы оплота класса"] = false,
-						["Древняя мана"] = false,
 						["Любопытная монета"] = false,
+						["Пробуждающая сущность"] = false,
+						["Малый амулет удачи"] = false,
+						["Видавший виды артефакт"] = false,
+						["Вневременная монета"] = false,
+						["Военная медаль Армии Чести"] = false,
+						["Стигия"] = false,
+						["Знак признания Серебряного Авангарда"] = false,
+						["Эхо Ни'алоты"] = false,
 						["Ресурсы гарнизона"] = false,
 						["Бойцовское золото"] = false,
 						["Припасы Армии погибели Легиона"] = false,
-						["Пробуждающая сущность"] = false,
+						["Сгусток видений"] = false,
 						["Фрагмент артефакта"] = false,
+						["Дублон мореплавателя"] = false,
+						["Призовой купон ярмарки Новолуния"] = false,
+						["Пыль титанов"] = false,
+						["Осколок духа"] = false,
+						["Запасенная анима"] = false,
+						["Пепел душ"] = false,
+						["Искаженный временем знак"] = false,
+						["Древняя мана"] = false,
+						["Благодарственное подношение"] = false,
+						["Осколок Пустоты"] = false,
+						["Честь"] = false,
+						["Зараженные реликвии"] = false,
+						["Радужная манажемчужина"] = false,
+						["Ресурсы для войны"] = false,
+						["Печать судьбы воина"] = false,
+						["Очки завоевания"] = false,
 					},
 				},
 			},
+		},
+		["BfA"] = {
+		},
+		["TBC"] = {
+		},
+		["ItemSets"] = {
 		},
 		["Junk"] = {
 		},
@@ -58,7 +81,7 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["BfA"] = {
+		["WoD"] = {
 		},
 		["ItemLevel"] = {
 		},
@@ -85,14 +108,21 @@ AdiBagsDB = {
 		["MoP"] = {
 		},
 		["AdiBags_TooltipInfo"] = {
+			["profiles"] = {
+				["Default"] = {
+					["filter"] = "always",
+					["item"] = "always",
+					["container"] = "alt",
+				},
+			},
 		},
 		["Legion"] = {
 		},
 		["Wrath"] = {
 		},
-		["ItemSets"] = {
+		["DataSource"] = {
 		},
-		["Mechagon Tinkering"] = {
+		["Shadowlands"] = {
 		},
 		["Fishing Items"] = {
 		},
@@ -112,14 +142,15 @@ AdiBagsDB = {
 		["Каскадёр - Ясеневый лес"] = "Default",
 		["Biglilpump - Argent Dawn"] = "Default",
 		["Сисяныч - Ревущий фьорд"] = "Default",
+		["Фурзум - Ревущий фьорд"] = "Default",
 		["Мрачныйокунь - Ревущий фьорд"] = "Default",
 		["Мдмщик - Ревущий фьорд"] = "Default",
 		["Ворбелья - Ревущий фьорд"] = "Default",
-		["Ывалоывоар - Ревущий фьорд"] = "Default",
-		["Костетряс - Ревущий фьорд"] = "Default",
-		["Натанке - Ревущий фьорд"] = "Default",
 		["Гномокосилка - Ревущий фьорд"] = "Default",
 		["Анусвконус - Ревущий фьорд"] = "Default",
+		["Натанке - Ревущий фьорд"] = "Default",
+		["Ывалоывоар - Ревущий фьорд"] = "Default",
+		["Костетряс - Ревущий фьорд"] = "Default",
 		["Абдуловера - Ревущий фьорд"] = "Default",
 		["Дэниэль - Ревущий фьорд"] = "Default",
 		["Линуксоид - Ясеневый лес"] = "Default",
@@ -132,8 +163,12 @@ AdiBagsDB = {
 				["stackable"] = true,
 				["incomplete"] = true,
 			},
-			["scale"] = 1,
+			["scale"] = 1.1,
 			["autoOpen"] = false,
+			["skin"] = {
+				["background"] = "Blizzard Marble",
+				["border"] = "Blizzard Party",
+			},
 			["positions"] = {
 				["anchor"] = {
 					["xOffset"] = -0.0855712890625,
@@ -141,11 +176,10 @@ AdiBagsDB = {
 				},
 			},
 			["hideAnchor"] = true,
-			["compactLayout"] = true,
 			["rightClickConfig"] = false,
 			["autoDeposit"] = true,
 			["columnWidth"] = {
-				["Backpack"] = 7,
+				["Backpack"] = 18,
 			},
 			["maxHeight"] = 0.8999999999999999,
 		},

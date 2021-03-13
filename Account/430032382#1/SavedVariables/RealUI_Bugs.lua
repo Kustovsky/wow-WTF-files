@@ -20,6 +20,13 @@ RealUI_Storage = {
 						["current"] = 2,
 					},
 				},
+				["Синийдиплом - Гордунни"] = {
+					["init"] = {
+						["initialized"] = true,
+						["needchatmoved"] = false,
+						["installStage"] = -1,
+					},
+				},
 				["Натанке - Ревущий фьорд"] = {
 					["init"] = {
 						["installStage"] = -1,
@@ -30,13 +37,6 @@ RealUI_Storage = {
 						["current"] = 2,
 					},
 				},
-				["Синийдиплом - Гордунни"] = {
-					["init"] = {
-						["initialized"] = true,
-						["needchatmoved"] = false,
-						["installStage"] = -1,
-					},
-				},
 				["Пакостник - Ревущий фьорд"] = {
 					["init"] = {
 						["installStage"] = -1,
@@ -45,6 +45,12 @@ RealUI_Storage = {
 					},
 				},
 				["Линуксоид - Ясеневый лес"] = {
+					["init"] = {
+						["initialized"] = true,
+						["installStage"] = -1,
+					},
+				},
+				["Ворбелья - Ревущий фьорд"] = {
 					["init"] = {
 						["initialized"] = true,
 						["installStage"] = -1,
@@ -63,12 +69,6 @@ RealUI_Storage = {
 						["initialized"] = true,
 					},
 				},
-				["Ворбелья - Ревущий фьорд"] = {
-					["init"] = {
-						["initialized"] = true,
-						["installStage"] = -1,
-					},
-				},
 				["Отжигай - Ревущий фьорд"] = {
 					["layout"] = {
 						["current"] = 2,
@@ -79,18 +79,25 @@ RealUI_Storage = {
 						["initialized"] = true,
 					},
 				},
+				["Фурзум - Ревущий фьорд"] = {
+					["init"] = {
+						["initialized"] = true,
+						["installStage"] = -1,
+					},
+				},
 			},
 			["profileKeys"] = {
 				["Идолмастер - Ревущий фьорд"] = "RealUI",
 				["Мдмщик - Ревущий фьорд"] = "RealUI",
-				["Натанке - Ревущий фьорд"] = "RealUI",
 				["Синийдиплом - Гордунни"] = "RealUI",
+				["Натанке - Ревущий фьорд"] = "RealUI",
 				["Пакостник - Ревущий фьорд"] = "RealUI",
 				["Линуксоид - Ясеневый лес"] = "RealUI",
+				["Ворбелья - Ревущий фьорд"] = "RealUI",
 				["Дэниэль - Ревущий фьорд"] = "RealUI",
 				["Каскадёр - Ясеневый лес"] = "RealUI",
-				["Ворбелья - Ревущий фьорд"] = "RealUI",
 				["Отжигай - Ревущий фьорд"] = "RealUI",
+				["Фурзум - Ревущий фьорд"] = "RealUI",
 			},
 			["namespaces"] = {
 				["ScreenSaver"] = {
@@ -121,6 +128,9 @@ RealUI_Storage = {
 						},
 						["Отжигай - Ревущий фьорд"] = {
 							[4] = "RealUI-Healing",
+						},
+						["Фурзум - Ревущий фьорд"] = {
+							[3] = "RealUI-Healing",
 						},
 					},
 				},
@@ -274,10 +284,11 @@ RealUI_Storage = {
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["ColorPickerFrame"] = {
-							["y"] = 116.9999694824219,
-							["x"] = -195.999755859375,
-							["point"] = "RIGHT",
+						["AzeriteEmpoweredItemUI"] = {
+							["y"] = 30.00003433227539,
+							["x"] = 50.99999618530273,
+							["point"] = "LEFT",
+							["seen"] = true,
 							["scale"] = 1,
 						},
 						["PetStableFrame"] = {
@@ -294,6 +305,12 @@ RealUI_Storage = {
 							["seen"] = true,
 							["scale"] = 1,
 						},
+						["ColorPickerFrame"] = {
+							["y"] = 116.9999694824219,
+							["x"] = -195.999755859375,
+							["point"] = "RIGHT",
+							["scale"] = 1,
+						},
 						["GossipFrame"] = {
 							["y"] = 20,
 							["x"] = 16,
@@ -308,13 +325,6 @@ RealUI_Storage = {
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["AchievementFrame"] = {
-							["y"] = 17.99998474121094,
-							["x"] = 96,
-							["point"] = "LEFT",
-							["seen"] = true,
-							["scale"] = 1,
-						},
 						["MerchantFrame"] = {
 							["y"] = 46,
 							["x"] = 16,
@@ -322,17 +332,17 @@ RealUI_Storage = {
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["TaxiFrame"] = {
-							["y"] = 31.99998092651367,
-							["x"] = 16,
+						["AchievementFrame"] = {
+							["y"] = 17.99998474121094,
+							["x"] = 96,
 							["point"] = "LEFT",
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["OrderHallTalentFrame"] = {
-							["y"] = 32.49999618530273,
-							["x"] = 32,
-							["point"] = "LEFT",
+						["DressUpFrame"] = {
+							["y"] = 28.49994659423828,
+							["x"] = -135,
+							["point"] = "RIGHT",
 							["seen"] = true,
 							["scale"] = 1,
 						},
@@ -350,17 +360,17 @@ RealUI_Storage = {
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["AzeriteEmpoweredItemUI"] = {
-							["y"] = 30.00003433227539,
-							["x"] = 50.99999618530273,
+						["OrderHallTalentFrame"] = {
+							["y"] = 32.49999618530273,
+							["x"] = 32,
 							["point"] = "LEFT",
 							["seen"] = true,
 							["scale"] = 1,
 						},
-						["DressUpFrame"] = {
-							["y"] = 28.49994659423828,
-							["x"] = -135,
-							["point"] = "RIGHT",
+						["TaxiFrame"] = {
+							["y"] = 31.99998092651367,
+							["x"] = 16,
+							["point"] = "LEFT",
 							["seen"] = true,
 							["scale"] = 1,
 						},
@@ -459,6 +469,8 @@ RealUI_Storage = {
 						},
 					},
 				},
+				["UnitFrames"] = {
+				},
 				["CastBars"] = {
 					["profiles"] = {
 						["RealUI"] = {
@@ -487,25 +499,9 @@ RealUI_Storage = {
 						},
 					},
 				},
-				["UnitFrames"] = {
-				},
 				["CombatFader"] = {
 				},
-				["FrameMover"] = {
-					["profiles"] = {
-						["RealUI"] = {
-							["uiframes"] = {
-								["zonetext"] = {
-								},
-								["errorframe"] = {
-								},
-								["playerpowerbaralt"] = {
-								},
-								["vsi"] = {
-								},
-							},
-						},
-					},
+				["Objectives Adv."] = {
 				},
 				["AltPowerBar"] = {
 				},
@@ -544,11 +540,11 @@ RealUI_Storage = {
 									},
 									["progress"] = {
 									},
-									["spec"] = {
+									["bags"] = {
 									},
 									["currency"] = {
 									},
-									["bags"] = {
+									["spec"] = {
 									},
 								},
 								["others"] = {
@@ -584,7 +580,21 @@ RealUI_Storage = {
 						},
 					},
 				},
-				["Objectives Adv."] = {
+				["FrameMover"] = {
+					["profiles"] = {
+						["RealUI"] = {
+							["uiframes"] = {
+								["zonetext"] = {
+								},
+								["errorframe"] = {
+								},
+								["playerpowerbaralt"] = {
+								},
+								["vsi"] = {
+								},
+							},
+						},
+					},
 				},
 				["InterfaceTweaks"] = {
 					["global"] = {
@@ -605,6 +615,11 @@ RealUI_Storage = {
 								["money"] = 10000,
 								["class"] = "ROGUE",
 								["lastSeen"] = 1604177511,
+							},
+							["Фурзум"] = {
+								["money"] = 10000,
+								["class"] = "SHAMAN",
+								["lastSeen"] = 1605091062,
 							},
 						},
 					},
@@ -665,14 +680,15 @@ RealUI_Storage = {
 					["registeredChars"] = {
 						["Идолмастер - Ревущий фьорд"] = true,
 						["Мдмщик - Ревущий фьорд"] = true,
-						["Натанке - Ревущий фьорд"] = true,
 						["Синийдиплом - Гордунни"] = true,
+						["Натанке - Ревущий фьорд"] = true,
 						["Пакостник - Ревущий фьорд"] = true,
 						["Линуксоид - Ясеневый лес"] = true,
+						["Ворбелья - Ревущий фьорд"] = true,
 						["Дэниэль - Ревущий фьорд"] = true,
 						["Каскадёр - Ясеневый лес"] = true,
-						["Ворбелья - Ревущий фьорд"] = true,
 						["Отжигай - Ревущий фьорд"] = true,
+						["Фурзум - Ревущий фьорд"] = true,
 					},
 				},
 				["RealUI-Healing"] = {

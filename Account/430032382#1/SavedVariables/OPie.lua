@@ -1,20 +1,20 @@
 
 OneRing_Config = {
 	["CenterActions"] = {
-		["Mounts1"] = "ABuejsjWD6s",
+		["Mounts1"] = "ABuejsjWD6y",
 		["OPieTracking"] = "OPieBundleTracker1",
 		["MountsDru"] = "ABuejuetR3f",
 		["Mounts"] = "ABuejy7HP=r",
 		["OPieAutoQuest"] = "OPieBundleQuest160252",
 	},
 	["CharProfiles"] = {
-		["Ревущий фьорд-Идолмастер-2"] = "default",
 		["Ревущий фьорд-Идолмастер-3"] = "default",
-		["Ревущий фьорд-Отжигай-4"] = "default",
+		["Ревущий фьорд-Идолмастер-2"] = "default",
 		["Ясеневый лес-Анимешер-4"] = "default",
+		["Ревущий фьорд-Отжигай-4"] = "default",
 	},
-	["_GameVersion"] = "9.0.1",
-	["_OPieVersion"] = "Xe 1a (3.102)",
+	["_GameVersion"] = "9.0.5",
+	["_OPieVersion"] = "Xe 2a (3.104)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["XTZoomTime"] = 0.2000000029802322,
@@ -23,20 +23,20 @@ OneRing_Config = {
 				["WarlockLTS"] = "ALT-X",
 				["DruidUtility"] = false,
 				["eportation"] = "SHIFT-NUMPADMINUS",
-				["DruidFeral"] = false,
+				["HunterTraps"] = false,
 				["RaidSymbols"] = "ALT-NUMPAD2",
 				["HunterAspects"] = false,
-				["MountsDru"] = "NUMPADMINUS",
 				["DruidShift"] = false,
-				["Mounts1"] = "NUMPADMINUS",
-				["Mounts"] = "NUMPADMINUS",
-				["x"] = "ALT-NUMPADMINUS",
-				["HunterTraps"] = false,
-				["onsumables"] = "ALT-NUMPAD4",
 				["OPieAutoQuest"] = false,
-				["WorldMarkers"] = "ALT-NUMPAD5",
+				["WorldMarkers"] = "ALT-NUMPAD3",
 				["HunterPets"] = "ALT-NUMPAD4",
+				["x"] = "ALT-NUMPADMINUS",
+				["Mounts"] = "NUMPADMINUS",
+				["onsumables"] = "ALT-NUMPAD4",
+				["DruidFeral"] = false,
 				["WarlockCombat"] = "ALT-Z",
+				["MountsDru"] = "SHIFT-F",
+				["Mounts1"] = "SHIFT-F",
 			},
 			["XTScaleSpeed"] = 3.200000286102295,
 			["MISpinOnHide"] = false,
@@ -74,6 +74,7 @@ OneRing_Config = {
 					"mount", -- [1]
 					240, -- [2]
 					["sliceToken"] = "ABuejsjWD6y",
+					["fastClick"] = true,
 				}, -- [5]
 				{
 					"mount", -- [1]
@@ -84,7 +85,6 @@ OneRing_Config = {
 					"mount", -- [1]
 					205, -- [2]
 					["sliceToken"] = "ABuejsjWD6s",
-					["fastClick"] = true,
 				}, -- [7]
 				{
 					"mount", -- [1]
@@ -200,8 +200,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekyM7s9e",
 				}, -- [14]
 				["save"] = true,
-				["name"] = "Teleportation",
 				["limit"] = "Холодос-Ревущийфьорд",
+				["name"] = "Teleportation",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -232,9 +232,9 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 					["show"] = "[known:83245,havepet:5]",
 				}, -- [5]
-				["name"] = "Pets",
-				["save"] = true,
 				["limit"] = "HUNTER",
+				["save"] = true,
+				["name"] = "Pets",
 			},
 			["x"] = {
 				{
@@ -275,8 +275,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue4GmqWHs",
 				}, -- [4]
 				["save"] = true,
-				["name"] = "Consumables",
 				["limit"] = "Отжигай-Ревущийфьорд",
+				["name"] = "Consumables",
 			},
 			["MountsDru"] = {
 				{

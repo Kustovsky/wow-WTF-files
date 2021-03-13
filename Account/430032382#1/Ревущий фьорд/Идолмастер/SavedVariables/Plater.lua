@@ -1,5 +1,10 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[255] = 40,
+		[254] = 40,
+		[253] = 40,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -10,7 +15,12 @@ PlaterDBChr = {
 		[254] = "Прицельный выстрел",
 		[253] = "Выстрел кобры",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[255] = 40,
+		[254] = 40,
+		[253] = 40,
+	},
 }

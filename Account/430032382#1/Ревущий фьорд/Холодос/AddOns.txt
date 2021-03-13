@@ -25,7 +25,7 @@ BagBrother: disabled
 Clique: disabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
-DynamicCam: enabled
+DynamicCam: disabled
 ElvUI: enabled
 ElvUI_Enhanced: disabled
 ElvUI_MerathilisUI: enabled
@@ -127,11 +127,11 @@ BigWigs_Achievements: enabled
 BigWigs_Ra-denAssist: disabled
 BigWigs: enabled
 BigWigs_Azeroth: enabled
-BigWigs_BattleOfDazaralor: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
-BigWigs_Nyalotha: enabled
-BigWigs_Uldir: enabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Nyalotha: disabled
+BigWigs_Uldir: disabled
 BigWigs_Countdown_Overwatch: enabled
 cargBags_Nivaya: disabled
 Details_Streamer: enabled
@@ -245,3 +245,9 @@ DBM-Uldir: disabled
 DBM-DMF: disabled
 SharedMedia_Causese: enabled
 ElvUI_QuestXP: disabled
+AutoLootPlus: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled

@@ -158,10 +158,11 @@ WarGameHelperDB = {
 			["value"] = "арены",
 		}, -- [26]
 	},
-	["Bracket"] = 1,
+	["Bracket"] = 2,
 	["Map"] = 26,
+	["BNetPartyLeader2"] = "Kertender#2769",
 	["UseTarget"] = false,
-	["Mode"] = 1,
-	["BNetPartyLeader1"] = "Fox#26786",
+	["Mode"] = 2,
+	["BNetPartyLeader1"] = "Kertender#2769",
 	["TournamentRules"] = false,
 }

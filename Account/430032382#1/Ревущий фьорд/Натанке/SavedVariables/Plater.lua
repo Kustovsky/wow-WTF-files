@@ -1,6 +1,16 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[257] = 40,
+		[258] = 40,
+		[256] = 40,
+	},
 	["buffsBanned"] = {
+	},
+	["spellRangeCheckRangeEnemy"] = {
+		[257] = 40,
+		[258] = 40,
+		[256] = 40,
 	},
 	["first_run3"] = {
 		["Player-1615-09838284"] = true,
@@ -15,7 +25,9 @@ PlaterDBChr = {
 		[104] = "Рык",
 		[258] = "Взрыв разума",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["minimap"] = {
+	},
 }

@@ -1,80 +1,71 @@
-VER 3 0100000000000012 "Байндинг" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent: 5/2, @mouseover, help][talent: 5/2] Связующее исцеление
-/cast [talent: 5/3, @mouseover, help][talent: 5/3]  Круг исцеления
-END
-VER 3 010000000000000A "Безмя" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Слово Света: Безмятежность
-END
-VER 3 0100000000000011 "Бурст" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:7/2] Прославление
-/cast [talent:7/3] Слово Света: Спасение
-END
-VER 3 010000000000000C "Восст" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Молитва восстановления
-END
-VER 3 010000000000000F "Грейтер" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/console Sound_EnableErrorSpeech 0
-/cast [@mouseover,help,nodead][help,nodead][@player] Великое исцеление; 
-/cast [@mouseover,help,nodead][help,nodead][@player] Исцеление
-/run UIErrorsFrame:Clear()
-/console Sound_EnableErrorSpeech 1
-END
-VER 3 010000000000000D "Грейтер" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Исцеление
-END
-VER 3 0100000000000008 "Диспел" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Очищение
-END
-VER 3 0100000000000005 "Диспел" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Очищение
-END
-VER 3 010000000000000E "Дух" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Оберегающий дух
-END
-VER 3 0100000000000006 "Кара" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [nochanneling:Исповедь] Кара
-END
-VER 3 0100000000000007 "Круг" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Круг исцеления
-END
-VER 3 010000000000000B "Молитва" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000001F "Аое" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Молитва исцеления
 END
-VER 3 0100000000000001 "Перо" "INV_Misc_QuestionMark"
+VER 3 0100000000000017 "Аое" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt][@player] Божественное перышко
-/cast [nomodifier] Божественное перышко
+/use [mod:alt, @mouseover,nodead][mod:alt, nodead][mod:alt, @player] Иссушение разума 
+/use [@mouseover,harm,nodead][help,nodead][] Кольцо Света
 END
-VER 3 0100000000000009 "Поле" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000021 "Биг хил" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@cursor] Слово Света: Освящение
+/use [@mouseover,help,nodead][help,nodead][@player] Слово Света: Безмятежность
 END
-VER 3 0100000000000003 "Ренью" "135953"
+VER 3 0100000000000016 "Вознесение" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Обновление
+/use [@mouseover,help,nodead][help,nodead][@player] Вознесение
 END
-VER 3 0100000000000010 "Сияние" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000015 "Диспел" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [talent:6/2] Божественная звезда
-/cast [talent:6/3] Сияние
+/use [@mouseover,help,nodead][help,nodead][mod:alt. @player] Очищение
+/use [@mouseover,harm,nodead][harm,nodead][] Рассеивание заклинаний
 END
-VER 3 0100000000000004 "Флешка" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000001A "Ковенант" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+/use Темный завет
+END
+VER 3 0100000000000020 "Круг" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Круг исцеления
+END
+VER 3 0100000000000023 "Крыльяя" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Оберегающий дух
+END
+VER 3 010000000000001D "Нефлеха" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Исцеление
+END
+VER 3 0100000000000018 "Перо" "INV_MISC_QUESTIONMARK"
+/cast [@player] Божественное перышко
+END
+VER 3 010000000000001B "Придание сил" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@focus][@player] Придание сил;
+/use [@focustarget, harm][@mouseover,harm][] 14
+END
+VER 3 0100000000000019 "Сиузи" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, exists, nodead][] Успокоение разума;
+END
+VER 3 010000000000001C "Флеха" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Быстрое исцеление
 END
-VER 3 0100000000000002 "Щиток" "135940"
+VER 3 0100000000000022 "Хота" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Обновление
+END
+VER 3 010000000000001E "Шайба" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Молитва восстановления
+END
+VER 3 0100000000000014 "Щит" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Слово силы: Щит
+END
+VER 3 0100000000000013 "хилка" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Темное восстановление
 END

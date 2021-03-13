@@ -58,13 +58,13 @@ BigWigs_Ra-denAssist: enabled
 BigWigs: enabled
 BigWigs_CastleNathria: enabled
 BigWigs_Azeroth: enabled
-BigWigs_BattleOfDazaralor: enabled
-BigWigs_EternalPalace: enabled
-BigWigs_CrucibleOfStorms: enabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_EternalPalace: disabled
+BigWigs_CrucibleOfStorms: disabled
 BigWigs_Options: enabled
-BigWigs_Nyalotha: enabled
+BigWigs_Nyalotha: disabled
 BigWigs_Plugins: enabled
-BigWigs_Uldir: enabled
+BigWigs_Uldir: disabled
 BigWigs_Core: enabled
 BigWigs_Voice: enabled
 BigWigs_CommonAuras: enabled
@@ -81,7 +81,7 @@ Details_TimeLine: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
 Details_ChartViewer: enabled
-DynamicCam: enabled
+DynamicCam: disabled
 ExRT: enabled
 GladiatorlosSA2: enabled
 Gladius: enabled
@@ -208,3 +208,8 @@ OPie_Classic: disabled
 LibSharedMedia-3.0: enabled
 LibDBIcon-1.0: enabled
 BattleGroundEnemies: disabled
+!!Warmup: enabled
+LittleWigs_Legion: disabled
+LittleWigs_Classic: disabled
+LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BurningCrusade: disabled
